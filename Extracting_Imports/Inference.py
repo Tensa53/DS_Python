@@ -96,7 +96,8 @@ class inference(object):
         parse_imports = {'Python2': None, 'Python3': None}
 
         # Python 2
-        child = subprocess.Popen('python2.7 /home/daniele/git/DS_Python/Extracting_Imports/API_visiter.py {}'.format(path), stdout=subprocess.PIPE)
+        #child = subprocess.Popen('python2.7 /home/daniele/git/DS_Python/Extracting_Imports/API_visiter.py {}'.format(path), stdout=subprocess.PIPE)
+        child = subprocess.Popen(["python2.7","/home/daniele/git/DS_Python/Extracting_Imports/API_visiter.py",path], stdout=subprocess.PIPE)
         logs = child.stdout.read()
         try:
             parse_imports['Python2'] = json.loads(logs)
@@ -105,7 +106,7 @@ class inference(object):
             print('Parsing result error in Python2')
         
         # Python3
-        child = subprocess.Popen('python2.7 /home/daniele/git/DS_Python/Extracting_Imports/API_visiter.py {}'.format(path), stdout=subprocess.PIPE)
+        child = subprocess.Popen(["python3","/home/daniele/git/DS_Python/Extracting_Imports/API_visiter.py",path], stdout=subprocess.PIPE)
         logs = child.stdout.read()
         try:
             parse_imports['Python3'] = json.loads(logs)
