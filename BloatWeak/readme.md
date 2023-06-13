@@ -19,6 +19,6 @@ BloatWeak takes together many tools to find bloated dependencies and their relat
 As of now, this script takes the fawltydeps output on a file, where every line identifies a candidate bloated dependency. Thanks to pandas, it joins the lines with the respective dependency version obtained from the PyCD csv output. We have now obtained a file that respects the requirements file layout, so it's possible to use this as the input of safety to check any known vulnerabilities. 
 
 So with BloatWeak we have combined these three tools, all you can find in your directory are these three files:
-1. pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script.
-2. requirements-unused.txt: the output obtained from fawltydeps and combined with the version columns of the table stored in pycd_out.csv file.
-3. safety_out.json: the ouput obtained from the safety tool that had analized the requirements-unused.txt dependencies file.
+- pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script.
+- requirements-unused.txt: the output obtained from fawltydeps and combined with the version columns of the table stored in pycd_out.csv file.
+- safety_out.json: the ouput obtained from the safety tool that had analized the requirements-unused.txt dependencies file.
