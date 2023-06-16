@@ -56,7 +56,7 @@ def getUnusedRequirements(pycd_savepath,propath,savepath):
     os.remove(savepath+"/fawltydeps_out.txt")
 
 def getPyCDOut(propath,pycd_savepath):
-    child=subprocess.call(["python","../PyCD/GetDep_ast.py",propath,pycd_savepath])
+    child=subprocess.call(["python","./GetDep_ast.py",propath,pycd_savepath])
 
 
 def main():
