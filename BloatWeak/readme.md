@@ -13,7 +13,8 @@ BloatWeak takes together many tools to find bloated dependencies and their relat
 	- fawltydeps
 	- safety
 	- pandas
-	- all the other packages used by GetDep_ast.py, if not already installed
+	- astunparse (used by GetDep_ast.py)
+	- toml (used by GetDep_ast.py)
 - Run the command above to launch the script
 
 As of now, this script takes the fawltydeps output on a text file, where every line identifies a candidate bloated dependency. Thanks to pandas, it joins the lines with the respective dependency version obtained from the PyCD csv output. We have now obtained a file that respects the requirements file layout, so it's possible to use this as the input of safety to check any known vulnerabilities. 
