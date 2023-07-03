@@ -36,11 +36,16 @@ def checkIndex(u):
 
 
 def getShellOutput(savepath):
-    file5=open(savepath+"/requirements-unused.txt","r")
-    file6=open(savepath+"/safety_out_bare.txt","r")
+    file4=open(savepath+"/requirements-unused.txt","r")
+
+    file5=open(savepath+"/safety_out_bare.txt","w+")
     
-    unused=file5.readlines()
-    vulnerables=file6.readlines()
+    child5=subprocess.call(["safety","check","-r",savepath+"/requirements-unused.txt","--output","bare"],stdout=file5)
+    
+    file5.seek(0)
+    
+    unused=file4.readlines()
+    vulnerables=file5.readlines()
     checked=[]
     
     print("Bloated dependencies for your project:")
@@ -75,21 +80,18 @@ def getShellOutput(savepath):
         else:
             print(dep)
     
+    file4.close()
     file5.close()
-    file6.close()
     
     os.remove(savepath+"/safety_out_bare.txt")
 
 def getSafetyOut(savepath):
     file3=open(savepath+"/safety_out.json","w")
-    file4=open(savepath+"/safety_out_bare.txt","w")
     
     #using call instead of Popen, the main thread always wait for the end of the excecution of the command
     child3=subprocess.call(["safety","check","-r",savepath+"/requirements-unused.txt","--output","json"],stdout=file3)
-    child4=subprocess.call(["safety","check","-r",savepath+"/requirements-unused.txt","--output","bare"],stdout=file4)
     
     file3.close()
-    file4.close()
 
 def getUnusedRequirements(pycd_savepath,propath,savepath):
     
