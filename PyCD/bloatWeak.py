@@ -7,12 +7,33 @@ import os
 from subprocess import DEVNULL
 
 def printHelpSection():
-    file=open("bloatweak_help.txt")
+    file=open("bloatweak_help.txt","r")
     
     lines=file.readlines()
     
     for line in lines:
         print(line)
+
+def checkIndex(u):
+    try:
+        inde=u.index("=")
+    except ValueError:
+        inde=1000
+
+    try:
+        indup=u.index(">")
+    except ValueError:
+        indup=1000
+        
+    try:
+        inddown=u.index("<")
+    except ValueError:
+        inddown=1000
+    
+    values=[inde,indup,inddown]
+    values.sort()
+    return(values[0])
+
 
 def getShellOutput(savepath):
     file5=open(savepath+"/requirements-unused.txt","r")
@@ -28,7 +49,7 @@ def getShellOutput(savepath):
         v=vulnerables[i].rstrip('\r\n')
         for j in range(len(unused)):
             u=unused[j].rstrip('\r\n')
-            ind=u.index("=")
+            ind=checkIndex(u)
             dep=u[0:ind]
             check=dep==v
             if(check):
@@ -41,13 +62,16 @@ def getShellOutput(savepath):
                     checked=[False]
                 else:
                     checked.append(False)
-                    
+           
     for i in range(len(unused)):
         u=unused[i].rstrip('\r\n')
-        ind=u.index("=")
+        ind=checkIndex(u)
         dep=u[0:ind]
-        if(checked[i]):
-            print(dep+" VULNERABLE!!!")
+        if(len(checked)>0):
+            if(checked[i]):
+                print(dep+" VULNERABLE!!!")
+            else:
+                print(dep)
         else:
             print(dep)
     
