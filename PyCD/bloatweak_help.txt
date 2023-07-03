@@ -1,0 +1,8 @@
+BloatWeak takes together many tools to find bloated dependencies and their related vulnerabilities
+
+USAGE:
+
+python3 bloatWeak.py <pro_path> <todir>
+
+- pro_path: refers to the path for a Python project or a configuration file.
+- todir: refers to a directory that stores all the output obtained from BloatWeak
