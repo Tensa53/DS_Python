@@ -1,4 +1,8 @@
 # BloatWeak: Extracting bloated dependencies and their related vulnerabilities from dependency configuration  files
+
+The building block of BloatWeak, describing its execution flow:
+![building_block](https://github.com/Tensa53/DS_Python/blob/master/BloatWeak/building_block.svg "building_block")
+
 To use BloatWeak, you can run the command:
 ```
 python3 bloatWeak.py <pro_path> <todir>
