@@ -4,8 +4,10 @@ import sys
 import subprocess
 import pandas as pd
 import os
+import json
 from subprocess import DEVNULL
 
+#print on the shell the content of the help file
 def printHelpSection():
     file=open("bloatweak_help.txt","r")
     
@@ -14,6 +16,31 @@ def printHelpSection():
     for line in lines:
         print(line)
 
+#print on the shell the list of all bloated dependencies, the ones affected by vulnerabilities are highlighted with 'VULNERABLE!!!' message on the same line
+def getShellOutputJ(savepath):
+    file4=open(savepath+"/fawltydeps_out.txt","r")
+    
+    file5=open(savepath+"/safety_out.json","r")
+    
+    jcontents=json.load(file5)
+    
+    lines=file4.readlines()
+    
+    print("Bloated dependencies for your project:")
+    for line in lines:
+        if(line[0]=="-"):
+            dep=line[3:(len(line)-2)]
+            try:
+                print(jcontents['affected_packages'][dep]['name'] + " VULNERBALE!!!")
+            except KeyError:
+                print(dep)
+        else:
+            continue
+    
+    #delete the intermediate output, we don't need it anymore
+    os.remove(savepath+"/fawltydeps_out.txt")
+    
+'''
 def checkIndex(u):
     try:
         inde=u.index("=")
@@ -33,7 +60,6 @@ def checkIndex(u):
     values=[inde,indup,inddown]
     values.sort()
     return(values[0])
-
 
 def getShellOutput(savepath):
     file4=open(savepath+"/requirements-unused.txt","r")
@@ -84,11 +110,12 @@ def getShellOutput(savepath):
     file5.close()
     
     os.remove(savepath+"/safety_out_bare.txt")
+'''
 
 def getSafetyOut(savepath):
     file3=open(savepath+"/safety_out.json","w")
     
-    #using call instead of Popen, the main thread always wait for the end of the excecution of the command
+    #using run(), the main thread always wait for the end of the excecution of the command
     child3=subprocess.run(["safety","check","-r",savepath+"/requirements-unused.txt","--output","json"],stdout=file3)
     
     file3.close()
@@ -130,9 +157,6 @@ def getUnusedRequirements(pycd_savepath,propath,savepath):
     #closes the files streams            
     file1.close()
     file2.close()
-    
-    #delete the intermediate output, we don't need it anymore
-    os.remove(savepath+"/fawltydeps_out.txt")
 
 def getPyCDOut(propath,pycd_savepath):
     child=subprocess.run(["python","./GetDep_ast.py",propath,pycd_savepath])
@@ -159,7 +183,7 @@ def launch(propath,savepath):
     print("Safety ouptut obtained in json format")
     print()
     
-    getShellOutput(savepath)
+    getShellOutputJ(savepath)
     
     print()
     print("Finished. You can find all the detailed output in the files stored in " + savepath + " directory")
@@ -172,11 +196,16 @@ def main():
     if(num==3):
         propath=sys.argv[1]
         savepath=sys.argv[2]
-        if(os.path.exists(propath)):
-            launch(propath,savepath)
+        
+        if(propath[len(propath)-1] == '/' and savepath[len(savepath)-1] == '/'):
+            if(os.path.exists(propath)):
+                launch(propath,savepath)
+            else:
+                print("THE PROJECT DIRECTORY DOES NOT EXISTS!!!\n")
+                printHelpSection()
         else:
-            print("The path does not exists")
-            prinHelpSection()
+            print("THE ARGUMENTS MUST BE PATHS TO SOME DIRECTORIES!!!\n")
+            printHelpSection()
     else:
         printHelpSection()
 
