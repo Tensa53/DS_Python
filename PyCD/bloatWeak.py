@@ -40,7 +40,7 @@ def getShellOutput(savepath):
 
     file5=open(savepath+"/safety_out_bare.txt","w+")
     
-    child5=subprocess.call(["safety","check","-r",savepath+"/requirements-unused.txt","--output","bare"],stdout=file5)
+    child5=subprocess.run(["safety","check","-r",savepath+"/requirements-unused.txt","--output","bare"],stdout=file5)
     
     file5.seek(0)
     
@@ -89,7 +89,7 @@ def getSafetyOut(savepath):
     file3=open(savepath+"/safety_out.json","w")
     
     #using call instead of Popen, the main thread always wait for the end of the excecution of the command
-    child3=subprocess.call(["safety","check","-r",savepath+"/requirements-unused.txt","--output","json"],stdout=file3)
+    child3=subprocess.run(["safety","check","-r",savepath+"/requirements-unused.txt","--output","json"],stdout=file3)
     
     file3.close()
 
@@ -99,7 +99,7 @@ def getUnusedRequirements(pycd_savepath,propath,savepath):
     file1=open(savepath+"/fawltydeps_out.txt","w+")
     
     #the error output is redirected to devnull, so we don't have anything else that our output on the shell
-    child2=subprocess.call(["fawltydeps",propath,"--check-unused"], stdout=file1, stderr=DEVNULL)
+    child2=subprocess.run(["fawltydeps",propath,"--check-unused"], stdout=file1, stderr=DEVNULL)
     
     #move file pointer to the beginnig of the file
     file1.seek(0)
@@ -135,7 +135,7 @@ def getUnusedRequirements(pycd_savepath,propath,savepath):
     os.remove(savepath+"/fawltydeps_out.txt")
 
 def getPyCDOut(propath,pycd_savepath):
-    child=subprocess.call(["python","./GetDep_ast.py",propath,pycd_savepath])
+    child=subprocess.run(["python","./GetDep_ast.py",propath,pycd_savepath])
 
 def launch(propath,savepath):
     #creates the save directory if not exist
