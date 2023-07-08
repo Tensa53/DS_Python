@@ -27,7 +27,7 @@ You can find the script into the [PyCD](https://github.com/Tensa53/DS_Python/tre
 
 As of now, this script takes the fawltydeps output on a text file, where every line identifies a candidate bloated dependency. Thanks to pandas, it joins the lines with the respective dependency version obtained from the PyCD csv output. We have now obtained a file that respects the requirements file layout, so it's possible to use this as the input of safety to check any known vulnerabilities. 
 
-All you can find in your shell output is the list of all bloated dependency, the ones affected by vulnerabilities are highlighted with 'VULNERABLE!' message on the same line.
+All you can find in your shell output is the list of all bloated dependency, the ones affected by vulnerabilities are highlighted with 'VULNERABLE!!!' message on the same line.
 
 So with BloatWeak we have combined these three tools, all you can find in your directory are three files:
 - pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script.
