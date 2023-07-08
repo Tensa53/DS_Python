@@ -1,5 +1,4 @@
 #This script takes together three tools (PyCD, fawltydeps, safety) to find unused dependencies and their related vulnerabilities
-
 import sys
 import subprocess
 import pandas as pd
@@ -9,7 +8,7 @@ from subprocess import DEVNULL
 
 #print on the shell the content of the help file
 def printHelpSection():
-    file=open("bloatweak_help.txt","r")
+    file=open("bloatWeak_help.txt","r")
     
     lines=file.readlines()
     
@@ -18,9 +17,9 @@ def printHelpSection():
 
 #print on the shell the list of all bloated dependencies, the ones affected by vulnerabilities are highlighted with 'VULNERABLE!!!' message on the same line
 def getShellOutputJ(savepath):
-    file4=open(savepath+"/fawltydeps_out.txt","r")
+    file4=open(savepath+"fawltydeps_out.txt","r")
     
-    file5=open(savepath+"/safety_out.json","r")
+    file5=open(savepath+"safety_out.json","r")
     
     jcontents=json.load(file5)
     
@@ -31,99 +30,27 @@ def getShellOutputJ(savepath):
         if(line[0]=="-"):
             dep=line[3:(len(line)-2)]
             try:
-                print(jcontents['affected_packages'][dep]['name'] + " VULNERBALE!!!")
+                print(jcontents['affected_packages'][dep]['name'] + " VULNERABLE!!!")
             except KeyError:
                 print(dep)
         else:
             continue
     
     #delete the intermediate output, we don't need it anymore
-    os.remove(savepath+"/fawltydeps_out.txt")
-    
-'''
-def checkIndex(u):
-    try:
-        inde=u.index("=")
-    except ValueError:
-        inde=1000
-
-    try:
-        indup=u.index(">")
-    except ValueError:
-        indup=1000
-        
-    try:
-        inddown=u.index("<")
-    except ValueError:
-        inddown=1000
-    
-    values=[inde,indup,inddown]
-    values.sort()
-    return(values[0])
-
-def getShellOutput(savepath):
-    file4=open(savepath+"/requirements-unused.txt","r")
-
-    file5=open(savepath+"/safety_out_bare.txt","w+")
-    
-    child5=subprocess.run(["safety","check","-r",savepath+"/requirements-unused.txt","--output","bare"],stdout=file5)
-    
-    file5.seek(0)
-    
-    unused=file4.readlines()
-    vulnerables=file5.readlines()
-    checked=[]
-    
-    print("Bloated dependencies for your project:")
-    
-    for i in range(len(vulnerables)):
-        v=vulnerables[i].rstrip('\r\n')
-        for j in range(len(unused)):
-            u=unused[j].rstrip('\r\n')
-            ind=checkIndex(u)
-            dep=u[0:ind]
-            check=dep==v
-            if(check):
-                if(len(checked)==0):
-                    checked=[True]
-                else:
-                    checked.append(True)
-            else:
-                if(len(checked)==0):
-                    checked=[False]
-                else:
-                    checked.append(False)
-           
-    for i in range(len(unused)):
-        u=unused[i].rstrip('\r\n')
-        ind=checkIndex(u)
-        dep=u[0:ind]
-        if(len(checked)>0):
-            if(checked[i]):
-                print(dep+" VULNERABLE!!!")
-            else:
-                print(dep)
-        else:
-            print(dep)
-    
-    file4.close()
-    file5.close()
-    
-    os.remove(savepath+"/safety_out_bare.txt")
-'''
+    os.remove(savepath+"fawltydeps_out.txt")
 
 def getSafetyOut(savepath):
-    file3=open(savepath+"/safety_out.json","w")
+    file3=open(savepath+"safety_out.json","w")
     
     #using run(), the main thread always wait for the end of the excecution of the command
-    child3=subprocess.run(["safety","check","-r",savepath+"/requirements-unused.txt","--output","json"],stdout=file3)
+    child3=subprocess.run(["safety","check","-r",savepath+"requirements-unused.txt","--output","json"],stdout=file3)
     
     file3.close()
 
 def getUnusedRequirements(pycd_savepath,propath,savepath):
     
-    #open the fawlatydeps_out file in read/write mode
-    file1=open(savepath+"/fawltydeps_out.txt","w+")
+    #open the fawlatydeps_out.txt file in read/write mode
+    file1=open(savepath+"fawltydeps_out.txt","w+")
     
     #the error output is redirected to devnull, so we don't have anything else that our output on the shell
     child2=subprocess.run(["fawltydeps",propath,"--check-unused"], stdout=file1, stderr=DEVNULL)
@@ -140,19 +67,21 @@ def getUnusedRequirements(pycd_savepath,propath,savepath):
     #remove duplicate lines from csv
     csv1.drop_duplicates(subset=None, inplace=True)
 
-    file2=open(savepath+"/requirements-unused.txt", "w")
+    file2=open(savepath+"requirements-unused.txt", "w")
     
     for line in lines:
         #when the line starts with a dash, is the one with the dependency name
         if(line[0]=="-"):
             dep=line[3:(len(line)-2)]#take the dependency name substring from the line
-            ver = csv1.loc[csv1['dep'] == dep, 'version'].values[0]#extract the version of the dependency from the csv
+            try:
+                ver = csv1.loc[csv1['dep'] == dep, 'version'].values[0]#extract the version of the dependency from the csv
+            except IndexError:
+                pass
             depName=''.join([dep,ver])#merge the dep string and the ver string, to take full specification of the dependency
             depName+="\n"#adds the new line to write on file
             file2.write(depName)#write on the requirements-unused.txt file
         else:
             continue
-            #print("it's a blank line or something else line")
             
     #closes the files streams            
     file1.close()
@@ -168,7 +97,7 @@ def launch(propath,savepath):
     except FileExistsError:
         print("Directory already exists, output files are written in it")
 
-    pycd_savepath=savepath+"/pycd_out.csv"
+    pycd_savepath=savepath+"pycd_out.csv"
     
     #1. obtain the csv output from PyCD
     getPyCDOut(propath,pycd_savepath)
@@ -184,7 +113,6 @@ def launch(propath,savepath):
     print()
     
     getShellOutputJ(savepath)
-    
     print()
     print("Finished. You can find all the detailed output in the files stored in " + savepath + " directory")
 
@@ -207,6 +135,7 @@ def main():
             print("THE ARGUMENTS MUST BE PATHS TO SOME DIRECTORIES!!!\n")
             printHelpSection()
     else:
+        print("INSERT THE CORRECT NUMBER (2) OF ARGUMENTS!!!\n")
         printHelpSection()
 
 if __name__ == '__main__':
