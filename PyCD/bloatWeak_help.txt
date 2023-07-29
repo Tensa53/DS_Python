@@ -6,6 +6,5 @@ python3 bloatWeak.py <pro_path> <todir>
 OUTPUT:
 The list of all bloated dependencies, the ones affected by vulnerabilities are highlighted with 'VULNERABLE!!!' message on the same line
 All you can find in your directory are three files:
-- pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script, it contains all the information about the dependency of the project analized
-- requirements-unused.txt: the output obtained from fawltydeps and joined with the version column of the table stored in pycd_out.csv file, it contains all the bloated dependencies with the version
-safety_out.json: the ouput obtained from the safety tool that had analized the requirements-unused.txt dependencies file, it contains all the information about the bloated dependencies and their related vulnerabilities
+- pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script.
+- safetyDB_out.csv: the filtered db with all the vulnerabilities information of the analyzed project's dependencies
