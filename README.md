@@ -29,7 +29,7 @@ As of now, this script takes the *GetDep_ast.py* csv output and temporary stores
 
 So with BloatWeak we have combined different tools. All you cand find in your directory are these files:
 - pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script.
-- safetyDB_out.csv: the filtered db with all the vulnerabilities information of the analyzed project's dependency
+- safetyDB_out.csv: the filtered db with all the vulnerabilities information of the analyzed project's dependencies
 
 ---
 
