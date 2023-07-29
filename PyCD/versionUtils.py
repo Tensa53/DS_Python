@@ -18,14 +18,14 @@ def compareVersions(d,versions):
         v=filterVersion(ver)
         if(ver[0]=='<'):
             if(ver[1]=='='):
-                if(version.parse(d) == version.parse(v)):
+                if(version.parse(d) == version.parse(v) or version.parse(d) < version.parse(v)):
                     return True
             else:
                 if(version.parse(d) < version.parse(v)):
                     return True
         elif(ver[0]=='>'):
             if(ver[1]=='='):
-                if(version.parse(d) == version.parse(v)):
+                if(version.parse(d) == version.parse(v) or version.parse(d) > version.parse(v)):
                     return True
             else:
                 if(version.parse(d) > version.parse(v)):

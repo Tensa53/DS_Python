@@ -4,12 +4,14 @@ class Dependency:
         self.name=name
         self.version=version
         self.filepath=filepath
-        self.vulnerable=""
+        self.vulnerable=False
+        self.bloated=False
         
     def printDependency(self):
-        return self.name+self.version+" declared in:"+self.filepath+" "+self.vulnerable
+        return self.name+self.version+" declared in: "+self.filepath
         
     name=""
     version=""
     filepath=""
-    vulnerable=""
+    vulnerable=False
+    bloated=False
