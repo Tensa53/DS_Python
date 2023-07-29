@@ -4,7 +4,7 @@ This repository stores the source code of the PyCD fork. I decided to fork this 
 # BloatWeak: Extracting bloated dependencies and their related vulnerabilities from dependency configuration files
 
 The building block of BloatWeak, describing its execution flow:
-![building_block](https://github.com/Tensa53/DS_Python/blob/master/building_block/building_block.svg "Building_Block")
+![building_block](https://github.com/Tensa53/DS_Python/blob/master/Building_Block/building_block.svg "Building_Block")
 
 To use BloatWeak, you can run the command:
 ```
