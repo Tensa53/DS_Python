@@ -24,12 +24,18 @@ def printHelpSection():
 def getShellOutput(savepath):
     print("Bloated dependencies for your project:")
 
+    bloat=False
+
     for d in dependencies:
         if(d.bloated):
+            bloat=True
             if(d.vulnerable):
                 print(d.printDependency()+" VULNERABLE!!!")
             else:
                 print(d.printDependency())
+                
+    if(not bloat):
+        print("This project has no bloated dependencies")
 
 
 def getSafetyDBOut(savepath):
@@ -44,10 +50,14 @@ def getSafetyDBOut(savepath):
     for d in dependencies:
         lowD=d.name.lower()#normalize the name of dependency as the ones in the db
         dv=d.version
+        dvs=dv.split(',')
+        #print(dvs)
         try:
             depVul=jcontents[lowD]#extract from the db, the section related this dependency
+            #print(depVul)
+            #print(d.name)
             for v in depVul:
-                if(versionUtils.checkVersions(dv,v)):
+                if(versionUtils.checkVersions(dvs,v)):
                     d.vulnerable=True
                     cve=v['cve']
                     vers=v['v']
@@ -100,6 +110,8 @@ def setBloated(depName,filePath):
     return False
 
 def getUnusedRequirements(propath,savepath):
+    incomplete=False
+
     #open the fawlatydeps_out.txt file in read/write mode
     file1=open(savepath+"fawltydeps_out.txt","w+")
     
@@ -133,7 +145,9 @@ def getUnusedRequirements(propath,savepath):
                     filePath=linep[indS:len(linep)-1]
                     #check if the dependency is bloated
                     if(not setBloated(dep,filePath)):
-                        print("PyCD is missing some configuration files, the output is incomplete. Execution interrupted")
+                        incomplete=True
+                        #comment the next three lines if you also want to analyze the output of incomplete projects
+                        print("PyCD is missing some configuration files, the output is incomplete.")
                         os.remove(savepath+"fawltydeps_out.txt")
                         exit(0)
                     #read a new line from file1
@@ -145,18 +159,22 @@ def getUnusedRequirements(propath,savepath):
             msg=file1.readline()
             msg=msg.rstrip('\r\n')
             if(msg=="No unused dependencies detected."):
-                print("This project has no bloated dependencies")
+                os.remove(savepath+"fawltydeps_out.txt")
                 return
             else:
-                print("Fawltydeps returns errors and you need to manually execute the tool to check the issues, the output is incomplete. Execution interrupted")
-
-            os.remove(savepath+"fawltydeps_out.txt")
-            exit(0)
+                print("Fawltydeps returns errors and you need to manually execute the tool to check the issues, the output is incomplete")
+                os.remove(savepath+"fawltydeps_out.txt")
+                #comment the next line if you also want to analyze the output of incomplete projects
+                exit(0)
+                return
 
                 
         liner=linep
         if(liner==""):
             break
+
+    if(incomplete):
+        print("PyCD is missing some configuration files, the output is incomplete")
 
     #closes the file streams            
     file1.close()
@@ -206,7 +224,7 @@ def launch(propath,savepath):
     
     #3. obtain a csv format of bloated&vulnerable dependencies, filtering safetyDB
     getSafetyDBOut(savepath)
-    print("SafetyDB filtered output obtained in csv format (report.csv)")
+    print("SafetyDB filtered output obtained in csv format (safetyDB_out.csv)")
     print()
     
     getShellOutput(savepath)

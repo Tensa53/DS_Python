@@ -10,11 +10,12 @@ def filterVersion(d):
     else:
         return d[2:]
 
-#takes a pinned/constrained dependency decleration as a strng and check if is in the versions range
+#takes a pinned/constrained dependency declaration as a string and check if is in the versions range
 def compareVersions(d,versions):
     val=False
 
     for ver in versions:
+        dv=version.parse(d)
         v=filterVersion(ver)
         if(ver[0]=='<'):
             if(ver[1]=='='):
@@ -36,9 +37,9 @@ def compareVersions(d,versions):
                     
     return False
     
-def checkVersions(d,v):
-    df=filterVersion(d)
-
-    versions=v['v'].split(',')
-    if(compareVersions(df,versions)==True):
-        return True
+def checkVersions(ds,v):
+    for d in ds:
+        df=filterVersion(d)
+        versions=v['v'].split(',')
+        if(compareVersions(df,versions)==True):
+            return True
