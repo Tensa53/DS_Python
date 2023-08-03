@@ -20,6 +20,7 @@ BloatWeak takes together many tools to find bloated dependencies and their relat
 	- pandas
     - packaging
 	- astunparse (used by GetDep_ast.py)
+	- requests (used by GetDep_ast.py)
 	- toml (used by GetDep_ast.py)
 - Run the command above to launch the script
 
