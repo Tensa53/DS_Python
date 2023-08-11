@@ -104,10 +104,13 @@ def getSafetyDBOut(savepath):
 def setBloated(depName,filePath):
     for d in dependencies:
         if(d.name==depName and d.filepath==filePath):
-            d.bloated=True
-            return True
+            if(d.defType=="install_requires"):
+                d.bloated=True
+                return 2
+            else:
+                return 1
 
-    return False
+    return 0
 
 def getUnusedRequirements(propath,savepath):
     incomplete=False
@@ -143,13 +146,21 @@ def getUnusedRequirements(propath,savepath):
                     #extract the filepath from the line
                     indS=linep.index('/')
                     filePath=linep[indS:len(linep)-1]
-                    #check if the dependency is bloated
-                    if(not setBloated(dep,filePath)):
-                        incomplete=True
-                        #comment the next three lines if you also want to analyze the output of incomplete projects
-                        print("PyCD is missing some configuration files, the output is incomplete.")
-                        os.remove(savepath+"fawltydeps_out.txt")
-                        exit(0)
+                    indSe=filePath.rindex('/')
+                    #print(filePath)
+                    reqName=filePath[indSe+1:]
+                    #print(reqName)
+                    indSd=reqName.rfind("-")
+                    indSu=reqName.rfind("_")
+                    if(indSd==-1 and indSu==-1):
+                        print(reqName)
+                        #check if the dependency is bloated
+                        if(setBloated(dep,filePath)==0):
+                            incomplete=True
+                            #comment the next three lines if you also want to analyze the output of incomplete projects
+                            print("PyCD is missing some configuration files, the output is incomplete.")
+                            os.remove(savepath+"fawltydeps_out.txt")
+                            exit(0)
                     #read a new line from file1
                     linep=file1.readline()
         except IndexError:
@@ -199,7 +210,7 @@ def getPyCDOut(propath,pycd_savepath):
     #also save the pycd output in a list of Dependency objects
     for rowInd in csvdd.iterrows():
         row=rowInd[1]
-        aDep=dependency.Dependency(row['dep'],row['version'],row['filepath'])
+        aDep=dependency.Dependency(row['dep'],row['version'],row['filepath'],row['type'])
         dependencies.append(aDep)
 
     os.remove(pycd_savepath)

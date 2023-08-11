@@ -1,9 +1,10 @@
 class Dependency:
 
-    def __init__(self,name,version,filepath):
+    def __init__(self,name,version,filepath,defType):
         self.name=name
         self.version=version
         self.filepath=filepath
+        self.defType=defType
         self.vulnerable=False
         self.bloated=False
         
@@ -13,5 +14,6 @@ class Dependency:
     name=""
     version=""
     filepath=""
+    defType=""
     vulnerable=False
     bloated=False

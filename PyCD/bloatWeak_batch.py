@@ -4,8 +4,11 @@ import os
 def main():
     file=open("projects_list.txt","w+")
     
-    projspath="/home/daniele/git/NICHE_projects/Repo/Cloneables/"
-    savepath="/home/daniele/git/NICHE_projects/BloatWeak_Out/Cloneables/"
+    projspath="/home/daniele/git/Validation/Repo/"
+    savepath="/home/daniele/git/Validation/BloatWeak_Out/"
+    
+    #projspath="/home/daniele/git/NICHE_projects/Repo/Cloneables/"
+    #savepath="/home/daniele/git/NICHE_projects/BloatWeak_Out/Cloneables/"
     
     child=subprocess.run(["ls",projspath,"-1"],stdout=file)
     
