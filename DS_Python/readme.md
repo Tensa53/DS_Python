@@ -19,4 +19,4 @@ The evaluation dataset is constructed from open-source projects in Github. You c
 [Empirical Study](https://github.com/Tensa53/BloatWeak/tree/master/DS_Python/Empirical_Study). This folder stores the results for emipircal study.
 Our empirical study is conducted on 132 open-source Python projects in Github. You can find the name of these projects in "Empirical Study/Details of 132 projects.xlsx" folder. 
 
-[Harmful DS report](https://github.com/Tensa53/DS_Python/tree/master/BloatWeak/Harmful_DS_report) This folder stores the list of the links to 39 reported issues for harmful dependency smells.
+[Harmful DS report](https://github.com/Tensa53/DS_Python/tree/master/DS_Python/Harmful_DS_report) This folder stores the list of the links to 39 reported issues for harmful dependency smells.
