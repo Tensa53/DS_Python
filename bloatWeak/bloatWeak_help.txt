@@ -2,9 +2,9 @@ BloatWeak takes together many tools to find bloated dependencies and their relat
 USAGE:
 python3 bloatWeak.py <pro_path> <todir>
 - pro_path: refers to the path for a Python project or a configuration file.
-- todir: refers to a directory that stores all the output obtained from BloatWeak
-OUTPUT:
+- todir: refers to a directory that stores all the output files obtained from BloatWeak
+SHELL OUTPUT:
 The list of all bloated dependencies, the ones affected by vulnerabilities are highlighted with 'VULNERABLE!!!' message on the same line
-All you can find in your directory are three files:
+OUTPUT FILES:
 - pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script.
 - safetyDB_out.csv: the filtered db with all the vulnerabilities information of the analyzed project's dependencies
