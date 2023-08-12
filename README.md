@@ -26,8 +26,8 @@ BloatWeak takes together many tools to find bloated dependencies and their relat
 
 You can find the script into the [bloatWeak](https://github.com/Tensa53/BloatWeak/tree/master/bloatWeak) directory.
 
-As of now, this script takes the *GetDep_ast.py* csv output and temporary stores in it in a collection of dependency objects. Then reading line by line the fawltydeps_out.txt output file, visit the collection and if finds the respective dependency of the line, marks it as a bloated one. Then thanks to the dependency objects collection, checks which ones are vulnerable, reading the [safetyDB](https://github.com/pyupio/safety-db) (*insecure_full.json*).
+As of now, this script executes *GetDep_ast.py* script of [PyCD](https://github.com/Tensa53/BloatWeak/tree/master/DS_Python/PyCD) and takes the output in a csv file, then temporary stores it in a collection of dependency objects. After executing [fawltydeps](https://github.com/tweag/fawltydeps), reads line by line its output stored in fawltydeps_out.txt, visit the dependencies collection and if finds the respective dependency of the line, marks it as a bloated one (only the ones required for the installation/deployment of the software). Thanks to the dependency objects collection, checks which ones are vulnerable, reading the [safetyDB](https://github.com/pyupio/safety-db) (*insecure_full.json*).
 
 So with BloatWeak we have combined different tools. All you cand find in your directory are these files:
-- pycd_out.csv: the ouput obtained from the PyCD tool with GetDep_ast.py script.
-- safetyDB_out.csv: the filtered db with all the vulnerabilities information of the analyzed project's dependencies
+- **pycd_out.csv**: the ouput obtained from the PyCD tool with GetDep_ast.py script.
+- **safetyDB_out.csv**: the filtered db with all the vulnerabilities information of the analyzed project's dependencies
