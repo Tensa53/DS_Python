@@ -1,0 +1,7 @@
+#bloatWeak dependencies
+fawltydeps==0.12.0
+pandas==2.0.3
+packaging==21.3
+astunparse==1.6.3 #(used by GetDep_ast.py)
+requests==2.31.0 #(used by GetDep_ast.py)
+toml==0.10.2 #(used by GetDep_ast.py)
