@@ -27,7 +27,7 @@ def getShellOutput(savepath):
     bloat=False
 
     for d in dependencies:
-        if(d.bloated):
+        if(d.detectBloated and d.realBloated):
             bloat=True
             if(d.vulnerable):
                 print(d.printDependency()+" VULNERABLE!!!")
@@ -51,11 +51,8 @@ def getSafetyDBOut(savepath):
         lowD=d.name.lower()#normalize the name of dependency as the ones in the db
         dv=d.version
         dvs=dv.split(',')
-        #print(dvs)
         try:
             depVul=jcontents[lowD]#extract from the db, the section related this dependency
-            #print(depVul)
-            #print(d.name)
             for v in depVul:
                 if(versionUtils.checkVersions(dvs,v)):
                     d.vulnerable=True
@@ -66,7 +63,7 @@ def getSafetyDBOut(savepath):
                     depv.append(d.name)
                     depv.append(d.version)
                     depv.append(d.filepath)
-                    depv.append(d.bloated)
+                    depv.append(d.realBloated)
                     depv.append(cve)
                     depv.append(vers)
                     depv.append(advise)
@@ -77,7 +74,7 @@ def getSafetyDBOut(savepath):
                 depv.append(d.name)
                 depv.append(d.version)
                 depv.append(d.filepath)
-                depv.append(d.bloated)
+                depv.append(d.realBloated)
                 depv.append("no one")
                 depv.append("no one")
                 depv.append("no one")
@@ -88,7 +85,7 @@ def getSafetyDBOut(savepath):
             depv.append(d.name)
             depv.append(d.version)
             depv.append(d.filepath)
-            depv.append(d.bloated)
+            depv.append(d.realBloated)
             depv.append("no one")
             depv.append("no one")
             depv.append("no one")
@@ -101,21 +98,23 @@ def getSafetyDBOut(savepath):
     file3.close()
     
 
-def setBloated(depName,filePath):
+def setBloated(depName,filePath,step):
     for d in dependencies:
         if(d.name==depName and d.filepath==filePath):
             if(d.defType=="install_requires"):
-                d.bloated=True
+                d.detectBloated=True
+                if(step==2):
+                    d.realBloated=True
                 return 2
             else:
                 return 1
 
     return 0
 
-def getUnusedRequirements(propath,savepath):
+def getUnusedRequirements(propath,savepath,step):
     incomplete=False
 
-    #open the fawlatydeps_out.txt file in read/write mode
+    #open the fawltydeps_out.txt file in read/write mode
     file1=open(savepath+"fawltydeps_out.txt","w+")
     
     #the error output is redirected to devnull, so we don't have anything else that our output on the shell
@@ -147,20 +146,19 @@ def getUnusedRequirements(propath,savepath):
                     indS=linep.index('/')
                     filePath=linep[indS:len(linep)-1]
                     indSe=filePath.rindex('/')
-                    #print(filePath)
                     reqName=filePath[indSe+1:]
-                    #print(reqName)
                     indSd=reqName.rfind("-")
                     indSu=reqName.rfind("_")
                     if(indSd==-1 and indSu==-1):
-                        print(reqName)
                         #check if the dependency is bloated
-                        if(setBloated(dep,filePath)==0):
+                        res=setBloated(dep,filePath,step)
+                        if(res==0):     
                             incomplete=True
                             #comment the next three lines if you also want to analyze the output of incomplete projects
                             print("PyCD is missing some configuration files, the output is incomplete.")
                             os.remove(savepath+"fawltydeps_out.txt")
                             exit(0)
+                            
                     #read a new line from file1
                     linep=file1.readline()
         except IndexError:
@@ -179,7 +177,6 @@ def getUnusedRequirements(propath,savepath):
                 exit(0)
                 return
 
-                
         liner=linep
         if(liner==""):
             break
@@ -191,6 +188,13 @@ def getUnusedRequirements(propath,savepath):
     file1.close()
 
     os.remove(savepath+"fawltydeps_out.txt")
+    
+def installUnused(savepath):
+    print("Installing unused dependencies")
+    
+    for d in dependencies:
+        if(d.detectBloated):
+            child1=subprocess.run(["pip","install",d.name],stdout=DEVNULL,stderr=DEVNULL)
 
 def getPyCDOut(propath,pycd_savepath):
     child=subprocess.run(["python","./GetDep_ast.py",propath,pycd_savepath])
@@ -226,14 +230,24 @@ def launch(propath,savepath):
 
     pycd_savepath=savepath+"pycd_out.csv"
     
-    #1. obtain the csv output from PyCD
+    #Obtain the csv output from PyCD
     getPyCDOut(propath,pycd_savepath)
     print("PyCD output obtained in csv format (pycd_out.csv)")
     
-    #2. obtain the outupt of falwtydeps and check which dependencies are bloated
-    getUnusedRequirements(propath,savepath)
+    #Obtain the outupt of falwtydeps and check which dependencies are bloated
+    print("Checking unused dependencies with FawltyDeps")
+    step=1
+    #execute the first check without unused deps installed (simple mapping)
+    getUnusedRequirements(propath,savepath,step)
     
-    #3. obtain a csv format of bloated&vulnerable dependencies, filtering safetyDB
+    installUnused(savepath)
+    
+    step=2
+    #execute the second check with unused deps installed (improved mapping)
+    getUnusedRequirements(propath,savepath,step)
+    #uninstallUnused(savepath)
+    
+    #Obtain a csv format of bloated&vulnerable dependencies, filtering safetyDB
     getSafetyDBOut(savepath)
     print("SafetyDB filtered output obtained in csv format (safetyDB_out.csv)")
     print()
