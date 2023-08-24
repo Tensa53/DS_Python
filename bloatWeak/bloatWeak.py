@@ -39,7 +39,7 @@ def getShellOutput(savepath):
 
 
 def getSafetyDBOut(savepath):
-    file3=open("insecure_full.json","r")
+    file3=open("safetydb_insecure_full.json","r")
     
     jcontents=json.load(file3)
     
