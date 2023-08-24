@@ -1,0 +1,11 @@
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+0,deepmedic,5,0,3,0,10
+1,fancyimpute,12,2,4,1,6
+2,flashtorch,6,0,3,0,63
+3,lucent,14,4,8,2,78
+4,mcfly,14,2,7,1,480
+5,mycli,29,1,9,1,29
+6,python-fire,16,1,3,0,3
+7,rembg,29,1,15,0,98
+8,voltron,10,2,3,0,13
+9,wifiphisher,5,1,2,0,3

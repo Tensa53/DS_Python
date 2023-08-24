@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,click,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+1,pyarrow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+2,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+3,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+4,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+5,folium,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+6,seaborn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+7,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+8,xlsxwriter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+9,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+10,pmdarima,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+11,altair,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+12,GitPython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*
+13,docopt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/covidify/requirements.txt,*,*@*,*

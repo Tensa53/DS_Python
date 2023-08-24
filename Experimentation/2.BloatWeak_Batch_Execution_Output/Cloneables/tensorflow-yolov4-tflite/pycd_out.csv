@@ -1,0 +1,17 @@
+,dep,version,filepath,type,condition,status
+0,lxml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+1,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+2,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+3,tensorflow,==2.3.0rc0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+4,easydict,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+5,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+6,absl-py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+7,opencv-python,==4.1.1.26,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements.txt,*,*@*,*
+8,lxml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*
+9,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*
+10,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*
+11,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*
+12,easydict,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*
+13,tensorflow-gpu,==2.3.0rc0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*
+14,absl-py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*
+15,opencv-python,==4.1.1.26,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-yolov4-tflite/requirements-gpu.txt,*,*@*,*

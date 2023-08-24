@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,cpprb,>=8.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,install_requires,*@*,*
+1,setuptools,>=41.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,install_requires,*@*,*
+2,numpy,>=1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,install_requires,*@*,*
+3,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,install_requires,*@*,*
+4,future,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,install_requires,*@*,*
+5,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,install_requires,*@*,*
+6,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,install_requires,*@*,*
+7,tensorflow,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,extras_require,*@*,*
+8,tensorflow-gpu,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,extras_require,*@*,*
+9,opencv-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,extras_require,*@*,*
+10,coveralls,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,extras_require,*@*,*
+11,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,extras_require,*@*,*
+14,gym,>=0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,extras_require,*@*,*
+16,gym,<0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2rl/setup.py,extras_require,*@*,*

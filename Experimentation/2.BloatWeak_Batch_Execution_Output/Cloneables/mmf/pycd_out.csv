@@ -1,0 +1,34 @@
+,dep,version,filepath,type,condition,status
+0,ftfy,==5.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+1,iopath,==0.1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+2,tqdm,">=4.43.0,<4.50.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+3,nltk,==3.6.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+4,termcolor,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+5,transformers,">=3.4.0, <=4.10.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+6,torchvision,==0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+7,numpy,">=1.16.6, <=1.21.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+8,psutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+9,editdistance,==0.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+10,pycocotools,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+11,sentencepiece,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+12,fasttext,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+13,requests,==2.23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+14,torchaudio,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+15,torch,==1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+16,datasets,==1.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+17,lmdb,==0.98,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+18,GitPython,==3.1.30,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+19,matplotlib,==3.3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+20,omegaconf,">=2.0.6, <=2.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+21,torchtext,==0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+22,pillow,==9.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+23,sklearn,==0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+24,pytorch-lightning,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/requirements.txt,*,*@*,*
+25,networkx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/projects/krisp/requirements.txt,*,*@*,*
+26,gensim,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/projects/krisp/requirements.txt,*,*@*,*
+27,torch_geometric,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/projects/krisp/requirements.txt,*,*@*,*
+28,sphinx_rtd_theme,==0.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/docs/requirements.txt,*,*@*,*
+29,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/docs/requirements.txt,*,*@*,*
+30,sphinxcontrib-programoutput,==0.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/docs/requirements.txt,*,*@*,*
+31,recommonmark,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/docs/requirements.txt,*,*@*,*
+32,pytorch_sphinx_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmf/docs/requirements.txt,*,*@special#B.9 B.11,*

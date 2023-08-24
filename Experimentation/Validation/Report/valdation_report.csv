@@ -1,0 +1,14 @@
+NICHE Projects,,,,
+Github Repo,detectedBloated,realBloated,#modules,comment
+deepmedic/deepmedic,False,False,42,This project is correctly detected as a non bloated one
+iskandr/fancyimpute,True,False,12,This project is wrongly detecetd as a bloated one. The cvxopt dependency is an optional transitive dependency for cvxpy. The pytest dependency is a test framework and is wrongly declared in install_requires section of setup.py 
+MisaOgura/flashtorch,False,False,8,"This project is correctly detected as a non bloated one, but the torchvision is used for the testing phase and is wrongly declared in install_requires section of setup.py"
+greentfrapp/lucent,True,False,26,"This project is wrongly detected as a bloated one. The future depency is not bloated, the import name (__future__) differs from the dependency one. The pytest-mock, coverage, coveralls are test dependencies and are wrongly declared in install_requires section in setup.py"
+NleSC/mcfly,True,True,11,This project is correctly detected as a bloated one
+NOT NICHE Projects,,,,
+Github Repo,detectedBloated,realBloated,#modules,comment
+dbcli/mycli,True,False,28,This project is wrongly deteceted as a bloated one. The cryptography dependency is a situational transitive dependency for paramiko dependency that specifically need that pinned cryptography version
+google/python-fire,True,False,23,"This project is wrongly detected as a bloated one. The enum34 dependency is a situational dependency, only used when python version is < 3.4"
+danielgatis/rembg,True,True,21,This project is correctly detected as a bloated one
+snare/voltron,True,True,43,This project is correctly detected as a bloated one
+wifiphisher/wifiphisher,True,True,25,This project is correctly detected as a bloated one

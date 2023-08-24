@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,setup_requires,@*,*
+1,graphviz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,tests_require,@*,*
+2,parameterized,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,tests_require,@*,*
+3,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,tests_require,@*,*
+4,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,tests_require,@*,*
+5,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,tests_require,@*,*
+6,timeout-decorator,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,tests_require,@*,*
+7,numpy,>=1.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,install_requires,@*,*
+8,onnx,>=1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,install_requires,@*,*
+9,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,install_requires,@*,*
+10,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,install_requires,@*,*
+11,flatbuffers,"<3.0,>=1.12",/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,install_requires,@*,*
+12,protobuf,~=3.20.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-onnx/setup.py,install_requires,@*,*

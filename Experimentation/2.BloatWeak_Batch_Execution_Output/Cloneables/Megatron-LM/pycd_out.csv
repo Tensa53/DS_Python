@@ -1,0 +1,3 @@
+,dep,version,filepath,type,condition,status
+0,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Megatron-LM/setup.py,install_requires,*@*,*
+1,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Megatron-LM/megatron/core/requirements.txt,*,*@*,*

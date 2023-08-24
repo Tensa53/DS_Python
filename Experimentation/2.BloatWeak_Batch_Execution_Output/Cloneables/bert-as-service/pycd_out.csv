@@ -1,0 +1,57 @@
+,dep,version,filepath,type,condition,status
+0,setuptools,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,setup_requires,@*,*
+1,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,setup_requires,@*,*
+2,clip-server,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,install_requires,@*,*
+3,clip-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,install_requires,@*,*
+4,setuptools,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,setup_requires,@*,*
+5,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,setup_requires,@*,*
+6,ftfy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+7,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+8,regex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+9,torchvision,<=0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,"@(sys.version_info <= (3, 7, 2))@*@*",*
+10,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,"@not (sys.version_info <= (3, 7, 2))@*@*",*
+11,jina,>=3.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+12,docarray,<0.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+13,prometheus-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+14,open_clip_torch,>=2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+15,pillow-avif-plugin,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,install_requires,@*,*
+16,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,*@*,*
+17,onnxmltools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,*@*,*
+18,onnxruntime-gpu,<=1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,*@(sys.platform != 'darwin')@*@*,*
+19,onnxruntime,<=1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,*@not (sys.platform != 'darwin')@*@*,*
+20,nvidia-tensorrt,==8.4.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,@*,*
+21,transformers,>=4.16.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,@*,*
+22,annlite,>=0.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,@*,*
+23,flash-attn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,@*,*
+24,cn_clip,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,extras_require,@*,*
+25,setuptools,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,setup_requires,@*,*
+26,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,setup_requires,@*,*
+27,jina,>=3.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,install_requires,@*,*
+28,docarray,">=0.19.0,<0.30.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,install_requires,@*,*
+29,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,install_requires,@*,*
+30,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+31,pytest-timeout,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+32,pytest-mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+33,pytest-asyncio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+34,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+35,pytest-repeat,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+36,pytest-reraise,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+37,mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+38,pytest-custom_exit_code,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+39,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,extras_require,@*,*
+40,gitpython,==3.1.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+41,sphinx-sitemap,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+42,sphinx-argparse,==0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+43,sphinx_markdown_tables,==0.0.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+44,sphinx-notfound-page,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+45,sphinx-multiversion,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@special#B.9 ,*
+46,sphinxcontrib-apidoc,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+47,sphinx_copybutton,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+48,sphinx-inline-tabs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+49,sphinx-design,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+50,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+51,sphinxext-opengraph,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+52,sphinx-autodoc-typehints,==1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+53,markdown,<3.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+54,myst-parser,==0.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*
+55,furo,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,*,*@*,*

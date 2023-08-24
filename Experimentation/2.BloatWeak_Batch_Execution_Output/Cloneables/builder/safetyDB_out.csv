@@ -1,0 +1,3 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,packaging,==21.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/builder/s3_management/requirements.txt,False,no one,no one,no one
+1,boto3,==1.12.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/builder/s3_management/requirements.txt,False,no one,no one,no one

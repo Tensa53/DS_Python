@@ -1,0 +1,53 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow_text,>=2.0.0rc0,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/semantic-qa-retrieval/py-requirements.txt,*,*@*,*
+1,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/semantic-qa-retrieval/py-requirements.txt,*,*@*,*
+2,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/semantic-qa-retrieval/py-requirements.txt,*,*@*,*
+3,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/semantic-qa-retrieval/py-requirements.txt,*,*@*,*
+4,tensorflow-hub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/semantic-qa-retrieval/py-requirements.txt,*,*@*,*
+5,numpy,<1.19.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/semantic-qa-retrieval/py-requirements.txt,*,*@*,*
+6,beautifulsoup4,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/test/requirements.txt,*,*@*,*
+7,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/test/requirements.txt,*,*@*,*
+8,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/test/requirements.txt,*,*@*,*
+9,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/test/requirements.txt,*,*@*,*
+10,pexpect,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/test/requirements.txt,*,*@*,*
+11,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/test/requirements.txt,*,*@*,*
+12,CLIP,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@special#B.9 ,*
+13,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+14,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+15,pyvespa,>= 0.34.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+16,tenacity,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+17,ipywidgets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+18,streamlit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+19,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+20,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+21,torch,==1.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+22,regex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+23,ftfy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-image-search/src/python/requirements.txt,*,*@*,*
+24,imageio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-video-search/src/python/requirements.txt,*,*@*,*
+25,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-video-search/src/python/requirements.txt,*,*@*,*
+26,CLIP,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-video-search/src/python/requirements.txt,*,*@special#B.9 ,*
+27,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-video-search/src/python/requirements.txt,*,*@*,*
+28,pyvespa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-video-search/src/python/requirements.txt,*,*@*,*
+29,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-video-search/src/python/requirements.txt,*,*@*,*
+30,streamlit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-video-search/src/python/requirements.txt,*,*@*,*
+31,transformers,==4.10.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/dense-passage-retrieval-with-ann/requirements.txt,*,*@*,*
+32,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/dense-passage-retrieval-with-ann/requirements.txt,*,*@*,*
+33,protobuf,">= 3.12.2, <= 3.20.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/dense-passage-retrieval-with-ann/requirements.txt,*,*@*,*
+34,torch,==1.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/dense-passage-retrieval-with-ann/requirements.txt,*,*@*,*
+35,onnxruntime,==1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/dense-passage-retrieval-with-ann/requirements.txt,*,*@*,*
+36,tensorflow_ranking,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-search/src/python/requirements.txt,*,*@*,*
+37,tensorflow,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-search/src/python/requirements.txt,*,*@*,*
+38,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-search/src/python/requirements.txt,*,*@*,*
+39,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-search/src/python/requirements.txt,*,*@*,*
+40,tensorflow_hub,>=0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-search/src/python/requirements.txt,*,*@*,*
+41,sentence-transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/text-search/src/python/requirements.txt,*,*@*,*
+42,zstd,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/examples/google-cloud/cloud-functions/python/requirements.txt,*,*@*,*
+43,google-cloud-storage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/examples/google-cloud/cloud-functions/python/requirements.txt,*,*@*,*
+44,functions-framework,==3.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/examples/google-cloud/cloud-functions/python/requirements.txt,*,*@*,*
+45,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/examples/google-cloud/cloud-functions/python/requirements.txt,*,*@*,*
+46,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/news/requirements.txt,*,*@*,*
+47,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/news/requirements.txt,*,*@*,*
+48,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/news/requirements.txt,*,*@*,*
+49,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/news/requirements.txt,*,*@*,*
+50,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/news/requirements.txt,*,*@*,*
+51,setuptools_rust,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sample-apps/news/requirements.txt,*,*@*,*

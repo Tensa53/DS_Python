@@ -1,0 +1,81 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+1,importlib-metadata,<5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,True,no one,no one,no one
+2,networkx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+3,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+4,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+5,numpy,>=1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+6,numpy,>=1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+7,numpy,>=1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+8,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+9,gensim,>=4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+10,grave,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+11,scikit_learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+12,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+13,optuna,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+14,ogb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,True,no one,no one,no one
+15,pre-commit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,True,CVE-2017-18342,<1.10.4,"Pre-commit 1.10.4 replaces 'yaml.load' with safe alternative to avoid a remote code execution vulnerability.
+https://github.com/pre-commit/pre-commit/commit/6853f4aa4c8d7e411839bacc66876baea443186a"
+16,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,True,no one,no one,no one
+17,numba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,PVE-2021-38983,<0.49.0,"Numba 0.49.0 fixes a frame injection vulnerability in the dispatcher tracing path, that lead to DoS."
+18,ninja,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,True,no one,no one,no one
+19,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+20,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+21,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,PVE-2021-40187,<4.5.0,Transformers 4.5.0 includes various vulnerability fixes.
+22,sentencepiece,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/setup.py,False,no one,no one,no one
+23,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+24,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,no one,no one,no one
+25,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,CVE-2017-18342,<4,Pyyaml before 4 uses ``yaml.load`` which has been assigned CVE-2017-18342.
+26,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,CVE-2020-1747,<5.3.1,"Pyyaml 5.3.1 includes a fix for CVE-2020-1747: A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor."
+27,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,CVE-2020-14343,<5.4,"Pyyaml version 5.4 includes a fix for CVE-2020-14343: A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.
+https://bugzilla.redhat.com/show_bug.cgi?id=1860466"
+28,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,CVE-2019-20477,">=5.1,<=5.1.2","PyYAML 5.1 through 5.1.2 has insufficient restrictions on the load and load_all functions because of a class deserialization issue, e.g., Popen is a class in the subprocess module. See CVE-2019-20477. NOTE: this issue exists because of an incomplete fix for CVE-2017-18342."
+29,ogb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,no one,no one,no one
+30,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+31,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+32,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/examples/graphmae/requirements.txt,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+33,sphinx,==4.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+34,recommonmark,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+35,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+36,numba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,PVE-2021-38983,<0.49.0,"Numba 0.49.0 fixes a frame injection vulnerability in the dispatcher tracing path, that lead to DoS."
+37,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+38,geopy,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+39,ogb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+40,sphinx-markdown-tables,==0.0.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+41,sphinx_rtd_theme,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+42,markdown,==3.3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+43,sphinx-gallery,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+44,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+45,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+46,numpy,>=1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+47,numpy,>=1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+48,numpy,>=1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+49,importlib-metadata,<5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+50,networkx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+51,scikit_learn,==0.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+52,grave,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+53,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+54,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+55,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+56,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,PVE-2021-40187,<4.5.0,Transformers 4.5.0 includes various vulnerability fixes.
+57,sentencepiece,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+58,coveralls,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,PVE-2021-25671,<0.1.1,coveralls 0.1.1 removes repo_token from verbose output for security reasons.
+59,gensim,>=4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+60,optuna,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one
+61,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/cogdl/docs/requirements.txt,False,no one,no one,no one

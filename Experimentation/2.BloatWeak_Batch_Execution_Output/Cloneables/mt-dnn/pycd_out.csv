@@ -1,0 +1,17 @@
+,dep,version,filepath,type,condition,status
+0,colorlog,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+1,seqeval,==0.0.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+2,sentencepiece,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+3,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+4,transformers,==4.20.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+5,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+6,torch,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+7,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+8,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+9,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+10,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+11,regex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+12,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+13,apex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+14,future,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*
+15,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mt-dnn/requirements.txt,*,*@*,*

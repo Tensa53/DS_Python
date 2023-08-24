@@ -1,0 +1,54 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,optuna,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+1,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+2,torchaudio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+3,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+4,hydra-core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+5,pytorch-lightning,>=1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2021-4118,">=0,<1.6.0",Pytorch-lightning before 1.6.0 is vulnerable to Deserialization of Untrusted Data.
+6,pytorch-lightning,>=1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2022-0845,">=0,<1.6.0","PyTorch Lightning version 1.5.10 and prior is vulnerable to code injection. An attacker could execute commands on the target OS running the operating system by setting the `PL_TRAINER_GPUS` when using the `Trainer` module. A [patch](https://github.com/pytorchlightning/pytorch-lightning/commit/8b7a12c52e52a06408e9231647839ddb4665e8ae) is included in the `1.6.0` release.
+Affected functions:
+pytorch_lightning.utilities.argparse.parse_env_variables"
+7,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+8,jupyter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+9,sox,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+10,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+11,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+12,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2019-1010083,<0.12.3,"Flask 0.12.3 includes a fix for CVE-2019-1010083: Unexpected memory usage. The impact is denial of service. The attack vector is crafted encoded JSON data. NOTE: this may overlap CVE-2018-1000656.
+https://github.com/pallets/flask/pull/2695/commits/0e1e9a04aaf29ab78f721cfc79ac2a691f6e3929"
+13,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2018-1000656,<0.12.3,flask version Before 0.12.3 contains a CWE-20: Improper Input Validation vulnerability in flask that can result in Large amount of memory usage possibly leading to denial of service. This attack appear to be exploitable via Attacker provides JSON data in incorrect encoding. This vulnerability appears to have been fixed in 0.12.3.
+14,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,PVE-2021-25820,<0.6.1,flask 0.6.1 fixes a security problem that allowed clients to download arbitrary files  if the host server was a windows based operating system and the client  uses backslashes to escape the directory the files where exposed from.
+15,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2023-30861,"<2.2.5,>=2.3.0,<2.3.2","Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches 'Set-Cookie' headers, it may send one client's 'session' cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.
+
+1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.
+2. The application sets 'session.permanent = True'
+3. The application does not access or modify the session at any point during a request.
+4. 'SESSION_REFRESH_EACH_REQUEST' enabled (the default).
+5. The application does not set a 'Cache-Control' header to indicate that a page is private or should not be cached.
+
+This happens because vulnerable versions of Flask only set the 'Vary: Cookie' header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5."
+16,python-levenshtein,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,PVE-2022-51245,<0.12.1,Python-levenshtein 0.12.1 fixes handling of numerous possible wraparounds in calculating the size of memory allocations. Incorrect handling of which could cause denial of service or even possible remote code execution in previous versions of the library.
+17,torchelastic,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+18,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+19,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+20,wget,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,no one,no one,no one
+21,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+22,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+23,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+24,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+25,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+26,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+27,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+28,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/deepspeech.pytorch/requirements.txt,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"

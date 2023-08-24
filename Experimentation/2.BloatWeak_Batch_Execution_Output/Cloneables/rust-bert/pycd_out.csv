@@ -1,0 +1,4 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==1.23.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/rust-bert/requirements.txt,*,*@*,*
+1,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/rust-bert/requirements.txt,*,*@*,*
+2,torch,==1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/rust-bert/requirements.txt,*,*@*,*

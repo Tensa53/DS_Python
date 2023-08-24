@@ -1,0 +1,3 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snake/requirements.txt,False,no one,no one,no one
+1,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snake/requirements.txt,False,no one,no one,no one

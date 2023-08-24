@@ -1,0 +1,9 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+5,5,AIF360,54,1,18,1,979
+11,11,alibi-detect,60,0,18,0,606
+118,121,habitat-api,48,0,18,0,106
+173,179,mediacloud,63,0,18,0,54
+199,205,model_server,49,0,18,0,225
+213,219,nevergrad,66,0,18,0,526
+224,230,nyaggle,36,0,18,0,50
+250,256,pyod,53,0,18,0,993

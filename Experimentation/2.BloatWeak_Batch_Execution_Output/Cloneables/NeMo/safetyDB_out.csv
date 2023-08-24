@@ -1,0 +1,473 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,jiwer,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+1,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+2,dash_bootstrap_components,>=1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+3,editdistance,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+4,librosa,>=0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+5,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+6,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+7,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+8,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+9,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+10,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+11,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+12,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+13,SoundFile,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+14,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2017-1000006,<1.12.6,"Plotly 1.12.6 includes Plotly.js v1.16.2, which fixes a potential XSS vulnerability in 'text' fields.
+https://github.com/plotly/plotly.js/pull/736
+https://plotly.com/chart-studio-help/security-advisories/2016-08-08-plotlyjs-xss-advisory/"
+15,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2015-9242,<1.9.6,"Plotly 1.9.6 includes plotly.js version 1.5.2, which contains security fixes."
+16,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2015-8858,<1.9.6,"Plotly 1.9.6 includes plotly.js version 1.5.2, which contains security fixes."
+17,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-37052,<2.0.7,"Plotly 2.0.7 includes Plotly.js 1.25.0, which contains a fix for an XSS vulnerability in a trace name on hover.
+https://github.com/plotly/plotly.js/pull/1307"
+18,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2019-10775,<4.8.2,"Plotly 4.8.2 includes plotly.js version 1.54.5, which contains a security fix of a transitive dependency (ecstatic)."
+19,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-7598,<4.9.0,Plotly 4.9.0 builds Javascript extensions using Node 12 with an updated 'package-lock.json' that has many fewer security warnings.
+20,diff_match_patch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+21,dash,>=2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+22,gunicorn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-40104,"<19.10.0,>=20.0.0,<20.0.1","Gunicorn 20.0.1 fixes chunked encoding support to prevent http request smuggling attacks.
+https://github.com/benoitc/gunicorn/issues/2176
+https://github.com/p4k03n4t0r/http-request-smuggling#request-smuggling-using-mitmproxy-and-gunicorn"
+23,gunicorn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-40103,<19.4.0,Gunicorn 19.4.0 includes a security fix to raise 'InvalidRequestLine' exception when the line contains malicious data.
+24,gunicorn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2018-1000164,<19.5.0,"Gunicorn 19.5.0 includes a fix for CVE-2018-1000164: gunicorn version 19.4.5 contains a CWE-113 - Improper Neutralization of CRLF Sequences in HTTP Headers vulnerability in ""process_headers"" function in ""gunicorn/http/wsgi.py"" that can result in an attacker causing the server to return arbitrary HTTP headers."
+25,nemo_toolkit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+26,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2019-1010083,<0.12.3,"Flask 0.12.3 includes a fix for CVE-2019-1010083: Unexpected memory usage. The impact is denial of service. The attack vector is crafted encoded JSON data. NOTE: this may overlap CVE-2018-1000656.
+https://github.com/pallets/flask/pull/2695/commits/0e1e9a04aaf29ab78f721cfc79ac2a691f6e3929"
+27,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2018-1000656,<0.12.3,flask version Before 0.12.3 contains a CWE-20: Improper Input Validation vulnerability in flask that can result in Large amount of memory usage possibly leading to denial of service. This attack appear to be exploitable via Attacker provides JSON data in incorrect encoding. This vulnerability appears to have been fixed in 0.12.3.
+28,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-25820,<0.6.1,flask 0.6.1 fixes a security problem that allowed clients to download arbitrary files  if the host server was a windows based operating system and the client  uses backslashes to escape the directory the files where exposed from.
+29,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2023-30861,"<2.2.5,>=2.3.0,<2.3.2","Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches 'Set-Cookie' headers, it may send one client's 'session' cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.
+
+1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.
+2. The application sets 'session.permanent = True'
+3. The application does not access or modify the session at any point during a request.
+4. 'SESSION_REFRESH_EACH_REQUEST' enabled (the default).
+5. The application does not set a 'Cache-Control' header to indicate that a page is private or should not be cached.
+
+This happens because vulnerable versions of Flask only set the 'Vary: Cookie' header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5."
+30,flask-cors,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-25032,<3.0.9,Flask-CORS before 3.0.9 allows ../ directory traversal to access private resources because resource matching does not ensure that pathnames are in a canonical format. See CVE-2020-25032.
+31,prettyprinter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+32,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+33,nemo_text_processing,==0.1.6rc0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+34,num2words,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+35,ctc_segmentation,==1.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+36,nemo_toolkit,>=1.0.0rc1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+37,flask_cors,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+38,onnx,>=1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2022-25882,<1.13.0,Onnx 1.13.0 includes a fix for CVE-2022-25882: Versions of the package onnx before 1.13.0 are vulnerable to Directory Traversal as the external_data field of the tensor proto can have a path to the file which is outside the model current directory or user-provided directory.
+39,wrapt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+40,tqdm,>=4.41.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+41,python-dateutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+42,ruamel.yaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+43,numba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-38983,<0.49.0,"Numba 0.49.0 fixes a frame injection vulnerability in the dispatcher tracing path, that lead to DoS."
+44,setuptools,==65.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+45,wget,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+46,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+47,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+48,text-unidecode,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+49,huggingface_hub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+50,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+51,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+52,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+53,numpy,">=1.22,<1.24",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+54,sphinxcontrib-bibtex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+55,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2022-47988,<0.12.12,"Wandb 0.12.12 fixes an unsafe temporary file creation vulnerability.
+https://github.com/wandb/client/pull/3360"
+56,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-33503,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+57,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-7212,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+58,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-11078,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+59,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-26137,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+60,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-13757,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+61,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-25658,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+62,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-21240,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+63,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-37149,<0.8.0,Socket in wandb 0.8.0 only binds to localhost for improved security and prevents firewall warnings in OSX.
+64,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2017-18342,<0.8.2,"Wandb 0.8.2 updates the pyyaml requirement to address a CVE. No CVE number was mentioned, but it is probably CVE-2017-18342."
+65,black,==19.10b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+66,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+67,click,==8.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+68,isort,">5.1.0,<6.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+69,parameterized,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+70,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+71,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+72,pytorch-lightning,">=1.9.0,<=1.9.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-4118,">=0,<1.6.0",Pytorch-lightning before 1.6.0 is vulnerable to Deserialization of Untrusted Data.
+73,pytorch-lightning,">=1.9.0,<=1.9.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2022-0845,">=0,<1.6.0","PyTorch Lightning version 1.5.10 and prior is vulnerable to code injection. An attacker could execute commands on the target OS running the operating system by setting the `PL_TRAINER_GPUS` when using the `Trainer` module. A [patch](https://github.com/pytorchlightning/pytorch-lightning/commit/8b7a12c52e52a06408e9231647839ddb4665e8ae) is included in the `1.6.0` release.
+Affected functions:
+pytorch_lightning.utilities.argparse.parse_env_variables"
+74,torchmetrics,>=0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+75,hydra-core,">=1.2.0,<1.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+76,webdataset,">=0.1.48,<=0.1.62",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+77,omegaconf,">=2.2,<2.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+78,transformers,>=4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+79,transformers,>=4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+80,transformers,>=4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-40187,<4.5.0,Transformers 4.5.0 includes various vulnerability fixes.
+81,sacremoses,>=0.0.43,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+82,youtokentome,>=1.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+83,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+84,sentencepiece,<1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+85,inflect,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+86,pydantic,<2,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-29510,">=1.8.0a1,<1.8.2,>=1.7.0a0,<1.7.4,<1.6.2","Pydantic 1.8.2, 1.7.4 and 1.6.2 include a fix for CVE-2021-29510: In affected versions of Pydantic passing either `'infinity'`, `'inf'` or `float('inf')` (or their negatives) to `datetime` or `date` fields causes validation to run forever with 100% CPU usage (on one CPU). Pydantic has been patched with fixes available in the following versions: v1.8.2, v1.7.4, v1.6.2. All these versions are available on pypi(https://pypi.org/project/pydantic/#history), and will be available on conda-forge(https://anaconda.org/conda-forge/pydantic) soon. See the changelog(https://pydantic-docs.helpmanual.io/) for details. If you absolutely can't upgrade, you can work around this risk using a validator(https://pydantic-docs.helpmanual.io/usage/validators/) to catch these values. This is not an ideal solution (in particular you'll need a slightly different function for datetimes), instead of a hack like this you should upgrade pydantic. If you are not using v1.8.x, v1.7.x or v1.6.x and are unable to upgrade to a fixed version of pydantic, please create an issue at https://github.com/samuelcolvin/pydantic/issues requesting a back-port, and we will endeavour to release a patch for earlier versions of pydantic."
+87,pyannote.core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+88,g2p_en,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+89,pydub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+90,marshmallow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2018-17175,"<2.15.1,>=3.0.0a0,<3.0.0b9","In the marshmallow library before 2.15.1 and 3.x before 3.0.0b9 for Python, the schema ""only"" option treats an empty list as implying no ""only"" option, which allows a request that was intended to expose no fields to instead expose all fields (if the schema is being filtered dynamically using the ""only"" option, and there is a user role that produces an empty value for ""only"")."
+91,sox,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+92,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+93,braceexpand,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+94,kaldiio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+95,texterrors,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+96,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+97,ipywidgets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2022-50664,<8.0.0,"Ipywidgets 8.0.0 sanitizes descriptions by default.
+https://github.com/jupyter-widgets/ipywidgets/pull/2785"
+98,ipywidgets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2022-50463,<8.0.0rc2,"Ipywidgets 8.0.0rc2 makes descriptions plaintext by default for security.
+https://github.com/jupyter-widgets/ipywidgets/pull/2785"
+99,pyannote.metrics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+100,soundfile,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+101,scipy,>=0.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+102,librosa,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+103,kaldi-python-io,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+104,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-25884,<1.0.1.14,markdown2 before 1.0.1.14 has a security hole in the md5-hashing scheme for handling HTML  chunks during processing.
+105,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2009-3724,<1.0.1.14,Python-markdown2 before 1.0.1.14 has multiple cross-site scripting (XSS) issues. See CVE-2009-3724.
+106,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2018-5773,<2.3.5,"An issue was discovered in markdown2 (aka python-markdown2) through 2.3.5. The safe_mode feature, which is supposed to sanitize user input against XSS, is flawed and does not escape the input properly. With a crafted payload, XSS can be triggered, as demonstrated by omitting the final '>' character from an IMG tag."
+107,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2023-59169,<2.4.3,"Markdown2 2.4.3 includes a fix for a ReDoS vulnerability.
+https://github.com/trentm/python-markdown2/pull/429"
+108,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2023-59182,<2.4.4,"Markdown2 2.4.4 includes a fix for an XSS vulnerability.
+https://github.com/trentm/python-markdown2/pull/434"
+109,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2023-59183,<2.4.4,"Markdown2 2.4.4 includes a fix for an XSS vulnerability.
+https://github.com/trentm/python-markdown2/pull/473"
+110,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2020-11888,<=2.3.8,"python-markdown2 through 2.3.8 allows XSS because element names are mishandled unless a \w+ match succeeds. For example, an attack might use elementname@ or elementname- with an onclick attribute."
+111,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2023-59235,<=2.4.9,"Markdown2 including 2.4.9 and all the previous versions are vulnerable to ReDoS attacks.
+https://github.com/trentm/python-markdown2/pull/494"
+112,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-26813,">=1.0.1.18,<2.4.0","Markdown2 2.4.0 includes a fix for CVE-2021-26813: markdown2 >=1.0.1.18, fixed in 2.4.0, is affected by a regular expression denial of service vulnerability. If an attacker provides a malicious string, it can make markdown2 processing difficult or delayed for an extended period of time."
+113,pangu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+114,matplotlib,>=3.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+115,opencc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2018-16982,">=0,<1.1.2",Open Chinese Convert (OpenCC) 1.0.5 allows attackers to cause a denial of service (segmentation fault) because BinaryDict::NewFromFile in BinaryDict.cpp may have out-of-bounds keyOffset and valueOffset values via a crafted .ocd file.
+116,einops,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+117,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2021-41708,<1.4.5,"Boto3 version 1.4.5 fixes an information exposure vulnerability: The boto logger boto3.resources.action, which propagates to root logger, logs the entire uploaded bytes at INFO level.
+https://github.com/boto/boto3/issues/1017"
+118,nltk,>=3.6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2019-14751,">=0,<3.4.5","NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing attackers to write arbitrary files via a (dot dot slash) in an NLTK package (ZIP archive) that is mishandled during extraction."
+119,nltk,>=3.6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-3828,">=0,<3.6.4",Nltk before 3.6.4 is vulnerable to Inefficient Regular Expression Complexity.
+120,nltk,>=3.6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-3842,">=0,<3.6.6",Nltk before 3.6.6 is vulnerable to Inefficient Regular Expression Complexity.
+121,rapidfuzz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+122,fasttext,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+123,gdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+124,ijson,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+125,megatron_core,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+126,ftfy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+127,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+128,sentence_transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+129,jieba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+130,faiss-cpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+131,flask_restful,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+132,sacrebleu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+133,rouge_score,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+134,kornia,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+135,nemo_text_processing,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+136,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+137,pypinyin,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+138,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,PVE-2023-54914,<3.6,"Nltk 3.6 includes a fix for a REDoS vulnerability.
+https://github.com/nltk/nltk/pull/2597"
+139,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-43854,<3.6.5,"Nltk 3.6.5 includes a fix for CVE-2021-43854: Versions prior to 3.6.5 are vulnerable to regular expression denial of service (ReDoS) attacks. The vulnerability is present in PunktSentenceTokenizer, sent_tokenize and word_tokenize. Any users of this class, or these two functions, are vulnerable to the ReDoS attack. In short, a specifically crafted long input to any of these vulnerable functions will cause them to take a significant amount of execution time. If your program relies on any of the vulnerable functions for tokenizing unpredictable user input, it's strongly recommended upgrading to a version of NLTK without the vulnerability. For users unable to upgrade the execution time can be bounded by limiting the maximum length of an input to any of the vulnerable functions.
+https://github.com/nltk/nltk/security/advisories/GHSA-f8m6-h2c7-8h9x
+https://github.com/nltk/nltk/issues/2866"
+140,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2019-14751,">=0,<3.4.5","NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing attackers to write arbitrary files via a (dot dot slash) in an NLTK package (ZIP archive) that is mishandled during extraction."
+141,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-3828,">=0,<3.6.4",Nltk before 3.6.4 is vulnerable to Inefficient Regular Expression Complexity.
+142,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,CVE-2021-3842,">=0,<3.6.6",Nltk before 3.6.6 is vulnerable to Inefficient Regular Expression Complexity.
+143,pypinyin-dict,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+144,attrdict,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+145,jiwer,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+146,textdistance,>=4.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+147,tabulate,>=0.8.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+148,progress,>=1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/setup.py,False,no one,no one,no one
+149,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,PVE-2022-51394,<1.1.1,"Joblib 1.1.1 fixes a security issue where 'eval(pre_dispatch)' could potentially run arbitrary code. Now only basic numerics are supported.
+https://github.com/joblib/joblib/pull/1327"
+150,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,CVE-2022-21797,<1.2.0,"Joblib 1.2.0 includes a fix for CVE-2022-21797: The package joblib from 0 and before 1.2.0 is vulnerable to Arbitrary Code Execution via the pre_dispatch flag in Parallel() class due to the eval() statement.
+https://github.com/joblib/joblib/issues/1128"
+151,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,PVE-2022-51041,<1.2.0,"Joblib 1.2.0 fixes a security issue where 'eval(pre_dispatch)' could potentially run arbitrary code. Now only basic numerics are supported.
+https://github.com/joblib/joblib/pull/1327"
+152,requests_oauthlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,no one,no one,no one
+153,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,no one,no one,no one
+154,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,CVE-2014-1830,<2.3.0,Requests before 2.3.0 exposes Authorization or Proxy-Authorization headers on redirect. This fixes CVE-2014-1830.
+155,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,CVE-2014-1829,<2.3.0,Requests before 2.3.0 exposes Authorization or Proxy-Authorization headers on redirect. See: CVE-2014-1829.
+156,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,CVE-2018-18074,<=2.19.1,"Requests before 2.20.0 sends an HTTP Authorization header to an http URI upon receiving a same-hostname https-to-http redirect, which makes it easier for remote attackers to discover credentials by sniffing the network."
+157,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,CVE-2015-2296,">=2.1,<=2.5.3",The resolve_redirects function in sessions.py in requests 2.1.0 through 2.5.3 allows remote attackers to conduct session fixation attacks via a cookie without a host value in a redirect.
+158,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,CVE-2023-32681,">=2.3.0,<2.31.0","Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use 'rebuild_proxies' to reattach the 'Proxy-Authorization' header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the 'Proxy-Authorization' header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.
+
+"
+159,sox,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/scripts/freesound_download_resample/freesound_requirements.txt,False,no one,no one,no one
+160,jiwer,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,no one,no one,no one
+161,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+162,dash_bootstrap_components,>=1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,no one,no one,no one
+163,editdistance,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,no one,no one,no one
+164,librosa,>=0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,no one,no one,no one
+165,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+166,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+167,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+168,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+169,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+170,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+171,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+172,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+173,SoundFile,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,no one,no one,no one
+174,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2017-1000006,<1.12.6,"Plotly 1.12.6 includes Plotly.js v1.16.2, which fixes a potential XSS vulnerability in 'text' fields.
+https://github.com/plotly/plotly.js/pull/736
+https://plotly.com/chart-studio-help/security-advisories/2016-08-08-plotlyjs-xss-advisory/"
+175,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2015-9242,<1.9.6,"Plotly 1.9.6 includes plotly.js version 1.5.2, which contains security fixes."
+176,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2015-8858,<1.9.6,"Plotly 1.9.6 includes plotly.js version 1.5.2, which contains security fixes."
+177,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,PVE-2021-37052,<2.0.7,"Plotly 2.0.7 includes Plotly.js 1.25.0, which contains a fix for an XSS vulnerability in a trace name on hover.
+https://github.com/plotly/plotly.js/pull/1307"
+178,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2019-10775,<4.8.2,"Plotly 4.8.2 includes plotly.js version 1.54.5, which contains a security fix of a transitive dependency (ecstatic)."
+179,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,CVE-2020-7598,<4.9.0,Plotly 4.9.0 builds Javascript extensions using Node 12 with an updated 'package-lock.json' that has many fewer security warnings.
+180,diff_match_patch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,no one,no one,no one
+181,dash,>=2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/speech_data_explorer/requirements.txt,False,no one,no one,no one
+182,gunicorn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,PVE-2021-40104,"<19.10.0,>=20.0.0,<20.0.1","Gunicorn 20.0.1 fixes chunked encoding support to prevent http request smuggling attacks.
+https://github.com/benoitc/gunicorn/issues/2176
+https://github.com/p4k03n4t0r/http-request-smuggling#request-smuggling-using-mitmproxy-and-gunicorn"
+183,gunicorn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,PVE-2021-40103,<19.4.0,Gunicorn 19.4.0 includes a security fix to raise 'InvalidRequestLine' exception when the line contains malicious data.
+184,gunicorn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,CVE-2018-1000164,<19.5.0,"Gunicorn 19.5.0 includes a fix for CVE-2018-1000164: gunicorn version 19.4.5 contains a CWE-113 - Improper Neutralization of CRLF Sequences in HTTP Headers vulnerability in ""process_headers"" function in ""gunicorn/http/wsgi.py"" that can result in an attacker causing the server to return arbitrary HTTP headers."
+185,nemo_toolkit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,no one,no one,no one
+186,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,CVE-2019-1010083,<0.12.3,"Flask 0.12.3 includes a fix for CVE-2019-1010083: Unexpected memory usage. The impact is denial of service. The attack vector is crafted encoded JSON data. NOTE: this may overlap CVE-2018-1000656.
+https://github.com/pallets/flask/pull/2695/commits/0e1e9a04aaf29ab78f721cfc79ac2a691f6e3929"
+187,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,CVE-2018-1000656,<0.12.3,flask version Before 0.12.3 contains a CWE-20: Improper Input Validation vulnerability in flask that can result in Large amount of memory usage possibly leading to denial of service. This attack appear to be exploitable via Attacker provides JSON data in incorrect encoding. This vulnerability appears to have been fixed in 0.12.3.
+188,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,PVE-2021-25820,<0.6.1,flask 0.6.1 fixes a security problem that allowed clients to download arbitrary files  if the host server was a windows based operating system and the client  uses backslashes to escape the directory the files where exposed from.
+189,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,CVE-2023-30861,"<2.2.5,>=2.3.0,<2.3.2","Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches 'Set-Cookie' headers, it may send one client's 'session' cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.
+
+1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.
+2. The application sets 'session.permanent = True'
+3. The application does not access or modify the session at any point during a request.
+4. 'SESSION_REFRESH_EACH_REQUEST' enabled (the default).
+5. The application does not set a 'Cache-Control' header to indicate that a page is private or should not be cached.
+
+This happens because vulnerable versions of Flask only set the 'Vary: Cookie' header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5."
+190,flask-cors,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/asr_webapp/requirements.txt,False,CVE-2020-25032,<3.0.9,Flask-CORS before 3.0.9 allows ../ directory traversal to access private resources because resource matching does not ensure that pathnames are in a canonical format. See CVE-2020-25032.
+191,prettyprinter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nemo_forced_aligner/requirements.txt,False,no one,no one,no one
+192,nemo_toolkit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nemo_forced_aligner/requirements.txt,False,no one,no one,no one
+193,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nemo_forced_aligner/requirements.txt,False,no one,no one,no one
+194,nemo_text_processing,==0.1.6rc0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/ctc_segmentation/requirements.txt,False,no one,no one,no one
+195,num2words,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/ctc_segmentation/requirements.txt,False,no one,no one,no one
+196,ctc_segmentation,==1.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/ctc_segmentation/requirements.txt,False,no one,no one,no one
+197,nemo_toolkit,>=1.0.0rc1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nmt_webapp/requirements.txt,False,no one,no one,no one
+198,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nmt_webapp/requirements.txt,False,CVE-2019-1010083,<0.12.3,"Flask 0.12.3 includes a fix for CVE-2019-1010083: Unexpected memory usage. The impact is denial of service. The attack vector is crafted encoded JSON data. NOTE: this may overlap CVE-2018-1000656.
+https://github.com/pallets/flask/pull/2695/commits/0e1e9a04aaf29ab78f721cfc79ac2a691f6e3929"
+199,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nmt_webapp/requirements.txt,False,CVE-2018-1000656,<0.12.3,flask version Before 0.12.3 contains a CWE-20: Improper Input Validation vulnerability in flask that can result in Large amount of memory usage possibly leading to denial of service. This attack appear to be exploitable via Attacker provides JSON data in incorrect encoding. This vulnerability appears to have been fixed in 0.12.3.
+200,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nmt_webapp/requirements.txt,False,PVE-2021-25820,<0.6.1,flask 0.6.1 fixes a security problem that allowed clients to download arbitrary files  if the host server was a windows based operating system and the client  uses backslashes to escape the directory the files where exposed from.
+201,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nmt_webapp/requirements.txt,False,CVE-2023-30861,"<2.2.5,>=2.3.0,<2.3.2","Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches 'Set-Cookie' headers, it may send one client's 'session' cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.
+
+1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.
+2. The application sets 'session.permanent = True'
+3. The application does not access or modify the session at any point during a request.
+4. 'SESSION_REFRESH_EACH_REQUEST' enabled (the default).
+5. The application does not set a 'Cache-Control' header to indicate that a page is private or should not be cached.
+
+This happens because vulnerable versions of Flask only set the 'Vary: Cookie' header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5."
+202,flask_cors,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/tools/nmt_webapp/requirements.txt,False,no one,no one,no one
+203,sacremoses,>=0.0.43,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_common.txt,False,no one,no one,no one
+204,youtokentome,>=1.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_common.txt,False,no one,no one,no one
+205,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_common.txt,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+206,sentencepiece,<1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_common.txt,False,no one,no one,no one
+207,inflect,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_common.txt,False,no one,no one,no one
+208,pydantic,<2,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_common.txt,False,CVE-2021-29510,">=1.8.0a1,<1.8.2,>=1.7.0a0,<1.7.4,<1.6.2","Pydantic 1.8.2, 1.7.4 and 1.6.2 include a fix for CVE-2021-29510: In affected versions of Pydantic passing either `'infinity'`, `'inf'` or `float('inf')` (or their negatives) to `datetime` or `date` fields causes validation to run forever with 100% CPU usage (on one CPU). Pydantic has been patched with fixes available in the following versions: v1.8.2, v1.7.4, v1.6.2. All these versions are available on pypi(https://pypi.org/project/pydantic/#history), and will be available on conda-forge(https://anaconda.org/conda-forge/pydantic) soon. See the changelog(https://pydantic-docs.helpmanual.io/) for details. If you absolutely can't upgrade, you can work around this risk using a validator(https://pydantic-docs.helpmanual.io/usage/validators/) to catch these values. This is not an ideal solution (in particular you'll need a slightly different function for datetimes), instead of a hack like this you should upgrade pydantic. If you are not using v1.8.x, v1.7.x or v1.6.x and are unable to upgrade to a fixed version of pydantic, please create an issue at https://github.com/samuelcolvin/pydantic/issues requesting a back-port, and we will endeavour to release a patch for earlier versions of pydantic."
+209,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_slu.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+210,jiwer,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_slu.txt,False,no one,no one,no one
+211,textdistance,>=4.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_slu.txt,False,no one,no one,no one
+212,tabulate,>=0.8.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_slu.txt,False,no one,no one,no one
+213,progress,>=1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_slu.txt,False,no one,no one,no one
+214,pytorch-lightning,">=1.9.0,<=1.9.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2021-4118,">=0,<1.6.0",Pytorch-lightning before 1.6.0 is vulnerable to Deserialization of Untrusted Data.
+215,pytorch-lightning,">=1.9.0,<=1.9.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2022-0845,">=0,<1.6.0","PyTorch Lightning version 1.5.10 and prior is vulnerable to code injection. An attacker could execute commands on the target OS running the operating system by setting the `PL_TRAINER_GPUS` when using the `Trainer` module. A [patch](https://github.com/pytorchlightning/pytorch-lightning/commit/8b7a12c52e52a06408e9231647839ddb4665e8ae) is included in the `1.6.0` release.
+Affected functions:
+pytorch_lightning.utilities.argparse.parse_env_variables"
+216,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,PVE-2022-47988,<0.12.12,"Wandb 0.12.12 fixes an unsafe temporary file creation vulnerability.
+https://github.com/wandb/client/pull/3360"
+217,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2021-33503,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+218,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2020-7212,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+219,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2020-11078,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+220,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2020-26137,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+221,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2020-13757,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+222,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2020-25658,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+223,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2021-21240,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+224,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,PVE-2021-37149,<0.8.0,Socket in wandb 0.8.0 only binds to localhost for improved security and prevents firewall warnings in OSX.
+225,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2017-18342,<0.8.2,"Wandb 0.8.2 updates the pyyaml requirement to address a CVE. No CVE number was mentioned, but it is probably CVE-2017-18342."
+226,torchmetrics,>=0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,no one,no one,no one
+227,hydra-core,">=1.2.0,<1.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,no one,no one,no one
+228,webdataset,">=0.1.48,<=0.1.62",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,no one,no one,no one
+229,omegaconf,">=2.2,<2.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,no one,no one,no one
+230,transformers,>=4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+231,transformers,>=4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+232,transformers,>=4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_lightning.txt,False,PVE-2021-40187,<4.5.0,Transformers 4.5.0 includes various vulnerability fixes.
+233,kornia,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+234,nemo_text_processing,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+235,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+236,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+237,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+238,einops,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+239,pypinyin,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+240,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,PVE-2023-54914,<3.6,"Nltk 3.6 includes a fix for a REDoS vulnerability.
+https://github.com/nltk/nltk/pull/2597"
+241,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,CVE-2021-43854,<3.6.5,"Nltk 3.6.5 includes a fix for CVE-2021-43854: Versions prior to 3.6.5 are vulnerable to regular expression denial of service (ReDoS) attacks. The vulnerability is present in PunktSentenceTokenizer, sent_tokenize and word_tokenize. Any users of this class, or these two functions, are vulnerable to the ReDoS attack. In short, a specifically crafted long input to any of these vulnerable functions will cause them to take a significant amount of execution time. If your program relies on any of the vulnerable functions for tokenizing unpredictable user input, it's strongly recommended upgrading to a version of NLTK without the vulnerability. For users unable to upgrade the execution time can be bounded by limiting the maximum length of an input to any of the vulnerable functions.
+https://github.com/nltk/nltk/security/advisories/GHSA-f8m6-h2c7-8h9x
+https://github.com/nltk/nltk/issues/2866"
+242,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,CVE-2019-14751,">=0,<3.4.5","NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing attackers to write arbitrary files via a (dot dot slash) in an NLTK package (ZIP archive) that is mishandled during extraction."
+243,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,CVE-2021-3828,">=0,<3.6.4",Nltk before 3.6.4 is vulnerable to Inefficient Regular Expression Complexity.
+244,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,CVE-2021-3842,">=0,<3.6.6",Nltk before 3.6.6 is vulnerable to Inefficient Regular Expression Complexity.
+245,pypinyin-dict,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+246,jieba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+247,attrdict,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_tts.txt,False,no one,no one,no one
+248,pyannote.core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+249,g2p_en,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+250,pydub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+251,marshmallow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,CVE-2018-17175,"<2.15.1,>=3.0.0a0,<3.0.0b9","In the marshmallow library before 2.15.1 and 3.x before 3.0.0b9 for Python, the schema ""only"" option treats an empty list as implying no ""only"" option, which allows a request that was intended to expose no fields to instead expose all fields (if the schema is being filtered dynamically using the ""only"" option, and there is a user role that produces an empty value for ""only"")."
+252,sox,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+253,ruamel.yaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+254,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+255,braceexpand,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+256,kaldiio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+257,texterrors,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+258,jiwer,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+259,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+260,ipywidgets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,PVE-2022-50664,<8.0.0,"Ipywidgets 8.0.0 sanitizes descriptions by default.
+https://github.com/jupyter-widgets/ipywidgets/pull/2785"
+261,ipywidgets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,PVE-2022-50463,<8.0.0rc2,"Ipywidgets 8.0.0rc2 makes descriptions plaintext by default for security.
+https://github.com/jupyter-widgets/ipywidgets/pull/2785"
+262,pyannote.metrics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+263,soundfile,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+264,scipy,>=0.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+265,editdistance,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+266,librosa,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+267,kaldi-python-io,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_asr.txt,False,no one,no one,no one
+268,onnx,>=1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,CVE-2022-25882,<1.13.0,Onnx 1.13.0 includes a fix for CVE-2022-25882: Versions of the package onnx before 1.13.0 are vulnerable to Directory Traversal as the external_data field of the tensor proto can have a path to the file which is outside the model current directory or user-provided directory.
+269,wrapt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+270,tqdm,>=4.41.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+271,python-dateutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+272,ruamel.yaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+273,numba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,PVE-2021-38983,<0.49.0,"Numba 0.49.0 fixes a frame injection vulnerability in the dispatcher tracing path, that lead to DoS."
+274,setuptools,==65.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+275,wget,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+276,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+277,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+278,text-unidecode,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+279,huggingface_hub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,no one,no one,no one
+280,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+281,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+282,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+283,numpy,">=1.22,<1.24",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+284,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,PVE-2021-25884,<1.0.1.14,markdown2 before 1.0.1.14 has a security hole in the md5-hashing scheme for handling HTML  chunks during processing.
+285,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2009-3724,<1.0.1.14,Python-markdown2 before 1.0.1.14 has multiple cross-site scripting (XSS) issues. See CVE-2009-3724.
+286,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2018-5773,<2.3.5,"An issue was discovered in markdown2 (aka python-markdown2) through 2.3.5. The safe_mode feature, which is supposed to sanitize user input against XSS, is flawed and does not escape the input properly. With a crafted payload, XSS can be triggered, as demonstrated by omitting the final '>' character from an IMG tag."
+287,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,PVE-2023-59169,<2.4.3,"Markdown2 2.4.3 includes a fix for a ReDoS vulnerability.
+https://github.com/trentm/python-markdown2/pull/429"
+288,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,PVE-2023-59182,<2.4.4,"Markdown2 2.4.4 includes a fix for an XSS vulnerability.
+https://github.com/trentm/python-markdown2/pull/434"
+289,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,PVE-2023-59183,<2.4.4,"Markdown2 2.4.4 includes a fix for an XSS vulnerability.
+https://github.com/trentm/python-markdown2/pull/473"
+290,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2020-11888,<=2.3.8,"python-markdown2 through 2.3.8 allows XSS because element names are mishandled unless a \w+ match succeeds. For example, an attack might use elementname@ or elementname- with an onclick attribute."
+291,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,PVE-2023-59235,<=2.4.9,"Markdown2 including 2.4.9 and all the previous versions are vulnerable to ReDoS attacks.
+https://github.com/trentm/python-markdown2/pull/494"
+292,markdown2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2021-26813,">=1.0.1.18,<2.4.0","Markdown2 2.4.0 includes a fix for CVE-2021-26813: markdown2 >=1.0.1.18, fixed in 2.4.0, is affected by a regular expression denial of service vulnerability. If an attacker provides a malicious string, it can make markdown2 processing difficult or delayed for an extended period of time."
+293,pangu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+294,matplotlib,>=3.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+295,opencc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2018-16982,">=0,<1.1.2",Open Chinese Convert (OpenCC) 1.0.5 allows attackers to cause a denial of service (segmentation fault) because BinaryDict::NewFromFile in BinaryDict.cpp may have out-of-bounds keyOffset and valueOffset values via a crafted .ocd file.
+296,einops,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+297,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,PVE-2021-41708,<1.4.5,"Boto3 version 1.4.5 fixes an information exposure vulnerability: The boto logger boto3.resources.action, which propagates to root logger, logs the entire uploaded bytes at INFO level.
+https://github.com/boto/boto3/issues/1017"
+298,nltk,>=3.6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2019-14751,">=0,<3.4.5","NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing attackers to write arbitrary files via a (dot dot slash) in an NLTK package (ZIP archive) that is mishandled during extraction."
+299,nltk,>=3.6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2021-3828,">=0,<3.6.4",Nltk before 3.6.4 is vulnerable to Inefficient Regular Expression Complexity.
+300,nltk,>=3.6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,CVE-2021-3842,">=0,<3.6.6",Nltk before 3.6.6 is vulnerable to Inefficient Regular Expression Complexity.
+301,rapidfuzz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+302,fasttext,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+303,gdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+304,ijson,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+305,megatron_core,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+306,ftfy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+307,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+308,sentence_transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+309,jieba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+310,faiss-cpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+311,flask_restful,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+312,sacrebleu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+313,rouge_score,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_nlp.txt,False,no one,no one,no one
+314,sphinxcontrib-bibtex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+315,wrapt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+316,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,PVE-2022-47988,<0.12.12,"Wandb 0.12.12 fixes an unsafe temporary file creation vulnerability.
+https://github.com/wandb/client/pull/3360"
+317,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2021-33503,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+318,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2020-7212,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+319,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2020-11078,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+320,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2020-26137,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+321,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2020-13757,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+322,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2020-25658,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+323,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2021-21240,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+324,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,PVE-2021-37149,<0.8.0,Socket in wandb 0.8.0 only binds to localhost for improved security and prevents firewall warnings in OSX.
+325,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2017-18342,<0.8.2,"Wandb 0.8.2 updates the pyyaml requirement to address a CVE. No CVE number was mentioned, but it is probably CVE-2017-18342."
+326,ruamel.yaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+327,black,==19.10b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+328,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+329,click,==8.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+330,wget,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+331,isort,">5.1.0,<6.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+332,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+333,parameterized,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,no one,no one,no one
+334,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+335,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_test.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+336,sphinxcontrib-bibtex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one
+337,wrapt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one
+338,urllib3,<2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2020-7212,">=1.25.2,<=1.25.7","The _encode_invalid_chars function in util/url.py in the urllib3 library 1.25.2 through 1.25.7 for Python allows a denial of service (CPU consumption) because of an inefficient algorithm. The percent_encodings array contains all matches of percent encodings. It is not deduplicated. For a URL of length N, the size of percent_encodings may be up to O(N). The next step (normalize existing percent-encoded bytes) also takes up to O(N) for each step, so the total time is O(N^2). If percent_encodings were deduplicated, the time to compute _encode_invalid_chars would be O(kN), where k is at most 484 ((10+6*2)^2). See: CVE-2020-7212."
+339,urllib3,<2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2021-28363,">=1.26.0,<1.26.4","Urllib3 1.26.4 includes a fix for CVE-2021-28363: The urllib3 library 1.26.x before 1.26.4 for Python omits SSL certificate validation in some cases involving HTTPS to HTTPS proxies. The initial connection to the HTTPS proxy (if an SSLContext isn't given via proxy_config) doesn't verify the hostname of the certificate. This means certificates for different servers that still validate properly with the default urllib3 SSLContext will be silently accepted.
+https://github.com/urllib3/urllib3/security/advisories/GHSA-5phf-pp7p-vc2r"
+340,Jinja2,<3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2019-10906,">=0,<2.10.1","In Pallets Jinja before 2.10.1, str.format_map allows a sandbox escape."
+341,Jinja2,<3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2014-0012,">=0,<2.7.3","FileSystemBytecodeCache in Jinja2 2.7.2 does not properly create temporary directories, which allows local users to gain privileges by pre-creating a temporary directory with a user's uid.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-1402."
+342,pydata-sphinx-theme,==0.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one
+343,sphinx-copybutton,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one
+344,latexcodec,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one
+345,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+346,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+347,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+348,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+349,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+350,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+351,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+352,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+353,sphinxext-opengraph,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one
+354,sphinx-book-theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one
+355,Sphinx,">=4.0,<6,!=5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/NeMo/requirements/requirements_docs.txt,False,no one,no one,no one

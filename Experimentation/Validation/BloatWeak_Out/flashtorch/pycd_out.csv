@@ -1,0 +1,7 @@
+,dep,version,filepath,type,condition,status
+0,matplotlib,==*,/home/daniele/git/Validation/Repo/flashtorch/setup.py,install_requires,@*,*
+1,numpy,==*,/home/daniele/git/Validation/Repo/flashtorch/setup.py,install_requires,@*,*
+2,Pillow,==*,/home/daniele/git/Validation/Repo/flashtorch/setup.py,install_requires,@*,*
+3,torch,==*,/home/daniele/git/Validation/Repo/flashtorch/setup.py,install_requires,@*,*
+4,torchvision,==*,/home/daniele/git/Validation/Repo/flashtorch/setup.py,install_requires,@*,*
+5,importlib_resources,==*,/home/daniele/git/Validation/Repo/flashtorch/setup.py,install_requires,@*,*

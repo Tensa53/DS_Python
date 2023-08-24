@@ -1,0 +1,8 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,pbkdf2,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,True,no one,no one,no one
+1,scapy,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,False,CVE-2019-1010142,<2.4.1,"Scapy 2.4.1 includes a fix for CVE-2019-1010142: Denial of Service. The impact is infinite loop, resource consumption and program unresponsive. The component affected component is '_RADIUSAttrPacketListField.getfield(self..)'. The attack vector is over the network or a malicious pcap.
+https://github.com/secdev/scapy/pull/1409/commits/0d7ae2b039f650a40e511d09eb961c782da025d9"
+2,tornado,>=5.0.0,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,False,CVE-2023-28370,<6.3.2,Tornado 6.3.2 includes a fix for CVE-2023-28370: Open redirect vulnerability in Tornado versions 6.3.1 and earlier allows a remote unauthenticated attacker to redirect a user to an arbitrary web site and conduct a phishing attack by having user access a specially crafted URL.
+3,tornado,>=5.0.0,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,False,CVE-2014-9720,">=0,<3.2.2","Tornado before 3.2.2 sends arbitrary responses that contain a fixed CSRF token and may be sent with HTTP compression, which makes it easier for remote attackers to conduct a BREACH attack and determine this token via a series of crafted requests."
+4,roguehostapd,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,False,no one,no one,no one
+5,pyric,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,False,no one,no one,no one

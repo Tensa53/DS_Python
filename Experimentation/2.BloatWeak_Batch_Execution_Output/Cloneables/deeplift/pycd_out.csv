@@ -1,0 +1,7 @@
+,dep,version,filepath,type,condition,status
+0,numpy,>=1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/deeplift/setup.py,install_requires,(__name__ == '__main__')@*,*
+1,tensorflow,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/deeplift/setup.py,extras_require,(__name__ == '__main__')@*,*
+2,tensorflow-gpu,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/deeplift/setup.py,extras_require,(__name__ == '__main__')@*,*
+3,tensorflow-gpu,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/deeplift/deeplift.egg-info/requires.txt,*,*@*,*
+4,tensorflow,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/deeplift/deeplift.egg-info/requires.txt,*,*@*,*
+5,numpy,>=1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/deeplift/deeplift.egg-info/requires.txt,*,*@*,*

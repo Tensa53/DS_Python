@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/requirements-test.txt,*,*@*,*
+1,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/requirements-test.txt,*,*@*,*
+2,ninja,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/requirements.txt,*,*@*,*
+3,torch,>=1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/requirements.txt,*,*@*,*
+4,cupy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/DrQA/requirements.txt,*,*@*,*
+5,pynvrtc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/DrQA/requirements.txt,*,*@*,*
+6,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/DrQA/requirements.txt,*,*@*,*
+7,msgpack-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/DrQA/requirements.txt,*,*@*,*
+8,spacy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/DrQA/requirements.txt,*,*@*,*
+9,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/sru/DrQA/requirements.txt,*,*@*,*

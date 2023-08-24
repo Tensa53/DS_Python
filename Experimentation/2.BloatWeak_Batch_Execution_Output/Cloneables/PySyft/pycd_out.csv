@@ -1,0 +1,30 @@
+,dep,version,filepath,type,condition,status
+0,flask_shell2http,==1.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/grid/vpn/requirements.txt,*,*@*,*
+1,flask,==2.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/grid/vpn/requirements.txt,*,*@*,*
+2,ansible,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,@(platform.system().lower() != 'windows')@*,*
+3,ansible-core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,@(platform.system().lower() != 'windows')@*,*
+4,ascii_magic,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+5,click,>=7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+6,cryptography,>=37.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+7,gitpython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+8,jinja2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+9,names,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+10,packaging,>=21.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+11,paramiko,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+12,pyOpenSSL,>=22.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+13,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+14,rich,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+15,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+16,virtualenv-api,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+17,virtualenv,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+18,PyYAML,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+19,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+20,gevent,==22.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/packages/hagrid/setup.py,install_requires,*@*,*
+21,sphinx-copybutton,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*
+22,sphinx,==4.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*
+23,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*
+24,sphinx-panels,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*
+25,sphinx-autoapi,==1.8.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*
+26,ipython,==8.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*
+27,pydata-sphinx-theme,==0.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*
+28,sphinx-code-include,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/PySyft/docs/requirements.txt,*,*@*,*

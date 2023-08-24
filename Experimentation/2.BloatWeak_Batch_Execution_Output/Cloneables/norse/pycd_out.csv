@@ -1,0 +1,17 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/requirements.txt,*,*@*,*
+1,torch,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/requirements.txt,*,*@*,*
+2,nirtorch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/requirements.txt,*,*@*,*
+3,nir,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/requirements.txt,*,*@*,*
+4,torchvision,>=0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/requirements.txt,*,*@*,*
+5,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/setup.py,setup_requires,@*,*
+6,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/setup.py,setup_requires,@*,*
+7,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/setup.py,setup_requires,@*,*
+8,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*
+9,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*
+10,pytorch-lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*
+11,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*
+12,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*
+13,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*
+14,jupyter-book,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*
+15,sphinx-hoverxref,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/norse/docs/requirements.txt,*,*@*,*

@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,pysoundfile,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepXi/requirements.txt,*,*@*,*
+1,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepXi/requirements.txt,*,*@*,*
+2,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepXi/requirements.txt,*,*@*,*
+3,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepXi/requirements.txt,*,*@*,*
+4,tensorflow-addons,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepXi/requirements.txt,*,*@*,*

@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,mpmath,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+1,onnx,==1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+2,onnxruntime,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+3,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+4,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+5,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+6,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+7,pillow,>=8.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+8,pycddlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*
+9,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/eran/requirements.txt,*,*@*,*

@@ -1,0 +1,17 @@
+,dep,version,filepath,type,condition,status
+0,theano,>= 1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+1,scipy,>= 0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+2,scikit-learn,>= 1,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+3,ipython,>= 3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+4,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+5,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+6,pandas,>= 0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+7,numpy,>= 1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+8,matplotlib,>= 1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+9,root_numpy,>= 3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/requirements.txt,*,*@*,*
+10,numpy,>= 1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/setup.py,install_requires,@*,*
+11,scipy,>= 0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/setup.py,install_requires,@*,*
+12,pandas,>= 0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/setup.py,install_requires,@*,*
+13,scikit-learn,>= 0.19,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/setup.py,install_requires,@*,*
+14,theano,>= 1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/setup.py,install_requires,@*,*
+15,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/hep_ml/setup.py,install_requires,@*,*

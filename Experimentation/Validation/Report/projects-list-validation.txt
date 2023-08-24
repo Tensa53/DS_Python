@@ -1,0 +1,10 @@
+deepmedic
+fancyimpute
+flashtorch
+lucent
+mcfly
+mycli
+python-fire
+rembg
+voltron
+wifiphisher

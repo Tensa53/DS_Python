@@ -1,0 +1,8 @@
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+0,adeptRL,16,4,7,3,483
+9,cleverhans,51,4,20,0,3390
+11,Cornell-Conversational-Analysis-Toolkit,27,4,11,0,21
+40,lucent,14,4,8,2,78
+48,M-LOOP,21,4,15,3,1247
+51,nnUNet,21,4,7,0,20
+62,submarine,58,4,26,2,999

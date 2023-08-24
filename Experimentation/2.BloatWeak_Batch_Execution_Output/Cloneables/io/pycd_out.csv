@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/setup.py,extras_require,@*,*
+1,tensorflow-gpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/setup.py,extras_require,@*,*
+3,tensorflow-cpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/setup.py,extras_require,@*,*
+5,tensorflow-rocm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/setup.py,extras_require,@*,*
+7,tensorflow-aarch64,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/setup.py,extras_require,@*,*
+8,pyupgrade,==2.29.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/tools/lint/requirements.txt,*,"*@python_version>=""3.6"" and sys.platform!=""win32""",*
+9,black,==21.10b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/tools/lint/requirements.txt,*,"*@python_version>=""3.6"" and sys.platform!=""win32""",*
+10,greenlet,==0.4.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/tests/test_gcloud/testbench/requirements.txt,*,*@*,*
+11,flask,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/tests/test_gcloud/testbench/requirements.txt,*,*@*,*
+12,gevent,==20.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/tests/test_gcloud/testbench/requirements.txt,*,*@*,*
+13,gunicorn,==20.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/tests/test_gcloud/testbench/requirements.txt,*,*@*,*
+14,crc32c,==2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/io/tests/test_gcloud/testbench/requirements.txt,*,*@*,*

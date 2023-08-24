@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,cursor,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,@(sys.platform == 'win32')@*,*
+1,scruffington,>=0.3.6,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+2,flask,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+3,flask_restful,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+4,blessed,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+5,pygments,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+6,requests,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+7,requests_unixsocket,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+8,six,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*
+9,pysigset,==*,/home/daniele/git/Validation/Repo/voltron/setup.py,install_requires,*@*,*

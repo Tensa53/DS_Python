@@ -1,0 +1,25 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,gast,>=0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,False,no one,no one,no one
+1,scipy,>=0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+2,tfp-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,False,no one,no one,no one
+3,arviz,>=0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,False,no one,no one,no one
+4,pymc3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,False,no one,no one,no one
+5,tf-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,False,no one,no one,no one
+6,jupyter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one
+7,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one
+8,pytest-html,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one
+9,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one
+10,mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one
+11,jupyterlab,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,CVE-2021-21306,<3.0.8,Jupyterlab 3.0.8 updates its dependency 'marked' to v2.0.0 to address a vulnerability. See also <https://github.com/jupyterlab/jupyterlab/pull/9809>.
+12,jupyterlab,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,PVE-2021-41038,<3.1.0,Jupyterlab 3.1.0 upgrades the 'marked' dependency to fix a vulnerability.
+13,jupyterlab,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,PVE-2021-40969,<3.1.0b2,Jupyterlab 3.1.0b2 upgrades the 'marked' underlying dependency from '@jupyterlab/rendermime' with a known security vulnerability.
+14,jupyterlab,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,CVE-2021-32797,">=3.1.0a0,<3.1.4,>=3.0.0a0,<3.0.17,>=2.3.0a0,<2.3.2,>=2.2.0a0,<2.2.10,<1.2.21","Jupyterlab versions 3.1.4, 3.0.17, 2.3.2, 2.2.10 and 1.2.21 include a fix for CVE-2021-32797: In affected versions, an untrusted notebook can execute code on load. In particular, jupyterlab doesn’t sanitize the action attribute of html ""<form>"". Using this it is possible to trigger the form validation outside of the form itself. This is a remote code execution, but requires user action to open a notebook.
+https://github.com/jupyterlab/jupyterlab/security/advisories/GHSA-4952-p58q-6crx
+https://github.com/jupyterlab/jupyterlab/commit/504825938c0abfa2fb8ff8d529308830a5ae42ed"
+15,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one
+16,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one
+17,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,PVE-2022-45185,<2.13.0,"Pylint 2.13.0 fixes a crash when using the doc_params extension.
+https://github.com/PyCQA/pylint/issues/5322"
+18,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,PVE-2021-38224,<2.5.0,"Pylint 2.5.0 no longer allows ``python -m pylint ...`` to import user code. Previously, it added the current working directory as the first element of ``sys.path``. This opened up a potential security hole where ``pylint`` would import user level code as long as that code resided in modules having the same name as stdlib or pylint's own modules."
+19,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,PVE-2021-39621,<2.7.0,Pylint 2.7.0 includes a fix for vulnerable regular expressions in 'pyreverse'.
+20,pydocstyle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,False,no one,no one,no one

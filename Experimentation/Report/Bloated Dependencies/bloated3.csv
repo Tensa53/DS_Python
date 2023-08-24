@@ -1,0 +1,9 @@
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+1,Adlik,152,3,38,0,1980
+3,ai-platform-samples,77,3,37,1,4281
+13,deepcell-tf,41,3,13,1,970
+27,graphbrain,21,3,7,1,28
+45,meta-dataset,23,3,9,2,987
+50,nflows,19,3,7,1,24
+56,pytorch-ts,11,3,5,1,9
+68,VideoSuperResolution,12,3,6,0,69

@@ -1,0 +1,64 @@
+,dep,version,filepath,type,condition,status
+0,Anneal,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/setup.py,extras_require,@*,*
+1,SMAC,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/setup.py,extras_require,@*,*
+2,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/setup.py,setup_requires,@*,*
+3,lightgbm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/nni/algorithms/feature_engineering/gbdt_selector/requirements.txt,*,*@*,*
+4,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/nni/algorithms/feature_engineering/gradient_selector/requirements.txt,*,*@*,*
+5,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/nni/algorithms/feature_engineering/gradient_selector/requirements.txt,*,*@*,*
+6,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/nni/algorithms/feature_engineering/gradient_selector/requirements.txt,*,*@*,*
+7,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/nni/algorithms/feature_engineering/gradient_selector/requirements.txt,*,*@*,*
+8,cloudpickle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+9,typeguard,>= 3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+10,PythonWebHDFS,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+11,scikit-learn,>= 0.24.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+12,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,"*@ python_version >= ""3.8""",*
+13,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+14,scipy,< 1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,"*@ python_version < ""3.8""",*
+15,responses,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+16,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+17,schema,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+18,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,"*@ python_version >= ""3.8""",*
+19,filelock,< 3.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+20,nvidia-ml-py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+21,colorama,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+22,pyyaml,>= 5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+23,typing_extensions,>= 4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+24,prettytable,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+25,astor,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+26,psutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+27,json_tricks,>= 3.15.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+28,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+29,websockets,>= 10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+30,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,*@*,*
+31,numpy,< 1.22,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required.txt,*,"*@ python_version < ""3.8""",*
+32,smac4nni,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required_extra.txt,*,*@*,*
+33,gym,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required_extra.txt,*,*@*,*
+34,pybnn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required_extra.txt,*,*@*,*
+35,ConfigSpace,>=0.4.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required_extra.txt,*,*@*,*
+36,ConfigSpaceNNI,>=0.4.7.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required_extra.txt,*,*@*,*
+37,hyperopt,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required_extra.txt,*,*@*,*
+38,statsmodels,>=0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/dependencies/required_extra.txt,*,*@*,*
+39,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nasbench201.requirements.txt,*,*@*,*
+40,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nasbench201.requirements.txt,*,*@*,*
+41,gdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nasbench201.requirements.txt,*,*@*,*
+42,peewee,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nasbench201.requirements.txt,*,*@*,*
+43,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nds.requirements.txt,*,*@*,*
+44,peewee,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nds.requirements.txt,*,*@*,*
+45,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nasbench101.requirements.txt,*,*@*,*
+46,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nasbench101.requirements.txt,*,*@*,*
+47,peewee,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nasbench101.requirements.txt,*,*@*,*
+48,peewee,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/nas/benchmarks/nlp.requirements.txt,*,*@*,*
+49,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/ga_squad/requirements.txt,*,*@*,*
+50,keras,>=2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/mnist-batch-tune-keras/requirements.txt,*,*@*,*
+51,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/network_morphism/requirements.txt,*,*@*,*
+52,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/network_morphism/requirements.txt,*,*@*,*
+53,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/network_morphism/requirements.txt,*,*@*,*
+54,Keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/network_morphism/requirements.txt,*,*@*,*
+55,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/network_morphism/requirements.txt,*,*@*,*
+56,pandas,>=1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/benchmarking/automlbenchmark/requirements.txt,*,*@*,*
+57,pyyaml,>=5.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/benchmarking/automlbenchmark/requirements.txt,*,*@*,*
+58,matplotlib,>=3.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/benchmarking/automlbenchmark/requirements.txt,*,*@*,*
+59,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/mnist-sharedstorage/requirements.txt,*,*@*,*
+60,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/mnist-sharedstorage/requirements.txt,*,*@*,*
+61,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/mnist-pytorch/requirements.txt,*,*@*,*
+62,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nni/examples/trials/mnist-pytorch/requirements.txt,*,*@*,*

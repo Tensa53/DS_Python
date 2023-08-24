@@ -1,0 +1,9 @@
+,dep,version,filepath,type,condition,status
+0,torch,>=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/requirements.txt,*,*@*,*
+1,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/requirements.txt,*,*@*,*
+2,wget,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/requirements.txt,*,*@*,*
+3,torchvision,>=0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/requirements.txt,*,*@*,*
+4,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/requirements.txt,*,*@*,*
+5,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/requirements.txt,*,*@*,*
+6,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/docs/requirements.txt,*,*@*,*
+7,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgan/docs/requirements.txt,*,*@*,*

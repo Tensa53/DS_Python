@@ -1,0 +1,116 @@
+*Executing BloatWeak for project n.1/10: deepmedic
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+This project has no bloated dependencies
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/deepmedic/ directory
+
+*Executing BloatWeak for project n.2/10: fancyimpute
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+cvxopt==* declared in: /home/daniele/git/Validation/Repo/fancyimpute/setup.py VULNERABLE!!!
+pytest==* declared in: /home/daniele/git/Validation/Repo/fancyimpute/setup.py
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/fancyimpute/ directory
+
+*Executing BloatWeak for project n.3/10: flashtorch
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+This project has no bloated dependencies
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/flashtorch/ directory
+
+*Executing BloatWeak for project n.4/10: lucent
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+future==* declared in: /home/daniele/git/Validation/Repo/lucent/setup.py VULNERABLE!!!
+pytest-mock==* declared in: /home/daniele/git/Validation/Repo/lucent/setup.py
+coverage==* declared in: /home/daniele/git/Validation/Repo/lucent/setup.py
+coveralls==* declared in: /home/daniele/git/Validation/Repo/lucent/setup.py VULNERABLE!!!
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/lucent/ directory
+
+*Executing BloatWeak for project n.5/10: mcfly
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+scipy>=0.11,<1.8.0 declared in: /home/daniele/git/Validation/Repo/mcfly/setup.py VULNERABLE!!!
+h5py==* declared in: /home/daniele/git/Validation/Repo/mcfly/setup.py
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/mcfly/ directory
+
+*Executing BloatWeak for project n.6/10: mycli
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+cryptography==36.0.2 declared in: /home/daniele/git/Validation/Repo/mycli/setup.py VULNERABLE!!!
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/mycli/ directory
+
+*Executing BloatWeak for project n.7/10: python-fire
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+enum34==* declared in: /home/daniele/git/Validation/Repo/python-fire/setup.py
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/python-fire/ directory
+
+*Executing BloatWeak for project n.8/10: rembg
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+scikit-image==* declared in: /home/daniele/git/Validation/Repo/rembg/setup.py
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/rembg/ directory
+
+*Executing BloatWeak for project n.9/10: voltron
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+flask_restful==* declared in: /home/daniele/git/Validation/Repo/voltron/setup.py
+pysigset==* declared in: /home/daniele/git/Validation/Repo/voltron/setup.py
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/voltron/ directory
+
+*Executing BloatWeak for project n.10/10: wifiphisher
+Directory already exists, output files are written in it
+PyCD output obtained in csv format (pycd_out.csv)
+Temporary installing unused dependencies
+SafetyDB filtered output obtained in csv format (safetyDB_out.csv)
+
+Bloated dependencies for your project:
+pbkdf2==* declared in: /home/daniele/git/Validation/Repo/wifiphisher/setup.py
+
+You can find all the detailed output in the files stored in /home/daniele/git/Validation/BloatWeak_Out/wifiphisher/ directory
+

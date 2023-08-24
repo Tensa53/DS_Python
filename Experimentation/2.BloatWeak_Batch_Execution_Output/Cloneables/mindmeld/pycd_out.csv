@@ -1,0 +1,96 @@
+,dep,version,filepath,type,condition,status
+0,flake8,==3.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+1,pandoc,==1.0.0b2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+2,mindmeld,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+3,sphinx_rtd_theme,==0.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+4,Sphinx,==1.7.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+5,nbsphinx,==0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+6,pylint,>=2.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+7,sphinx-autobuild,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+8,mock,==2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+9,pyyaml,>=5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/docs-requirements.txt,*,*@*,*
+10,jupyter_client,>=4.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+11,watchdog,==0.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+12,jupyter,>=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+13,setuptools,>=38.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+14,bumpversion,==0.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+15,wheel,>=0.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+16,jupyter_core,>=4.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+17,twine,>=1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/dev-requirements.txt,*,*@*,*
+18,ciscosparkapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+19,twilio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+20,tensorflow,~=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,"@ python_version < ""3.7""",*
+21,tensorflow,">=1.13.1,<2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,"@ python_version >= ""3.7""",*
+22,torch,~=1.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,"@ python_version>=""3.6""",*
+23,transformers,~=4.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,"@ python_version>=""3.6""",*
+24,sentence-transformers,~=0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,"@ python_version>=""3.6""",*
+25,elasticsearch,">=7.0,<7.14",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+26,connexion,>=2.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,"@ python_version>=""3.6""",*
+29,sentencepiece,==0.1.91,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+30,google-cloud-translate,>=3.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+31,elasticsearch,">=5.0,<7.14",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+32,matplotlib,~=3.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+33,pygit2,">=1.5.0,<1.7",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,"@ python_version < ""3.7""",*
+34,dvc,>=1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,extras_require,@*,*
+36,dataclasses,"<0.8,>=0.7",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,"*@ python_version >= ""3.6"" and python_version < ""3.7""",*
+37,aiohttp,>=3.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+38,attrs,>=18.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+39,Click,~=7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+40,click-log,==0.1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+41,distro,~=1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+43,Flask,">=1.1.3,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+44,Flask-Cors,~=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+45,future,~=0.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+46,pycountry,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+47,nltk,~=3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+48,numpy,~=1.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+49,pip,>=9.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+50,py,~=1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+51,python-dateutil,~=2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+52,pytz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+53,scipy,">=0.13.3,<2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+54,scikit-learn,">=0.18.1,<0.20",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,"*@ python_version < ""3.7""",*
+55,scikit-learn,~=1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,"*@ python_version >= ""3.7""",*
+56,requests,">=2.20.1,<3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+57,tqdm,~=4.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+58,immutables,~=0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+59,pyyaml,>=5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+60,spacy,"~=2.3,!=2.3.6",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+61,mypy,>=0.782,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+62,marshmallow,~=3.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+63,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+65,pytorch-crf,~=0.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+66,protobuf,~=3.19.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,install_requires,*@*,*
+67,pytest-runner,~=2.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,setup_requires,*@*,*
+68,setuptools,>=36,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,setup_requires,*@*,*
+69,flake8,==3.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,tests_require,*@*,*
+70,pylint,~=2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,tests_require,*@*,*
+71,pytest,==3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,tests_require,*@*,*
+72,pytest-cov,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,tests_require,*@*,*
+73,pytest-asyncio,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,tests_require,*@*,*
+74,black,>=19.10b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/setup.py,tests_require,*@ python_version >= '3.6',*
+75,pytest,>=5.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+76,flake8,==3.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+77,black,">=19.10b0,<22.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@ python_version >= '3.6',*
+78,pytest-cov,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+79,pylint,~=2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+80,pytest-asyncio,>=0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+81,pyyaml,>=5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+82,pytest-mock,>=1.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+83,mock,==2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+84,coverage,==4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+85,tox,==2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/test-requirements.txt,*,*@*,*
+86,mindmeld,==4.1.0rc3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/tests/kwik_e_mart/requirements.txt,*,*@*,*
+87,mindmeld,==4.1.0rc3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/tests/home_assistant/requirements.txt,*,*@*,*
+88,rasa_nlu,~=0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/tests/converter/rasa_sample_project/requirements.txt,*,*@*,*
+89,rasa_core,~=0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/tests/converter/rasa_sample_project/requirements.txt,*,*@*,*
+90,connexion,>= 2.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/requirements.txt,*,*@*,*
+91,setuptools,>= 21.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/requirements.txt,*,*@*,*
+92,python_dateutil,==2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/requirements.txt,*,*@*,*
+93,connexion,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/setup.py,install_requires,*@*,*
+94,nose,>=1.3.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/test-requirements.txt,*,*@*,*
+95,coverage,>=4.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/test-requirements.txt,*,*@*,*
+96,flask_testing,==0.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/test-requirements.txt,*,*@*,*
+97,py,>=1.4.31,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/test-requirements.txt,*,*@*,*
+98,randomize,>=0.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/test-requirements.txt,*,*@*,*
+99,pluggy,>=0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindmeld/examples/custom_action/example_server/test-requirements.txt,*,*@*,*

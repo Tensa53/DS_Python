@@ -1,0 +1,24 @@
+,dep,version,filepath,type,condition,status
+0,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,install_requires,(__name__ == '__main__')@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,install_requires,(__name__ == '__main__')@*,*
+2,torch,>=1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,install_requires,(__name__ == '__main__')@*,*
+3,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+4,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+5,ipywidgets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+6,jupyter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+7,flask-compress,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+8,torchtext,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+9,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+10,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+11,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+12,parameterized,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+13,black,==22.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+14,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+15,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+16,sphinx-autodoc-typehints,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+17,sphinxcontrib-katex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+18,mypy,>=0.760,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+19,usort,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+20,ufmt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+21,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*
+22,annoy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/captum/setup.py,extras_require,*@*,*

@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,pbkdf2,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,install_requires,*@*,*
+1,scapy,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,install_requires,*@*,*
+2,tornado,>=5.0.0,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,install_requires,*@*,*
+3,roguehostapd,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,install_requires,*@*,*
+4,pyric,==*,/home/daniele/git/Validation/Repo/wifiphisher/setup.py,install_requires,*@*,*

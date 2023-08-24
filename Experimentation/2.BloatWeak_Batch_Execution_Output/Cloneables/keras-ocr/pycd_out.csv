@@ -1,0 +1,9 @@
+,dep,version,filepath,type,condition,status
+0,sphinx,==2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*
+1,m2r,==0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*
+2,typing-extensions,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*
+3,sphinx-autodoc-typehints,==1.10.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*
+4,opencv-contrib-python-headless,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*
+5,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*
+6,sphinx-autobuild,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*
+7,sphinx_rtd_theme,==0.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-ocr/docs/requirements.txt,*,*@*,*

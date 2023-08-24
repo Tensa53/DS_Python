@@ -1,0 +1,7 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow-probability,~= 0.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/compression/requirements.txt,*,*@*,*
+1,scipy,~= 1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/compression/requirements.txt,*,*@*,*
+2,tensorflow,~= 2.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/compression/requirements.txt,*,*@*,*
+3,tensorflow-compression,==1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/compression/models/hific/requirements.txt,*,*@*,*
+4,tensorflow-gpu,~=1.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/compression/models/hific/requirements.txt,*,*@*,*
+5,Pillow,~=8.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/compression/models/hific/requirements.txt,*,*@*,*

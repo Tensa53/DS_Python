@@ -1,0 +1,294 @@
+,dep,version,filepath,type,condition,status
+0,black,==22.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_dev.txt,*,*@*,*
+1,pre-commit,>=2.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_dev.txt,*,*@*,*
+2,mypy,>=0.971,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_dev.txt,*,*@*,*
+3,flake8,==5.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_dev.txt,*,*@*,*
+4,isort,==5.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_dev.txt,*,*@*,*
+5,invoke,>=1.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_dev.txt,*,*@*,*
+6,jinja2,<3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+7,pytest-subtests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+8,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+9,docker,>= 5.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+10,pycodestyle,==2.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+11,netifaces,>= 0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+12,flake8,==5.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+13,itsdangerous,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+14,openai,>= 0.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+15,mysql-connector-python,==8.0.29,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements_test.txt,*,*@*,*
+16,itsdangerous,==2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+17,zipp,==3.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+18,MarkupSafe,==2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+19,importlib-metadata,==6.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+20,click,==8.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+21,Flask,==2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+22,Jinja2,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+23,cachetools,==5.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+24,Werkzeug,==2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/docker/handler_discovery/requirements.txt,*,*@*,*
+25,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/orioledb_handler/requirements.txt,*,*@*,*
+26,pyhive,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/trino_handler/requirements.txt,*,*@*,*
+27,trino,~=0.313.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/trino_handler/requirements.txt,*,*@*,*
+28,requests-kerberos,==0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/trino_handler/requirements.txt,*,*@*,*
+29,google-auth-oauthlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_fit_handler/requirements.txt,*,*@*,*
+30,tzlocal,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_fit_handler/requirements.txt,*,*@*,*
+31,google-api-python-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_fit_handler/requirements.txt,*,*@*,*
+32,pytz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_fit_handler/requirements.txt,*,*@*,*
+33,google,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_fit_handler/requirements.txt,*,*@*,*
+34,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/autosklearn_handler/requirements.txt,*,*@*,*
+35,auto-sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/autosklearn_handler/requirements.txt,*,*@*,*
+36,mindsdb-evaluator,>=0.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/autosklearn_handler/requirements.txt,*,*@*,*
+37,atlassian-python-api,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/confluence_handler/requirements.txt,*,*@*,*
+38,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/questdb_handler/requirements.txt,*,*@*,*
+39,bs4,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/web_handler/requirements.txt,*,*@*,*
+40,crate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/crate_handler/requirements.txt,*,*@*,*
+41,ibm-db-sa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/db2_handler/requirements.txt,*,*@*,*
+42,ibm-db,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/db2_handler/requirements.txt,*,*@*,*
+43,vertica-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/vertica_handler/requirements.txt,*,*@*,*
+44,sqlalchemy-vertica-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/vertica_handler/requirements.txt,*,*@*,*
+45,jaydebeapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/maxdb_handler/requirements.txt,*,*@*,*
+46,snowflake-connector-python,>=2.7.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/snowflake_handler/requirements.txt,*,*@*,*
+47,snowflake-sqlalchemy,>=1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/snowflake_handler/requirements.txt,*,*@*,*
+48,paypalrestsdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/paypal_handler/requirements.txt,*,*@*,*
+49,google-auth-oauthlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/gmail_handler/requirements.txt,*,*@*,*
+50,google-api-python-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/gmail_handler/requirements.txt,*,*@*,*
+51,google-auth-httplib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/gmail_handler/requirements.txt,*,*@*,*
+52,plaid-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/plaid_handler/requirements.txt,*,*@*,*
+53,praw,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/reddit_handler/requirements.txt,*,*@*,*
+54,google-cloud-spanner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/cloud_spanner_handler/requirements.txt,*,*@*,*
+55,monkeylearn,==3.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/monkeylearn_handler/requirements.txt,*,*@*,*
+56,mindsdb,>=22.10.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/monkeylearn_handler/requirements.txt,*,*@*,*
+57,protobuf,==3.20.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/phoenix_handler/requirements.txt,*,*@*,*
+58,pyphoenix,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/phoenix_handler/requirements.txt,*,*@*,*
+59,phoenixdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/phoenix_handler/requirements.txt,*,*@*,*
+60,jaydebeapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/derby_handler/requirements.txt,*,*@*,*
+61,db-dtypes,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/bigquery_handler/requirements.txt,*,*@*,*
+62,sqlalchemy-bigquery,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/bigquery_handler/requirements.txt,*,*@*,*
+63,google-cloud-bigquery,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/bigquery_handler/requirements.txt,*,*@*,*
+64,stravalib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/strava_handler/requirements.txt,*,*@*,*
+65,python-gitlab,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/gitlab_handler/requirements.txt,*,*@*,*
+66,ckanapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ckan_handler/requirements.txt,*,*@*,*
+67,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/vitess_handler/requirements.txt,*,*@*,*
+68,google-auth-oauthlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_search_handler/requirements.txt,*,*@*,*
+69,google-api-python-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_search_handler/requirements.txt,*,*@*,*
+70,google-auth-httplib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_search_handler/requirements.txt,*,*@*,*
+71,pydantic,==1.10.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+72,chromadb,==0.3.25,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+73,sentence_transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+74,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+75,duckdb,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+76,SQLAlchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+77,requests,==2.28.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+78,langchain,==0.0.186,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/writer_handler/requirements.txt,*,*@*,*
+79,flaml,<=1.2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/flaml_handler/requirements.txt,*,*@*,*
+80,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/flaml_handler/requirements.txt,*,*@*,*
+81,clickhouse-sqlalchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/databend_handler/requirements.txt,*,*@*,*
+82,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/yugabyte_handler/requirements.txt,*,*@*,*
+83,duckdb,==0.7.1.dev187,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/duckdb_handler/requirements.txt,*,*@*,*
+84,pyodbc,==4.0.34,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/hsqldb_handler/requirements.txt,*,*@*,*
+85,pyodbc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/access_handler/requirements.txt,*,*@*,*
+86,sqlalchemy-access,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/access_handler/requirements.txt,*,*@*,*
+87,teradatasql,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/teradata_handler/requirements.txt,*,*@*,*
+88,teradatasqlalchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/teradata_handler/requirements.txt,*,*@*,*
+89,pyodbc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ingres_handler/requirements.txt,*,*@*,*
+90,ingres_sa_dialect,==0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ingres_handler/requirements.txt,*,*@*,*
+91,sqlalchemy,<2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ingres_handler/requirements.txt,*,*@*,*
+92,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/tpot_handler/requirements.txt,*,*@*,*
+93,tpot,<=0.11.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/tpot_handler/requirements.txt,*,*@*,*
+94,sqlalchemy_dremio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/dremio_handler/requirements.txt,*,*@*,*
+95,stripe,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/stripe_handler/requirements.txt,*,*@*,*
+96,redshift_connector,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/redshift_handler/requirements.txt,*,*@*,*
+97,sqlalchemy-redshift,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/redshift_handler/requirements.txt,*,*@*,*
+98,ray,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ray_serve_handler/requirements.txt,*,*@*,*
+99,mindsdb,>=23.3.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ray_serve_handler/requirements.txt,*,*@*,*
+100,sasl,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/hive_handler/requirements.txt,*,*@*,*
+101,thrift-sasl,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/hive_handler/requirements.txt,*,*@*,*
+102,thrift,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/hive_handler/requirements.txt,*,*@*,*
+103,pyHive,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/hive_handler/requirements.txt,*,*@*,*
+104,newsapi-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/newsapi_handler/requirements.txt,*,*@*,*
+105,mindsdb_sql,>= 0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/lightwood_handler/requirements.txt,*,*@*,*
+106,mindsdb,>= 22.7.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/lightwood_handler/requirements.txt,*,*@*,*
+107,lightwood,>= 22.8.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/lightwood_handler/requirements.txt,*,*@*,*
+108,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/s3_handler/requirements.txt,*,*@*,*
+109,elasticsearch-dbapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/elasticsearch_handler/requirements.txt,*,*@*,*
+110,elasticsearch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/elasticsearch_handler/requirements.txt,*,*@*,*
+111,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mysql_handler/requirements.txt,*,*@*,*
+112,pyodbc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/empress_handler/requirements.txt,*,*@*,*
+113,google-api-python-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/youtube_handler/requirements.txt,*,*@*,*
+114,mediawikiapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mediawiki_handler/requirements.txt,*,*@*,*
+115,jaydebeapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/nuo_jdbc_handler/requirements.txt,*,*@*,*
+116,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/singlestore_handler/requirements.txt,*,*@*,*
+117,polars,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/popularity_recommender_handler/requirements.txt,*,*@*,*
+118,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/cloud_sql_handler/requirements.txt,*,*@*,*
+119,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/cloud_sql_handler/requirements.txt,*,*@*,*
+120,pymssql,>= 2.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/cloud_sql_handler/requirements.txt,*,*@*,*
+121,slack_sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/slack_handler/requirements.txt,*,*@*,*
+122,pinotdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/pinot_handler/requirements.txt,*,*@*,*
+123,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/dynamodb_handler/requirements.txt,*,*@*,*
+124,lightfm,==1.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/lightfm_handler/requirements.txt,*,*@*,*
+125,dataprep_ml,>=0.0.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/lightfm_handler/requirements.txt,*,*@*,*
+126,pydantic,>=1.10.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/lightfm_handler/requirements.txt,*,*@*,*
+127,scipy,>=1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/lightfm_handler/requirements.txt,*,*@*,*
+128,impyla,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/impala_handler/requirements.txt,*,*@*,*
+129,pymysql,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/matrixone_handler/requirements.txt,*,*@*,*
+130,google-auth-oauthlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_calendar_handler/requirements.txt,*,*@*,*
+131,google-api-python-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_calendar_handler/requirements.txt,*,*@*,*
+132,google-auth-httplib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_calendar_handler/requirements.txt,*,*@*,*
+133,scylla-driver,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/datastax_handler/requirements.txt,*,*@*,*
+134,pygithub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/github_handler/requirements.txt,*,*@*,*
+135,hugging_py_face,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_api_handler/requirements.txt,*,*@*,*
+136,pysurrealdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/surrealdb_handler/requirements.txt,*,*@*,*
+137,websocket,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/surrealdb_handler/requirements.txt,*,*@*,*
+138,scylla-driver,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/cassandra_handler/requirements.txt,*,*@*,*
+139,hierarchicalforecast,<1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/neuralforecast_handler/requirements.txt,*,*@*,*
+140,neuralforecast,">=1.4.0, <1.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/neuralforecast_handler/requirements.txt,*,*@*,*
+141,hyperopt,<1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/neuralforecast_handler/requirements.txt,*,*@*,*
+142,statsforecast,">=1.4.0, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/statsforecast_handler/requirements.txt,*,*@*,*
+143,hierarchicalforecast,<1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/statsforecast_handler/requirements.txt,*,*@*,*
+144,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/cockroach_handler/requirements.txt,*,*@*,*
+145,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/oceanbase_handler/requirements.txt,*,*@*,*
+146,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/starrocks_handler/requirements.txt,*,*@*,*
+147,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/aurora_handler/requirements.txt,*,*@*,*
+148,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/aurora_handler/requirements.txt,*,*@*,*
+149,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/aurora_handler/requirements.txt,*,*@*,*
+150,tweepy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/twitter_handler/requirements.txt,*,*@*,*
+151,slack_sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/realtime_slack_chat_handler/requirements.txt,*,*@*,*
+152,ShopifyAPI,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/shopify_handler/requirements.txt,*,*@*,*
+153,mindsdb,>=22.12.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/openai_handler/requirements.txt,*,*@*,*
+154,openai,>= 0.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/openai_handler/requirements.txt,*,*@*,*
+155,mindsdb_sql,">= 0.4.6, < 0.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/openai_handler/requirements.txt,*,*@*,*
+156,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/openai_handler/requirements.txt,*,*@*,*
+157,tiktoken,>= 0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/openai_handler/requirements.txt,*,*@*,*
+158,sqlalchemy-informix,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/informix_handler/requirements.txt,*,*@*,*
+159,IfxPy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/informix_handler/requirements.txt,*,*@*,*
+160,oracledb,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/oracle_handler/requirements.txt,*,*@*,*
+161,taospy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/tdengine_handler/requirements.txt,*,*@*,*
+162,hdbcli,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/hana_handler/requirements.txt,*,*@*,*
+163,sqlalchemy-hana,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/hana_handler/requirements.txt,*,*@*,*
+164,openai,==0.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/langchain_handler/requirements.txt,*,*@*,*
+165,anthropic,==0.3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/langchain_handler/requirements.txt,*,*@*,*
+166,langchain,==0.0.238,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/langchain_handler/requirements.txt,*,*@*,*
+167,tokenizers,==0.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/langchain_handler/requirements.txt,*,*@*,*
+168,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/langchain_handler/requirements.txt,*,*@*,*
+169,tiktoken,>= 0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/langchain_handler/requirements.txt,*,*@*,*
+170,wikipedia,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/langchain_handler/requirements.txt,*,*@*,*
+171,mindsdb_sql,>= 0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/merlion_handler/requirements.txt,*,*@*,*
+172,salesforce-merlion,">=1.2.0,<=1.3.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/merlion_handler/requirements.txt,*,*@*,*
+173,pandas,<=1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/merlion_handler/requirements.txt,*,*@*,*
+174,mindsdb,>=22.6.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/merlion_handler/requirements.txt,*,*@*,*
+175,mindsdb,>=22.10.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mlflow_handler/requirements.txt,*,*@*,*
+176,mlflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mlflow_handler/requirements.txt,*,*@*,*
+177,sqlalchemy-monetdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/monetdb_handler/requirements.txt,*,*@*,*
+178,pymonetdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/monetdb_handler/requirements.txt,*,*@*,*
+179,pymongo,>= 4.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mongodb_handler/requirements.txt,*,*@*,*
+180,certifi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mongodb_handler/requirements.txt,*,*@*,*
+181,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/planetscale_handler/requirements.txt,*,*@*,*
+182,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/tidb_handler/requirements.txt,*,*@*,*
+183,sqlalchemy-databricks,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/databricks_handler/requirements.txt,*,*@*,*
+184,databricks-sql-connector,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/databricks_handler/requirements.txt,*,*@*,*
+185,llama-index,==0.6.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/llama_index_handler/requirements.txt,*,*@*,*
+186,html2text,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/llama_index_handler/requirements.txt,*,*@*,*
+187,langchain,<=0.0.192,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/llama_index_handler/requirements.txt,*,*@*,*
+188,openai,<=0.28.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/llama_index_handler/requirements.txt,*,*@*,*
+189,google-auth-oauthlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_content_shopping_handler/requirements.txt,*,*@*,*
+190,google-api-python-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_content_shopping_handler/requirements.txt,*,*@*,*
+191,google-auth-httplib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_content_shopping_handler/requirements.txt,*,*@*,*
+192,pymssql,>= 2.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mssql_handler/requirements.txt,*,*@*,*
+193,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/opengauss_handler/requirements.txt,*,*@*,*
+194,clickhouse-sqlalchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/clickhouse_handler/requirements.txt,*,*@*,*
+195,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+196,mindsdb,>=22.6.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+197,transformers,==4.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+198,mindsdb_sql,>= 0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+199,pandas,<=1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+200,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+201,sentencepiece,==0.1.97,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+202,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/huggingface_handler/requirements.txt,*,*@*,*
+203,duckdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/airtable_handler/requirements.txt,*,*@*,*
+204,pydruid,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/druid_handler/requirements.txt,*,*@*,*
+205,sqlalchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/druid_handler/requirements.txt,*,*@*,*
+206,dask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ludwig_handler/requirements.txt,*,*@*,*
+207,hyperopt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ludwig_handler/requirements.txt,*,*@*,*
+208,ludwig,>=0.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ludwig_handler/requirements.txt,*,*@*,*
+209,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ludwig_handler/requirements.txt,*,*@*,*
+210,ray,<=1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ludwig_handler/requirements.txt,*,*@*,*
+211,mindsdb,>=22.10.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ludwig_handler/requirements.txt,*,*@*,*
+212,mindsdb_sql,">= 0.4.4,<0.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ludwig_handler/requirements.txt,*,*@*,*
+213,duckdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/sheets_handler/requirements.txt,*,*@*,*
+214,rocketchat_API,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/rocket_chat_handler/requirements.txt,*,*@*,*
+215,scylla-driver,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/scylla_handler/requirements.txt,*,*@*,*
+216,anthropic,==0.3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/anthropic_handler/requirements.txt,*,*@*,*
+217,psycopg2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/materialize_handler/requirements.txt,*,*@*,*
+218,sib_api_v3_sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/sendinblue_handler/requirements.txt,*,*@*,*
+219,atlassian-python-api,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/jira_handler/requirements.txt,*,*@*,*
+220,couchbase,==4.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/couchbase_handler/requirements.txt,*,*@*,*
+221,sqlanydb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/sqlany_handler/requirements.txt,*,*@*,*
+222,sqlalchemy-sqlany,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/sqlany_handler/requirements.txt,*,*@*,*
+223,sqlalchemy-solr,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/solr_handler/requirements.txt,*,*@*,*
+224,mendeley,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mendeley_handler/requirements.txt,*,*@*,*
+225,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/mariadb_handler/requirements.txt,*,*@*,*
+226,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/timescaledb_handler/requirements.txt,*,*@*,*
+227,qbosdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/quickbooks_handler/requirements.txt,*,*@*,*
+228,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/rockset_handler/requirements.txt,*,*@*,*
+229,rockset,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/rockset_handler/requirements.txt,*,*@*,*
+230,pysqream_sqlalchemy,>=0.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/sqreamdb_handler/requirements.txt,*,*@*,*
+231,pysqream,>=3.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/sqreamdb_handler/requirements.txt,*,*@*,*
+232,pyignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/ignite_handler/requirements.txt,*,*@*,*
+233,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/supabase_handler/requirements.txt,*,*@*,*
+234,cohere,==4.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/cohere_handler/requirements.txt,*,*@*,*
+235,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/edgelessdb_handler/requirements.txt,*,*@*,*
+236,psycopg,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/postgres_handler/requirements.txt,*,*@*,*
+237,chromadb,==0.3.25,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/chromadb_handler/requirements.txt,*,*@*,*
+238,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/chromadb_handler/requirements.txt,*,*@*,*
+239,duckdb,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/chromadb_handler/requirements.txt,*,*@*,*
+240,SQLAlchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/chromadb_handler/requirements.txt,*,*@*,*
+241,requests,==2.28.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/chromadb_handler/requirements.txt,*,*@*,*
+242,langchain,==0.0.186,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/chromadb_handler/requirements.txt,*,*@*,*
+243,sentence_transformers,>=2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/chromadb_handler/requirements.txt,*,*@*,*
+244,jaydebeapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/altibase_handler/requirements.txt,*,*@*,*
+245,binance-connector,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/binance_handler/requirements.txt,*,*@*,*
+246,google-auth-oauthlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_books_handler/requirements.txt,*,*@*,*
+247,google-api-python-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_books_handler/requirements.txt,*,*@*,*
+248,google-auth-httplib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/google_books_handler/requirements.txt,*,*@*,*
+249,fdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/firebird_handler/requirements.txt,*,*@*,*
+250,pymysql,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/mindsdb/integrations/handlers/d0lt_handler/requirements.txt,*,*@*,*
+251,sentry-sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements-telemetry.txt,*,*@*,*
+252,cryptography,>=35.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+253,pydateinfer,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+254,slack_sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+255,mindsdb-sql,">= 0.6.5, < 0.7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+256,waitress,>= 1.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+257,pymongo,>= 4.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+258,openpyxl,>= 3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+259,pyOpenSSL,>= 22.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+260,requests,>= 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+261,sentry-sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+262,psutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+263,dill,==0.3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+264,pyparsing,==2.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+265,itsdangerous,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+266,alembic,>= 1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+267,mysql-connector-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+268,python-multipart,>= 0.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+269,jinja2,<3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+270,flask-restx,">= 1.0.1, < 2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+271,charset-normalizer,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+272,flask-compress,>= 1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+273,python-magic,>= 0.4.27,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+274,clickhouse-sqlalchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+275,pyarrow,">= 10.0.1, < 10.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+276,lightwood,">= 23.7.1.0, < 23.7.2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+277,dataprep_ml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+278,duckdb,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+279,clickhouse-driver,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+280,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+281,psycopg,>= 1.15.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+282,psycopg2-binary,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+283,python-tds,>= 1.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+284,Werkzeug,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+285,appdirs,>= 1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+286,walrus,==0.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+287,sqlalchemy,">= 1.4.29, < 2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+288,checksumdir,>= 1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+289,mindsdb-evaluator,">= 0.0.7, < 0.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+290,flask,">= 1.0, < 2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+291,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements.txt,*,*@*,*
+292,grpcio-tools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mindsdb/requirements/requirements-grpc.txt,*,*@*,*

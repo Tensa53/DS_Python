@@ -1,0 +1,17 @@
+,dep,version,filepath,type,condition,status
+0,protobuf,>=3.15.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+1,numpy,>=1.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+2,tensorflow,"<3,>=2.4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+3,cloudpickle,>=0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+4,pyzmq,>=17.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+5,docopt,>=0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+6,torch,>=1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+7,torchvision,>=0.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+8,ray,>=1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+9,pandas,>=1.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+10,msgpack,"<2,>=1.0.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+11,msgpack-numpy,"<1,>=0.4.7",/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,install_requires,@*,*
+12,pyinstrument,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,extras_require,*@*,*
+13,gym,>=0.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,extras_require,*@*,*
+14,opencv-python-headless,"<4,>=3.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,extras_require,*@*,*
+15,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/adeptRL/setup.py,extras_require,*@*,*

@@ -1,0 +1,35 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,torch,>=1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+1,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/setup.py,False,no one,no one,no one
+2,pytest,>=4,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/setup.py,False,no one,no one,no one
+3,torch,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/amoebanetd-speed/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+4,click,==7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/amoebanetd-speed/requirements.txt,False,PVE-2022-47833,<8.0.0,"Click 8.0.0 uses 'mkstemp()' instead of the deprecated & insecure 'mktemp()'.
+https://github.com/pallets/click/issues/1752"
+5,torch,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/unet-timeline/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+6,click,==7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/unet-timeline/requirements.txt,False,PVE-2022-47833,<8.0.0,"Click 8.0.0 uses 'mkstemp()' instead of the deprecated & insecure 'mktemp()'.
+https://github.com/pallets/click/issues/1752"
+7,torch,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/unet-memory/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+8,click,==7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/unet-memory/requirements.txt,False,PVE-2022-47833,<8.0.0,"Click 8.0.0 uses 'mkstemp()' instead of the deprecated & insecure 'mktemp()'.
+https://github.com/pallets/click/issues/1752"
+9,torch,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/resnet101-speed/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+10,click,==7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/resnet101-speed/requirements.txt,False,PVE-2022-47833,<8.0.0,"Click 8.0.0 uses 'mkstemp()' instead of the deprecated & insecure 'mktemp()'.
+https://github.com/pallets/click/issues/1752"
+11,torch,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/unet-speed/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+12,click,==7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/unet-speed/requirements.txt,False,PVE-2022-47833,<8.0.0,"Click 8.0.0 uses 'mkstemp()' instead of the deprecated & insecure 'mktemp()'.
+https://github.com/pallets/click/issues/1752"
+13,torch,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/resnet101-accuracy/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+14,click,==7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/resnet101-accuracy/requirements.txt,False,PVE-2022-47833,<8.0.0,"Click 8.0.0 uses 'mkstemp()' instead of the deprecated & insecure 'mktemp()'.
+https://github.com/pallets/click/issues/1752"
+15,torch,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/amoebanetd-memory/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+16,click,==7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/benchmarks/amoebanetd-memory/requirements.txt,False,PVE-2022-47833,<8.0.0,"Click 8.0.0 uses 'mkstemp()' instead of the deprecated & insecure 'mktemp()'.
+https://github.com/pallets/click/issues/1752"
+17,sphinx,>=2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/docs/requirements.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+18,sphinx,>=2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchgpipe/docs/requirements.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.

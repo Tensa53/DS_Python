@@ -1,0 +1,4 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+3,3,Adlik,152,3,38,0,1980
+30,30,botbuilder-python,148,2,38,1,161
+117,120,guildai,78,0,38,0,2560

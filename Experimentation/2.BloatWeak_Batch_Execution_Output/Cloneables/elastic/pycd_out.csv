@@ -1,0 +1,10 @@
+,dep,version,filepath,type,condition,status
+0,torch,>=1.8.0dev,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/requirements.txt,*,*@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/requirements.txt,*,*@*,*
+2,python-etcd,>=0.4.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/requirements.txt,*,*@*,*
+3,jinja2,>=2.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/aws/requirements.txt,*,*@*,*
+4,boto3,>=1.9.148,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/aws/requirements.txt,*,*@*,*
+5,sphinxcontrib.katex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/docs/requirements.txt,*,*@*,*
+6,pytorch_sphinx_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/docs/requirements.txt,*,*@special#B.9 B.11,*
+7,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/docs/requirements.txt,*,*@*,*
+8,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/elastic/docs/requirements.txt,*,*@*,*

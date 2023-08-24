@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,scipy,==0.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+1,pygame,==1.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+2,pyzmq,==16.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+3,scikit-learn,==0.19.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+4,matplotlib,==2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+5,numpy,==1.14.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+6,pytest-cov,==2.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+7,enum34,==1.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+8,pytest,==3.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+9,pyserial,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+10,robust-serial,==0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+11,six,==1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*
+12,tqdm,==4.19.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,*,*@*,*

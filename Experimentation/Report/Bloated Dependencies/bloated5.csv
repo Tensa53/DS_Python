@@ -1,0 +1,7 @@
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+6,bootstrap.pytorch,26,5,10,1,30
+10,cogdl,49,5,16,1,29
+22,feast,1239,5,172,0,350
+28,HDLTex,18,5,15,4,997
+39,loudml,78,5,22,1,997
+63,surreal,51,5,9,1,1449

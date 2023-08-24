@@ -1,0 +1,265 @@
+,dep,version,filepath,type,condition,status
+0,requests,>=2.20.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+1,backports.functools-lru-cache,>=1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@ python_version < '3',*
+2,futures,>=3.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@ python_version < '3',*
+3,jsonschema,>=2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+4,enum34,>=0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@ python_version < '3.6',*
+5,pyjwt,">=1.6.4,<2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@ python_version <= '3.5',*
+6,typing,>=3.6.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@ python_version < '3.5',*
+7,pyparsing,>=2.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+8,numpy,>=1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+9,attrs,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+10,psutil,>=3.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+11,future,>=0.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@ python_version < '3',*
+12,six,>=1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+13,pyjwt,">=2.4.0,<2.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@ python_version > '3.5',*
+14,pathlib2,>=2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+15,PyYAML,>=3.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+16,urllib3,>=1.21.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+17,furl,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+18,Pillow,>=4.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+19,python-dateutil,>=2.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/requirements.txt,*,*@*,*
+20,flake8,~=3.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/dev-requirements.txt,*,*@*,*
+21,flake8-bugbear,~=21.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/dev-requirements.txt,*,*@*,*
+22,mock,~=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/dev-requirements.txt,*,*@ python_version < '3',*
+23,pytest,~=6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/dev-requirements.txt,*,*@*,*
+24,boto3,>=1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,extras_require,@*,*
+25,azure-storage-blob,>=12.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,extras_require,@*,*
+26,google-cloud-storage,>=1.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,extras_require,@*,*
+27,requests,>=2.20.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+28,backports.functools-lru-cache,>=1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3',*
+29,futures,>=3.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3',*
+30,jsonschema,>=2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+31,enum34,>=0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3.6',*
+32,pyjwt,">=1.6.4,<2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version <= '3.5',*
+33,typing,>=3.6.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3.5',*
+34,pyparsing,>=2.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+35,numpy,>=1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+36,attrs,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+37,psutil,>=3.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+38,future,>=0.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3',*
+39,six,>=1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+40,pyjwt,">=2.4.0,<2.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version > '3.5',*
+41,pathlib2,>=2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+42,PyYAML,>=3.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+43,urllib3,>=1.21.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+44,furl,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+45,Pillow,>=4.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+46,python-dateutil,>=2.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+47,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+48,torchvision,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+49,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+50,catboost,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+51,numpy,>= 1.19.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+52,scikit_learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+54,matplotlib,>= 2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3.6',*
+55,matplotlib,>= 3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version >= '3.6',*
+56,joblib,>=0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+57,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+59,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+60,pytorch-lightning,>= 1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+61,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+63,xgboost,>=0.90,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version >= '3',*
+64,numpy,!= 1.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+66,graphviz,>=0.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+68,xgboost,>=0.82,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3',*
+71,autokeras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version >= '3.7',*
+74,moviepy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+75,tensorboardX,>=1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+78,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+79,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+80,fastai,>= 2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+82,fastai,< 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+86,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+88,tensorboard,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+89,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+91,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+95,protobuf,>=4.21.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+96,jsonschema,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version <= '3.5',*
+104,click,>=8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+105,hydra-core,>=1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+108,tensorflow,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+109,absl-py,>=0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+110,tensorboard,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+113,tensorflow,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+114,docstring_parser,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+115,jsonargparse,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+116,torchmetrics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+118,lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version >= '3.8',*
+119,pytorch-lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+120,pytorch_lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+125,seaborn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+127,MegEngine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@ python_version < '3.9',*
+130,fire,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+133,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+134,lightgbm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+137,tensorflow-datasets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+139,keras-tuner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+143,Keras,>=2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+145,mmcv,">=1.5.1,<2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+151,pathlib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+152,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+153,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+154,pyYaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+156,slack_sdk,> 3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+159,github3.py,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+160,clearml,==1.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+161,pandas,==1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+162,tabulate,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+163,tqdm,==4.64.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+169,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+171,pillow,>=4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+177,bokeh,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+179,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+181,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+183,keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+184,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/setup.py,install_requires,*@*,*
+196,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/distributed/requirements.txt,*,*@*,*
+197,torchvision,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/distributed/requirements.txt,*,*@*,*
+198,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/distributed/requirements.txt,*,*@*,*
+199,catboost,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/catboost/requirements.txt,*,*@*,*
+200,numpy,>= 1.19.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/catboost/requirements.txt,*,*@*,*
+201,scikit_learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/catboost/requirements.txt,*,*@*,*
+202,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/catboost/requirements.txt,*,*@*,*
+203,matplotlib,>= 2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/scikit-learn/requirements.txt,*,*@ python_version < '3.6',*
+204,matplotlib,>= 3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/scikit-learn/requirements.txt,*,*@ python_version >= '3.6',*
+205,joblib,>=0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/scikit-learn/requirements.txt,*,*@*,*
+206,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/scikit-learn/requirements.txt,*,*@*,*
+207,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/scikit-learn/requirements.txt,*,*@*,*
+208,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch-lightning/requirements.txt,*,*@*,*
+209,pytorch-lightning,>= 1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch-lightning/requirements.txt,*,*@*,*
+210,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch-lightning/requirements.txt,*,*@*,*
+211,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch-lightning/requirements.txt,*,*@*,*
+212,xgboost,>=0.90,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@ python_version >= '3',*
+213,numpy,!= 1.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@*,*
+214,matplotlib,>= 2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@ python_version < '3.6',*
+215,graphviz,>=0.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@*,*
+216,matplotlib,>= 3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@ python_version >= '3.6',*
+217,xgboost,>=0.82,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@ python_version < '3',*
+218,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@*,*
+219,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/xgboost/requirements.txt,*,*@*,*
+220,autokeras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/autokeras/requirements.txt,*,*@ python_version >= '3.7',*
+221,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/autokeras/requirements.txt,*,*@*,*
+222,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorboardx/requirements.txt,*,*@*,*
+223,moviepy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorboardx/requirements.txt,*,*@*,*
+224,tensorboardX,>=1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorboardx/requirements.txt,*,*@*,*
+225,torchvision,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorboardx/requirements.txt,*,*@*,*
+226,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorboardx/requirements.txt,*,*@*,*
+227,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/requirements.txt,*,*@*,*
+228,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/requirements.txt,*,*@*,*
+229,fastai,>= 2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/requirements.txt,*,*@*,*
+230,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/requirements.txt,*,*@*,*
+231,fastai,< 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/legacy/requirements.txt,*,*@*,*
+232,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/legacy/requirements.txt,*,*@*,*
+233,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/legacy/requirements.txt,*,*@*,*
+234,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fastai/legacy/requirements.txt,*,*@*,*
+235,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/ignite/requirements.txt,*,*@*,*
+236,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/ignite/requirements.txt,*,*@*,*
+237,tensorboard,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/ignite/requirements.txt,*,*@*,*
+238,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/ignite/requirements.txt,*,*@*,*
+239,torchvision,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/ignite/requirements.txt,*,*@*,*
+240,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/ignite/requirements.txt,*,*@*,*
+241,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/ignite/requirements.txt,*,*@*,*
+242,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+243,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+244,protobuf,>=4.21.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+245,jsonschema,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@ python_version <= '3.5',*
+246,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+247,tensorboard,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+248,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+249,torchvision,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+250,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+251,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/pytorch/requirements.txt,*,*@*,*
+252,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/click/requirements.txt,*,*@*,*
+253,click,>=8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/click/requirements.txt,*,*@*,*
+254,hydra-core,>=1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/hydra/requirements.txt,*,*@*,*
+255,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/hydra/requirements.txt,*,*@*,*
+256,numpy,!= 1.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorflow/requirements.txt,*,*@*,*
+257,tensorflow,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorflow/requirements.txt,*,*@*,*
+258,absl-py,>=0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorflow/requirements.txt,*,*@*,*
+259,tensorboard,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorflow/requirements.txt,*,*@*,*
+260,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorflow/requirements.txt,*,*@*,*
+261,tensorboard,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorflow/legacy/requirements.txt,*,*@*,*
+262,tensorflow,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/tensorflow/legacy/requirements.txt,*,*@*,*
+263,docstring_parser,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@*,*
+264,jsonargparse,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@*,*
+265,torchmetrics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@*,*
+266,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@*,*
+267,lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@ python_version >= '3.8',*
+268,pytorch-lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@*,*
+269,pytorch_lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@*,*
+270,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/jsonargparse/requirements.txt,*,*@*,*
+271,numpy,!= 1.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/matplotlib/requirements.txt,*,*@*,*
+272,matplotlib,>= 2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/matplotlib/requirements.txt,*,*@ python_version < '3.6',*
+273,matplotlib,>= 3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/matplotlib/requirements.txt,*,*@ python_version >= '3.6',*
+274,seaborn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/matplotlib/requirements.txt,*,*@*,*
+275,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/matplotlib/requirements.txt,*,*@*,*
+276,MegEngine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/megengine/requirements.txt,*,*@ python_version < '3.9',*
+277,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/megengine/requirements.txt,*,*@*,*
+278,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/megengine/requirements.txt,*,*@*,*
+279,fire,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fire/requirements.txt,*,*@*,*
+280,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/fire/requirements.txt,*,*@*,*
+281,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/lightgbm/requirements.txt,*,*@*,*
+282,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/lightgbm/requirements.txt,*,*@*,*
+283,lightgbm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/lightgbm/requirements.txt,*,*@*,*
+284,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/lightgbm/requirements.txt,*,*@*,*
+285,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/lightgbm/requirements.txt,*,*@*,*
+286,tensorflow-datasets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/kerastuner/requirements.txt,*,*@*,*
+287,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/kerastuner/requirements.txt,*,*@*,*
+288,keras-tuner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/kerastuner/requirements.txt,*,*@*,*
+289,tensorflow,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/kerastuner/requirements.txt,*,*@*,*
+290,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/keras/requirements.txt,*,*@*,*
+291,tensorflow,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/keras/requirements.txt,*,*@*,*
+292,Keras,>=2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/keras/legacy/requirements.txt,*,*@*,*
+293,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/keras/legacy/requirements.txt,*,*@*,*
+294,mmcv,">=1.5.1,<2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/openmmlab/requirements.txt,*,*@*,*
+295,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/openmmlab/requirements.txt,*,*@*,*
+296,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/openmmlab/requirements.txt,*,*@*,*
+297,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/frameworks/openmmlab/requirements.txt,*,*@*,*
+298,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/automation/requirements.txt,*,*@*,*
+299,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/scheduler/requirements.txt,*,*@*,*
+300,pathlib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/aws-autoscaler/requirements.txt,*,*@*,*
+301,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/aws-autoscaler/requirements.txt,*,*@*,*
+302,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/aws-autoscaler/requirements.txt,*,*@*,*
+303,pyYaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/aws-autoscaler/requirements.txt,*,*@*,*
+304,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/aws-autoscaler/requirements.txt,*,*@*,*
+305,slack_sdk,> 3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/monitoring/requirements.txt,*,*@*,*
+306,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/monitoring/requirements.txt,*,*@*,*
+307,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/services/cleanup/requirements.txt,*,*@*,*
+308,github3.py,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/cicd/requirements.txt,*,*@*,*
+309,clearml,==1.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/cicd/requirements.txt,*,*@*,*
+310,pandas,==1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/cicd/requirements.txt,*,*@*,*
+311,tabulate,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/cicd/requirements.txt,*,*@*,*
+312,tqdm,==4.64.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/cicd/requirements.txt,*,*@*,*
+313,matplotlib,>= 2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/pipeline/requirements.txt,*,*@ python_version < '3.6',*
+314,matplotlib,>= 3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/pipeline/requirements.txt,*,*@ python_version >= '3.6',*
+315,joblib,>=0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/pipeline/requirements.txt,*,*@*,*
+316,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/pipeline/requirements.txt,*,*@*,*
+317,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/pipeline/requirements.txt,*,*@*,*
+318,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+319,numpy,!= 1.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+320,pillow,>=4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+321,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+322,matplotlib,>= 2.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@ python_version < '3.6',*
+323,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+324,matplotlib,>= 3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@ python_version >= '3.6',*
+325,seaborn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+326,bokeh,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+327,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/reporting/requirements.txt,*,*@*,*
+328,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/hyperdatasets/requirements.txt,*,*@*,*
+329,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/hyperdatasets/requirements.txt,*,*@*,*
+330,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/hyperdatasets/requirements.txt,*,*@*,*
+331,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/hyperdatasets/requirements.txt,*,*@*,*
+332,keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/optimization/hyper-parameter-optimization/requirements.txt,*,*@*,*
+333,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/optimization/hyper-parameter-optimization/requirements.txt,*,*@*,*
+334,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/optimization/hyper-parameter-optimization/requirements.txt,*,*@*,*
+335,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/datasets/requirements.txt,*,*@*,*
+336,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/datasets/requirements.txt,*,*@*,*
+337,tensorboard,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/datasets/requirements.txt,*,*@*,*
+338,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/datasets/requirements.txt,*,*@*,*
+339,torchvision,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/datasets/requirements.txt,*,*@*,*
+340,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/datasets/requirements.txt,*,*@*,*
+341,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/datasets/requirements.txt,*,*@*,*
+342,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/advanced/requirements.txt,*,*@*,*
+343,torchvision,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/advanced/requirements.txt,*,*@*,*
+344,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/trains/examples/advanced/requirements.txt,*,*@*,*

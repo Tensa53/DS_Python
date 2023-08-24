@@ -1,0 +1,9 @@
+,dep,version,filepath,type,condition,status
+0,loguru,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*
+2,scikit_learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*
+3,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*
+4,opencv_contrib_python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*
+5,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*
+6,PyYAML,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*
+7,tensorflow_gpu,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/lanenet-lane-detection/requirements.txt,*,*@*,*

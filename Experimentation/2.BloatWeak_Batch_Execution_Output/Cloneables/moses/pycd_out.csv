@@ -1,0 +1,10 @@
+,dep,version,filepath,type,condition,status
+0,tqdm,>=4.26.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+1,matplotlib,>=3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+2,numpy,>=1.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+3,pandas,>=0.25,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+4,scipy,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+5,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+6,fcd_torch,>=1.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+7,seaborn,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*
+8,pomegranate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/moses/setup.py,install_requires,@*,*

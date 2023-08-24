@@ -1,0 +1,12 @@
+,dep,version,filepath,type,condition,status
+0,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+1,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+2,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+3,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+4,dataclasses,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+5,rich,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+6,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+7,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+8,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+9,editdistance,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*
+10,submitit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EGG/requirements.txt,*,*@*,*

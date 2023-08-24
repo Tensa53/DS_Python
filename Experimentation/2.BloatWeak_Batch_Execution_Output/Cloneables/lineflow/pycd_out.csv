@@ -1,0 +1,5 @@
+,dep,version,filepath,type,condition,status
+0,setuptools_scm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lineflow/setup.py,setup_requires,@*,*
+1,arrayfiles,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lineflow/setup.py,install_requires,@*,*
+2,gdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lineflow/setup.py,install_requires,@*,*
+3,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/lineflow/setup.py,tests_require,@*,*

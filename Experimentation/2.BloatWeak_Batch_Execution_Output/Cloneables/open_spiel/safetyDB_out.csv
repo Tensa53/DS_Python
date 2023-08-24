@@ -1,0 +1,35 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,numpy,>= 1.21.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+1,numpy,>= 1.21.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+2,numpy,>= 1.21.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+3,scipy,>= 1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+4,attrs,>= 19.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,no one,no one,no one
+5,pip,>= 20.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,CVE-2021-3572,<21.1,A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1.
+6,pip,>= 20.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,CVE-2021-28363,<21.1,Pip 21.1 updates its dependency 'urllib3' to v1.26.4 due to security issues.
+7,absl-py,>= 0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,False,no one,no one,no one
+8,dm-haiku,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,no one,no one,no one
+9,optax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,no one,no one,no one
+10,jax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,no one,no one,no one
+11,distrax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,no one,no one,no one
+12,open_spiel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,no one,no one,no one
+13,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,PVE-2022-47988,<0.12.12,"Wandb 0.12.12 fixes an unsafe temporary file creation vulnerability.
+https://github.com/wandb/client/pull/3360"
+14,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2021-33503,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+15,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2020-7212,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+16,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2020-11078,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+17,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2020-26137,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+18,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2020-13757,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+19,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2020-25658,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+20,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2021-21240,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+21,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,PVE-2021-37149,<0.8.0,Socket in wandb 0.8.0 only binds to localhost for improved security and prevents firewall warnings in OSX.
+22,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,CVE-2017-18342,<0.8.2,"Wandb 0.8.2 updates the pyyaml requirement to address a CVE. No CVE number was mentioned, but it is probably CVE-2017-18342."
+23,rlax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,False,no one,no one,no one
+24,markdown,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/docs/requirements.readthedocs.txt,False,no one,no one,no one
+25,sphinx_markdown_tables,==0.0.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/docs/requirements.readthedocs.txt,False,no one,no one,no one
+26,sphinx,==5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/docs/requirements.readthedocs.txt,False,no one,no one,no one

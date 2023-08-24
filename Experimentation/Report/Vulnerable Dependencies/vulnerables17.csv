@@ -1,0 +1,5 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+68,70,DeepSpeed,51,0,17,0,40
+111,114,garage,66,1,17,0,1447
+137,140,jiant,56,7,17,1,33
+159,162,lale,75,0,17,0,506

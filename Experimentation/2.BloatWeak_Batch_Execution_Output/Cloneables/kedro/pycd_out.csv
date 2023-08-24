@@ -1,0 +1,131 @@
+,dep,version,filepath,type,condition,status
+0,docutils,==0.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+1,sphinx,~=5.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+2,sphinx_rtd_theme,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+3,sphinx-autodoc-typehints,==1.20.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+4,sphinx_copybutton,==0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+5,sphinx-notfound-page,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+6,ipykernel,">=5.3, <7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+7,sphinxcontrib-mermaid,~=0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+8,myst-parser,~=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+9,Jinja2,<3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+10,kedro-datasets,~=1.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+11,adlfs,">=2021.7.1, <=2022.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version == '3.7',*
+12,adlfs,~=2023.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version >= '3.8',*
+13,bandit,">=1.6.2, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+14,behave,==1.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+15,biopython,~=1.73,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+16,blacken-docs,==1.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+17,black,~=22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+18,compress-pickle,~=2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+19,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+20,dask,~=2021.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+21,delta-spark,~=1.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+22,dill,~=0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+23,filelock,">=3.4.0, <4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+24,gcsfs,">=2021.4, <=2023.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version == '3.7',*
+25,gcsfs,">=2023.1, <2023.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version >= '3.8',*
+26,geopandas,">=0.6.0, <1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+27,hdfs,">=2.5.8, <3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+28,holoviews,~=1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+29,import-linter,==1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+30,ipython,">=7.31.1, <8.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version < '3.8',*
+31,ipython,~=8.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version >= '3.8',*
+32,isort,~=5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+34,joblib,>=0.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+35,jupyterlab_server,">=2.11.1, <2.16.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+36,jupyterlab,"~=3.0, <3.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+37,jupyter,~=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+38,lxml,~=4.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+39,matplotlib,">=3.0.3, <3.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version < '3.10',*
+40,matplotlib,">=3.5, <3.6",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version == '3.10',*
+41,memory_profiler,">=0.50.0, <1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+42,moto,==1.3.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version < '3.10',*
+43,moto,==3.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ python_version == '3.10',*
+44,networkx,~=2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+45,opencv-python,~=4.5.5.64,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+46,openpyxl,">=3.0.3, <4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+47,pandas-gbq,">=0.12.0, <0.18.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+48,pandas,~=1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+49,Pillow,~=9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+50,plotly,">=4.8.0, <6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+51,pre-commit,">=2.9.2, <3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+52,psutil,~=5.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+53,pyarrow,>=6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+54,pylint,">=2.17.0, <3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+55,pyproj,~=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+56,pyspark,">=2.2, <4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+57,pytest-cov,~=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+58,pytest-mock,">=1.7.1, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+59,pytest-xdist,~=2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+60,pytest,~=7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+61,redis,~=4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+62,requests-mock,~=1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+63,requests,~=2.20,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+64,s3fs,">=0.3.0, <0.5",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+65,scikit-learn,~=1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+66,scipy,~=1.7.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+67,SQLAlchemy,~=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+68,tables,~=3.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ platform_system == 'Windows' and python_version<'3.9',*
+69,tables,~=3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ platform_system != 'Windows',*
+70,tensorflow,~=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ platform_system != 'Darwin' or platform_machine != 'arm64',*
+71,tensorflow-macos,~=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@ platform_system == 'Darwin' and platform_machine == 'arm64',*
+72,triad,">=0.6.7, <1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+73,trufflehog,~=2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+74,xlsxwriter,~=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+87,matplotlib,">=3.0.3, <4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+93,openpyxl,">=3.0.6, <4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+98,pyarrow,">=1.0, <7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+122,delta-spark,">=1.0, <3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+132,PyYAML,">=4.2, <7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/setup.py,extras_require,*@*,*
+263,setuptools,>=65.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/tools/circleci/requirements.txt,*,*@*,*
+264,pip,>=21.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/tools/circleci/requirements.txt,*,*@*,*
+265,twine,~=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/tools/circleci/requirements.txt,*,*@*,*
+266,jupyter,~=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+267,ipython,~=8.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@ python_version >= '3.8',*
+268,jupyterlab_server,">=2.11.1, <2.16.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+269,kedro,~={{ cookiecutter.kedro_version }},/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+270,pytest,~=7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+271,black,~=22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+272,pytest-cov,~=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+273,isort,~=5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+274,kedro-telemetry,~=0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+275,jupyterlab,"~=3.0, <3.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+276,pytest-mock,">=1.7.1, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+277,flake8,">=3.7.9, <5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+278,nbstripout,~=0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+279,ipython,">=7.31.1, <8.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@ python_version < '3.8',*
+280,docutils,<0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+281,sphinx,~=3.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+282,sphinx_rtd_theme,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+283,nbsphinx,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+284,nbstripout,~=0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+285,sphinx-autodoc-typehints,==1.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+286,sphinx_copybutton,==0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+287,ipykernel,">=5.3, <7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+288,Jinja2,<3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+289,myst-parser,~=0.17.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/kedro/templates/project/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+290,jupyter,~=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+291,ipython,~=8.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@ python_version >= '3.8',*
+292,jupyterlab_server,">=2.11.1, <2.16.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+293,kedro,=={{ cookiecutter.kedro_version }},/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+294,pytest,~=7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+295,black,~=22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+296,pytest-cov,~=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+297,isort,~=5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+298,kedro-telemetry,~=0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+299,jupyterlab,"~=3.0, <3.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+300,pytest-mock,">=1.7.1, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+301,flake8,">=3.7.9, <5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+302,nbstripout,~=0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@*,*
+303,ipython,">=7.31.1, <8.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/requirements.txt,*,*@ python_version < '3.8',*
+304,docutils,<0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+305,sphinx,~=3.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+306,sphinx_rtd_theme,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+307,nbsphinx,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+308,nbstripout,~=0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+309,sphinx-autodoc-typehints,==1.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+310,sphinx_copybutton,==0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+311,ipykernel,">=5.3, <7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+312,Jinja2,<3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*
+313,myst-parser,~=0.17.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kedro/features/steps/test_starter/{{ cookiecutter.repo_name }}/src/setup.py,extras_require,@*,*

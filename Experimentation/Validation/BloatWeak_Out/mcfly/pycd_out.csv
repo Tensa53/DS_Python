@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,numpy,<1.22.0,/home/daniele/git/Validation/Repo/mcfly/setup.py,install_requires,@*,*
+1,scikit-learn,">=0.15.0,<1.1.0",/home/daniele/git/Validation/Repo/mcfly/setup.py,install_requires,@*,*
+2,scipy,">=0.11,<1.8.0",/home/daniele/git/Validation/Repo/mcfly/setup.py,install_requires,@*,*
+3,tensorflow,>=2.0.0,/home/daniele/git/Validation/Repo/mcfly/setup.py,install_requires,@*,*
+4,h5py,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,install_requires,@*,*
+5,coverage,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+6,prospector,==1.7.7,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+7,pytest,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+8,pytest-cov,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+9,build,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+10,twine,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+11,wheel,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+12,sphinx,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*
+13,sphinx-rtd-theme,==*,/home/daniele/git/Validation/Repo/mcfly/setup.py,extras_require,@*,*

@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,eigen,==3.3.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/ReAgent/rasp_requirements.txt,*,*@*,*
+1,boost,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ReAgent/rasp_requirements.txt,*,*@*,*
+2,cmake,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ReAgent/rasp_requirements.txt,*,*@*,*
+3,glog,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ReAgent/rasp_requirements.txt,*,*@*,*
+4,python,>=3.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/ReAgent/serving/requirements.txt,*,*@*,*

@@ -1,0 +1,12 @@
+,dep,version,filepath,type,condition,status
+0,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/requirements.txt,*,*@*,*
+1,spacy,">=2.1.0,<3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/requirements.txt,*,*@*,*
+2,cython,>=0.25,/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/requirements.txt,*,*@*,*
+3,numpy,>=1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/setup.py,install_requires,@*,*
+4,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/setup.py,install_requires,@*,*
+5,requests,">=2.13.0,<3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/setup.py,install_requires,@*,*
+6,spacy,">=2.1.0,<3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/setup.py,install_requires,@*,*
+7,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/setup.py,setup_requires,@*,*
+9,torch,">=1.3.0,<1.4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/neuralcoref/train/training_requirements.txt,*,*@*,*
+10,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/neuralcoref/train/training_requirements.txt,*,*@*,*
+11,spacy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neuralcoref/neuralcoref/train/training_requirements.txt,*,*@*,*

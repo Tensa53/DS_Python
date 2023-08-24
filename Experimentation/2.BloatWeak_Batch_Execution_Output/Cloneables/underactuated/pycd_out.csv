@@ -1,0 +1,388 @@
+,dep,version,filepath,type,condition,status
+0,matplotlib,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+1,pyparsing,==3.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+2,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+3,gradescope-utils,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+4,beautifulsoup4,==4.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+5,mpld3,==0.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+6,yapf,==0.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+7,certifi,==2021.10.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+8,jinja2,==3.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+9,snowballstemmer,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+10,pandas,==1.3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+11,pycodestyle,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+12,protobuf,==3.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+13,pytz,==2021.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+14,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+15,numpy,==1.21.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+16,kiwisolver,==1.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+17,mysql-connector-python,==8.0.27,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+18,requests,==2.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+19,cycler,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+20,timeout-decorator,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+21,charset-normalizer,==2.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+22,scipy,==1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+23,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+24,urllib3,==1.26.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+25,soupsieve,==2.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+26,pydocstyle,==6.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+27,idna,==3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+28,lxml,==4.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/focal-requirements.txt,*,*@*,*
+29,chardet,==4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+30,cycler,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+31,pickleshare,==0.7.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+32,black,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+33,soupsieve,==2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+34,wcwidth,==0.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+35,pandas,==1.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+36,pytz,==2022.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+37,pydocstyle,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+38,pillow,==9.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+39,contourpy,==1.0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+40,snowballstemmer,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+41,requests,==2.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+42,pyproject-autoflake,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+43,ipython,==8.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+44,jupyterlab-pygments,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+45,packaging,==23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+46,mistune,==2.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+47,idna,==2.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+48,pure-eval,==0.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+49,executing,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+50,pathspec,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+51,pygments,==2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+52,python-dateutil,==2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+53,stack-data,==0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+54,scipy,==1.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+55,beautifulsoup4,==4.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+56,mysql-connector-python,==8.0.23,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+57,pycodestyle,==2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+58,tornado,==6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+59,kiwisolver,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+60,click,==8.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+61,pexpect,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+62,toml,==0.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+63,traitlets,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+64,tinycss2,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+65,urllib3,==1.26.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+66,jsonschema,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+67,pyrsistent,==0.17.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+68,parso,==0.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+69,nbformat,==5.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+70,tokenize-rt,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+71,pandocfilters,==1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+72,prompt-toolkit,==3.0.38,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+73,jupyter-core,==4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+74,numpy,==1.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+75,asttokens,==2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+76,tomli,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+77,yapf,==0.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+78,ipython-genutils,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+79,lxml,==4.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+80,async-generator,==1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+81,matplotlib,==3.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+82,matplotlib-inline,==0.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+83,autoflake,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+84,decorator,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+85,gradescope-utils,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+86,webencodings,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+87,pyyaml,==6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+88,backcall,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+89,certifi,==2020.12.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+90,pyparsing,==2.4.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+91,attrs,==20.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+92,nbclient,==0.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+93,pyflakes,==3.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+94,markupsafe,==2.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+95,defusedxml,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+96,jedi,==0.18.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+97,mypy-extensions,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+98,pyzmq,==25.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+99,jupyter-client,==6.1.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+100,nbconvert,==7.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+101,pydot,==1.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+102,mpld3,==0.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+103,appnope,==0.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+104,protobuf,==3.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+105,nest-asyncio,==1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+106,ptyprocess,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+107,fonttools,==4.28.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+108,platformdirs,==3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+109,six,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+110,timeout-decorator,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+111,bleach,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+112,jinja2,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/mac-requirements.txt,*,*@*,*
+113,decorator,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+114,fonttools,==4.28.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+115,matplotlib-inline,==0.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+116,wcwidth,==0.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+117,pandocfilters,==1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+118,click,==8.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+119,tokenize-rt,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+120,pygments,==2.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+121,pygments,==2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+122,pytz,==2022.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+123,pydocstyle,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+124,tornado,==6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+125,markupsafe,==2.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+126,pathspec,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+127,lxml,==4.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+128,yapf,==0.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+129,cycler,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+130,pyparsing,==2.4.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+131,pure-eval,==0.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+132,autoflake,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+133,certifi,==2021.10.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+134,scipy,==1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+135,timeout-decorator,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+136,stack-data,==0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+137,certifi,==2020.12.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+138,mistune,==2.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+140,jupyterlab-pygments,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+142,scipy,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+144,requests,==2.28.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+145,scipy,==1.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+146,urllib3,==1.26.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+147,traitlets,==5.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+148,protobuf,==3.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+149,jupyter-client,==6.1.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+150,beautifulsoup4,==4.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+151,pyproject-autoflake,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+152,pyparsing,==3.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+153,tomli,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+154,platformdirs,==3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+155,ipython,==8.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+156,jsonschema,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+157,ptyprocess,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+158,bleach,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+159,pyyaml,==6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+160,pickleshare,==0.7.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+161,soupsieve,==2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+162,markupsafe,==2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+163,cycler,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+164,jinja2,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+165,tinycss2,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+166,mpld3,==0.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+167,toml,==0.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+168,black,==23.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+169,mysql-connector-python,==8.0.32,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+171,snowballstemmer,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+172,pandas,==1.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+173,contourpy,==1.0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+174,pydocstyle,==6.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+175,pyflakes,==3.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+176,nbformat,==5.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+178,parso,==0.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+179,pandas,==1.3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+180,protobuf,==3.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+181,soupsieve,==2.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+183,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+184,ipython,==8.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+185,charset-normalizer,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+186,kiwisolver,==1.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+187,pyparsing,==3.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+189,jupyter-core,==4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+190,nbclient,==0.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+191,idna,==2.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+192,python-dateutil,==2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+193,mypy-extensions,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+194,pycodestyle,==2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+195,soupsieve,==2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+196,nbconvert,==7.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+197,gradescope-utils,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+198,attrs,==20.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+199,fonttools,==4.39.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+201,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+203,idna,==3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+204,pytz,==2021.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+205,prompt-toolkit,==3.0.38,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+206,backcall,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+207,numpy,==1.21.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+208,asttokens,==2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+209,ipython-genutils,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+210,matplotlib,==3.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+211,matplotlib,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+212,kiwisolver,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+213,requests,==2.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+214,requests,==2.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+215,kiwisolver,==1.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+216,mpld3,==0.5.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+218,yapf,==0.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+219,jedi,==0.18.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+220,executing,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+221,numpy,==1.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+223,platformdirs,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+224,mysql-connector-python,==8.0.23,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+226,pydot,==1.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+227,defusedxml,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+230,appnope,==0.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+232,pyzmq,==25.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+233,pexpect,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+234,beautifulsoup4,==4.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+236,nest-asyncio,==1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+238,async-generator,==1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+239,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+240,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+241,certifi,==2022.12.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+242,packaging,==23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+244,urllib3,==1.26.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+247,charset-normalizer,==2.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+250,pycodestyle,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+251,traitlets,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+252,gradescope-utils,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+254,pillow,==9.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+257,snowballstemmer,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+258,urllib3,==1.26.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+259,pathspec,==0.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+262,pyrsistent,==0.17.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+263,chardet,==4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+264,webencodings,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+265,beautifulsoup4,==4.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+270,matplotlib,==3.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+271,black,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+274,protobuf,==3.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version > ""3.8""",*
+277,six,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""darwin""",*
+280,mysql-connector-python,==8.0.27,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+281,jinja2,==3.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/requirements.txt,*,"*@ sys_platform == ""linux"" and python_version <= ""3.8""",*
+282,fonttools,==4.39.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+283,pygments,==2.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+284,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+285,black,==23.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+286,matplotlib-inline,==0.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+287,autoflake,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+288,decorator,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+289,pickleshare,==0.7.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+290,urllib3,==1.26.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+291,soupsieve,==2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+292,protobuf,==3.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+293,click,==8.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+294,wcwidth,==0.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+295,backcall,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+296,pandas,==1.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+297,scipy,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+298,pexpect,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+299,mysql-connector-python,==8.0.32,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+300,certifi,==2022.12.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+301,pytz,==2022.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+302,requests,==2.28.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+303,charset-normalizer,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+304,toml,==0.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+305,pillow,==9.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+306,matplotlib,==3.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+307,pyproject-autoflake,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+308,ptyprocess,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+309,mpld3,==0.5.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+310,platformdirs,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+311,parso,==0.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+312,ipython,==8.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+313,pyflakes,==3.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+314,beautifulsoup4,==4.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+315,tokenize-rt,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+316,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+317,pyparsing,==3.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+318,packaging,==23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+319,prompt-toolkit,==3.0.38,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+320,markupsafe,==2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+321,cycler,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+322,pathspec,==0.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+323,stack-data,==0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+324,timeout-decorator,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+325,traitlets,==5.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+326,jedi,==0.18.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+327,numpy,==1.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+328,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+329,asttokens,==2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+330,executing,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+331,gradescope-utils,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+332,jinja2,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+333,mypy-extensions,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+334,kiwisolver,==1.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+335,pure-eval,==0.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+336,tomli,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+337,lxml,==4.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/jammy-requirements.txt,*,*@*,*
+338,prompt-toolkit,==1.0.18,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+339,pyparsing,==3.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+340,traitlets,==4.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+341,dataclasses,==0.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+342,scipy,==1.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+343,typing-extensions,==3.10.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+344,pickleshare,==0.7.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+345,gradescope-utils,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+346,protobuf,==3.17.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+347,mpld3,==0.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+348,pygame,==2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+349,yapf,==0.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+350,pillow,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+351,certifi,==2021.10.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+352,beautifulsoup4,==4.6.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+353,pyyaml,==3.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+354,snowballstemmer,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+355,pycodestyle,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+356,pexpect,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+357,jinja2,==2.11.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+358,simplegeneric,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+359,urllib3,==1.24.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+360,matplotlib,==2.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+361,pygments,==2.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+362,drake,==0.37.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+363,chardet,==3.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+364,pyngrok,==5.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+365,pyzmq,==22.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+366,numpy,==1.19.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+367,tornado,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+368,ptyprocess,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+369,wcwidth,==0.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+370,pydot,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+371,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+372,six,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+373,mysql-connector-python,==8.0.27,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+374,pandas,==1.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+375,cycler,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+376,pytz,==2018.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+377,ipython,==5.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+378,timeout-decorator,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+379,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+380,u-msgpack-python,==2.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+381,idna,==2.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+382,meshcat,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+383,decorator,==4.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+384,requests,==2.23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+385,ipython-genutils,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+386,pydocstyle,==6.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/bionic-requirements.txt,*,*@*,*
+387,prompt-toolkit,==1.0.18,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+388,pyparsing,==3.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+389,scipy,==1.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+390,torch,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+391,typing-extensions,==3.10.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+392,pickleshare,==0.7.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+393,gradescope-utils,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+394,pygame,==2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+395,mpld3,==0.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+396,pillow,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+397,pyyaml,==3.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+398,pyngrok,==5.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+399,pexpect,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+400,jinja2,==2.11.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+401,simplegeneric,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+402,pygments,==2.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+403,traitlets,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+404,drake,==0.37.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+405,pyzmq,==22.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+406,numpy,==1.19.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+407,tornado,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+408,ptyprocess,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+409,wcwidth,==0.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+410,pydot,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+411,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+412,six,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+413,matplotlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+414,kiwisolver,==1.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+415,pandas,==1.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+416,cycler,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+417,pytz,==2018.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+418,ipython,==5.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+419,timeout-decorator,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+420,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+421,u-msgpack-python,==2.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+422,meshcat,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*
+423,decorator,==4.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/underactuated/colab-requirements.txt,*,*@*,*

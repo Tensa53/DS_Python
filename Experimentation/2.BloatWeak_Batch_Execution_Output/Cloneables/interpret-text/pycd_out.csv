@@ -1,0 +1,22 @@
+,dep,version,filepath,type,condition,status
+0,lightgbm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/requirements.txt,*,*@*,*
+1,nteract-scrapbook,>=0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/requirements.txt,*,*@*,*
+2,shap,">=0.20.0,<=0.29.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/requirements.txt,*,*@*,*
+3,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/requirements.txt,*,*@*,*
+4,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/requirements.txt,*,*@*,*
+5,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/requirements.txt,*,*@*,*
+6,papermill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/requirements.txt,*,*@*,*
+7,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+8,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+9,pydantic,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+10,spacy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+11,ipywidgets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+12,transformers,==2.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+13,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+14,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+15,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+16,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+17,pytorch_pretrained_bert,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+18,cached_property,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+19,interpret-community,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*
+20,shap,">=0.20.0, <=0.29.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/interpret-text/python/setup.py,install_requires,*@*,*

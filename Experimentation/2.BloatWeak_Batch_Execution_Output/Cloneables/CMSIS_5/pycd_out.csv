@@ -1,0 +1,9 @@
+,dep,version,filepath,type,condition,status
+0,python-matrix-runner,~=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/CMSIS/CoreValidation/Project/requirements.txt,*,*@*,*
+1,lxml,~=4.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/CMSIS/CoreValidation/Project/requirements.txt,*,*@*,*
+2,gcovr,~=4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/docker/requirements.txt,*,*@*,*
+3,Jinja2,~=2.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/docker/requirements.txt,*,*@*,*
+4,junit-xml,~=1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/docker/requirements.txt,*,*@*,*
+5,jira,~=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/docker/requirements.txt,*,*@*,*
+6,python-matrix-runner,~=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/docker/requirements.txt,*,*@*,*
+7,junitparser,~=1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/CMSIS_5/docker/requirements.txt,*,*@*,*

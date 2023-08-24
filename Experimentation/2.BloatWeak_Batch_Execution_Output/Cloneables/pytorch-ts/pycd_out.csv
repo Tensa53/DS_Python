@@ -1,0 +1,12 @@
+,dep,version,filepath,type,condition,status
+0,torch,>=1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+1,gluonts,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+2,holidays,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+3,numpy,~=1.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+4,pandas,~=1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+5,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+6,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+7,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+8,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,install_requires,@*,*
+9,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,tests_require,@*,*
+10,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-ts/setup.py,tests_require,@*,*

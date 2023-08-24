@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,toml,>=0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/requirements.txt,*,*@*,*
+1,smart_open,>=1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/requirements.txt,*,*@*,*
+2,pytorch-ignite,>=0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/requirements.txt,*,*@*,*
+3,pyaml,>=19.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/requirements.txt,*,*@*,*
+4,numpy,>=1.16.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/requirements.txt,*,*@*,*
+5,torch,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/requirements.txt,*,*@*,*
+6,numpy,>=1.16.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/setup.py,install_requires,@*,*
+7,pyaml,>=19.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/setup.py,install_requires,@*,*
+8,toml,>=0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/setup.py,install_requires,@*,*
+9,torch,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/setup.py,extras_require,@*,*
+10,pytorch-ignite,>=0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/setup.py,extras_require,@*,*
+11,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/docs/requirements.txt,*,*@special#B.9 B.11,*
+12,sphinxcontrib-napoleon,==0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/docs/requirements.txt,*,*@*,*
+13,sphinx,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/transfer-nlp/docs/requirements.txt,*,*@*,*

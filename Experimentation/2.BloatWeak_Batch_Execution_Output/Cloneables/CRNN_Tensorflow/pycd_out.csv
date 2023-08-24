@@ -1,0 +1,12 @@
+,dep,version,filepath,type,condition,status
+0,opencv_contrib_python,==3.4.1.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+1,wordninja,==0.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+2,typing,==3.6.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+3,pdf2image,==1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+4,tensorflow_gpu,==1.15.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+5,numpy,==1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+6,easydict,==1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+7,matplotlib,==3.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+8,scikit_learn,==0.21.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+9,glog,==0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*
+10,tqdm,==4.28.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/CRNN_Tensorflow/requirements.txt,*,*@*,*

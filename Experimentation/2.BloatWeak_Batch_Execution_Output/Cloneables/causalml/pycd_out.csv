@@ -1,0 +1,8 @@
+,dep,version,filepath,type,condition,status
+0,Cython,>=0.28.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/causalml/docs/requirements.txt,*,*@*,*
+1,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/causalml/docs/requirements.txt,*,*@*,*
+2,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/causalml/docs/requirements.txt,*,*@*,*
+3,sphinxcontrib-bibtex,<2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/causalml/docs/requirements.txt,*,*@*,*
+4,numpy,>=0.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/causalml/docs/requirements.txt,*,*@*,*
+5,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/causalml/docs/requirements.txt,*,*@*,*
+6,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/causalml/docs/requirements.txt,*,*@*,*

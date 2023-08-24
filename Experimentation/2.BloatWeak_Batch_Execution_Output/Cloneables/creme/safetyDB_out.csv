@@ -1,0 +1,68 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,black,>=22.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+1,graphviz,>=0.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+2,gym,>=0.26.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+3,matplotlib,>=3.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+4,mypy,>=0.980,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+5,pre-commit,>=2.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+6,pytest,>=4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+7,ruff,>=0.0.213,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+8,scikit-learn,>=1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+9,scikit-learn,>=1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+10,sqlalchemy,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2019-7164,"<=1.2.17,>=1.3.0b1,<=1.3.0b2","SQLAlchemy through 1.2.17 and 1.3.x through 1.3.0b2 allows SQL Injection via the order_by parameter.
+https://github.com/sqlalchemy/sqlalchemy/issues/4481"
+11,sympy,>=1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+12,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+13,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+14,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+15,vaex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+16,dominate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+17,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2019-1010083,<0.12.3,"Flask 0.12.3 includes a fix for CVE-2019-1010083: Unexpected memory usage. The impact is denial of service. The attack vector is crafted encoded JSON data. NOTE: this may overlap CVE-2018-1000656.
+https://github.com/pallets/flask/pull/2695/commits/0e1e9a04aaf29ab78f721cfc79ac2a691f6e3929"
+18,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2018-1000656,<0.12.3,flask version Before 0.12.3 contains a CWE-20: Improper Input Validation vulnerability in flask that can result in Large amount of memory usage possibly leading to denial of service. This attack appear to be exploitable via Attacker provides JSON data in incorrect encoding. This vulnerability appears to have been fixed in 0.12.3.
+19,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,PVE-2021-25820,<0.6.1,flask 0.6.1 fixes a security problem that allowed clients to download arbitrary files  if the host server was a windows based operating system and the client  uses backslashes to escape the directory the files where exposed from.
+20,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2023-30861,"<2.2.5,>=2.3.0,<2.3.2","Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches 'Set-Cookie' headers, it may send one client's 'session' cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.
+
+1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.
+2. The application sets 'session.permanent = True'
+3. The application does not access or modify the session at any point during a request.
+4. 'SESSION_REFRESH_EACH_REQUEST' enabled (the default).
+5. The application does not set a 'Cache-Control' header to indicate that a page is private or should not be cached.
+
+This happens because vulnerable versions of Flask only set the 'Vary: Cookie' header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5."
+21,ipykernel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+22,jupyter-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+23,mike,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+24,mkdocs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,PVE-2022-47794,<1.3.0,"Mkdocs 1.3.0 fixes an XSS vulnerability which was present when using the search function in built-in themes.
+https://github.com/mkdocs/mkdocs/commit/5cf196361bb0f8364f667ed98888ffa064982efa"
+25,mkdocs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2021-40978,">=0,<1.2.3","The mkdocs 1.2.2 built-in dev-server allows directory traversal using the port 8000, enabling remote exploitation to obtain :sensitive information."
+26,mkdocs-awesome-pages-plugin,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+27,mkdocs-charts-plugin,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+28,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,PVE-2021-32121,<1.0.0,mkdocs-material before 1.0.0 uses _blank targets on links which make it vulnerable to Cross Site Scripting attacks.
+29,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,PVE-2022-44813,<5.0.0,Mkdocs-material 5.0.0 updates its NPM dependency 'acorn' to v6.4.1 to include a security fix.
+30,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-8203,<5.5.0,Mkdocs-material 5.5.0 updates its dependency 'lodash' to v4.17.19 to include a security fix.
+31,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-7788,<6.2.0,Mkdocs-material 6.2.0 updates its dependency 'ini' to v1.3.7 to include a security fix.
+32,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,PVE-2021-39706,<7.0.6,Mkdocs-material 7.0.6 improves the security of the Docker image.
+33,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2021-23364,<7.1.6,Mkdocs-material 7.1.6 updates its dependency 'browserslist' to v4.16.6 to include a security fix.
+34,nbconvert,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2021-32862,<6.5.1,"The GitHub Security Lab discovered sixteen ways to exploit a cross-site scripting vulnerability in nbconvert. When using nbconvert to generate an HTML version of a user-controllable notebook, it is possible to inject arbitrary HTML which may lead to cross-site scripting (XSS) vulnerabilities if these HTML notebooks are served by a web server (eg: nbviewer).
+https://github.com/jupyter/nbconvert/security/advisories/GHSA-9jmq-rx5f-8jwq"
+35,numpydoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+36,python-slugify,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+37,spacy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+38,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+39,watermark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+40,river_extra,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+41,deep-river,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+42,river_torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+43,scikit-learn,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+44,scikit-learn,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+45,scipy,==1.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+46,torch,==1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+47,vowpalwabbit,==9.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+48,dominate,==2.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+49,slugify,==0.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+50,watermark,==2.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+51,river-torch,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one
+52,dataclasses,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/creme/setup.py,False,no one,no one,no one

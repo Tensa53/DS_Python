@@ -1,0 +1,19 @@
+,dep,version,filepath,type,condition,status
+0,coverage,>= 4.3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,*,*@*,*
+1,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,*,*@*,*
+2,mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,*,*@*,*
+3,xdoctest,>= 0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,*,*@*,*
+4,pytest,>= 3.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,*,*@*,*
+5,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,*,*@*,*
+6,scipy,>=1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+7,pyparsing,>=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+8,networkx,>=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+9,pandas,>=1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+10,tqdm,>=4.64,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+11,statsmodels,>=0.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+12,joblib,>=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+13,torch,>=1.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+14,opt_einsum,>=3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+15,numpy,>=1.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+16,scikit-learn,>=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,*,*@*,*
+17,daft,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/optional.txt,*,*@*,*

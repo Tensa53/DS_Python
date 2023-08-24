@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,absl-py,">=0.9,<2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/ml-metadata/setup.py,install_requires,@*,*
+1,attrs,">=20.3,<22",/home/daniele/git/NICHE_projects/Repo/Cloneables/ml-metadata/setup.py,install_requires,@*,*
+2,grpcio,">=1.8.6,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/ml-metadata/setup.py,install_requires,@*,*
+3,protobuf,">=3.13,<4",/home/daniele/git/NICHE_projects/Repo/Cloneables/ml-metadata/setup.py,install_requires,@*,*
+4,six,">=1.10,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/ml-metadata/setup.py,install_requires,@*,*

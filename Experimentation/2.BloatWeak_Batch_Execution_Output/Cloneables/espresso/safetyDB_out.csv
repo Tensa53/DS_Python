@@ -1,0 +1,30 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,cffi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,True,no one,no one,no one
+1,cython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+2,hydra-core,">=1.0.7,<1.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+3,omegaconf,<2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+4,numpy,>=1.21.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+5,numpy,>=1.21.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+6,numpy,>=1.21.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+7,kaldi_io,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+8,regex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+9,sacrebleu,>=1.4.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+10,torch,>=1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+11,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+12,bitarray,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+13,torchaudio,>=0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+14,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+15,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+16,black,==22.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+17,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+18,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+19,sphinx-argparse,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/setup.py,False,no one,no one,no one
+20,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/examples/multilingual/data_scripts/requirement.txt,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+21,wget,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/espresso/examples/multilingual/data_scripts/requirement.txt,False,no one,no one,no one

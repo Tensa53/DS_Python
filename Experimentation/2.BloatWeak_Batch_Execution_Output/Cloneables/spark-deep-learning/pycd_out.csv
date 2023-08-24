@@ -1,0 +1,3 @@
+,dep,version,filepath,type,condition,status
+0,nose,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/spark-deep-learning/setup.py,tests_require,@*,*
+1,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/spark-deep-learning/setup.py,tests_require,@*,*

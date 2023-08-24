@@ -1,0 +1,27 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow,>=1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-deeplearning.txt,*,*@*,*
+1,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-deeplearning.txt,*,*@ python_version < '3.10',*
+2,jupyter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+3,scikit-learn,<1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+4,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+5,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+6,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+7,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+8,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+9,pytest-mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-test.txt,*,*@*,*
+10,pandas,<2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements.txt,*,*@*,*
+11,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements.txt,*,*@*,*
+12,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements.txt,*,*@*,*
+13,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements.txt,*,*@*,*
+14,raiutils,>=0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements.txt,*,*@*,*
+15,jsonschema,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements.txt,*,*@*,*
+16,flake8-breakpoint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+17,flake8-bugbear,==21.11.29,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+18,flake8-nb,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+19,flake8-pytest-style,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+20,flake8-builtins,==1.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+21,isort,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+22,flake8-logging-format,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+23,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+24,flake8,==4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*
+25,flake8-blind-except,==0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/DiCE/requirements-linting.txt,*,*@*,*

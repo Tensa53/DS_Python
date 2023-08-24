@@ -1,0 +1,24 @@
+,dep,version,filepath,type,condition,status
+0,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+1,kaldiio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+2,kenlm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@special#B.10 ,*
+3,absl-py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+4,librosa,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+5,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+6,pandas,<=0.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+7,inflect,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+8,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+9,sentencepiece,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+10,sox,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+11,yapf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+12,rarfile,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+13,jieba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+14,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+15,pyworld,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/requirements.txt,*,*@*,*
+16,recommonmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/docs/requirements.txt,*,*@*,*
+17,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/docs/requirements.txt,*,*@*,*
+18,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/docs/requirements.txt,*,*@*,*
+19,sphinx-autoapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/docs/requirements.txt,*,*@*,*
+20,sphinx-markdown-tables,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/docs/requirements.txt,*,*@*,*
+21,sphinx-autobuild,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/docs/requirements.txt,*,*@*,*
+22,sphinxcontrib-napoleon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/athena/docs/requirements.txt,*,*@*,*

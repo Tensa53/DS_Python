@@ -1,0 +1,3 @@
+,dep,version,filepath,type,condition,status
+0,numpy,>=1.19.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_geometric/docs/requirements.txt,*,*@*,*
+1,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_geometric/benchmark/setup.py,install_requires,@*,*

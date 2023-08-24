@@ -1,0 +1,3 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nematus/setup.py,install_requires,@*,*
+1,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nematus/setup.py,install_requires,@*,*

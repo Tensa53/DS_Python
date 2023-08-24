@@ -1,0 +1,12 @@
+,dep,version,filepath,type,condition,status
+0,keras-transformer,==0.40.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements.txt,*,*@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements.txt,*,*@*,*
+2,setuptools,>=38.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements-dev.txt,*,*@*,*
+3,nose,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements-dev.txt,*,*@*,*
+4,wheel,>=0.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements-dev.txt,*,*@*,*
+5,twine,>=1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements-dev.txt,*,*@*,*
+6,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements-dev.txt,*,*@*,*
+7,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements-dev.txt,*,*@*,*
+8,pycodestyle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/requirements-dev.txt,*,*@*,*
+9,keras-transformer,==0.40.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/setup.py,install_requires,@*,*
+10,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-bert/setup.py,install_requires,@*,*

@@ -1,0 +1,10 @@
+,dep,version,filepath,type,condition,status
+0,typeguard,">=2.7,<3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/requirements.txt,*,*@*,*
+1,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/requirements.txt,*,*@*,*
+2,typeguard,">=2.7,<3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/setup.py,install_requires,@*,*
+3,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/setup.py,install_requires,@*,*
+4,tensorflow,">={},<{}",/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/setup.py,extras_require,@*,*
+5,tensorflow-gpu,">={},<{}",/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/setup.py,extras_require,@*,*
+6,tensorflow-cpu,">={},<{}",/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/setup.py,extras_require,@*,*
+7,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/tools/install_deps/doc_requirements.txt,*,*@*,*
+8,docs,==99113f26039f6c042df7f2898e05019dbcdf3675,/home/daniele/git/NICHE_projects/Repo/Cloneables/addons/tools/install_deps/doc_requirements.txt,*,*@special#B.9,*

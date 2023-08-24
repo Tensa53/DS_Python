@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,torch,">=1.4.0,<1.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+1,torchvision,">=0.5.0,<0.11.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+2,numpy,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+3,Pillow,>=7.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+4,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+5,tqdm,>=4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+6,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+7,ordered-set,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,install_requires,@*,*
+8,pandas,~=0.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,extras_require,*@*,*
+9,academictorrents,~=2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,extras_require,*@*,*
+10,six,~=1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,extras_require,*@*,*
+11,flaky,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-meta/setup.py,extras_require,*@*,*

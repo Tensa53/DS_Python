@@ -1,0 +1,207 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2013-1633,<0.7,"Setuptools version 0.7 includes a fix for CVE-2013-1633: Easy_install in setuptools before 0.7 uses HTTP to retrieve packages from the PyPI repository, and does not perform integrity checks on package contents, which allows man-in-the-middle attackers to execute arbitrary code via a crafted response to the default use of the product."
+1,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2021-26129,<0.9.5,setuptools 0.9.5 fixes a security vulnerability in SSL certificate validation.
+2,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2021-26132,<1.3,"Setuptools before 1.3 has a security vulnerability in SSL match_hostname check, similar to CVE-2013-7440."
+3,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2021-26133,<3.0,setuptools 3.0 avoids the potential security vulnerabilities presented by use of tar archives in ez_setup.py. It also leverages the security features added to ZipFile.extract in Python 2.7.4.
+4,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2022-40897,<65.5.1,"Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+5,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2023-54914,<3.6,"Nltk 3.6 includes a fix for a REDoS vulnerability.
+https://github.com/nltk/nltk/pull/2597"
+6,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-43854,<3.6.5,"Nltk 3.6.5 includes a fix for CVE-2021-43854: Versions prior to 3.6.5 are vulnerable to regular expression denial of service (ReDoS) attacks. The vulnerability is present in PunktSentenceTokenizer, sent_tokenize and word_tokenize. Any users of this class, or these two functions, are vulnerable to the ReDoS attack. In short, a specifically crafted long input to any of these vulnerable functions will cause them to take a significant amount of execution time. If your program relies on any of the vulnerable functions for tokenizing unpredictable user input, it's strongly recommended upgrading to a version of NLTK without the vulnerability. For users unable to upgrade the execution time can be bounded by limiting the maximum length of an input to any of the vulnerable functions.
+https://github.com/nltk/nltk/security/advisories/GHSA-f8m6-h2c7-8h9x
+https://github.com/nltk/nltk/issues/2866"
+7,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-14751,">=0,<3.4.5","NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing attackers to write arbitrary files via a (dot dot slash) in an NLTK package (ZIP archive) that is mishandled during extraction."
+8,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-3828,">=0,<3.6.4",Nltk before 3.6.4 is vulnerable to Inefficient Regular Expression Complexity.
+9,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-3842,">=0,<3.6.6",Nltk before 3.6.6 is vulnerable to Inefficient Regular Expression Complexity.
+10,pynvml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+11,mkl,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+12,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+13,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+14,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+15,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+16,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+17,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+18,py-rouge,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+19,mlflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2023-1177,<2.2.1,"Mlflow 2.2.1 includes a fix for CVE-2023-1177: Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
+https://github.com/advisories/GHSA-xg73-94fp-g449"
+20,mlflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2023-1176,<2.2.1,"Mlflow 2.2.1 includes a fix for CVE-2023-1176: Remote file existence check vulnerability in 'mlflow server' and 'mlflow ui' CLIs.
+https://github.com/advisories/GHSA-wp72-7hj9-5265"
+21,mlflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2023-58929,<2.3.1,"Mlflow 2.3.1 includes a fix for LFI vulnerability by disabling the ability to provide relative paths in registered model sources. 
+https://github.com/mlflow/mlflow/pull/8281
+https://github.com/mlflow/mlflow/security/advisories/GHSA-xg73-94fp-g449"
+22,mlflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2023-58982,<2.4.1,"Mlflow 2.4.1 includes a fix for a local file inclusion vulnerability. 
+https://github.com/mlflow/mlflow/pull/8648"
+23,mlflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2022-0736,">=0,<1.23.1",Insecure Temporary File in GitHub repository mlflow/mlflow prior to 1.23.1.
+24,gymnasium,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+25,pytorch_fid,==0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+26,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+27,neptune-client,>=0.16.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+28,pytest-xdist,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+29,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+30,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2022-47988,<0.12.12,"Wandb 0.12.12 fixes an unsafe temporary file creation vulnerability.
+https://github.com/wandb/client/pull/3360"
+31,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-33503,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+32,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-7212,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+33,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-11078,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+34,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-26137,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+35,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-13757,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+36,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-25658,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+37,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-21240,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+38,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2021-37149,<0.8.0,Socket in wandb 0.8.0 only binds to localhost for improved security and prevents firewall warnings in OSX.
+39,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2017-18342,<0.8.2,"Wandb 0.8.2 updates the pyyaml requirement to address a CVE. No CVE number was mentioned, but it is probably CVE-2017-18342."
+40,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+41,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+42,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+43,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+44,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+45,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+46,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+47,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+48,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2018-16487,<0.4.1,Polyaxon 0.4.1 updates its NPM dependency 'lodash' to v4.17.11 to include security fixes.
+49,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-8331,<0.4.1,Polyaxon 0.4.1 updates its NPM dependency 'bootstrap' to v3.4.1 to include a security fix.
+50,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-1010266,<0.4.1,Polyaxon 0.4.1 updates its NPM dependency 'lodash' to v4.17.11 to include security fixes.
+51,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-10744,<0.5.1,Polyaxon 0.5.1 updates its NPM dependency 'lodash' to v4.17.14: vulnerability issue.
+52,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-25626,<0.5.5,Polyaxon 0.5.5 updates its dependency 'djangorestframework' to v3.10.1 to include a security fix.
+53,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-14233,<0.5.5,Polyaxon 0.5.5 updates its dependency 'django' to v2.2.4 to include security fixes.
+54,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-14232,<0.5.5,Polyaxon 0.5.5 updates its dependency 'django' to v2.2.4 to include security fixes.
+55,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-14235,<0.5.5,Polyaxon 0.5.5 updates its dependency 'django' to v2.2.4 to include security fixes.
+56,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2019-14234,<0.5.5,Polyaxon 0.5.5 updates its dependency 'django' to v2.2.4 to include security fixes.
+57,polyaxon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2021-38022,<0.6.0,Polyaxon 0.6.0 fixes some unspecified security issues.
+58,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+59,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+60,markupsafe,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+61,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2022-49701,<0.17.5rc3,"Clearml 0.17.5rc3 fixes unsafe call to set_active().
+https://github.com/allegroai/clearml/commit/b0000df575e830a81674f4e5cf3d89cf6d6441b4"
+62,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,PVE-2022-49700,<1.0.6rc2,"Clearml 1.0.6rc2 fixes unsafe Google Storage delete object.
+https://github.com/allegroai/clearml/commit/6e15349b7627bee3847a39e5bdce8c988e39cb38"
+63,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,CVE-2022-29217,<1.4.2rc0,"Clearml 1.4.2rc0 updates its dependency 'pyjwt' requirement to versions '>=2.4.0,<2.5.0' to include a security fix."
+64,visdom,==0.2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+65,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+66,polyaxon-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+67,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+68,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+69,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/requirements-dev.txt,False,no one,no one,no one
+70,torch,">=1.3,<3",/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+71,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/setup.py,False,no one,no one,no one
+72,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/siamese_network/requirements.txt,False,no one,no one,no one
+73,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/siamese_network/requirements.txt,False,no one,no one,no one
+74,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/siamese_network/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+75,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,PVE-2022-49701,<0.17.5rc3,"Clearml 0.17.5rc3 fixes unsafe call to set_active().
+https://github.com/allegroai/clearml/commit/b0000df575e830a81674f4e5cf3d89cf6d6441b4"
+76,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,PVE-2022-49700,<1.0.6rc2,"Clearml 1.0.6rc2 fixes unsafe Google Storage delete object.
+https://github.com/allegroai/clearml/commit/6e15349b7627bee3847a39e5bdce8c988e39cb38"
+77,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2022-29217,<1.4.2rc0,"Clearml 1.4.2rc0 updates its dependency 'pyjwt' requirement to versions '>=2.4.0,<2.5.0' to include a security fix."
+78,fire,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,no one,no one,no one
+79,albumentations,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,no one,no one,no one
+80,image-dataset-viz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,no one,no one,no one
+81,py_config_runner,">=0.2.0,<1.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,no one,no one,no one
+82,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+83,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+84,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+85,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+86,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+87,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+88,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+89,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+90,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,no one,no one,no one
+91,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,no one,no one,no one
+92,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+93,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+94,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,no one,no one,no one
+95,opencv-python-headless,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/segmentation/pascal_voc2012/requirements.txt,False,CVE-2019-14493,">=0,<4.1.1.26",An issue was discovered in OpenCV before 4.1.1 (OpenCV-Python before 4.1.1.26). There is a NULL pointer dereference in the function cv::XMLParser::parse at modules/core/src/persistence.cpp.
+96,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,PVE-2022-49701,<0.17.5rc3,"Clearml 0.17.5rc3 fixes unsafe call to set_active().
+https://github.com/allegroai/clearml/commit/b0000df575e830a81674f4e5cf3d89cf6d6441b4"
+97,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,PVE-2022-49700,<1.0.6rc2,"Clearml 1.0.6rc2 fixes unsafe Google Storage delete object.
+https://github.com/allegroai/clearml/commit/6e15349b7627bee3847a39e5bdce8c988e39cb38"
+98,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2022-29217,<1.4.2rc0,"Clearml 1.4.2rc0 updates its dependency 'pyjwt' requirement to versions '>=2.4.0,<2.5.0' to include a security fix."
+99,fire,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,no one,no one,no one
+100,albumentations,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,no one,no one,no one
+101,image-dataset-viz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,no one,no one,no one
+102,py_config_runner,">=0.2.0,<1.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,no one,no one,no one
+103,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+104,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+105,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+106,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+107,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+108,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+109,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+110,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+111,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,no one,no one,no one
+112,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,no one,no one,no one
+113,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+114,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+115,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,no one,no one,no one
+116,opencv-python-headless,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/references/classification/imagenet/requirements.txt,False,CVE-2019-14493,">=0,<4.1.1.26",An issue was discovered in OpenCV before 4.1.1 (OpenCV-Python before 4.1.1.26). There is a NULL pointer dereference in the function cv::XMLParser::parse at modules/core/src/persistence.cpp.
+117,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,no one,no one,no one
+118,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,PVE-2022-49701,<0.17.5rc3,"Clearml 0.17.5rc3 fixes unsafe call to set_active().
+https://github.com/allegroai/clearml/commit/b0000df575e830a81674f4e5cf3d89cf6d6441b4"
+119,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,PVE-2022-49700,<1.0.6rc2,"Clearml 1.0.6rc2 fixes unsafe Google Storage delete object.
+https://github.com/allegroai/clearml/commit/6e15349b7627bee3847a39e5bdce8c988e39cb38"
+120,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,CVE-2022-29217,<1.4.2rc0,"Clearml 1.4.2rc0 updates its dependency 'pyjwt' requirement to versions '>=2.4.0,<2.5.0' to include a security fix."
+121,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+122,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+123,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,PVE-2021-40187,<4.5.0,Transformers 4.5.0 includes various vulnerability fixes.
+124,fire,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,no one,no one,no one
+125,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,no one,no one,no one
+126,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+127,datasets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/transformers/requirements.txt,False,no one,no one,no one
+128,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,no one,no one,no one
+129,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,PVE-2022-49701,<0.17.5rc3,"Clearml 0.17.5rc3 fixes unsafe call to set_active().
+https://github.com/allegroai/clearml/commit/b0000df575e830a81674f4e5cf3d89cf6d6441b4"
+130,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,PVE-2022-49700,<1.0.6rc2,"Clearml 1.0.6rc2 fixes unsafe Google Storage delete object.
+https://github.com/allegroai/clearml/commit/6e15349b7627bee3847a39e5bdce8c988e39cb38"
+131,clearml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,CVE-2022-29217,<1.4.2rc0,"Clearml 1.4.2rc0 updates its dependency 'pyjwt' requirement to versions '>=2.4.0,<2.5.0' to include a security fix."
+132,fire,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,no one,no one,no one
+133,pytorch-ignite,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,no one,no one,no one
+134,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,no one,no one,no one
+135,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/examples/contrib/cifar10/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+136,sphinx-copybutton,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/docs/requirements.txt,False,no one,no one,no one
+137,sphinx_togglebutton,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/docs/requirements.txt,False,no one,no one,no one
+138,sphinxcontrib-katex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/docs/requirements.txt,False,no one,no one,no one
+139,pytorch_sphinx_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/docs/requirements.txt,False,no one,no one,no one
+140,sphinx,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/docs/requirements.txt,False,no one,no one,no one
+141,sphinx_design,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/docs/requirements.txt,False,no one,no one,no one
+142,docutils,<0.18,/home/daniele/git/NICHE_projects/Repo/Cloneables/ignite/docs/requirements.txt,False,CVE-2009-5042,">=0.5,<0.6","Docutils 0.6 includes a fix for CVE-2009-5042: Python-docutils allows insecure usage of temporary files.
+https://github.com/advisories/GHSA-cg75-6938-wx58"

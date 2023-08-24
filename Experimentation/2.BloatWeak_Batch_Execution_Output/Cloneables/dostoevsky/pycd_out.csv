@@ -1,0 +1,8 @@
+,dep,version,filepath,type,condition,status
+0,wheel,==0.38.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/dostoevsky/requirements/tests.txt,*,*@*,*
+1,pytest,==7.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/dostoevsky/requirements/tests.txt,*,*@*,*
+2,mypy,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/dostoevsky/requirements/tests.txt,*,*@*,*
+3,isort,==5.11.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/dostoevsky/requirements/tests.txt,*,*@*,*
+4,black,==22.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/dostoevsky/requirements/tests.txt,*,*@*,*
+5,fasttext,==0.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/dostoevsky/requirements/base.txt,*,*@*,*
+6,razdel,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/dostoevsky/requirements/base.txt,*,*@*,*

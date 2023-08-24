@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,visdom,>=0.1.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,*,*@*,*
+1,torchvision,>=0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,*,*@*,*
+2,scipy,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,*,*@*,*
+3,torch,>=0.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,*,*@*,*
+4,dominate,>=2.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,*,*@*,*

@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,pillow-simd,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/setup.py,install_requires,(__name__ == '__main__')@*@(get_dist('pillow-simd') is not None)@*@*,*
+1,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/setup.py,install_requires,(__name__ == '__main__')@*@not (get_dist('pillow-simd') is not None)@*@*,*
+2,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/setup.py,extras_require,(__name__ == '__main__')@*,*
+3,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/setup.py,install_requires,*@*,*
+4,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/setup.py,install_requires,*@*,*
+5,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/setup.py,install_requires,*@*,*
+6,sphinx-copybutton,>=0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@*,*
+7,pytorch_sphinx_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@special#B.9 B.11,*
+8,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@*,*
+9,pycocotools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@*,*
+10,sphinx,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@*,*
+11,sphinx-gallery,>=0.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@*,*
+12,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@*,*
+13,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/vision/docs/requirements.txt,*,*@*,*

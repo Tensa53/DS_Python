@@ -1,0 +1,19 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,axial-positional-embedding,>=0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,False,no one,no one,no one
+1,einops,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,False,no one,no one,no one
+2,local-attention,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,False,no one,no one,no one
+3,product-key-memory,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,False,no one,no one,no one
+4,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+5,tensorboard,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,no one,no one,no one
+6,torch,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+7,numpy,==1.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+8,revtorch,==0.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,no one,no one,no one
+9,torchvision,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,no one,no one,no one
+10,plotly,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,CVE-2019-10775,<4.8.2,"Plotly 4.8.2 includes plotly.js version 1.54.5, which contains a security fix of a transitive dependency (ecstatic)."
+11,plotly,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,CVE-2020-7598,<4.9.0,Plotly 4.9.0 builds Javascript extensions using Node 12 with an updated 'package-lock.json' that has many fewer security warnings.
+12,transformers,==4.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,no one,no one,no one
+13,fairseq,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,False,no one,no one,no one

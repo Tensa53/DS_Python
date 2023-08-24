@@ -1,0 +1,24 @@
+,dep,version,filepath,type,condition,status
+0,torchmetrics,>= 0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+1,omegaconf,">=2.1,<3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+2,lightning,>= 2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+3,pyannote.metrics,>= 3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+4,pyannote.pipeline,>= 2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+5,semver,>= 3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+6,asteroid-filterbanks,>=0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+7,torch_audiomentations,>= 0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+8,pyannote.core,>= 5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+9,rich,>= 12.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+10,einops,>=0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+11,speechbrain,>= 0.5.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+12,torchaudio,>= 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+13,tensorboardX,>= 2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+14,huggingface_hub,>= 0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+15,pyannote.database,>= 5.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+16,torch,>= 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+17,soundfile,>= 0.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+18,pytorch_metric_learning,>= 2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/requirements.txt,*,*@*,*
+19,recommonmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/doc/requirements.txt,*,*@*,*
+20,Sphinx,==2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/doc/requirements.txt,*,*@*,*
+21,sphinx_rtd_theme,==0.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/doc/requirements.txt,*,*@*,*
+22,ipython,==7.16.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyannote-audio/doc/requirements.txt,*,*@*,*

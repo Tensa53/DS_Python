@@ -1,0 +1,7 @@
+,dep,version,filepath,type,condition,status
+0,numpy,>=1.16.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlcard/setup.py,install_requires,@*,*
+1,termcolor,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlcard/setup.py,install_requires,@*,*
+2,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlcard/setup.py,extras_require,*@*,*
+3,GitPython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlcard/setup.py,extras_require,*@*,*
+4,gitdb2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlcard/setup.py,extras_require,*@*,*
+5,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlcard/setup.py,extras_require,*@*,*

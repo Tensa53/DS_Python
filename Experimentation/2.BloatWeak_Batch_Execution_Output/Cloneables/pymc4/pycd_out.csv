@@ -1,0 +1,17 @@
+,dep,version,filepath,type,condition,status
+0,gast,>=0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,*,*@*,*
+1,scipy,>=0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,*,*@*,*
+2,tfp-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,*,*@*,*
+3,arviz,>=0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,*,*@*,*
+4,pymc3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,*,*@*,*
+5,tf-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements.txt,*,*@*,*
+6,jupyter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+7,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+8,pytest-html,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+9,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+10,mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+11,jupyterlab,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+12,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+13,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+14,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*
+15,pydocstyle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pymc4/requirements-dev.txt,*,*@*,*

@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,PyYAML,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/onnx-tensorflow/setup.py,install_requires,@*,*
+1,tensorflow_addons,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/onnx-tensorflow/setup.py,install_requires,@*,*
+2,tensorflow_probability,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/onnx-tensorflow/setup.py,install_requires,@*,*
+3,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/onnx-tensorflow/setup.py,install_requires,*@*,*
+4,onnx,>,/home/daniele/git/NICHE_projects/Repo/Cloneables/onnx-tensorflow/setup.py,install_requires,*@*,*

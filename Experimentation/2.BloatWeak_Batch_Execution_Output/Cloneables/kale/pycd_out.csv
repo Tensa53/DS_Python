@@ -1,0 +1,59 @@
+,dep,version,filepath,type,condition,status
+0,kfp,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+1,autopep8,">=1.4, <1.5",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+2,astor,>= 0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+3,networkx,">=2.3, <3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+4,jinja2,">=2.10, <3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+5,pyflakes,>=2.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+6,dill,">=0.3, <0.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+7,IPython,>= 7.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+8,jupyter-client,">=5.3.4, <7.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+9,jupyter-core,>= 4.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+10,nbconvert,">=5.6.1, <6.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+11,nbformat,">=4.4, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+12,ipykernel,>= 5.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+13,notebook,>= 6.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+14,packaging,> 20,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+15,ml_metadata,">= 0.26.0, < 1",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+16,progress,>= 1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+17,kfserving,">= 0.4.0, < 0.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+18,kubernetes,< 12.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,install_requires,@*,*
+19,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,extras_require,@*,*
+20,pytest-clarity,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,extras_require,@*,*
+21,testfixtures,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,extras_require,@*,*
+22,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,extras_require,@*,*
+23,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,extras_require,@*,*
+24,flake8-docstrings,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/backend/setup.py,extras_require,@*,*
+25,matplotlib,==2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+26,h5py,==2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+27,opencv-python,==3.2.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+28,pillow,==4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+29,scikit-learn,==0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+30,tqdm,==4.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+31,scipy,==0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+32,tensorflow,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+33,numpy,==1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+34,keras,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements.txt,*,*@*,*
+35,pillow,==7.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements-v2.txt,*,*@*,*
+36,matplotlib,==3.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements-v2.txt,*,*@*,*
+37,tensorflow,==2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/dog-breed-classification/requirements/requirements-v2.txt,*,*@*,*
+38,apache-beam,==2.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+39,tensorflow,==1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+40,pandas,==0.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+41,scikit-learn,==0.20.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+42,tensorflow-transform,==0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+43,tensorflow-data-validation,==0.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+44,ipywidgets,==7.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+45,tensorflow-model-analysis,==0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/taxi-cab-classification/requirements.txt,*,*@*,*
+46,tensorflow,==2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/openvaccine-kaggle-competition/requirements.txt,*,*@*,*
+47,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/openvaccine-kaggle-competition/requirements.txt,*,*@*,*
+48,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/openvaccine-kaggle-competition/requirements.txt,*,*@*,*
+49,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/serving/xgboost/requirements.txt,*,*@*,*
+50,xgboost,==0.90,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/serving/xgboost/requirements.txt,*,*@*,*
+51,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/serving/sklearn/requirements.txt,*,*@*,*
+52,scikit-learn,==0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/serving/sklearn/requirements.txt,*,*@*,*
+53,pandas,==0.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/titanic-ml-dataset/requirements.txt,*,*@*,*
+54,scikit-learn,==0.20.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/titanic-ml-dataset/requirements.txt,*,*@*,*
+55,matplotlib,==3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/titanic-ml-dataset/requirements.txt,*,*@*,*
+56,numpy,==1.16.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/titanic-ml-dataset/requirements.txt,*,*@*,*
+57,seaborn,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/kale/examples/titanic-ml-dataset/requirements.txt,*,*@*,*

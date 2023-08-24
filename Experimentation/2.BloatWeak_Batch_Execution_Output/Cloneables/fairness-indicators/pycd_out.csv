@@ -1,0 +1,12 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow,">=2.12.0,<2.13",/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/setup.py,install_requires,*@*,*
+1,tensorflow-hub,">=0.8.0,<1.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/setup.py,install_requires,*@*,*
+2,tensorflow-data-validation,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/setup.py,install_requires,*@*,*
+3,tensorflow-model-analysis,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/setup.py,install_requires,*@*,*
+4,witwidget,">=1.4.4,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/setup.py,install_requires,*@*,*
+5,protobuf,">=3.20.3,<5",/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/setup.py,install_requires,*@*,*
+12,protobuf,">=3.20.3,<5",/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/tensorboard_plugin/setup.py,install_requires,*@*,*
+13,tensorboard,">=2.8.0,<3",/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/tensorboard_plugin/setup.py,install_requires,*@*,*
+14,tensorflow,">=2.12,<3",/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/tensorboard_plugin/setup.py,install_requires,*@*,*
+15,tensorflow-model-analysis,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/tensorboard_plugin/setup.py,install_requires,*@*,*
+16,werkzeug,<2,/home/daniele/git/NICHE_projects/Repo/Cloneables/fairness-indicators/tensorboard_plugin/setup.py,install_requires,*@*,*

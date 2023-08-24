@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,datetime,>=4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+1,requests,>=2.23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+2,numpy,==1.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+3,azureml-sdk,==1.0.85,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+4,scikit-learn,==0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+5,tqdm,>=4.43.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+6,gitpython,>=3.0.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+7,tensorflow,==2.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+8,matplotlib,>=3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*
+9,pandas,==0.23.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/forecasting/fclib/requirements.txt,*,*@*,*

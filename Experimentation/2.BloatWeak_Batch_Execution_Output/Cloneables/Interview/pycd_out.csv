@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Interview/old/requirements.txt,*,*@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Interview/old/requirements.txt,*,*@*,*
+2,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Interview/old/requirements.txt,*,*@*,*
+3,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Interview/old/requirements.txt,*,*@*,*
+4,keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Interview/old/requirements.txt,*,*@*,*

@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,protobuf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+1,contextlib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+2,mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+3,absl-py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+4,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+5,intervaltree,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+6,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+7,apache-beam,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+8,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*
+9,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nucleus/nucleus/pip_package/egg_files/requires.txt,*,*@*,*

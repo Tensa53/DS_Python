@@ -1,0 +1,2 @@
+,dep,version,filepath,type,condition,status
+0,pbr,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/kraken/setup.py,setup_requires,@*,*

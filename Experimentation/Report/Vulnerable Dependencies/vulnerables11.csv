@@ -1,0 +1,20 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+25,25,bert-as-service,56,0,11,0,14
+49,51,Cornell-Conversational-Analysis-Toolkit,27,4,11,0,21
+74,76,distiller,31,0,11,0,58
+88,91,facenet-pytorch,17,0,11,0,110
+107,110,fonduer,38,0,11,0,41
+152,155,kino-bot,38,0,11,0,37
+161,164,learn2learn,24,0,11,0,29
+166,170,lucid,20,0,11,0,1042
+225,231,onnxmltools,23,0,11,0,32
+245,251,pwnagotchi,24,0,11,0,532
+246,252,pycorrector,25,0,11,0,39
+269,275,pytorch_wavelets,28,1,11,0,49
+280,287,rising,35,0,11,0,84
+311,320,tcav,13,0,11,0,543
+316,325,tensorforce,53,0,11,0,1487
+319,328,tensorpack,28,0,11,0,509
+320,329,text,26,0,11,0,34
+322,331,TextRecognitionDataGenerator,26,1,11,1,663
+353,362,yolov3,20,0,11,0,72

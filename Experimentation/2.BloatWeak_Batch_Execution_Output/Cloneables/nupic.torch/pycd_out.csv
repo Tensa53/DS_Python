@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/examples/gsc/requirements.txt,*,*@*,*
+1,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/examples/gsc/requirements.txt,*,*@*,*
+2,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/examples/gsc/requirements.txt,*,*@*,*
+3,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/examples/gsc_pretrain/requirements.txt,*,*@*,*
+4,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/examples/gsc_pretrain/requirements.txt,*,*@*,*
+5,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/examples/gsc_pretrain/requirements.txt,*,*@*,*
+6,sphinx,>=2,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/docs/requirements.txt,*,*@*,*
+7,sphinx-autobuild,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/docs/requirements.txt,*,*@*,*
+8,docutils,>=0.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/docs/requirements.txt,*,*@*,*
+9,myst-parser,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/nupic.torch/docs/requirements.txt,*,*@*,*

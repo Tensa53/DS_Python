@@ -1,0 +1,5 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/MinkowskiEngine/requirements.txt,*,*@*,*
+1,torch,">=1.4,<1.7",/home/daniele/git/NICHE_projects/Repo/Cloneables/MinkowskiEngine/requirements.txt,*,*@*,*
+2,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/MinkowskiEngine/setup.py,install_requires,@*,*
+3,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/MinkowskiEngine/setup.py,install_requires,@*,*

@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.txt,*,*@*,*
+1,NEURON,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+2,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+3,onnxruntime,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+4,lasagne,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+5,theano,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+6,brian2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+7,pyNN,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+8,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+9,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+10,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+11,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/requirements.rtd.txt,*,*@*,*
+12,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/setup.py,setup_requires,@*,*
+13,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snn_toolbox/setup.py,tests_require,@*,*

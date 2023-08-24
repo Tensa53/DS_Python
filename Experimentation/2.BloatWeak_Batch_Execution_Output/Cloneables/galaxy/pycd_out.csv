@@ -1,0 +1,782 @@
+,dep,version,filepath,type,condition,status
+0,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+1,charset-normalizer,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+2,markupsafe,==2.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+3,apispec,==6.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+4,jsonref,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+5,s3fs,==2023.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+6,beaker,==1.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+7,aiohttp,==3.8.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+8,ecdsa,==0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+9,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+10,pyjwt,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+11,sqlparse,==0.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+12,adal,==1.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+13,boto,==2.49.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+14,aiobotocore,==2.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+15,conda-package-streaming,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+16,pebble,==5.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+17,pulsar-galaxy-lib,==0.15.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+18,markdown-it-py,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+19,tzlocal,==2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+20,zipp,==3.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+21,numpy,==1.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.9"" and python_version < ""3.12""",*
+22,mako,==1.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+23,anyio,==3.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+24,python3-openid,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+25,python-jose,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+26,circus,==0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+27,cwl-upgrader,==1.2.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+28,exceptiongroup,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.11""",*
+29,dictobj,==0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+30,bcrypt,==4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+31,msgpack,==1.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+32,pastedeploy,==3.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+33,svgwrite,==1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+34,orjson,==3.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+35,pyreadline,==2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ sys_platform == ""win32"" and python_version < ""3.8"" and python_version >= ""3.7""",*
+36,sniffio,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+37,alembic,==1.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+38,pyparsing,==3.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+39,decorator,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+40,lagom,==2.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+41,rdflib,==6.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+42,galaxy-sequence-utils,==1.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+43,jsonschema,==4.17.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+44,routes,==2.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+45,nodeenv,==1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+46,bagit-profile,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+47,tenacity,==8.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+48,botocore,==1.27.59,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+49,pyreadline3,==3.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ sys_platform == ""win32"" and python_version >= ""3.8"" and python_version < ""3.12""",*
+50,whoosh,==2.7.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+51,sortedcontainers,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+52,docopt,==0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+53,rocrate,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+54,isodate,==0.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+55,vine,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+56,pyeventsystem,==0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+57,uvicorn,==0.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+58,lxml,==4.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+59,email-validator,==2.0.0.post2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+60,mdurl,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+61,oauthlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+62,boltons,==23.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+63,galaxy2cwl,==0.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+64,jmespath,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+65,wrapt,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+66,multidict,==6.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+67,asynctest,==0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+68,pyfaidx,==0.7.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+69,edam-ontology,==1.25.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+70,filelock,==3.12.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+71,aiosignal,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+72,tifffile,==2021.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+73,pyyaml,==6.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+74,webencodings,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+75,click-plugins,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+76,attmap,==0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+77,gravity,==1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+78,fastapi,==0.98.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+79,pydantic,==1.10.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+80,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+81,sqlitedict,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+82,cryptography,==41.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+83,cachecontrol,==0.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+84,certifi,==2023.7.22,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+85,starlette,==0.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+86,paste,==3.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+87,cloudbridge,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+88,click,==8.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+89,shellescape,==3.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+90,rich,==13.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+91,pylibmagic,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+92,webob,==1.8.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+93,click-didyoumean,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+94,repoze-lru,==0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+95,uvloop,==0.17.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+96,schema-salad,==8.4.20230606143604,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+97,coloredlogs,==15.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+98,tuspy,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+99,docutils,==0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+100,ruamel-yaml-clib,==0.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ platform_python_implementation == ""CPython"" and python_version < ""3.11"" and python_version >= ""3.7""",*
+101,cwl-utils,==0.28,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+102,zipstream-new,==1.1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+103,billiard,==3.6.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+104,setuptools-scm,==5.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+105,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+106,kombu,==5.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+107,social-auth-core,==4.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+108,deprecation,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+109,parsley,==1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+110,click-repl,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+111,fs,==2.4.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+112,msal,==1.23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+113,python-magic,==0.4.27,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+114,dnspython,==2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+115,aioitertools,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+116,colorama,==0.4.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and platform_system == ""Windows""",*
+117,greenlet,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and (platform_machine == ""win32"" or platform_machine == ""WIN32"" or platform_machine == ""AMD64"" or platform_machine == ""amd64"" or platform_machine == ""x86_64"" or platform_machine == ""ppc64le"" or platform_machine == ""aarch64"") and python_version < ""3.12""",*
+118,mercurial,==6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+119,pynacl,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+120,babel,==2.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+121,pygments,==2.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+122,cython,==3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+123,prompt-toolkit,==3.0.39,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+124,numpy,==1.21.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+125,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+126,pyzmq,==25.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+127,gxformat2,==0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+128,jinja2,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+129,bleach,==6.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+130,oyaml,==1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+131,ubiquerg,==0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+132,pycparser,==2.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+133,attrs,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+134,ruamel-yaml,==0.17.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+135,amqp,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+136,numpy,==1.24.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.8"" and python_version < ""3.9""",*
+137,pytz,==2023.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+138,cwltool,==3.1.20221109155812,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+139,tqdm,==4.65.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+140,tinydb,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+141,pydot,==1.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+142,bioblend,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+143,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+144,urllib3,==1.26.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+145,fastapi-utils,==0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+146,tornado,==6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+147,requests-unixsocket,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+148,requests-oauthlib,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+149,h11,==0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+150,mistune,==2.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+151,aiofiles,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+152,pysam,==0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+153,a2wsgi,==1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+154,future,==0.18.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+155,pkgutil-resolve-name,==1.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.9""",*
+156,rsa,==4.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+157,tuswsgi,==0.5.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+158,humanfriendly,==10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+159,starlette-context,==0.3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+160,typing-extensions,==4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+161,python-multipart,==0.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+162,refgenconf,==0.12.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+163,appdirs,==1.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+164,pycryptodome,==3.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+165,h5grove,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+166,sqlalchemy,==1.4.49,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+167,arcp,==0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+168,setuptools,==68.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+169,argcomplete,==3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+170,async-timeout,==4.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+171,cffi,==1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+172,cloudauthz,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+173,isa-rwval,==0.10.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+174,networkx,==2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+176,wcwidth,==0.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+177,bagit,==1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+178,importlib-resources,==5.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+179,h5py,==3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+180,paramiko,==3.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+181,yacman,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+182,importlib-metadata,==4.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+183,bdbag,==1.6.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+184,pydantic-tes,==0.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+185,cached-property,==1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+186,yarl,==1.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+187,cheetah3,==3.2.6.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+188,pykwalify,==1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+189,requests-toolbelt,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+190,frozenlist,==1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+191,supervisor,==4.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+192,fsspec,==2023.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+193,pyasn1,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+194,markdown,==3.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+195,zstandard,==0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+196,prov,==1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+198,pyrsistent,==0.19.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+199,celery,==5.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+200,defusedxml,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+201,mypy-extensions,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+202,bx-python,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+203,mrcfile,==1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+204,gunicorn,==21.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+205,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+206,charset-normalizer,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+207,markupsafe,==2.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+208,apispec,==6.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+209,jsonref,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+210,s3fs,==2023.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+211,beaker,==1.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+212,aiohttp,==3.8.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+213,ecdsa,==0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+214,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+215,pyjwt,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+216,sqlparse,==0.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+217,adal,==1.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+218,boto,==2.49.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+219,aiobotocore,==2.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+220,conda-package-streaming,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+221,pebble,==5.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+222,pulsar-galaxy-lib,==0.15.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+223,markdown-it-py,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+224,tzlocal,==2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+225,zipp,==3.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+226,numpy,==1.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.9"" and python_version < ""3.12""",*
+227,mako,==1.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+228,anyio,==3.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+229,python3-openid,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+230,python-jose,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+231,circus,==0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+232,cwl-upgrader,==1.2.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+233,exceptiongroup,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.11""",*
+234,dictobj,==0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+235,bcrypt,==4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+236,msgpack,==1.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+237,pastedeploy,==3.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+238,svgwrite,==1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+239,orjson,==3.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+240,pyreadline,==2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ sys_platform == ""win32"" and python_version < ""3.8"" and python_version >= ""3.7""",*
+241,sniffio,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+242,alembic,==1.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+243,pyparsing,==3.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+244,decorator,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+245,lagom,==2.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+246,rdflib,==6.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+247,galaxy-sequence-utils,==1.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+248,jsonschema,==4.17.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+249,routes,==2.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+250,nodeenv,==1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+251,bagit-profile,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+252,tenacity,==8.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+253,botocore,==1.27.59,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+254,pyreadline3,==3.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ sys_platform == ""win32"" and python_version >= ""3.8"" and python_version < ""3.12""",*
+255,whoosh,==2.7.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+256,sortedcontainers,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+257,docopt,==0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+258,rocrate,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+259,isodate,==0.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+260,vine,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+261,pyeventsystem,==0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+262,uvicorn,==0.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+263,lxml,==4.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+264,email-validator,==2.0.0.post2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+265,mdurl,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+266,oauthlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+267,boltons,==23.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+268,galaxy2cwl,==0.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+269,jmespath,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+270,wrapt,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+271,multidict,==6.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+272,asynctest,==0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+273,pyfaidx,==0.7.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+274,edam-ontology,==1.25.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+275,filelock,==3.12.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+276,aiosignal,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+277,tifffile,==2021.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+278,pyyaml,==6.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+279,webencodings,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+280,click-plugins,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+281,attmap,==0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+282,gravity,==1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+283,fastapi,==0.98.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+284,pydantic,==1.10.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+285,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+286,sqlitedict,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+287,cryptography,==41.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+288,cachecontrol,==0.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+289,certifi,==2023.7.22,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+290,starlette,==0.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+291,paste,==3.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+292,cloudbridge,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+293,click,==8.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+294,shellescape,==3.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+295,rich,==13.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+296,pylibmagic,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+297,webob,==1.8.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+298,click-didyoumean,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+299,repoze-lru,==0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+300,uvloop,==0.17.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+301,schema-salad,==8.4.20230606143604,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+302,coloredlogs,==15.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+303,tuspy,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+304,docutils,==0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+305,ruamel-yaml-clib,==0.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ platform_python_implementation == ""CPython"" and python_version < ""3.11"" and python_version >= ""3.7""",*
+306,cwl-utils,==0.28,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+307,zipstream-new,==1.1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+308,billiard,==3.6.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+309,setuptools-scm,==5.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+310,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+311,kombu,==5.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+312,social-auth-core,==4.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+313,deprecation,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+314,parsley,==1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+315,click-repl,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+316,fs,==2.4.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+317,msal,==1.23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+318,python-magic,==0.4.27,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+319,dnspython,==2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+320,aioitertools,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+321,colorama,==0.4.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and platform_system == ""Windows""",*
+322,greenlet,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and (platform_machine == ""win32"" or platform_machine == ""WIN32"" or platform_machine == ""AMD64"" or platform_machine == ""amd64"" or platform_machine == ""x86_64"" or platform_machine == ""ppc64le"" or platform_machine == ""aarch64"") and python_version < ""3.12""",*
+323,mercurial,==6.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+324,pynacl,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+325,babel,==2.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+326,pygments,==2.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+327,cython,==3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+328,prompt-toolkit,==3.0.39,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+329,numpy,==1.21.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+330,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+331,pyzmq,==25.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+332,gxformat2,==0.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+333,jinja2,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+334,bleach,==6.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+335,oyaml,==1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+336,ubiquerg,==0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+337,pycparser,==2.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+338,attrs,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+339,ruamel-yaml,==0.17.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+340,amqp,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+341,numpy,==1.24.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.8"" and python_version < ""3.9""",*
+342,pytz,==2023.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+343,cwltool,==3.1.20221109155812,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+344,tqdm,==4.65.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+345,tinydb,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+346,pydot,==1.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+347,bioblend,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+348,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+349,urllib3,==1.26.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+350,fastapi-utils,==0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+351,tornado,==6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+352,requests-unixsocket,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+353,requests-oauthlib,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+354,h11,==0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+355,mistune,==2.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+356,aiofiles,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+357,pysam,==0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+358,a2wsgi,==1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+359,future,==0.18.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+360,pkgutil-resolve-name,==1.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.9""",*
+361,rsa,==4.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+362,tuswsgi,==0.5.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+363,humanfriendly,==10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+364,starlette-context,==0.3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+365,typing-extensions,==4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+366,python-multipart,==0.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+367,refgenconf,==0.12.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+368,appdirs,==1.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+369,pycryptodome,==3.18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+370,h5grove,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+371,sqlalchemy,==1.4.49,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+372,arcp,==0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+373,setuptools,==68.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+374,argcomplete,==3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+375,async-timeout,==4.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+376,cffi,==1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+377,cloudauthz,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+378,isa-rwval,==0.10.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+379,networkx,==2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+381,wcwidth,==0.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+382,bagit,==1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+383,importlib-resources,==5.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+384,h5py,==3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+385,paramiko,==3.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+386,yacman,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+387,importlib-metadata,==4.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+388,bdbag,==1.6.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+389,pydantic-tes,==0.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+390,cached-property,==1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+391,yarl,==1.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+392,cheetah3,==3.2.6.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+393,pykwalify,==1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+394,requests-toolbelt,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+395,frozenlist,==1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+396,supervisor,==4.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+397,fsspec,==2023.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+398,pyasn1,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+399,markdown,==3.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+400,zstandard,==0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+401,prov,==1.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+403,pyrsistent,==0.19.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+404,celery,==5.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+405,defusedxml,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+406,mypy-extensions,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+407,bx-python,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+408,mrcfile,==1.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+409,gunicorn,==21.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+410,types-six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+411,types-dataclasses,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+412,types-bleach,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+413,types-python-dateutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+414,pydantic,<2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+415,types-paramiko,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+416,types-PyYAML,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+417,types-requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+418,types-pkg-resources,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+419,types-contextvars,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+420,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+421,types-docutils,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+422,types-Markdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+423,types-boto,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/typecheck-requirements.txt,*,*@*,*
+424,fluent-logger,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+425,ldap3,==2.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+426,statsd,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+427,kamaki,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+428,azure-storage,==0.32.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+429,fs-gcsfs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+430,fs-onedatafs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+431,tensorflow,==2.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+432,total-perspective-vortex,">=2.2.4,<3",/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+433,fs.sshfs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+434,fs.googledrivefs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+435,custos-sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+436,pykube,==0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+437,mysqlclient,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+438,python-irodsclient,==1.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+439,google-cloud-storage,>=2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+440,pbs_python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+441,galaxycloudrunner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+442,python-ldap,==3.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+443,weasyprint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+444,drmaa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+445,python-pam,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+446,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+447,sentry-sdk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+448,hvac,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+449,fs.anvilfs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+450,fs.webdavfs,>=0.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+451,chronos-python,==1.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+452,python-gitlab,>=2.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+453,pkce,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+454,pygithub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+455,influxdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+456,psycopg2-binary,==2.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+457,watchdog,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+458,fs-basespace,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+459,fs.dropboxfs,>=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/conditional-requirements.txt,*,*@*,*
+460,types-pkg-resources,==0.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+461,types-urllib3,==1.26.25.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+462,types-docutils,==0.20.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+463,types-requests,==2.31.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+464,cffi,==1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+465,types-boto,==2.49.18.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+466,types-dataclasses,==0.6.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+467,pycparser,==2.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+468,mypy-extensions,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+469,mypy,==1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+470,types-paramiko,==3.2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+471,pydantic,==1.10.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+472,typing_extensions,==4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+473,typed-ast,==1.5.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+474,types-python-dateutil,==2.8.19.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+475,types-six,==1.16.21.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+476,types-Markdown,==3.4.2.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+477,types-bleach,==6.0.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+478,types-PyYAML,==6.0.12.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+479,tomli,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+480,types-contextvars,==2.4.7.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+481,cryptography,==41.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-typecheck-requirements.txt,*,*@*,*
+482,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+483,charset-normalizer,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+484,markupsafe,==2.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+485,aiohttp,==3.8.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+486,python-dateutil,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+487,pluggy,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+488,pyjwt,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+489,werkzeug,==2.2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+490,sphinxcontrib-jquery,==4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+491,exceptiongroup,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+492,markdown-it-py,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+493,zipp,==3.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+494,numpy,==1.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.9"" and python_version < ""3.12""",*
+495,pysocks,==1.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+496,anyio,==3.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+497,twill,==3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+498,port-for,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+499,pytest-mock,==3.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+500,pytest-metadata,==3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+501,statsd,==4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+502,coverage,==7.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+503,testfixtures,==7.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+504,cycler,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+505,selenium,==4.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+506,matplotlib,==3.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+507,codespell,==2.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+508,scipy,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.8"" and python_version < ""3.9""",*
+509,msgpack,==1.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+510,py,==1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+511,sniffio,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+512,snowballstemmer,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+513,imagesize,==1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+514,pyparsing,==3.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+515,rdflib,==6.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+516,pillow,==9.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+517,typed-ast,==1.5.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version < ""3.8"" and implementation_name == ""cpython"" and python_version >= ""3.7""",*
+518,pkginfo,==1.9.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+519,pytest-httpserver,==1.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+520,prettytable,==3.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+521,myst-parser,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+522,pytest-shard,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+523,sortedcontainers,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+524,sphinxcontrib-htmlhelp,==2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+525,isodate,==0.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+526,vine,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+527,wsproto,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+528,lxml,==4.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+529,mdurl,==0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+530,wrapt,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+531,multidict,==6.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+532,asynctest,==0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+533,scipy,==1.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.9"" and python_version < ""3.12""",*
+534,filelock,==3.12.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+535,aiosignal,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+536,pyyaml,==6.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+537,webencodings,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+538,click-plugins,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+539,sphinxcontrib-jsmath,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+540,sphinxcontrib-qthelp,==1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+541,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+542,pytest-json-report,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+543,cachecontrol,==0.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+544,certifi,==2023.7.22,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+545,importlib-resources,==5.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.9""",*
+546,more-itertools,==9.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+547,click,==8.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+548,matplotlib,==3.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.8"" and python_version < ""3.12""",*
+549,seletools,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+550,rich,==13.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+551,axe-selenium-python,==2.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+552,click-didyoumean,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+553,schema-salad,==8.4.20230606143604,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+554,tuspy,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+555,sphinxcontrib-serializinghtml,==1.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+556,junit-xml,==1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+557,scipy,==1.7.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+558,docutils,==0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+559,ruamel-yaml-clib,==0.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ platform_python_implementation == ""CPython"" and python_version < ""3.11"" and python_version >= ""3.7""",*
+560,billiard,==3.6.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+561,platformdirs,==3.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+562,markdown-it-reporter,==0.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+563,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+564,colorama,==0.4.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and (sys_platform == ""win32"" or platform_system == ""Windows"" or os_name == ""nt"")",*
+565,kombu,==5.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+566,click-repl,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+567,isort,==5.11.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+568,pytest-celery,==0.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+569,sphinxcontrib-applehelp,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+570,darker,==1.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+571,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and sys_platform != ""cygwin""",*
+572,types-pyyaml,==6.0.12.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+573,pynacl,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+574,pywin32-ctypes,==0.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and sys_platform == ""win32""",*
+575,babel,==2.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+576,pygments,==2.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+577,responses,==0.23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+578,black,==23.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+579,prompt-toolkit,==3.0.39,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+580,numpy,==1.21.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+581,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+582,cwltest,==2.3.20230527113600,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+583,jinja2,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+584,bleach,==6.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+585,python-irodsclient,==1.1.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+586,pygithub,==1.59.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+587,pycparser,==2.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+588,attrs,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+589,ruamel-yaml,==0.17.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+590,amqp,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+591,kiwisolver,==1.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+592,numpy,==1.24.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.8"" and python_version < ""3.9""",*
+593,pytz,==2023.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+594,tomli,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.11""",*
+595,tinydb,==4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+596,mirakuru,==2.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+597,twine,==4.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+598,urllib3,==1.26.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+599,trio-websocket,==0.10.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+600,iniconfig,==2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+601,sphinxcontrib-devhelp,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+602,galaxy-release-util,==0.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+603,h11,==0.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+604,mistune,==2.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+605,pytest-html,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+606,future,==0.18.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+607,pytest-cov,==4.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+608,alabaster,==0.7.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+610,fluent-logger,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+611,pathspec,==0.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+612,pytest,==7.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+613,typing-extensions,==4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+614,mdit-py-plugins,==0.3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+615,pyproject-hooks,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+616,sphinx-rtd-theme,==1.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+617,pkce,==1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+618,sphinx,==5.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+619,watchdog,==3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+620,trio,==0.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+621,deprecated,==1.2.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+622,outcome,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+623,setuptools,==68.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+624,async-timeout,==4.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+625,cffi,==1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+626,pytest-asyncio,==0.21.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+627,secretstorage,==3.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and sys_platform == ""linux""",*
+628,wcwidth,==0.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+629,httpx,==0.24.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+630,importlib-metadata,==4.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+631,jaraco-classes,==3.2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+632,cached-property,==1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.8""",*
+633,readme-renderer,==37.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+634,fonttools,==4.38.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+635,yarl,==1.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+636,requests-toolbelt,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+637,frozenlist,==1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+638,ase,==3.22.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+639,rfc3986,==2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+640,toml,==0.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+641,build,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+642,jeepney,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and sys_platform == ""linux""",*
+643,celery,==5.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+644,defusedxml,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+645,cryptography,==41.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12"" and sys_platform == ""linux""",*
+646,keyring,==24.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+647,mypy-extensions,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+648,pytest-postgresql,==4.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+649,httpcore,==0.17.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/dev-requirements.txt,*,"*@ python_version >= ""3.7"" and python_version < ""3.12""",*
+650,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/lint-requirements.txt,*,*@*,*
+651,ruff,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/lint-requirements.txt,*,*@*,*
+652,flake8-bugbear,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/lint-requirements.txt,*,*@*,*
+653,pyflakes,==2.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+654,importlib-metadata,==4.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+655,typing_extensions,==4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+656,flake8-bugbear,==23.3.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+657,flake8,==5.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+658,attrs,==23.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+659,ruff,==0.0.280,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+660,mccabe,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+661,zipp,==3.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+662,pycodestyle,==2.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/lib/galaxy/dependencies/pinned-lint-requirements.txt,*,*@*,*
+663,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/package-dev-requirements.txt,*,*@*,*
+664,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/package-dev-requirements.txt,*,*@*,*
+665,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/package-dev-requirements.txt,*,*@*,*
+666,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/package-dev-requirements.txt,*,*@*,*
+667,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/meta/dev-requirements.txt,*,*@*,*
+668,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/meta/dev-requirements.txt,*,*@*,*
+669,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/meta/dev-requirements.txt,*,*@*,*
+670,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/meta/dev-requirements.txt,*,*@*,*
+671,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/meta/test-requirements.txt,*,*@*,*
+672,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/auth/dev-requirements.txt,*,*@*,*
+673,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/auth/dev-requirements.txt,*,*@*,*
+674,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/auth/dev-requirements.txt,*,*@*,*
+675,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/auth/dev-requirements.txt,*,*@*,*
+676,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/auth/test-requirements.txt,*,*@*,*
+677,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_execution/dev-requirements.txt,*,*@*,*
+678,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_execution/dev-requirements.txt,*,*@*,*
+679,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_execution/dev-requirements.txt,*,*@*,*
+680,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_execution/dev-requirements.txt,*,*@*,*
+681,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_execution/test-requirements.txt,*,*@*,*
+682,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/objectstore/dev-requirements.txt,*,*@*,*
+683,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/objectstore/dev-requirements.txt,*,*@*,*
+684,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/objectstore/dev-requirements.txt,*,*@*,*
+685,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/objectstore/dev-requirements.txt,*,*@*,*
+686,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/objectstore/test-requirements.txt,*,*@*,*
+687,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/util/dev-requirements.txt,*,*@*,*
+688,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/util/dev-requirements.txt,*,*@*,*
+689,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/util/dev-requirements.txt,*,*@*,*
+690,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/util/dev-requirements.txt,*,*@*,*
+691,responses,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/util/test-requirements.txt,*,*@*,*
+692,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/util/test-requirements.txt,*,*@*,*
+693,pytest-httpserver,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/util/test-requirements.txt,*,*@*,*
+694,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_base/dev-requirements.txt,*,*@*,*
+695,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_base/dev-requirements.txt,*,*@*,*
+696,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_base/dev-requirements.txt,*,*@*,*
+697,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_base/dev-requirements.txt,*,*@*,*
+698,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_base/test-requirements.txt,*,*@*,*
+699,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/dev-requirements.txt,*,*@*,*
+700,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/dev-requirements.txt,*,*@*,*
+701,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/dev-requirements.txt,*,*@*,*
+702,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/dev-requirements.txt,*,*@*,*
+703,pkce,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/test-requirements.txt,*,*@*,*
+704,pykwalify,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/test-requirements.txt,*,*@*,*
+705,mock-ssh-server,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/test-requirements.txt,*,*@*,*
+706,testfixtures,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/test-requirements.txt,*,*@*,*
+707,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/app/test-requirements.txt,*,*@*,*
+708,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/files/dev-requirements.txt,*,*@*,*
+709,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/files/dev-requirements.txt,*,*@*,*
+710,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/files/dev-requirements.txt,*,*@*,*
+711,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/files/dev-requirements.txt,*,*@*,*
+712,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/files/test-requirements.txt,*,*@*,*
+713,fs-gcsfs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/files/test-requirements.txt,*,*@*,*
+714,s3fs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/files/test-requirements.txt,*,*@*,*
+715,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_driver/dev-requirements.txt,*,*@*,*
+716,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_driver/dev-requirements.txt,*,*@*,*
+717,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_driver/dev-requirements.txt,*,*@*,*
+718,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_driver/dev-requirements.txt,*,*@*,*
+719,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_driver/test-requirements.txt,*,*@*,*
+720,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tool_util/dev-requirements.txt,*,*@*,*
+721,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tool_util/dev-requirements.txt,*,*@*,*
+722,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tool_util/dev-requirements.txt,*,*@*,*
+723,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tool_util/dev-requirements.txt,*,*@*,*
+724,pytest-mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tool_util/test-requirements.txt,*,*@*,*
+725,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tool_util/test-requirements.txt,*,*@*,*
+726,Beaker,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tool_util/test-requirements.txt,*,*@*,*
+727,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_framework/dev-requirements.txt,*,*@*,*
+728,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_framework/dev-requirements.txt,*,*@*,*
+729,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_framework/dev-requirements.txt,*,*@*,*
+730,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_framework/dev-requirements.txt,*,*@*,*
+731,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_framework/test-requirements.txt,*,*@*,*
+732,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_api/dev-requirements.txt,*,*@*,*
+733,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_api/dev-requirements.txt,*,*@*,*
+734,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_api/dev-requirements.txt,*,*@*,*
+735,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_api/dev-requirements.txt,*,*@*,*
+736,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_api/test-requirements.txt,*,*@*,*
+737,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/selenium/dev-requirements.txt,*,*@*,*
+738,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/selenium/dev-requirements.txt,*,*@*,*
+739,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/selenium/dev-requirements.txt,*,*@*,*
+740,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/selenium/dev-requirements.txt,*,*@*,*
+741,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/selenium/test-requirements.txt,*,*@*,*
+742,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/config/dev-requirements.txt,*,*@*,*
+743,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/config/dev-requirements.txt,*,*@*,*
+744,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/config/dev-requirements.txt,*,*@*,*
+745,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/config/dev-requirements.txt,*,*@*,*
+746,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/config/test-requirements.txt,*,*@*,*
+747,gravity,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/config/test-requirements.txt,*,*@*,*
+748,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_apps/dev-requirements.txt,*,*@*,*
+749,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_apps/dev-requirements.txt,*,*@*,*
+750,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_apps/dev-requirements.txt,*,*@*,*
+751,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_apps/dev-requirements.txt,*,*@*,*
+752,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_apps/test-requirements.txt,*,*@*,*
+753,httpx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_apps/test-requirements.txt,*,*@*,*
+754,pytest-asyncio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_apps/test-requirements.txt,*,*@*,*
+755,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tours/dev-requirements.txt,*,*@*,*
+756,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tours/dev-requirements.txt,*,*@*,*
+757,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tours/dev-requirements.txt,*,*@*,*
+758,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tours/dev-requirements.txt,*,*@*,*
+759,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/tours/test-requirements.txt,*,*@*,*
+760,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/data/dev-requirements.txt,*,*@*,*
+761,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/data/dev-requirements.txt,*,*@*,*
+762,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/data/dev-requirements.txt,*,*@*,*
+763,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/data/dev-requirements.txt,*,*@*,*
+764,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/data/test-requirements.txt,*,*@*,*
+765,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_stack/dev-requirements.txt,*,*@*,*
+766,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_stack/dev-requirements.txt,*,*@*,*
+767,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_stack/dev-requirements.txt,*,*@*,*
+768,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_stack/dev-requirements.txt,*,*@*,*
+769,gunicorn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_stack/test-requirements.txt,*,*@*,*
+770,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/web_stack/test-requirements.txt,*,*@*,*
+771,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_selenium/dev-requirements.txt,*,*@*,*
+772,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_selenium/dev-requirements.txt,*,*@*,*
+773,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_selenium/dev-requirements.txt,*,*@*,*
+774,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_selenium/dev-requirements.txt,*,*@*,*
+775,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/test_selenium/test-requirements.txt,*,*@*,*
+776,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_metrics/dev-requirements.txt,*,*@*,*
+777,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_metrics/dev-requirements.txt,*,*@*,*
+778,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_metrics/dev-requirements.txt,*,*@*,*
+779,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_metrics/dev-requirements.txt,*,*@*,*
+780,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/job_metrics/test-requirements.txt,*,*@*,*
+781,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/navigation/dev-requirements.txt,*,*@*,*
+782,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/navigation/dev-requirements.txt,*,*@*,*
+783,build,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/navigation/dev-requirements.txt,*,*@*,*
+784,twine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/navigation/dev-requirements.txt,*,*@*,*
+785,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/galaxy/packages/navigation/test-requirements.txt,*,*@*,*

@@ -1,0 +1,3 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,nose,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/spark-deep-learning/setup.py,False,no one,no one,no one
+1,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/spark-deep-learning/setup.py,False,no one,no one,no one

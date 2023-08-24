@@ -1,0 +1,11 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,torch,>=1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+1,torch,>=1.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+2,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,no one,no one,no one
+3,scipy,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+4,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,no one,no one,no one
+5,black,==23.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,no one,no one,no one
+6,timm,==0.6.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,no one,no one,no one
+7,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,False,no one,no one,no one

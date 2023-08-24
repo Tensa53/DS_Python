@@ -1,0 +1,32 @@
+,dep,version,filepath,type,condition,status
+0,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+1,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+2,cython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+3,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+4,docker,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+5,ninja,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+6,numpy,>=1.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+7,scikit-build,>=0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+8,cmake,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+9,setuptools-scm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/requirements-dev.txt,*,*@*,*
+10,girder-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+11,importlib-metadata,<5,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,"*@ python_version < ""3.8""",*
+12,nimfa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+13,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+14,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+15,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+16,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+17,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+18,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+19,imageio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+20,shapely,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+21,sqlalchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,"*@ python_version >= ""3.8""",*
+22,sqlalchemy,<2,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,"*@ python_version < ""3.8""",*
+23,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+24,pyvips,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+25,dask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+26,distributed,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+27,large-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,"*@sys.platform==""linux""",*
+30,girder-slicer-cli-web,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+31,ctk-cli,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@*,*
+32,opencv-python-headless,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/HistomicsTK/setup.py,install_requires,*@(not importlib.util.find_spec('cv2'))@*@*,*

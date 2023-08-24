@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,prettytable,>=0.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/requirements.txt,*,*@*,*
+1,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/requirements.txt,*,*@*,*
+2,numpy,>=1.14.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/requirements.txt,*,*@*,*
+3,regex,!=2019.12.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/requirements.txt,*,*@*,*
+4,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/requirements.txt,*,*@*,*
+5,rich,==11.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/requirements.txt,*,*@*,*
+6,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/docs/requirements.txt,*,*@*,*
+7,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/docs/requirements.txt,*,*@*,*
+8,sphinx_autodoc_typehints,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/docs/requirements.txt,*,*@*,*
+9,sphinx-multiversion,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastNLP/docs/requirements.txt,*,*@*,*

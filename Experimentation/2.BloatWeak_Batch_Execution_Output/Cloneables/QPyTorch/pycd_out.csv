@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,sphinx,>=1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,*,*@*,*
+1,Ninja,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,*,*@*,*
+2,nbsphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,*,*@*,*
+3,ipykernel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,*,*@*,*
+4,torch,>=1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/setup.py,install_requires,*@*,*
+5,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/SWALP/requirements.txt,*,*@*,*
+6,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/SWALP/requirements.txt,*,*@*,*
+7,qtorch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/WAGE/requirements.txt,*,*@*,*
+8,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/WAGE/requirements.txt,*,*@*,*
+9,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/WAGE/requirements.txt,*,*@*,*

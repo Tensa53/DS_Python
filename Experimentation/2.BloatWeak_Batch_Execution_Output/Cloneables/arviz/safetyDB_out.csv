@@ -1,0 +1,98 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-test.txt,False,no one,no one,no one
+1,cloudpickle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-test.txt,False,no one,no one,no one
+2,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-test.txt,False,no one,no one,no one
+3,xarray-einstats,>=0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,no one,no one,no one
+4,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,no one,no one,no one
+5,numpy,">=1.21.0,<2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+6,numpy,">=1.21.0,<2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+7,numpy,">=1.21.0,<2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+8,matplotlib,>=3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,no one,no one,no one
+9,typing_extensions,>=4.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,no one,no one,no one
+10,setuptools,>=60.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,CVE-2022-40897,<65.5.1,"Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+11,pandas,>=1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+12,h5netcdf,>=1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,no one,no one,no one
+13,scipy,>=1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+14,xarray,>=0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements.txt,False,no one,no one,no one
+15,beanmachine,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,no one,no one,no one
+16,emcee,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,no one,no one,no one
+17,cmdstanpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,no one,no one,no one
+18,pyro-ppl,>=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,no one,no one,no one
+19,torch,<2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+20,pystan,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,no one,no one,no one
+21,numpyro,>=0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,no one,no one,no one
+22,pyjags,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-external.txt,False,no one,no one,no one
+23,netcdf4,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,no one,no one,no one
+24,numba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,PVE-2021-38983,<0.49.0,"Numba 0.49.0 fixes a frame injection vulnerability in the dispatcher tracing path, that lead to DoS."
+25,contourpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,no one,no one,no one
+26,xarray-datatree,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,no one,no one,no one
+27,ujson,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,CVE-2022-31117,<5.4.0,"Ujson 5.4.0 includes a fix for CVE-2022-31117: In versions prior to 5.4.0 an error occurring while reallocating a buffer for string decoding can cause the buffer to get freed twice. Due to how UltraJSON uses the internal decoder, this double free is impossible to trigger from Python.
+https://github.com/ultrajson/ultrajson/security/advisories/GHSA-fm67-cv37-96ff"
+28,ujson,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,CVE-2022-31116,<5.4.0,"Ujson 5.4.0 includes a fix for CVE-2022-31116: Incorrect handling of invalid surrogate pair characters.
+https://github.com/ultrajson/ultrajson/security/advisories/GHSA-wpqr-jcpx-745r"
+29,ujson,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,CVE-2021-45958,<=5.1.0,"UltraJSON (aka ujson) through 5.1.0 has a stack-based buffer overflow in Buffer_AppendIndentUnchecked (called from encode). Exploitation can, for example, use a large amount of indentation."
+30,bokeh,">=1.4.0,<3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,CVE-2021-41182,<2.4.2,Bokeh 2.4.2 updates its dependency 'jquery-ui' to v1.13.0 to include security fixes.
+31,bokeh,">=1.4.0,<3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,CVE-2021-41183,<2.4.2,Bokeh 2.4.2 updates its dependency 'jquery-ui' to v1.13.0 to include security fixes.
+32,bokeh,">=1.4.0,<3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,CVE-2021-41184,<2.4.2,Bokeh 2.4.2 updates its dependency 'jquery-ui' to v1.13.0 to include security fixes.
+33,zarr,>=2.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,no one,no one,no one
+34,dask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-optional.txt,False,CVE-2021-42343,<2021.10.0,Dask 2021.10.0 includes a fix for CVE-2021-42343: An issue was discovered in the Dask distributed package before 2021.10.0 for Python. Single machine Dask clusters starting with dask.distributed.LocalCluster or dask.distributed.Client (which defaults to using LocalCluster) would mistakenly configure their respective Dask workers to listen on external interfaces (typically with a randomly selected high port) rather than only on localhost. A Dask cluster created using this method (when running on a machine that has an applicable port exposed) could be used by a sophisticated attacker to achieve remote code execution.
+35,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2015-4707,<3.2.0,Cross-site scripting (XSS) vulnerability in IPython before 3.2 allows remote attackers to inject arbitrary web script or HTML via vectors involving JSON error messages and the /api/notebooks path.
+36,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2015-5607,<3.2.1,"Ipython 3.2.1 includes a fix for CVE-2015-5607: Cross-site request forgery in the REST API in IPython 2 and 3.
+https://github.com/ipython/ipython/commit/1415a9710407e7c14900531813c15ba6165f0816"
+37,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2015-6938,<3.2.2,"Cross-site scripting (XSS) vulnerability in the file browser in notebook/notebookapp.py in IPython Notebook before 3.2.2 and Jupyter Notebook 4.0.x before 4.0.5 allows remote attackers to inject arbitrary web script or HTML via a folder name.  NOTE: this was originally reported as a cross-site request forgery (CSRF) vulnerability, but this may be inaccurate."
+38,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2015-7337,<3.2.2,"The editor in IPython Notebook before 3.2.2 and Jupyter Notebook 4.0.x before 4.0.5 allows remote attackers to execute arbitrary JavaScript code via a crafted file, which triggers a redirect to files/, related to MIME types."
+39,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2023-24816,<8.10.0,"IPython 8.10.0 includes a fix for CVE-2023-24816: Versions prior to 8.10.0 are subject to a command injection vulnerability with very specific prerequisites. This vulnerability requires that the function 'IPython.utils.terminal.set_term_title' be called on Windows in a Python environment where ctypes is not available. The dependency on 'ctypes' in 'IPython.utils._process_win32' prevents the vulnerable code from ever being reached in the ipython binary. However, as a library that could be used by another tool 'set_term_title' could be called and hence introduce a vulnerability. If an attacker get untrusted input to an instance of this function they would be able to inject shell commands as current process and limited to the scope of the current process. As a workaround, users should ensure that any calls to the 'IPython.utils.terminal.set_term_title' function are done with trusted or filtered input.
+https://github.com/ipython/ipython/security/advisories/GHSA-29gw-9793-fvw7"
+40,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2014-3429,">=0.12,<1.2","IPython Notebook 0.12 through 1.x before 1.2 does not validate the origin of websocket requests, which allows remote attackers to execute arbitrary code by leveraging knowledge of the kernel id and a crafted page."
+41,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2016-6524,">=2.0.0,<4.0.0",Ipython 4.0 includes a fix for CVE-2016-6524: Untrusted LaTeX output could be added to the page in a way that could execute javascript.
+42,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2015-4706,">=3.0.0,<3.2.0",Cross-site scripting (XSS) vulnerability in IPython 3.x before 3.2 allows remote attackers to inject arbitrary web script or HTML via vectors involving JSON error messages and the /api/contents path.
+43,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2022-21699,">=8.0.0a0,<8.0.1,>=7.17.0,<7.31.1,>=6.0.0a0,<7.16.3,<5.11","Ipython versions 8.0.1, 7.31.1, 7.16.3 and 5.11 include a fix for CVE-2022-21699: Affected versions are subject to an arbitrary code execution vulnerability achieved by not properly managing cross user temporary files. This vulnerability allows one user to run code as another on the same machine.
+https://github.com/ipython/ipython/security/advisories/GHSA-pq7m-3gw7-gq5x"
+44,Sphinx,>=1.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+45,Sphinx,>=1.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+46,sphinx_design,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+47,sphinx-codeautolink,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+48,ghp-import,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+49,docutils,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2009-5042,">=0.5,<0.6","Docutils 0.6 includes a fix for CVE-2009-5042: Python-docutils allows insecure usage of temporary files.
+https://github.com/advisories/GHSA-cg75-6938-wx58"
+50,sphinx-notfound-page,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+51,sphinxcontrib-youtube,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+52,myst-parser,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+53,contourpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+54,jupyter-sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+55,pydocstyle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+56,sphinx-panels,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+57,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2017-18342,<1.0.4,Bokeh before 1.0.4 used a Pyyaml version that was vulnerable to CVE-2017-18342.
+58,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,PVE-2021-37031,<1.1.0,Bokeh 1.1.0 updates its NPM dependency 'handlebars' to v4.1.0 to include a security fix.
+59,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,PVE-2021-37170,<1.2.0,Bokeh 1.2.0 updates its NPM dependency 'handlebars' to v4.1.2 to include a security fix.
+60,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2019-11358,<1.2.0,Bokeh 1.2.0 updates its NPM dependency 'jquery' to v3.4.0 to include security fixes.
+61,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2019-11358,<1.2.0,Bokeh 1.2.0 updates its NPM dependency 'jquery' to v3.4.0 to include security fixes.
+62,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,PVE-2022-45295,<1.2.0,Bokeh 1.2.0 updates its NPM dependency 'js-yaml' to v3.13.1 to include a security fix.
+63,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2021-41182,<2.4.2,Bokeh 2.4.2 updates its dependency 'jquery-ui' to v1.13.0 to include security fixes.
+64,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2021-41183,<2.4.2,Bokeh 2.4.2 updates its dependency 'jquery-ui' to v1.13.0 to include security fixes.
+65,bokeh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,CVE-2021-41184,<2.4.2,Bokeh 2.4.2 updates its dependency 'jquery-ui' to v1.13.0 to include security fixes.
+66,pydata-sphinx-theme,>=0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+67,myst-nb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+68,numpydoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+69,sphinx-copybutton,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-docs.txt,False,no one,no one,no one
+70,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,PVE-2022-45185,<2.13.0,"Pylint 2.13.0 fixes a crash when using the doc_params extension.
+https://github.com/PyCQA/pylint/issues/5322"
+71,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,PVE-2021-38224,<2.5.0,"Pylint 2.5.0 no longer allows ``python -m pylint ...`` to import user code. Previously, it added the current working directory as the first element of ``sys.path``. This opened up a potential security hole where ``pylint`` would import user level code as long as that code resided in modules having the same name as stdlib or pylint's own modules."
+72,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,PVE-2021-39621,<2.7.0,Pylint 2.7.0 includes a fix for vulnerable regular expressions in 'pyreverse'.
+73,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+74,astroid,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+75,numpydoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+76,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+77,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+78,cloudpickle,<1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+79,pydocstyle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+80,madforhooks,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one
+81,absolufy-imports,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/arviz/requirements-dev.txt,False,no one,no one,no one

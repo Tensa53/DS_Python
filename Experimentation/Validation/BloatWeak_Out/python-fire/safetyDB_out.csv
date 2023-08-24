@@ -1,0 +1,22 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,six,==*,/home/daniele/git/Validation/Repo/python-fire/setup.py,False,no one,no one,no one
+1,termcolor,==*,/home/daniele/git/Validation/Repo/python-fire/setup.py,False,no one,no one,no one
+2,enum34,==*,/home/daniele/git/Validation/Repo/python-fire/setup.py,True,no one,no one,no one
+3,hypothesis,==*,/home/daniele/git/Validation/Repo/python-fire/setup.py,False,PVE-2021-39447,<3.69.8,Hypothesis 3.69.8 moves away from using pickle module and replaces it with json to prevent possible security issues.
+4,mock,==*,/home/daniele/git/Validation/Repo/python-fire/setup.py,False,no one,no one,no one
+5,python-Levenshtein,==*,/home/daniele/git/Validation/Repo/python-fire/setup.py,False,PVE-2022-51245,<0.12.1,Python-levenshtein 0.12.1 fixes handling of numerous possible wraparounds in calculating the size of memory allocations. Incorrect handling of which could cause denial of service or even possible remote code execution in previous versions of the library.
+6,hypothesis,<6.62.0,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+7,pytest-pylint,<=1.1.2,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+8,pytest,<=7.2.1,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+9,pylint,<2.15.10,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+10,setuptools,<65.7.0,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+11,python-Levenshtein,<0.20.9,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+12,mock,<5.0.0,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+13,pytest-runner,<6.0.0,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,PVE-2021-43313,>0,"Pytest-runner depends on deprecated features of setuptools and relies on features that break security mechanisms in pip. For example ‘setup_requires’ and ‘tests_require’ bypass pip --require-hashes. See also pypa/setuptools#1684.
+It is recommended that you:
+- Remove 'pytest-runner' from your setup_requires, preferably removing the setup_requires option.
+- Remove 'pytest' and any other testing requirements from tests_require, preferably removing the tests_requires option.
+- Select a tool to bootstrap and then run tests such as tox.
+https://github.com/pytest-dev/pytest-runner/blob/289a77b179535d8137118e3b8591d9e727130d6d/README.rst"
+14,termcolor,<2.2.0,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one
+15,pip,<23.0,/home/daniele/git/Validation/Repo/python-fire/.github/scripts/requirements.txt,False,no one,no one,no one

@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,nose,==*,/home/daniele/git/Validation/Repo/fancyimpute/requirements.txt,*,*@*,*
+1,cvxopt,==*,/home/daniele/git/Validation/Repo/fancyimpute/requirements.txt,*,*@*,*
+2,cvxpy,==*,/home/daniele/git/Validation/Repo/fancyimpute/requirements.txt,*,*@*,*
+3,knnimpute,>=0.1.0,/home/daniele/git/Validation/Repo/fancyimpute/requirements.txt,*,*@*,*
+4,scikit-learn,>=0.24.2,/home/daniele/git/Validation/Repo/fancyimpute/requirements.txt,*,*@*,*
+5,pytest,==*,/home/daniele/git/Validation/Repo/fancyimpute/requirements.txt,*,*@*,*
+6,knnimpute,>=0.1.0,/home/daniele/git/Validation/Repo/fancyimpute/setup.py,install_requires,(__name__ == '__main__')@*,*
+7,scikit-learn,>=0.24.2,/home/daniele/git/Validation/Repo/fancyimpute/setup.py,install_requires,(__name__ == '__main__')@*,*
+8,cvxpy,==*,/home/daniele/git/Validation/Repo/fancyimpute/setup.py,install_requires,(__name__ == '__main__')@*,*
+9,cvxopt,==*,/home/daniele/git/Validation/Repo/fancyimpute/setup.py,install_requires,(__name__ == '__main__')@*,*
+10,pytest,==*,/home/daniele/git/Validation/Repo/fancyimpute/setup.py,install_requires,(__name__ == '__main__')@*,*
+11,nose,==*,/home/daniele/git/Validation/Repo/fancyimpute/setup.py,install_requires,(__name__ == '__main__')@*,*

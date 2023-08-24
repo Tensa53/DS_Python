@@ -1,0 +1,38 @@
+,dep,version,filepath,type,condition,status
+0,importlib_metadata,!=3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,@*,*
+1,numpy,>=1.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,@*,*
+2,pysparkling,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,@*,*
+3,python-json-logger,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,@*,*
+4,torch,==1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,@*,*
+5,torchvision,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,@*,*
+6,pillow,!=8.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,@*,*
+7,dataclasses,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,install_requires,"@ python_version<""3.7""",*
+8,timm,>=0.4.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+9,einops,>=0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+10,flameprof,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+11,ipython,<8,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+12,jupyter-book,">=0.9.1,<0.14",/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+13,matplotlib,>=3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+14,nbdime,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+15,nbstripout,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+16,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+17,sphinx-book-theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+18,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+19,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+20,onnxruntime,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+21,onnx-simplifier,>=0.2.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,"@ python_version<""3.9""",*
+22,protobuf,<4,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+23,coremltools,>=5.0b3,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+24,numpy,<1.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+25,cpplint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+26,nbconvert,<7,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+28,nbval,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+29,opencv-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+30,pycodestyle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+31,pylint,<2.9.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+32,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+33,requests,>=2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+34,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+35,thop,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+37,pycocotools,">=2.0.1,!=2.0.5,!=2.0.6",/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,@*,*
+39,xtcocotools,>=1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/openpifpaf/setup.py,extras_require,"@ sys_platform == ""linux""",*

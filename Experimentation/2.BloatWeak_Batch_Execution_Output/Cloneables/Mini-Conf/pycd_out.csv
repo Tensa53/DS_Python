@@ -1,0 +1,16 @@
+,dep,version,filepath,type,condition,status
+0,flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements.txt,*,*@*,*
+1,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements.txt,*,*@*,*
+2,frozen-flask,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements.txt,*,*@*,*
+3,PyYAML,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements.txt,*,*@*,*
+4,Flask-Markdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements.txt,*,*@*,*
+5,mypy,==0.761,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements-dev.txt,*,*@*,*
+6,pylint,==2.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements-dev.txt,*,*@*,*
+7,black,==19.10b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements-dev.txt,*,*@*,*
+8,isort,<5,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/requirements-dev.txt,*,*@*,*
+9,sentence_transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/scripts/requirements.txt,*,*@*,*
+10,torch,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/scripts/requirements.txt,*,*@*,*
+11,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/scripts/requirements.txt,*,*@*,*
+12,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/scripts/requirements.txt,*,*@*,*
+13,ics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/scripts/requirements.txt,*,*@*,*
+14,rocketchat_API,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Mini-Conf/chat/requirements.txt,*,*@*,*

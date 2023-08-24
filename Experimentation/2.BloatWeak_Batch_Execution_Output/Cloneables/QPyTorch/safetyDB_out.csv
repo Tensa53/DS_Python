@@ -1,0 +1,13 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,sphinx,>=1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+1,sphinx,>=1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+2,Ninja,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,False,no one,no one,no one
+3,nbsphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,False,no one,no one,no one
+4,ipykernel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/requirements.txt,False,no one,no one,no one
+5,torch,>=1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+6,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/SWALP/requirements.txt,False,no one,no one,no one
+7,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/SWALP/requirements.txt,False,no one,no one,no one
+8,qtorch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/WAGE/requirements.txt,False,no one,no one,no one
+9,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/WAGE/requirements.txt,False,no one,no one,no one
+10,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/QPyTorch/examples/WAGE/requirements.txt,False,no one,no one,no one

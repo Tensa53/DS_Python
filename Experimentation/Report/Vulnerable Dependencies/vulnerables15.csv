@@ -1,0 +1,12 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+9,9,albumentations,24,0,15,0,594
+58,60,deepchem,39,0,15,0,993
+72,74,dgl,31,0,15,0,46
+84,87,elasticdl,36,0,15,0,1129
+120,123,HDLTex,18,5,15,4,997
+187,193,mljar-supervised,44,0,15,0,43
+190,196,M-LOOP,21,4,15,3,1247
+232,238,openvino_training_extensions,83,0,15,0,49
+237,243,ParlAI,70,0,15,0,35
+286,293,RMDL,17,1,15,1,987
+299,307,snorkel,37,1,15,0,31

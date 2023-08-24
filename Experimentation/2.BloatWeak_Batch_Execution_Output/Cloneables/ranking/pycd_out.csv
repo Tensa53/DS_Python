@@ -1,0 +1,5 @@
+,dep,version,filepath,type,condition,status
+0,absl-py,>= 0.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/ranking/tensorflow_ranking/tools/pip_package/setup.py,install_requires,*@*,*
+1,numpy,>= 1.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/ranking/tensorflow_ranking/tools/pip_package/setup.py,install_requires,*@*,*
+2,six,>= 1.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ranking/tensorflow_ranking/tools/pip_package/setup.py,install_requires,*@*,*
+3,tensorflow-serving-api,">= 2.0.0, < 3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/ranking/tensorflow_ranking/tools/pip_package/setup.py,install_requires,*@*,*

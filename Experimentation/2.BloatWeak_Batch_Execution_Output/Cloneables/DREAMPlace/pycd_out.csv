@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,scipy,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+1,numpy,>=1.15.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+2,matplotlib,>=2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+3,pyunpack,>=0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+4,torch,>=1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+5,cairocffi,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+6,patool,>=1.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+7,setuptools,>=39.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+8,shapely,>=1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*
+9,pkgconfig,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DREAMPlace/requirements.txt,*,*@*,*

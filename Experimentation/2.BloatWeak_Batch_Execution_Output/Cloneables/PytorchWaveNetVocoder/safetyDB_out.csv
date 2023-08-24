@@ -1,0 +1,37 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,h5py,>=2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+1,scikit-learn,==0.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+2,scikit-learn,==0.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+3,scikit-learn,==0.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+4,librosa,>=0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+5,soundfile,>=0.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+6,torch,>=1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+7,torchvision,>=0.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+8,sprocket-vc,>=0.18.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+9,matplotlib,>=3.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+10,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+11,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+12,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+13,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+14,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+15,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+16,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+17,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+18,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+19,pytest,>=3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+20,hacking,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one
+21,autopep8,==1.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,False,no one,no one,no one

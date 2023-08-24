@@ -1,0 +1,61 @@
+,dep,version,filepath,type,condition,status
+0,ray,==0.8.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+1,isort,==4.3.20,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+2,flake8,==3.7.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+3,epc,==0.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+4,mypy,==0.720,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+5,setuptools,==41.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+6,twine,==1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+8,importmagic,==0.1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+9,wheel,==0.33.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+10,aiohttp,==3.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+11,black,==19.3b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+12,pytest,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/requirements.txt,*,*@*,*
+13,docker,>= 3.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+14,numpy,>= 1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+15,pandas,>= 0.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+16,scikit-learn,>= 0.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+17,ray,>= 0.8.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+18,altair,>= 3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+19,click,>= 7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+20,humanize,>= 1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,install_requires,@*,*
+21,nltk,>=3.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+22,gensim,>=3.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+23,spacy,>=2.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+24,sentencepiece,">= 0.1.83, < 0.1.90",/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+25,streamlit,>= 0.56.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+26,gensim,>= 3.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+27,umap-learn,>= 0.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+28,eli5,>= 0.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+29,hdbscan,>= 0.8.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/setup.py,extras_require,@*,*
+30,cupy-cuda101,==7.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+31,sentencepiece,==0.1.86,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+32,urllib3,">=1.25.4,<1.27",/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+33,pandas,==0.25.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+34,spacy-transformers,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+35,requests,==2.25.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+36,thinc_gpu_ops,==0.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+37,spacy,==2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/spacy/src/requirements.txt,*,*@*,*
+38,tensorflow,>= 1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/bert/src/requirements.txt,*,*@*,*
+39,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/mtdnn/src/requirements.txt,*,*@*,*
+40,pytorch-pretrained-bert,==v0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/mtdnn/src/requirements.txt,*,*@*,*
+41,colorlog,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/mtdnn/src/requirements.txt,*,*@*,*
+42,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/mtdnn/src/requirements.txt,*,*@*,*
+43,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/mtdnn/src/requirements.txt,*,*@*,*
+44,torch,==0.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/mtdnn/src/requirements.txt,*,*@*,*
+45,sentencepiece,==0.1.86,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/transformer/src/requirements.txt,*,*@*,*
+46,transformers,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/transformer/src/requirements.txt,*,*@*,*
+47,pandas,==0.25.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/transformer/src/requirements.txt,*,*@*,*
+48,tensorflow-hub,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/gobbli/model/use/src/requirements.txt,*,*@*,*
+49,gobbli,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/docs/requirements.txt,*,*@*,*
+50,mock,==3.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/docs/requirements.txt,*,*@*,*
+51,sphinx-paramlinks,==0.3.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/docs/requirements.txt,*,*@*,*
+52,autodoc,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/docs/requirements.txt,*,*@*,*
+53,sphinx-autodoc-typehints,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/docs/requirements.txt,*,*@*,*
+54,sphinx-autobuild,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/docs/requirements.txt,*,*@*,*
+55,sphinx,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/docs/requirements.txt,*,*@*,*
+56,PyYAML,==5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/benchmark/requirements.txt,*,*@*,*
+57,selenium,==3.141.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/benchmark/requirements.txt,*,*@*,*
+58,matplotlib,==3.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/benchmark/requirements.txt,*,*@*,*
+59,tabulate,==0.8.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/benchmark/requirements.txt,*,*@*,*
+60,umap-learn,==0.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/gobbli/benchmark/requirements.txt,*,*@*,*

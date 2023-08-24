@@ -1,0 +1,27 @@
+,dep,version,filepath,type,condition,status
+0,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+1,matplotlib,>= 3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+2,pandas,>= 1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+3,fastprogress,>= 0.1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+4,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+5,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+6,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+7,langdetect,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+8,jieba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+9,cchardet,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+10,chardet,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+11,syntok,>1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+12,tika,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+13,transformers,>=4.17.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+14,sentencepiece,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+15,keras_bert,>=0.86.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+16,whoosh,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,install_requires,@*,*
+17,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+18,textract,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+19,paper-qa,==2.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+20,datasets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+21,textblob,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+22,sumy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+23,causalnlp,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+24,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*
+25,shap,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ktrain/setup.py,extras_require,*@*,*

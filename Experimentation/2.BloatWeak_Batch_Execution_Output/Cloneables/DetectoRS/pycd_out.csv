@@ -1,0 +1,33 @@
+,dep,version,filepath,type,condition,status
+0,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/setup.py,extras_require,(__name__ == '__main__')@*,*
+1,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/setup.py,extras_require,(__name__ == '__main__')@*,*
+2,recommonmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/setup.py,extras_require,(__name__ == '__main__')@*,*
+3,sphinx_markdown_tables,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/setup.py,extras_require,(__name__ == '__main__')@*,*
+4,yapf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+5,asynctest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+6,xdoctest,>= 0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+7,isort,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+8,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+9,kwarray,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+10,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+11,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+12,ubelt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+13,codecov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+14,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/tests.txt,*,*@*,*
+15,Pillow,<=6.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+16,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+17,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+18,mmcv,>=0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+19,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+20,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+21,torch,">=1.2,<=1.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+22,terminaltables,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/runtime.txt,*,*@*,*
+23,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/build.txt,*,*@*,*
+24,torch,">=1.2,<=1.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/build.txt,*,*@*,*
+25,cityscapesscripts,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/optional.txt,*,*@*,*
+26,albumentations,>=0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/optional.txt,*,*@*,*
+27,imagecorruptions,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/requirements/optional.txt,*,*@*,*
+28,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/docs/requirements.txt,*,*@*,*
+29,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/docs/requirements.txt,*,*@*,*
+30,recommonmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/docs/requirements.txt,*,*@*,*
+31,sphinx_markdown_tables,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DetectoRS/docs/requirements.txt,*,*@*,*

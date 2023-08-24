@@ -1,0 +1,41 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,matplotlib,>=3.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+1,numpydoc,>=0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+2,hyperopt,>=0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+3,sphinx,>=2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+4,sphinx,>=2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+5,numpy,>=1.16.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+6,numpy,>=1.16.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+7,numpy,>=1.16.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+8,numpy,>=1.16.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+9,scikit_learn,>=0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+10,setuptools,>=40.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2022-40897,<65.5.1,"Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+11,pathlib,>=1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+12,sphinx-rtd-theme,>=0.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+13,pyyaml,>=5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2020-14343,<5.4,"Pyyaml version 5.4 includes a fix for CVE-2020-14343: A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.
+https://bugzilla.redhat.com/show_bug.cgi?id=1860466"
+14,pyyaml,>=5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2019-20477,">=5.1,<=5.1.2","PyYAML 5.1 through 5.1.2 has insufficient restrictions on the load and load_all functions because of a class deserialization issue, e.g., Popen is a class in the subprocess module. See CVE-2019-20477. NOTE: this issue exists because of an incomplete fix for CVE-2017-18342."
+15,torch,<1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+16,seaborn,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+17,pytest,>=3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+18,sphinx-gallery,>=0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements.txt,False,no one,no one,no one
+19,coveralls,>=1.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements-dev.txt,False,no one,no one,no one
+20,pymongo,>=3.11.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements-dev.txt,False,no one,no one,no one
+21,coverage,>=5.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements-dev.txt,False,no one,no one,no one
+22,pylint,>=2.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements-dev.txt,False,PVE-2022-45185,<2.13.0,"Pylint 2.13.0 fixes a crash when using the doc_params extension.
+https://github.com/PyCQA/pylint/issues/5322"
+23,pylint,>=2.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements-dev.txt,False,PVE-2021-39621,<2.7.0,Pylint 2.7.0 includes a fix for vulnerable regular expressions in 'pyreverse'.
+24,pytest,>=3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements-dev.txt,False,no one,no one,no one
+25,pytest-cov,>=2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/requirements-dev.txt,False,no one,no one,no one
+26,sphinx,>=2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/setup.py,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+27,sphinx,>=2.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pykg2vec/setup.py,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.

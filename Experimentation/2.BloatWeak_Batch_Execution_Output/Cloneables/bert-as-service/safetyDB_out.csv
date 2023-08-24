@@ -1,0 +1,70 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,setuptools,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,False,CVE-2022-40897,<65.5.1,"Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+1,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,False,CVE-2022-40898,<0.38.1,"Wheel 0.38.1 includes a fix for CVE-2022-40898: An issue discovered in Python Packaging Authority (PyPA) Wheel 0.37.1 and earlier allows remote attackers to cause a denial of service via attacker controlled input to wheel cli.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+2,clip-server,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,False,no one,no one,no one
+3,clip-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/scripts/setup.py,False,no one,no one,no one
+4,setuptools,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,CVE-2022-40897,<65.5.1,"Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+5,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,CVE-2022-40898,<0.38.1,"Wheel 0.38.1 includes a fix for CVE-2022-40898: An issue discovered in Python Packaging Authority (PyPA) Wheel 0.37.1 and earlier allows remote attackers to cause a denial of service via attacker controlled input to wheel cli.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+6,ftfy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+7,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+8,regex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+9,torchvision,<=0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+10,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+11,jina,>=3.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+12,docarray,<0.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+13,prometheus-client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+14,open_clip_torch,>=2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+15,pillow-avif-plugin,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+16,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,CVE-2022-25882,<1.13.0,Onnx 1.13.0 includes a fix for CVE-2022-25882: Versions of the package onnx before 1.13.0 are vulnerable to Directory Traversal as the external_data field of the tensor proto can have a path to the file which is outside the model current directory or user-provided directory.
+17,onnxmltools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+18,onnxruntime-gpu,<=1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+19,onnxruntime,<=1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+20,nvidia-tensorrt,==8.4.1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+21,transformers,>=4.16.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+22,transformers,>=4.16.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+23,annlite,>=0.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+24,flash-attn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+25,cn_clip,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/server/setup.py,False,no one,no one,no one
+26,setuptools,>=18.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,CVE-2022-40897,<65.5.1,"Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+27,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,CVE-2022-40898,<0.38.1,"Wheel 0.38.1 includes a fix for CVE-2022-40898: An issue discovered in Python Packaging Authority (PyPA) Wheel 0.37.1 and earlier allows remote attackers to cause a denial of service via attacker controlled input to wheel cli.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+28,jina,>=3.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+29,docarray,">=0.19.0,<0.30.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+30,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+31,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+32,pytest-timeout,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+33,pytest-mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+34,pytest-asyncio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+35,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+36,pytest-repeat,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+37,pytest-reraise,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+38,mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+39,pytest-custom_exit_code,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+40,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/client/setup.py,False,no one,no one,no one
+41,gitpython,==3.1.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,PVE-2022-52518,<3.1.27,"Gitpython 3.1.27 includes a fix for a REDoS vulnerability.
+https://github.com/gitpython-developers/GitPython/commit/75f4f63ab3856a552f06082aabf98845b5fa21e3"
+42,gitpython,==3.1.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,CVE-2022-24439,<3.1.30,"Gitpython 3.1.30 includes a fix for CVE-2022-24439: Gitpython is vulnerable to Remote Code Execution (RCE) due to improper user input validation, which makes it possible to inject a maliciously crafted remote URL into the clone command. Exploiting this vulnerability is possible because the library makes external calls to git without sufficient sanitization of input arguments.
+https://github.com/gitpython-developers/GitPython/pull/1521"
+43,sphinx-sitemap,==2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+44,sphinx-argparse,==0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+45,sphinx_markdown_tables,==0.0.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+46,sphinx-notfound-page,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+47,sphinx-multiversion,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+48,sphinxcontrib-apidoc,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+49,sphinx_copybutton,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+50,sphinx-inline-tabs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+51,sphinx-design,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+52,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+53,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+54,sphinxext-opengraph,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+55,sphinx-autodoc-typehints,==1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+56,markdown,<3.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+57,myst-parser,==0.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one
+58,furo,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bert-as-service/docs/requirements.txt,False,no one,no one,no one

@@ -1,0 +1,7 @@
+,dep,version,filepath,type,condition,status
+0,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keract/requirements.txt,*,*@*,*
+1,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keract/requirements.txt,*,*@*,*
+2,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keract/requirements.txt,*,*@*,*
+3,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keract/examples/examples-requirements.txt,*,*@*,*
+4,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keract/examples/examples-requirements.txt,*,*@*,*
+5,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keract/examples/examples-requirements.txt,*,*@*,*

@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,install_requires,*@*,*
+1,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,install_requires,*@*,*
+4,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*
+5,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*
+6,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*
+7,atari_py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*
+8,opencv-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*
+9,psutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*
+10,pyprind,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*
+11,gym,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rlpyt/setup.py,extras_require,*@*,*

@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,axial-positional-embedding,>=0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,install_requires,@*,*
+1,einops,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,install_requires,@*,*
+2,local-attention,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,install_requires,@*,*
+3,product-key-memory,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,install_requires,@*,*
+4,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/setup.py,install_requires,@*,*
+5,tensorboard,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*
+6,torch,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*
+7,numpy,==1.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*
+8,revtorch,==0.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*
+9,torchvision,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*
+10,plotly,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*
+11,transformers,==4.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*
+12,fairseq,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/reformer-pytorch/pretraining/requirements.txt,*,*@*,*

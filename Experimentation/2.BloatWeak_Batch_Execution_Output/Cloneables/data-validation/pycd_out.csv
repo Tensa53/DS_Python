@@ -1,0 +1,16 @@
+,dep,version,filepath,type,condition,status
+0,absl-py,">=0.9,<2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+1,apache-beam,">=2.47,<3",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+2,joblib,>=1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+3,numpy,>=1.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+4,pandas,">=1.0,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+5,protobuf,">=3.20.3,<5",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+6,pyarrow,">=10,<11",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+7,pyfarmhash,">=0.2.2,<0.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+8,six,">=1.12,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+9,tensorflow,">=2.13,<3",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,@*,*
+10,tensorflow-metadata,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,*@*,*
+11,tfx-bsl,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,install_requires,*@*,*
+12,scikit-learn,">=1.0,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,extras_require,*@*,*
+13,scipy,">=1.5,<2",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,extras_require,*@*,*
+14,ipython,">=7,<8",/home/daniele/git/NICHE_projects/Repo/Cloneables/data-validation/setup.py,extras_require,*@*,*

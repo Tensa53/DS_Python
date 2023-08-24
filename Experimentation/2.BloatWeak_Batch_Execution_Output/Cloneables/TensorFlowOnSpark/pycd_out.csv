@@ -1,0 +1,9 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*
+1,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*
+2,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*
+3,py4j,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*
+4,pyspark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*
+5,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*
+6,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*
+7,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorFlowOnSpark/requirements.txt,*,*@*,*

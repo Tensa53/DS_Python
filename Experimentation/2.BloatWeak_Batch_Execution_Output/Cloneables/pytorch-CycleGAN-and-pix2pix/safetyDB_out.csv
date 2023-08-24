@@ -1,0 +1,17 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,torch,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+1,dominate,>=2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,no one,no one,no one
+2,visdom,>=0.1.8.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,no one,no one,no one
+3,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,PVE-2022-47988,<0.12.12,"Wandb 0.12.12 fixes an unsafe temporary file creation vulnerability.
+https://github.com/wandb/client/pull/3360"
+4,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2021-33503,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+5,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2020-7212,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+6,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2020-11078,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+7,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2020-26137,<0.12.18,Wandb 0.12.18 updates its dependency 'urllib3' to v1.26.5 to include security fixes.
+8,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2020-13757,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+9,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2020-25658,<0.12.18,Wandb 0.12.18 updates its dependency 'rsa' to v4.7 to include security fixes.
+10,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2021-21240,<0.12.18,Wandb 0.12.18 updates its dependency 'httplib2' to v0.19.0 to include security fixes.
+11,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,PVE-2021-37149,<0.8.0,Socket in wandb 0.8.0 only binds to localhost for improved security and prevents firewall warnings in OSX.
+12,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,CVE-2017-18342,<0.8.2,"Wandb 0.8.2 updates the pyyaml requirement to address a CVE. No CVE number was mentioned, but it is probably CVE-2017-18342."
+13,torchvision,>=0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,False,no one,no one,no one

@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,imageio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,install_requires,@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,install_requires,@*,*
+2,tensorflow,==2.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,install_requires,@*,*
+3,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,install_requires,@*,*
+4,pyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,install_requires,@*,*
+5,h5py,==2.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,install_requires,@*,*
+6,pytest,==4.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,extras_require,@*,*
+7,pytest-cov,==2.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,extras_require,@*,*
+8,mkdocs,==1.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,extras_require,@*,*
+9,mkdocs-material,==4.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,extras_require,@*,*
+10,tensorflow-gpu,==2.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,extras_require,@*,*
+11,bumpversion,==0.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/image-super-resolution/setup.py,extras_require,@*,*

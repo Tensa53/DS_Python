@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,path,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+1,progressbar2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+2,argparse,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+3,blessings,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+4,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+5,pebble,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+6,imageio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+7,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+8,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+9,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+10,torch,>= 1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*
+11,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,*,*@*,*

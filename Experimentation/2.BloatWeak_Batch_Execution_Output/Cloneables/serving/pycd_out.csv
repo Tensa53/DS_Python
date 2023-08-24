@@ -1,0 +1,5 @@
+,dep,version,filepath,type,condition,status
+0,grpcio,">= 1.24.3, < 2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/serving/tensorflow_serving/tools/pip_package/setup.py,install_requires,*@*,*
+1,protobuf,">=3.20.3,<5.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5",/home/daniele/git/NICHE_projects/Repo/Cloneables/serving/tensorflow_serving/tools/pip_package/setup.py,install_requires,*@*,*
+2,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serving/tensorflow_serving/tools/pip_package/setup.py,install_requires,*@*,*
+3,tensorflow-gpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serving/tensorflow_serving/tools/pip_package/setup.py,install_requires,*@*,*

@@ -1,0 +1,5 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Megatron-LM/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+1,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Megatron-LM/megatron/core/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"

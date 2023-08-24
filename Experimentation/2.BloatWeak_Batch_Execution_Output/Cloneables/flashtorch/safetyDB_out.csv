@@ -1,0 +1,113 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,no one,no one,no one
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+2,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+3,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+4,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+5,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+6,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+7,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+8,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+9,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-1932,<2.3.1,pillow before 2.3.1 makes insecure use of tempfile.mktemp (CVE-2014-1932).
+10,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-1933,<2.3.1,pillow before 2.3.1 makes insecure use of tempfile.mktemp (CVE-2014-1933).
+11,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-3589,"<2.3.2,>=2.5.0,<2.5.2","Pillow versions 2.3.2 and 2.5.2 include a fix for CVE-2014-3589: PIL/IcnsImagePlugin.py in Python Imaging Library (PIL) and Pillow before 2.3.2 and 2.5.x before 2.5.2 allows remote attackers to cause a denial of service via a crafted block size.
+https://github.com/python-pillow/Pillow/commit/205e056f8f9b06ed7b925cf8aa0874bc4aaf8a7d"
+12,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-3007,<2.5.0,"Pillow 2.5.0 includes a fix that prevents shell injection.
+https://github.com/python-pillow/Pillow/pull/731"
+13,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-3598,<2.5.3,pillow before 2.5.3 is vulnerable to a DoS in the Jpeg2KImagePlugin.
+14,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2014-9601,<2.6.2,Pillow before 2.6.2 is vulnerable to a PNG decompression DoS (CVE-2014-9601).
+15,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2016-0775,<3.1.1,Buffer overflow in the ImagingFliDecode function in libImaging/FliDecode.c in Pillow before 3.1.1 allows remote attackers to cause a denial of service (crash) via a crafted FLI file.
+16,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2016-0740,<3.1.1,Buffer overflow in the ImagingLibTiffDecode function in libImaging/TiffDecode.c in Pillow before 3.1.1 allows remote attackers to overwrite memory via a crafted TIFF file.
+17,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2016-2533,<3.1.1,Buffer overflow in the ImagingPcdDecode function in PcdDecode.c in Pillow before 3.1.1 and Python Imaging Library (PIL) 1.1.7 and earlier allows remote attackers to cause a denial of service (crash) via a crafted PhotoCD file.
+18,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2016-4009,<3.1.1,"Integer overflow in the ImagingResampleHorizontal function in libImaging/Resample.c in Pillow before 3.1.1 allows remote attackers to have unspecified impact via negative values of the new size, which triggers a heap-based buffer overflow."
+19,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2016-3076,<3.1.2,pillow before 3.1.2 is vulnerable to an integer overflow in Jpeg2KEncode.c causing a buffer overflow. CVE-2016-3076.
+20,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2016-9189,<3.3.2,"Pillow before 3.3.2 allows context-dependent attackers to obtain sensitive information by using the ""crafted image file"" approach, related to an ""Integer Overflow"" issue affecting the Image.core.map_buffer in map.c component."
+21,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2016-9190,<3.3.2,"Pillow before 3.3.2 allows context-dependent attackers to execute arbitrary code by using the ""crafted image file"" approach, related to an ""Insecure Sign Extension"" issue affecting the ImagingNew in Storage.c component."
+22,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2019-16865,<6.2.0,"Pillow 6.2.0 includes a fix for CVE-2019-16865: An issue was discovered in Pillow before 6.2.0. When reading specially crafted invalid image files, the library can either allocate very large amounts of memory or take an extremely long period of time to process the image."
+23,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-5310,<6.2.2,"libImaging/TiffDecode.c in Pillow before 6.2.2 has a TIFF decoding integer overflow, related to realloc."
+24,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-5311,<6.2.2,libImaging/SgiRleDecode.c in Pillow before 6.2.2 has an SGI buffer overflow.
+25,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-5313,<6.2.2,libImaging/FliDecode.c in Pillow before 6.2.2 has an FLI buffer overflow.
+26,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-5312,<6.2.2,libImaging/PcxDecode.c in Pillow before 6.2.2 has a PCX P mode buffer overflow.
+27,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2019-19911,<6.2.2,"There is a DoS vulnerability in Pillow before 6.2.2 caused by FpxImagePlugin.py calling the range function on an unvalidated 32-bit integer if the number of bands is large. On Windows running 32-bit Python, this results in an OverflowError or MemoryError due to the 2 GB limit. However, on Linux running 64-bit Python this results in the process being terminated by the OOM killer."
+28,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-10177,<7.1.0,Pillow before 7.1.0 has multiple out-of-bounds reads in libImaging/FliDecode.c.
+29,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-10994,<7.1.0,"In libImaging/Jpeg2KDecode.c in Pillow before 7.1.0, there are multiple out-of-bounds reads via a crafted JP2 file."
+30,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-10379,<7.1.0,"In Pillow before 7.1.0, there are two Buffer Overflows in libImaging/TiffDecode.c."
+31,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-10378,<7.1.0,"In libImaging/PcxDecode.c in Pillow before 7.1.0, an out-of-bounds read can occur when reading PCX files where state->shuffle is instructed to read beyond state->buffer."
+32,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-15999,<8.0.1,Pillow 8.0.1 updates 'FreeType' used in binary wheels to v2.10.4 to include a security fix.
+33,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-35654,<8.1.0,Pillow 8.1.0 fixes TIFF OOB Write error. CVE-2020-35654 #5175.
+34,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-35653,<8.1.0,"In Pillow before 8.1.0, PcxDecode has a buffer over-read when decoding a crafted PCX file because the user-supplied stride value is trusted for buffer calculations."
+35,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-35655,<8.1.0,Pillow 8.1.0 includes a fix for SGI Decode buffer overrun. CVE-2020-35655 #5173.
+36,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-25289,<8.1.1,"Pillow 8.1.1 includes a fix for CVE-2021-25289: TiffDecode has a heap-based buffer overflow when decoding crafted YCbCr files because of certain interpretation conflicts with LibTIFF in RGBA mode. NOTE: this issue exists because of an incomplete fix for CVE-2020-35654.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+37,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-25290,<8.1.1,"Pillow 8.1.1 includes a fix for CVE-2021-25290: In TiffDecode.c, there is a negative-offset memcpy with an invalid size.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+38,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-27922,<8.1.1,"Pillow 8.1.1 includes a fix for CVE-2021-27922: Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICNS container, and thus an attempted memory allocation can be very large.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+39,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-25291,<8.1.1,"Pillow 8.1.1 includes a fix for CVE-2021-25291: In TiffDecode.c, there is an out-of-bounds read in TiffreadRGBATile via invalid tile boundaries.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+40,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-27921,<8.1.1,"Pillow 8.1.1 includes a fix for CVE-2021-27921: Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for a BLP container, and thus an attempted memory allocation can be very large.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+41,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-25293,<8.1.1,"Pillow 8.1.1 includes a fix for CVE-2021-25293: There is an out-of-bounds read in SGIRleDecode.c.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+42,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-25292,<8.1.1,"Pillow 8.1.1 includes a fix for CVE-2021-25292: The PDF parser allows a regular expression DoS (ReDoS) attack via a crafted PDF file because of a catastrophic backtracking regex.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+43,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-25288,<8.2.0,"Pillow 8.2.0 includes a fix for CVE-2021-25288: There is an out-of-bounds read in J2kDecode, in j2ku_gray_i.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-25287-cve-2021-25288-fix-oob-read-in-jpeg2kdecode"
+44,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-28677,<8.2.0,"Pillow version 8.2.0 includes a fix for CVE-2021-28677: For EPS data, the readline implementation used in EPSImageFile has to deal with any combination of \r and \n as line endings. It used an accidentally quadratic method of accumulating lines while looking for a line ending. A malicious EPS file could use this to perform a DoS of Pillow in the open phase, before an image was accepted for opening.
+https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MQHA5HAIBOYI3R6HDWCLAGFTIQP767FL/
+https://github.com/python-pillow/Pillow/pull/5377
+https://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-28677-fix-eps-dos-on-open"
+45,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-28678,<8.2.0,"Pillow version 8.2.0 includes a fix for CVE-2021-28678: For BLP data, BlpImagePlugin did not properly check that reads (after jumping to file offsets) returned data. This could lead to a DoS where the decoder could be run a large number of times on empty data.
+https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MQHA5HAIBOYI3R6HDWCLAGFTIQP767FL/
+https://github.com/python-pillow/Pillow/pull/5377
+https://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-28678-fix-blp-dos"
+46,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-28676,<8.2.0,"Pillow version 8.2.0 includes a fix for CVE-2021-28676: For FLI data, FliDecode did not properly check that the block advance was non-zero, potentially leading to an infinite loop on load.
+https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MQHA5HAIBOYI3R6HDWCLAGFTIQP767FL/
+https://github.com/python-pillow/Pillow/pull/5377
+https://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-28676-fix-fli-dos"
+47,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-25287,<8.2.0,"Pillow 8.2.0 includes a fix for CVE-2021-25287: There is an out-of-bounds read in J2kDecode, in j2ku_graya_la.
+https://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-25287-cve-2021-25288-fix-oob-read-in-jpeg2kdecode"
+48,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-34552,<8.3.0,"Pillow 8.3.0 includes a fix for CVE-2021-34552: Pillow through 8.2.0 and PIL (also known as Python Imaging Library) through 1.1.7 allow an attacker to pass controlled parameters directly into a convert function to trigger a buffer overflow in Convert.c
+https://pillow.readthedocs.io/en/stable/releasenotes/8.3.0.html#buffer-overflow
+https://pillow.readthedocs.io/en/stable/releasenotes/index.html"
+49,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-22816,<9.0.0,"Pillow 9.0.0 includes a fix for CVE-2022-22816: path_getbbox in path.c in Pillow before 9.0.0 has a buffer over-read during initialization of ImagePath.Path.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling"
+50,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,PVE-2021-44525,<9.0.0,"Pillow 9.0.0 excludes carriage return in PDF regex to help prevent ReDoS.
+https://github.com/python-pillow/Pillow/pull/5912
+https://github.com/python-pillow/Pillow/commit/43b800d933c996226e4d7df00c33fcbe46d97363"
+51,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,PVE-2022-44524,<9.0.0,"Pillow 9.0.0 ensures JpegImagePlugin stops at the end of a truncated file to avoid Denial of Service attacks.
+https://github.com/python-pillow/Pillow/pull/5921
+https://github.com/advisories/GHSA-4fx9-vc88-q2xc"
+52,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-22815,<9.0.0,"Pillow 9.0.0 includes a fix for CVE-2022-22815: path_getbbox in path.c in Pillow before 9.0.0 improperly initializes ImagePath.Path.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling"
+53,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-24303,<9.0.1,Pillow before 9.0.1 allows attackers to delete files because spaces in temporary pathnames are mishandled.
+54,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-22817,<9.0.1,"Pillow 9.0.1 includes a fix for CVE-2022-22817: PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A first patch was issued for version 9.0.0 but it did not prevent builtins available to lambda expressions.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.1.html#security"
+55,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-45198,<9.2.0,Pillow before 9.2.0 performs Improper Handling of Highly Compressed GIF Data (Data Amplification).
+56,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2020-11538,<=7.0.0,"In libImaging/SgiRleDecode.c in Pillow through 7.0.0, a number of out-of-bounds reads exist in the parsing of SGI image files, a different issue than CVE-2020-5311."
+57,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-28675,">=0,<8.2.0",An issue was discovered in Pillow before 8.2.0. PSDImagePlugin.PsdImageFile lacked a sanity check on the number of input layers relative to the size of the data block. This could lead to a DoS on Image.open prior to Image.load.
+58,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-27923,">=4.3.0,<8.1.1","Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICO container, and thus an attempted memory allocation can be very large."
+59,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2021-23437,">=5.2.0,<8.3.2","Pillow from 5.2.0 and before 8.3.2 is vulnerable to Regular Expression Denial of Service (ReDoS) via the getrgb function.
+https://github.com/python-pillow/Pillow/commit/9e08eb8f78fdfd2f476e1b20b7cf38683754866b
+https://pillow.readthedocs.io/en/stable/releasenotes/8.3.2.html"
+60,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-30595,">=9.1.0,<9.1.1",libImaging/TgaRleDecode.c in Pillow 9.1.0 has a heap buffer overflow in the processing of invalid TGA image files.
+61,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,PVE-2023-55182,">=9.1.0,<9.3.0","Pillow 9.3.0 includes a security fix: Pillow will now decode the data in its natural CMYK mode, then convert it to RGB and rearrange the channels afterwards. Trying to load the data in an incorrect mode could result in a segmentation fault.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#decode-jpeg-compressed-blp1-data-in-original-mode"
+62,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-45199,">=9.2.0,<9.3.0","Pillow before 9.3.0 allows denial of service via SAMPLESPERPIXEL.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#limit-samplesperpixel-to-avoid-runtime-dos"
+63,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+64,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,no one,no one,no one
+65,importlib_resources,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/flashtorch/setup.py,False,no one,no one,no one

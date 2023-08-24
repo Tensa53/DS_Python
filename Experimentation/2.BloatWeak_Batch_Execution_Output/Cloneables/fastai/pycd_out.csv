@@ -1,0 +1,3 @@
+,dep,version,filepath,type,condition,status
+0,pip,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastai/setup.py,install_requires,*@*,*
+1,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fastai/setup.py,install_requires,*@*,*

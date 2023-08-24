@@ -1,0 +1,16 @@
+,dep,version,filepath,type,condition,status
+0,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+1,numpy,>=1.21.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+2,mappy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+3,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+4,tensorflow,~=2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+5,grpcio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+6,intervaltree,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+7,pysam,>=0.16.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+8,parasail,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+9,ont_fast5_api,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+10,cffi,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+11,edlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+12,pyspoa,>=0.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/requirements.txt,*,*@*,*
+13,tensorflow-macos,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/setup.py,install_requires,*@*,*
+15,tensorflow-cpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/medaka/setup.py,install_requires,*@*,*

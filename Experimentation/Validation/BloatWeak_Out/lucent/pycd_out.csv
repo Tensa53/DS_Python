@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,torch,>=1.5.0,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+1,torchvision,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+2,kornia,<=0.4.1,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+3,tqdm,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+4,numpy,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+5,ipython,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+6,pillow,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+7,future,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+8,decorator,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+9,pytest,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+10,pytest-mock,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+11,coverage,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+12,coveralls,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*
+13,scikit-learn,==*,/home/daniele/git/Validation/Repo/lucent/setup.py,install_requires,@*,*

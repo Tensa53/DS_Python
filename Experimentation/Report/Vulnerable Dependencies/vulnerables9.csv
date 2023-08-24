@@ -1,0 +1,16 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+26,26,bitextor,53,0,9,0,20
+28,28,bootcamp,24,0,9,0,46
+59,61,deepface,18,0,9,0,562
+66,68,DeepSpeech,37,0,9,0,498
+110,113,funsor,34,0,9,0,46
+122,125,hep_ml,16,0,9,0,30
+127,130,hyperpose,26,1,9,0,1038
+138,141,joeynmt,22,0,9,0,74
+179,185,meta-dataset,23,3,9,2,987
+196,202,model-analysis,16,0,9,0,489
+208,214,nboost,20,0,9,0,499
+244,250,prodigy-recipes,23,0,9,0,71
+301,309,sonnet,30,0,9,0,1428
+310,319,surreal,51,5,9,1,1449
+325,334,tf2rl,14,0,9,0,995

@@ -1,0 +1,33 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,multipledispatch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements.txt,False,no one,no one,no one
+1,linear_operator,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements.txt,False,no one,no one,no one
+2,torch,>=1.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+3,gpytorch,==1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements.txt,False,no one,no one,no one
+4,pyro-ppl,>=1.8.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements.txt,False,no one,no one,no one
+5,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+6,black,==22.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements-fmt.txt,False,no one,no one,no one
+7,usort,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/requirements-fmt.txt,False,no one,no one,no one
+8,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+9,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+10,ax-platform,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+11,cma,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+12,jupyter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+13,kaleido,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+14,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+15,memory_profiler,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+16,papermill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+17,pykeops,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+18,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+19,multipledispatch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+20,linear_operator,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+21,torch,>=1.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+22,gpytorch,==1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+23,pyro-ppl,>=1.8.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+24,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+25,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+26,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+27,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+28,ufmt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one
+29,flake8-docstrings,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/botorch/setup.py,False,no one,no one,no one

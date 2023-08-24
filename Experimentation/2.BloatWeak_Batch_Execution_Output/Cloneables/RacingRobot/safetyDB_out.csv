@@ -1,0 +1,30 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,scipy,==0.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+1,pygame,==1.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+2,pyzmq,==16.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+3,scikit-learn,==0.19.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+4,scikit-learn,==0.19.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+5,scikit-learn,==0.19.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+6,matplotlib,==2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+7,numpy,==1.14.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+8,numpy,==1.14.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+9,numpy,==1.14.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+10,numpy,==1.14.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+11,numpy,==1.14.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+12,pytest-cov,==2.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+13,enum34,==1.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+14,pytest,==3.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+15,pyserial,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+16,robust-serial,==0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+17,six,==1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one
+18,tqdm,==4.19.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/RacingRobot/requirements.txt,False,no one,no one,no one

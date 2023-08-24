@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,soundfile,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+1,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+2,tqdm,==4.40.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+3,numpy,>=1.17.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+4,ruamel.yaml,>=0.16.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+5,matplotlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+6,webrtcvad,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+7,librosa,==0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+8,phonemizer,~=2.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+9,p_tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+10,pyworld,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+11,numba,==0.48,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*
+12,tensorflow,>=2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/TransformerTTS/requirements.txt,*,*@*,*

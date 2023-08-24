@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/requirements.txt,*,*@*,*
+1,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/requirements.txt,*,*@*,*
+2,keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/requirements.txt,*,*@*,*
+3,onnx2keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/requirements.txt,*,*@*,*
+4,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/requirements.txt,*,*@*,*
+5,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/requirements.txt,*,*@*,*
+6,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/requirements.txt,*,*@*,*
+7,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/setup.py,install_requires,*@*,*
+8,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/setup.py,install_requires,*@*,*
+9,keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/setup.py,install_requires,*@*,*
+10,onnx2keras,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/setup.py,install_requires,*@*,*
+11,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/setup.py,install_requires,*@*,*
+12,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/setup.py,install_requires,*@*,*
+13,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch2keras/setup.py,install_requires,*@*,*

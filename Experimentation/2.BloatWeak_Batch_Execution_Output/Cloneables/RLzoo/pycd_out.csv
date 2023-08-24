@@ -1,0 +1,10 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow-gpu,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+1,matplotlib,==3.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+2,opencv-python,==4.1.0.25,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+3,pygame,==1.9.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+4,ipywidgets,==7.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+5,tensorlayer,>=2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+6,numpy,==1.16.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+7,tensorflow-probability,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*
+8,gym,==0.12.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/RLzoo/requirements.txt,*,*@*,*

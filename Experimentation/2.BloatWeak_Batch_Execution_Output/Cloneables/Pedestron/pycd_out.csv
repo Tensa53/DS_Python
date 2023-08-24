@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,setup_requires,(__name__ == '__main__')@*,*
+1,cython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,setup_requires,(__name__ == '__main__')@*,*
+2,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,setup_requires,(__name__ == '__main__')@*,*
+3,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,tests_require,(__name__ == '__main__')@*,*
+4,mmcv,>=0.2.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,install_requires,(__name__ == '__main__')@*,*
+6,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,install_requires,(__name__ == '__main__')@*,*
+7,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,install_requires,(__name__ == '__main__')@*,*
+8,terminaltables,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,install_requires,(__name__ == '__main__')@*,*
+9,pycocotools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,install_requires,(__name__ == '__main__')@*,*
+10,torch,>=1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/Pedestron/setup.py,install_requires,(__name__ == '__main__')@*,*

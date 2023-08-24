@@ -1,0 +1,3 @@
+,dep,version,filepath,type,condition,status
+0,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snake/requirements.txt,*,*@*,*
+1,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/snake/requirements.txt,*,*@*,*

@@ -1,0 +1,16 @@
+,dep,version,filepath,type,condition,status
+0,cython,>=0.27.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+1,click,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+2,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+3,matplotlib,>=2.2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+4,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+5,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+6,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+7,pyfaidx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+8,pytabix,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+9,pyyaml,>=5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+10,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+11,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+12,seaborn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+13,statsmodels,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*
+14,torch,">=0.4.1, <=1.9",/home/daniele/git/NICHE_projects/Repo/Cloneables/selene/setup.py,install_requires,@*,*

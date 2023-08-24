@@ -1,0 +1,18 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+62,64,deepmedic,5,0,3,0,10
+69,71,DeepXi,5,0,3,0,483
+97,100,fastNLP,10,0,3,0,12
+105,108,flashtorch,6,0,3,0,63
+139,142,Kaggler,24,0,3,0,490
+142,145,kapre,7,0,3,0,477
+145,148,keract,6,0,3,0,67
+177,183,memcnn,6,0,3,0,10
+227,233,OpenNMT-tf,19,0,3,0,486
+249,255,pymc4,16,0,3,0,8
+265,271,pytorch-optimizer,23,0,3,0,3
+267,273,pytorch-toolbelt,8,0,3,0,3
+270,276,PytorchWaveNetVocoder,13,0,3,0,12
+276,282,RacingRobot,13,0,3,0,9
+283,290,rlcard,6,0,3,0,7
+293,300,serving,4,0,3,0,966
+312,321,tensor2robot,10,0,3,0,520

@@ -1,0 +1,10 @@
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+5,AIF360,54,1,18,1,979
+32,brainiak,52,1,13,1,541
+101,fathom,42,1,13,1,26
+129,hummingbird,22,1,10,1,23
+133,inferno,38,2,16,2,64
+184,mesh,12,1,4,1,954
+246,persephone,18,1,7,1,491
+293,RMDL,17,1,15,1,987
+331,TextRecognitionDataGenerator,26,1,11,1,663

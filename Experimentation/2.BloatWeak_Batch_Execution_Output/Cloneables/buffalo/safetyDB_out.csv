@@ -1,0 +1,8 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,codespell,~=2.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/buffalo/requirements-dev.txt,False,no one,no one,no one
+1,flake8-quotes,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/buffalo/requirements-dev.txt,False,no one,no one,no one
+2,flake8,~=6.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/buffalo/requirements-dev.txt,False,no one,no one,no one
+3,isort,~=5.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/buffalo/requirements-dev.txt,False,no one,no one,no one
+4,poethepoet,~=0.16.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/buffalo/requirements-dev.txt,False,no one,no one,no one
+5,pytest,~=7.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/buffalo/requirements-dev.txt,False,no one,no one,no one
+6,cpplint,~=1.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/buffalo/requirements-dev.txt,False,no one,no one,no one

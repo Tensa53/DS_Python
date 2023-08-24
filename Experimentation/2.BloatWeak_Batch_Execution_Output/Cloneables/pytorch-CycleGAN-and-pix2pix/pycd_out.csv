@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,torch,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,*,*@*,*
+1,dominate,>=2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,*,*@*,*
+2,visdom,>=0.1.8.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,*,*@*,*
+3,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,*,*@*,*
+4,torchvision,>=0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-CycleGAN-and-pix2pix/requirements.txt,*,*@*,*

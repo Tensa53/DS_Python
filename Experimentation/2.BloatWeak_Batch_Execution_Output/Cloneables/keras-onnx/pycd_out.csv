@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements.txt,*,*@*,*
+1,fire,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements.txt,*,*@*,*
+2,onnxconverter-common,>=1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements.txt,*,*@*,*
+3,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements.txt,*,*@*,*
+4,protobuf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements.txt,*,*@*,*
+5,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements.txt,*,*@*,*
+6,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements-dev.txt,*,*@*,*
+7,numpy,<=1.19.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements-dev.txt,*,*@*,*
+8,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements-dev.txt,*,*@*,*
+9,onnxruntime,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements-dev.txt,*,*@*,*
+10,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements-dev.txt,*,*@*,*
+11,pillow,<=8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/requirements-dev.txt,*,*@*,*
+12,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/setup.py,tests_require,@*,*
+13,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/keras-onnx/setup.py,tests_require,@*,*

@@ -1,0 +1,11 @@
+,dep,version,filepath,type,condition,status
+0,Pillow,==5.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+1,tensorflow-probability,>=0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+2,tensorflow-serving-api,>=1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+3,pybullet,==2.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+4,gin-config,>=0.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+5,absl-py,>=0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+6,gym,>=0.10.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+7,tf-slim,>=1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+8,numpy,>=1.13.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*
+9,tensorflow,>=1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensor2robot/requirements.txt,*,*@*,*

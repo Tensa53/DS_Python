@@ -1,0 +1,21 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,coverage,>= 4.3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,False,no one,no one,no one
+1,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,False,no one,no one,no one
+2,mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,False,no one,no one,no one
+3,xdoctest,>= 0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,False,no one,no one,no one
+4,pytest,>= 3.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,False,no one,no one,no one
+5,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/tests.txt,False,no one,no one,no one
+6,scipy,>=1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+7,pyparsing,>=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,no one,no one,no one
+8,networkx,>=3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,no one,no one,no one
+9,pandas,>=1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+10,tqdm,>=4.64,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,no one,no one,no one
+11,statsmodels,>=0.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,no one,no one,no one
+12,joblib,>=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,no one,no one,no one
+13,torch,>=1.13,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+14,opt_einsum,>=3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,no one,no one,no one
+15,numpy,>=1.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,no one,no one,no one
+16,scikit-learn,>=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+17,scikit-learn,>=1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/runtime.txt,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+18,daft,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pgmpy/requirements/optional.txt,False,no one,no one,no one

@@ -1,0 +1,2 @@
+,dep,version,filepath,type,condition,status
+0,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/EfficientNet-PyTorch/setup.py,install_requires,*@*,*

@@ -1,0 +1,10 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/requirements.txt,*,*@*,*
+1,pillow,>=7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/requirements.txt,*,*@*,*
+2,scikit-learn,>=0.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/requirements.txt,*,*@*,*
+3,torchvision,>=0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/requirements.txt,*,*@*,*
+4,torch,>=1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/requirements.txt,*,*@*,*
+5,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/blitz/examples/requirements_stocks_example.txt,*,*@*,*
+6,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/blitz/examples/requirements_stocks_example.txt,*,*@*,*
+7,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/blitz/examples/requirements_stocks_example.txt,*,*@*,*
+8,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/blitz-bayesian-deep-learning/blitz/examples/requirements_stocks_example.txt,*,*@*,*

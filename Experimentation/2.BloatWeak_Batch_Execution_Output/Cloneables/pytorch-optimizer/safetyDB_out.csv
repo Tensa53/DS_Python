@@ -1,0 +1,27 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,isort,==5.9.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+1,bandit,==1.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+2,flake8,==4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+3,pytest,==6.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+4,ipdb,==0.13.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+5,black,==23.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+6,numpy,==1.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+7,pyroma,==3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+8,sphinx-autodoc-typehints,==1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+9,flake8-bugbear,==21.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+10,twine,==3.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+11,torch,==1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+12,wheel,==0.38.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+13,pytorch_ranger,==0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+14,pytest-cov,==3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+15,mypy,==0.910,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+16,sphinx,==4.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/requirements-dev.txt,False,no one,no one,no one
+17,torch,>=1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+18,pytorch_ranger,>=0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/setup.py,False,no one,no one,no one
+19,hyperopt,==0.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/examples/requirements-examples.txt,False,no one,no one,no one
+20,matplotlib,==3.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/examples/requirements-examples.txt,False,no one,no one,no one
+21,torch,==1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/examples/requirements-examples.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+22,torchvision,==0.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-optimizer/examples/requirements-examples.txt,False,no one,no one,no one

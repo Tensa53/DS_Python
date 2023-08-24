@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/tests.txt,*,*@*,*
+1,isort,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/tests.txt,*,*@*,*
+2,yapf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/tests.txt,*,*@*,*
+3,mmcv,>=0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/runtime.txt,*,*@*,*
+4,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/runtime.txt,*,*@*,*
+5,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/runtime.txt,*,*@*,*
+6,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/runtime.txt,*,*@*,*
+7,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/runtime.txt,*,*@*,*
+8,torch,>=1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/runtime.txt,*,*@*,*
+9,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/runtime.txt,*,*@*,*
+10,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/build.txt,*,*@*,*
+11,torch,>=1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/mmfashion/requirements/build.txt,*,*@*,*

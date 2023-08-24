@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2-gnn/setup.py,install_requires,@*,*
+1,tensorflow,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2-gnn/setup.py,install_requires,@*,*
+2,dpu-utils,>=0.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2-gnn/setup.py,install_requires,@*,*
+3,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2-gnn/setup.py,install_requires,@*,*
+4,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf2-gnn/setup.py,install_requires,@*,*

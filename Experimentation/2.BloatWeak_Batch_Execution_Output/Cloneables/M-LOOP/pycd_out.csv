@@ -1,0 +1,22 @@
+,dep,version,filepath,type,condition,status
+0,scikit-learn,>=0.18,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+1,matplotlib,>=1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+2,numpy,>=1.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+3,scipy,>=0.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+4,docutils,>=0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+5,setuptools,>=26,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+6,tensorflow,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+7,pytest,>=2.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+8,pip,>=7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/requirements.txt,*,*@*,*
+9,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,setup_requires,@*,*
+10,pip,>=7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,@*,*
+11,docutils,>=0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,@*,*
+12,numpy,>=1.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,@*,*
+13,scipy,>=0.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,@*,*
+14,matplotlib,>=1.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,@*,*
+15,pytest,>=2.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,@*,*
+16,scikit-learn,>=0.18,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,@*,*
+17,tensorflow,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,"@ sys_platform != ""darwin""",*
+18,tensorflow-macos,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,install_requires,"@ sys_platform == ""darwin""",*
+19,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,tests_require,@*,*
+20,setuptools,>=26,/home/daniele/git/NICHE_projects/Repo/Cloneables/M-LOOP/setup.py,tests_require,@*,*

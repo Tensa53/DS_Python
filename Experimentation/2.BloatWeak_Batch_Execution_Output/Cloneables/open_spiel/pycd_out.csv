@@ -1,0 +1,16 @@
+,dep,version,filepath,type,condition,status
+0,numpy,>= 1.21.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,*,*@*,*
+1,scipy,>= 1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,*,*@*,*
+2,attrs,>= 19.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,*,*@*,*
+3,pip,>= 20.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,*,*@*,*
+4,absl-py,>= 0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/requirements.txt,*,*@*,*
+5,dm-haiku,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,*,*@*,*
+6,optax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,*,*@*,*
+7,jax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,*,*@*,*
+8,distrax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,*,*@*,*
+9,open_spiel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,*,*@*,*
+10,wandb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,*,*@*,*
+11,rlax,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/open_spiel/python/examples/opponent_shaping/requirements.txt,*,*@*,*
+12,markdown,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/docs/requirements.readthedocs.txt,*,*@*,*
+13,sphinx_markdown_tables,==0.0.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/docs/requirements.readthedocs.txt,*,*@*,*
+14,sphinx,==5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/open_spiel/docs/requirements.readthedocs.txt,*,*@*,*

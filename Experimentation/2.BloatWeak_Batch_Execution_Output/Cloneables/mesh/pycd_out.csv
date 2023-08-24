@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,absl-py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,install_requires,@*,*
+1,future,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,install_requires,@*,*
+2,gin-config,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,install_requires,@*,*
+3,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,install_requires,@*,*
+4,ortools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,extras_require,@*,*
+5,tensorflow,>=1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,extras_require,@*,*
+6,tensorflow-datasets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,extras_require,@*,*
+7,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,extras_require,@*,*
+8,tensorflow_probability,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,extras_require,@*,*
+10,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,tests_require,@*,*
+11,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,tests_require,@*,*
+13,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/mesh/setup.py,setup_requires,@*,*

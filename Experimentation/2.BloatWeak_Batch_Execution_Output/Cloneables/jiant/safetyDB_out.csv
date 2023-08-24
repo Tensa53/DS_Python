@@ -1,0 +1,86 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,sentencepiece,==0.1.91,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+1,tqdm,==4.46.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+2,sacremoses,==0.0.43,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+3,bs4,==0.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+4,jsonnet,==0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+5,tokenizers,==0.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+6,scikit-learn,==0.22.2.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+7,scikit-learn,==0.22.2.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+8,scikit-learn,==0.22.2.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+9,datasets,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+10,attrs,==19.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+11,nltk,>=3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,PVE-2023-54914,<3.6,"Nltk 3.6 includes a fix for a REDoS vulnerability.
+https://github.com/nltk/nltk/pull/2597"
+12,nltk,>=3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2021-43854,<3.6.5,"Nltk 3.6.5 includes a fix for CVE-2021-43854: Versions prior to 3.6.5 are vulnerable to regular expression denial of service (ReDoS) attacks. The vulnerability is present in PunktSentenceTokenizer, sent_tokenize and word_tokenize. Any users of this class, or these two functions, are vulnerable to the ReDoS attack. In short, a specifically crafted long input to any of these vulnerable functions will cause them to take a significant amount of execution time. If your program relies on any of the vulnerable functions for tokenizing unpredictable user input, it's strongly recommended upgrading to a version of NLTK without the vulnerability. For users unable to upgrade the execution time can be bounded by limiting the maximum length of an input to any of the vulnerable functions.
+https://github.com/nltk/nltk/security/advisories/GHSA-f8m6-h2c7-8h9x
+https://github.com/nltk/nltk/issues/2866"
+13,nltk,>=3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2019-14751,">=0,<3.4.5","NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing attackers to write arbitrary files via a (dot dot slash) in an NLTK package (ZIP archive) that is mishandled during extraction."
+14,nltk,>=3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2021-3828,">=0,<3.6.4",Nltk before 3.6.4 is vulnerable to Inefficient Regular Expression Complexity.
+15,nltk,>=3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2021-3842,">=0,<3.6.6",Nltk before 3.6.6 is vulnerable to Inefficient Regular Expression Complexity.
+16,numpy,==1.22.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+17,python-Levenshtein,==0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,PVE-2022-51245,<0.12.1,Python-levenshtein 0.12.1 fixes handling of numerous possible wraparounds in calculating the size of memory allocations. Incorrect handling of which could cause denial of service or even possible remote code execution in previous versions of the library.
+18,seqeval,==0.0.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+19,transformers,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+20,transformers,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+21,lxml,==4.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+22,scipy,==1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+23,numexpr,==2.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,no one,no one,no one
+24,pandas,==1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-no-torch.txt,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+25,torch,>=1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+26,torchvision,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements.txt,False,no one,no one,no one
+27,pytest,==3.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,no one,no one,no one
+28,pre-commit,==2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,no one,no one,no one
+29,flake8-docstrings,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,no one,no one,no one
+30,pytest-cov,==2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,no one,no one,no one
+31,mypy,==0.770,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,no one,no one,no one
+32,black,==22.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,no one,no one,no one
+33,sphinx,==1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+34,sphinx,==1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+35,flake8,==3.7.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/requirements-dev.txt,False,no one,no one,no one
+36,attrs,==19.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+37,bs4,==0.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,True,no one,no one,no one
+38,jsonnet,==0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+39,lxml,==4.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,True,no one,no one,no one
+40,datasets,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+41,nltk,>= 3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,PVE-2023-54914,<3.6,"Nltk 3.6 includes a fix for a REDoS vulnerability.
+https://github.com/nltk/nltk/pull/2597"
+42,nltk,>= 3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2021-43854,<3.6.5,"Nltk 3.6.5 includes a fix for CVE-2021-43854: Versions prior to 3.6.5 are vulnerable to regular expression denial of service (ReDoS) attacks. The vulnerability is present in PunktSentenceTokenizer, sent_tokenize and word_tokenize. Any users of this class, or these two functions, are vulnerable to the ReDoS attack. In short, a specifically crafted long input to any of these vulnerable functions will cause them to take a significant amount of execution time. If your program relies on any of the vulnerable functions for tokenizing unpredictable user input, it's strongly recommended upgrading to a version of NLTK without the vulnerability. For users unable to upgrade the execution time can be bounded by limiting the maximum length of an input to any of the vulnerable functions.
+https://github.com/nltk/nltk/security/advisories/GHSA-f8m6-h2c7-8h9x
+https://github.com/nltk/nltk/issues/2866"
+43,nltk,>= 3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2019-14751,">=0,<3.4.5","NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing attackers to write arbitrary files via a (dot dot slash) in an NLTK package (ZIP archive) that is mishandled during extraction."
+44,nltk,>= 3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2021-3828,">=0,<3.6.4",Nltk before 3.6.4 is vulnerable to Inefficient Regular Expression Complexity.
+45,nltk,>= 3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2021-3842,">=0,<3.6.6",Nltk before 3.6.6 is vulnerable to Inefficient Regular Expression Complexity.
+46,numexpr,==2.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+47,numpy,==1.22.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+48,pandas,==1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+49,python-Levenshtein,==0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,True,PVE-2022-51245,<0.12.1,Python-levenshtein 0.12.1 fixes handling of numerous possible wraparounds in calculating the size of memory allocations. Incorrect handling of which could cause denial of service or even possible remote code execution in previous versions of the library.
+50,sacremoses,==0.0.43,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,True,no one,no one,no one
+51,seqeval,==0.0.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+52,scikit-learn,==0.22.2.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+53,scikit-learn,==0.22.2.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+54,scikit-learn,==0.22.2.post1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+55,scipy,==1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+56,sentencepiece,==0.1.91,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,True,no one,no one,no one
+57,tokenizers,==0.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,True,no one,no one,no one
+58,tqdm,==4.46.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+59,transformers,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2022-1941,<4.23.0,Transformers 4.23.0 updates its dependency 'protobuf' requirement to '<=3.20.2' to include a security fix.
+60,transformers,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,PVE-2022-51450,<4.23.0,"Transformers 4.23.0 includes a fix for a link vulnerable to repojacking.
+https://github.com/huggingface/transformers/commit/ce2620194b4a8f070cd29504d34a79758affdf95"
+61,torch,>= 1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+62,torchvision,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,True,no one,no one,no one
+63,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+64,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+65,pre-commit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2017-18342,<1.10.4,"Pre-commit 1.10.4 replaces 'yaml.load' with safe alternative to avoid a remote code execution vulnerability.
+https://github.com/pre-commit/pre-commit/commit/6853f4aa4c8d7e411839bacc66876baea443186a"
+66,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+67,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+68,black,==22.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+69,flake8-docstrings,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+70,flake8,>= 3.7.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one
+71,mypy,==0.770,/home/daniele/git/NICHE_projects/Repo/Cloneables/jiant/setup.py,False,no one,no one,no one

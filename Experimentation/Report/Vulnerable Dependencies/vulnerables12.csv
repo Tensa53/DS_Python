@@ -1,0 +1,14 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+65,67,DeepRobust,28,0,12,0,90
+96,99,fast-bert,26,0,12,0,26
+102,105,fhir,47,0,12,0,21
+103,106,flair,68,0,12,0,28
+116,119,graphics,35,0,12,0,1907
+123,126,heterocl,47,0,12,0,47
+131,134,interpret-community,43,0,12,0,993
+141,144,kaolin,32,0,12,0,74
+191,197,mmcv,30,0,12,0,118
+193,199,MMdnn,21,0,12,0,570
+282,289,rl_algorithms,32,0,12,0,52
+306,315,stellargraph,41,0,12,0,53
+354,363,yolov5,21,0,12,0,76

@@ -1,0 +1,3 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,gym,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/marathon-envs/marathon-envs/setup.py,False,no one,no one,no one
+1,mlagents_envs,=={},/home/daniele/git/NICHE_projects/Repo/Cloneables/marathon-envs/marathon-envs/setup.py,False,no one,no one,no one

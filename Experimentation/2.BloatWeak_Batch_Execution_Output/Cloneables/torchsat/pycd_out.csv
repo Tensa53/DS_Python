@@ -1,0 +1,17 @@
+,dep,version,filepath,type,condition,status
+0,yacs,>=0.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+1,torch,>=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+2,rasterio,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+3,scipy,>=1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+4,opencv-python,>=3.2.0.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+5,tifffile,>=2019.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+6,pillow,>=5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+7,six,>=1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+8,tqdm,>=4.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+9,geopandas,>=0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+10,torchvision,>=0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+11,click,>=7.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+12,numpy,>=1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/requirements.txt,*,*@*,*
+13,nbsphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/docs/requirements.txt,*,*@*,*
+14,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/docs/requirements.txt,*,*@*,*
+15,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/torchsat/docs/requirements.txt,*,*@*,*

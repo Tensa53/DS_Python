@@ -1,0 +1,13 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+15,15,astroNN,27,0,13,0,568
+32,32,brainiak,52,1,13,1,541
+57,59,deepcell-tf,41,3,13,1,970
+63,65,DeepPavlov,48,0,13,0,36
+70,72,delft,35,2,13,1,961
+89,92,faceswap,43,0,13,0,2680
+92,95,fairseq,40,1,13,0,25
+98,101,fathom,42,1,13,1,26
+106,109,flow,31,0,13,0,534
+228,234,openpifpaf,37,0,13,0,74
+243,249,privacy,34,2,13,0,957
+255,261,PyShortTextCategorization,19,0,13,0,495

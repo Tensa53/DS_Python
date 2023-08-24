@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,install_requires,@*,*
+1,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,install_requires,@*,*
+2,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,install_requires,@*,*
+3,torch,>= 1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,install_requires,@*,*
+4,record-keeper,>= 0.9.32,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+5,faiss-gpu,>= 1.6.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+6,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+8,faiss-cpu,>= 1.6.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+10,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+11,black,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+12,isort,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+13,nbqa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*
+14,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-metric-learning/setup.py,extras_require,*@*,*

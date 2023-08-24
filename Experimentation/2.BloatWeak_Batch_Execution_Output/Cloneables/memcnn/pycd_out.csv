@@ -1,0 +1,7 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/memcnn/requirements.txt,*,*@*,*
+1,SimpleITK,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/memcnn/requirements.txt,*,*@*,*
+2,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/memcnn/requirements.txt,*,*@*,*
+3,torch,>=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/memcnn/requirements.txt,*,*@*,*
+4,pathlib2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/memcnn/requirements.txt,*,*@*,*
+5,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/memcnn/requirements.txt,*,*@*,*

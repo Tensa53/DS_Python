@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,install_requires,@*,*
+1,openpifpaf,">=v0.12.10,<=v0.12.12",/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,install_requires,@*,*
+2,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,install_requires,@*,*
+3,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,install_requires,@*,*
+4,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*
+5,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*
+6,gdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*
+7,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*
+8,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*
+9,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*
+10,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*
+11,nuscenes-devkit,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,extras_require,@*,*

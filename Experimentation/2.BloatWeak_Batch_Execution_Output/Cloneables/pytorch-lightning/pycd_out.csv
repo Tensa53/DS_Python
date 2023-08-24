@@ -1,0 +1,207 @@
+,dep,version,filepath,type,condition,status
+0,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+1,pytest,>=5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+2,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+3,check-manifest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+4,twine,==4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+5,pytest-flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+6,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+7,codecov,>=2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/component-template/tests/requirements.txt,*,*@*,*
+8,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+9,pytest,>=5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+10,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+11,check-manifest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+12,twine,==4.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+13,pytest-flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+14,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+15,codecov,>=2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/src/lightning/app/cli/app-template/tests/requirements.txt,*,*@*,*
+16,jsonargparse,>=4.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/.actions/requirements.txt,*,*@*,*
+17,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/.actions/requirements.txt,*,*@*,*
+18,types-tzlocal,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+19,types-croniter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+20,mypy,==1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+21,types-Markdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+22,types-toml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+23,torch,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+24,types-tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+25,types-redis,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+26,types-cachetools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+27,types-protobuf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+28,types-requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+29,types-ujson,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+30,types-python-dateutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+31,types-bleach,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+32,types-paramiko,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+33,types-setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+34,types-decorator,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+35,types-PyYAML,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+36,types-six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/typing.txt,*,*@*,*
+37,sphinx-rtd-dark-mode,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+38,sphinxcontrib-video,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+39,sphinxcontrib-mockautodoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+40,sphinx-paramlinks,">=0.5.1, <=0.5.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+41,myst-parser,">=0.18.1, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+42,pandoc,">=1.0, <=2.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+43,sphinx,">=4.0, <5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+44,sphinx-autodoc-typehints,>=1.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+45,nbsphinx,">=0.8.5, <=0.8.9",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+46,sphinxcontrib-fulltoc,">=1.0, <=1.2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+47,sphinx-togglebutton,">=0.2, <=0.3.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+48,sphinx-copybutton,">=0.3, <=0.5.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+49,sphinx-toolbox,==3.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+50,sphinx-autobuild,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+51,docutils,">=0.16, <0.21",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+52,lightning-utilities,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+53,sphinx-multiproject,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+54,jinja2,<3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/docs.txt,*,*@*,*
+55,lightning-bagua,>=0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/_integrations/strategies.txt,*,*@*,*
+56,lightning-colossalai,>=0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/_integrations/strategies.txt,*,*@*,*
+57,lightning-habana,>=0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/_integrations/accelerators.txt,*,*@*,*
+58,lightning-graphcore,>=0.1.0.rc3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/_integrations/accelerators.txt,*,*@*,*
+59,lightning_api_access,>=0.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/components.txt,*,*@*,*
+60,pytorch-lightning,>=1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/components.txt,*,*@*,*
+61,aiohttp,">=3.8.0, <=3.8.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/components.txt,*,*@*,*
+62,lightning-fabric,>=1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/components.txt,*,*@*,*
+63,fsspec,">=2022.5.0, <=2023.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+64,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+65,python-multipart,">=0.0.5, <=0.0.6",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+66,websockets,<=11.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+67,uvicorn,<=0.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+68,starlette,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+69,starsessions,">=1.2.1, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+70,inquirer,">=2.10.0, <=3.1.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+71,lightning-cloud,>=0.5.37,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+72,lightning-utilities,">=0.8.0, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+73,arrow,">=1.2.0, <1.2.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+74,backoff,">=2.2.1, <2.3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+75,PyYAML,<=6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+76,psutil,<5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+77,beautifulsoup4,">=4.8.0, <4.12.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+78,Jinja2,<=3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+79,deepdiff,">=5.7.0, <6.3.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+80,websocket-client,<1.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+81,click,<=8.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+82,traitlets,">=5.3.0, <5.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+83,rich,">=12.3.0, <=13.4.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+84,pydantic,">=1.7.4, <2.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+85,requests,<2.31.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+86,typing-extensions,">=4.0.0, <=4.7.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+87,urllib3,<=2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+88,croniter,">=1.3.0, <1.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+89,dateutils,<=0.6.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+90,fastapi,">=0.92.0, <0.100.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/base.txt,*,*@*,*
+91,trio,<0.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+92,coverage,==7.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+93,pytest-timeout,==2.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+94,pytest-cov,==4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+95,requests-mock,<=1.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+96,setuptools,<68.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+97,httpx,==0.24.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+98,pytest-rerunfailures,<=11.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+99,pytest-doctestplus,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+100,playwright,==1.35.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+101,pympler,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+102,pytest,==7.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+103,pytest-asyncio,==0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+104,psutil,<=5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/test.txt,*,*@*,*
+105,panel,">=1.0.0, <=1.1.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/ui.txt,*,*@*,*
+106,streamlit,">=1.13.0, <1.25.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/ui.txt,*,*@*,*
+107,docker,">=5.0.0, <6.1.4",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/cloud.txt,*,*@*,*
+108,redis,">=4.0.1, <=4.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/cloud.txt,*,*@*,*
+109,s3fs,">=2022.5.0, <2023.6.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/app/cloud.txt,*,*@*,*
+110,torchmetrics,">=0.10.0, <0.12.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/examples.txt,*,*@*,*
+111,ipython,<8.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/examples.txt,*,*@*,*
+112,lightning-utilities,">=0.7.0, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/examples.txt,*,*@*,*
+113,gym,">=0.17.0, <0.26.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/examples.txt,*,*@*,*
+114,torchvision,">=0.12.0, <=0.15.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/examples.txt,*,*@*,*
+115,deepspeed,">=0.8.2, <=0.9.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/strategies.txt,*,"*@ platform_system != ""Windows""",*
+116,hydra-core,">=1.0.5, <1.4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/extra.txt,*,*@*,*
+117,omegaconf,">=2.0.5, <2.4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/extra.txt,*,*@*,*
+118,jsonargparse,">=4.18.0, <4.23.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/extra.txt,*,*@*,*
+119,rich,">=12.3.0, <=13.4.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/extra.txt,*,*@*,*
+120,matplotlib,">3.1, <3.6.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/extra.txt,*,*@*,*
+121,tensorboardX,">=2.2, <=2.6.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/extra.txt,*,*@*,*
+122,torchmetrics,">=0.7.0, <1.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+123,torch,">=1.11.0, <2.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+124,packaging,">=20.0, <=23.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+125,tqdm,">=4.57.0, <4.66.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+126,lightning-utilities,">=0.8.0, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+127,typing-extensions,">=4.0.0, <=4.7.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+128,PyYAML,">=5.4, <=6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+129,fsspec,">2021.06.0, <2023.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+130,numpy,">=1.17.2, <1.25.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/base.txt,*,*@*,*
+131,onnx,<1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+132,coverage,==7.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+133,pytest-cov,==4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+134,psutil,<5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+135,pytest-forked,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+136,pandas,">1.0, <2.0.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+137,uvicorn,<0.22.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+138,tensorboard,">=2.9.1, <2.14.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+139,fastapi,<0.100.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+140,cloudpickle,">=1.3, <2.3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+141,onnxruntime,<1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+142,pytest-random-order,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+143,scikit-learn,">0.22.1, <1.3.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+144,pytest-rerunfailures,==10.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+145,protobuf,<=3.20.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+146,pytest,==7.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/test.txt,*,*@*,*
+147,ipython,<8.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/docs.txt,*,*@*,*
+148,setuptools,<58.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/pytorch/docs.txt,*,*@*,*
+149,torchmetrics,">=0.10.0, <0.12.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/examples.txt,*,*@*,*
+150,lightning-utilities,">=0.8.0, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/examples.txt,*,*@*,*
+151,torchvision,">=0.12.0, <=0.15.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/examples.txt,*,*@*,*
+152,deepspeed,">=0.8.2, <=0.9.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/strategies.txt,*,"*@ platform_system != ""Windows""",*
+153,packaging,">=20.0, <=23.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/base.txt,*,*@*,*
+154,torch,">=1.11.0, <2.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/base.txt,*,*@*,*
+155,lightning-utilities,">=0.8.0, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/base.txt,*,*@*,*
+156,typing-extensions,">=4.0.0, <=4.7.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/base.txt,*,*@*,*
+157,fsspec,">2021.06.0, <2023.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/base.txt,*,*@*,*
+158,numpy,">=1.17.2, <1.25.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/base.txt,*,*@*,*
+159,coverage,==7.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+160,pytest-cov,==4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+161,torchmetrics,">=0.7.0, <1.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+162,click,==8.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+163,pytest-random-order,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+164,pytest-rerunfailures,==10.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+165,pytest,==7.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+166,tensorboardX,">=2.2, <=2.6.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/test.txt,*,*@*,*
+167,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/fabric/docs.txt,*,*@*,*
+168,Pillow,>= 9.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/examples.txt,*,*@*,*
+169,torchvision,">=0.15.2, <=0.16",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/examples.txt,*,*@*,*
+170,coverage,==7.2.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/test.txt,*,*@*,*
+171,pytest-cov,==4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/test.txt,*,*@*,*
+172,pytest-random-order,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/test.txt,*,*@*,*
+173,pytest-rerunfailures,==10.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/test.txt,*,*@*,*
+174,pytest,==7.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/test.txt,*,*@*,*
+175,fsspec,">2021.06.0, <2023.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/cloud.txt,*,*@*,*
+176,s3fs,">=2022.5.0, <=2023.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/cloud.txt,*,*@*,*
+177,torchdata,">0.5.9, <0.7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/data.txt,*,*@*,*
+178,lightning-utilities,">=0.8.0, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/data.txt,*,*@*,*
+179,torch,">0.14.0, <2.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/requirements/data/data.txt,*,*@*,*
+180,redis,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/tests/integrations_app/apps/collect_failures/requirements.txt,*,*@*,*
+181,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/tests/tests_app/components/sample_package_repo/setup.py,setup_requires,@*,*
+182,pytorch_lightning,==1.5.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/tests/tests_app/utilities/packaging/projects/req/comp_req/a/requirements.txt,*,*@*,*
+183,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/tests/tests_app/utilities/packaging/projects/req/comp_req/a/requirements.txt,*,*@*,*
+184,torchmetrics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/tests/legacy/requirements.txt,*,*@*,*
+185,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/tests/legacy/requirements.txt,*,*@*,*
+186,streamlit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/template_streamlit_ui/requirements.txt,*,*@*,*
+187,justpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/justpy/requirements.txt,*,*@*,*
+188,py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/v0/requirements.txt,*,*@*,*
+189,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/dag/requirements.txt,*,*@*,*
+190,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/dag/requirements.txt,*,*@*,*
+191,streamlit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/works_on_default_machine/requirements.txt,*,*@*,*
+192,gradio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/components/serve/gradio/requirements.txt,*,*@*,*
+193,streamlit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/layout/requirements.txt,*,*@*,*
+194,optuna,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/hpo/requirements.txt,*,*@*,*
+195,lightning-flash,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/hpo/requirements.txt,*,*@*,*
+196,hiplot,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/hpo/requirements.txt,*,*@*,*
+197,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/app/multi_node/requirements.txt,*,*@*,*
+198,lightning,>=1.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/fabric/reinforcement_learning/requirements.txt,*,*@*,*
+199,torchmetrics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/fabric/reinforcement_learning/requirements.txt,*,*@*,*
+200,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/fabric/reinforcement_learning/requirements.txt,*,*@*,*
+201,moviepy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/fabric/reinforcement_learning/requirements.txt,*,*@*,*
+202,gymnasium,>=0.27.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/examples/fabric/reinforcement_learning/requirements.txt,*,*@*,*
+203,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/docs/source-app/code_samples/convert_pl_to_app/requirements.txt,*,*@*,*
+204,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/docs/source-app/code_samples/convert_pl_to_app/requirements.txt,*,*@*,*
+205,pytorch_lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-lightning/docs/source-app/code_samples/convert_pl_to_app/requirements.txt,*,*@*,*

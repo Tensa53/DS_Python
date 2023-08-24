@@ -1,0 +1,12 @@
+,dep,version,filepath,type,condition,status
+0,emoji,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,install_requires,@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,install_requires,@*,*
+2,protobuf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,install_requires,@*,*
+3,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,install_requires,@*,*
+4,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,install_requires,@*,*
+5,torch,>=1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,install_requires,@*,*
+6,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,install_requires,@*,*
+7,check-manifest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,extras_require,@*,*
+8,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,extras_require,@*,*
+9,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,extras_require,@*,*
+10,transformers,>=3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/stanza/setup.py,extras_require,@*,*

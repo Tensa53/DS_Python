@@ -1,0 +1,5 @@
+,dep,version,filepath,type,condition,status
+0,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/setup.py,extras_require,*@*,*
+1,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/setup.py,extras_require,*@*,*
+2,sphinx,>=3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/docs/requirements.txt,*,*@*,*
+3,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/docs/requirements.txt,*,*@*,*

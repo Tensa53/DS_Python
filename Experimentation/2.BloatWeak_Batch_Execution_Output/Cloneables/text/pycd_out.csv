@@ -1,0 +1,27 @@
+,dep,version,filepath,type,condition,status
+0,codecov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+1,spacy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+2,sacremoses,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+3,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+4,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+5,Sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+6,parameterized,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+7,revtok,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@special#B.9 ,*
+8,defusedxml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+9,expecttest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+10,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+11,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+12,torchdata,>0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+13,pytest-pythonpath,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+14,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/requirements.txt,*,*@*,*
+15,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/setup.py,install_requires,@*,*
+16,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/setup.py,install_requires,@*,*
+17,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/setup.py,install_requires,@*,*
+18,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/setup.py,install_requires,*@*,*
+19,torchdata,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/setup.py,install_requires,*@*,*
+26,Jinja2,<3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/docs/requirements.txt,*,*@*,*
+27,regex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/docs/requirements.txt,*,*@*,*
+28,pytorch_sphinx_theme,==cece053,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/docs/requirements.txt,*,*@special#B.9,*
+29,sphinx,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/docs/requirements.txt,*,*@*,*
+30,sphinx_gallery,==0.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/docs/requirements.txt,*,*@*,*
+31,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/text/docs/requirements.txt,*,*@*,*

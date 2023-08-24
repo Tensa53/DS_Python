@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,h5py,>=2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+1,scikit-learn,==0.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+2,librosa,>=0.6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+3,soundfile,>=0.10.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+4,torch,>=1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+5,torchvision,>=0.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+6,sprocket-vc,>=0.18.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+7,matplotlib,>=3.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+8,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+9,pytest-runner,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+10,pytest,>=3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+11,hacking,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*
+12,autopep8,==1.2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/PytorchWaveNetVocoder/setup.py,install_requires,*@*,*

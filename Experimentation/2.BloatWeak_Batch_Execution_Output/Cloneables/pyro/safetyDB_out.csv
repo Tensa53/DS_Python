@@ -1,0 +1,121 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+1,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+2,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+3,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+4,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+5,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+6,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+7,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+8,opt_einsum,>=2.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+9,pyro-api,>=0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+10,torch,>=1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+11,tqdm,>=4.36,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+12,black,>=21.4b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+13,nbval,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+14,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+15,pytest-xdist,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+16,pytest,>=5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+17,ruff,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+18,scipy,>=1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+19,prettytable,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+20,pytest-benchmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+21,snakeviz,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+22,mypy,>=0.812,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+23,nbformat,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+24,nbsphinx,>=0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+25,nbstripout,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+26,ninja,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+27,pypandoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+28,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+29,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+30,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+31,yapf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+32,horovod,>=0.19,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-0315,">=0,<0.24.0",Insecure Temporary File in GitHub repository horovod/horovod prior to 0.24.0.
+33,pytorch_lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+34,funsor,==0.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+35,jupyter,>=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+36,graphviz,>=0.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+37,matplotlib,>=1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+38,torchvision,>=0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+39,visdom,">=0.1.4,<0.2.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+40,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+41,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2014-3589,"<2.3.2,>=2.5.0,<2.5.2","Pillow versions 2.3.2 and 2.5.2 include a fix for CVE-2014-3589: PIL/IcnsImagePlugin.py in Python Imaging Library (PIL) and Pillow before 2.3.2 and 2.5.x before 2.5.2 allows remote attackers to cause a denial of service via a crafted block size.
+https://github.com/python-pillow/Pillow/commit/205e056f8f9b06ed7b925cf8aa0874bc4aaf8a7d"
+42,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-34552,<8.3.0,"Pillow 8.3.0 includes a fix for CVE-2021-34552: Pillow through 8.2.0 and PIL (also known as Python Imaging Library) through 1.1.7 allow an attacker to pass controlled parameters directly into a convert function to trigger a buffer overflow in Convert.c
+https://pillow.readthedocs.io/en/stable/releasenotes/8.3.0.html#buffer-overflow
+https://pillow.readthedocs.io/en/stable/releasenotes/index.html"
+43,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-22816,<9.0.0,"Pillow 9.0.0 includes a fix for CVE-2022-22816: path_getbbox in path.c in Pillow before 9.0.0 has a buffer over-read during initialization of ImagePath.Path.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling"
+44,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,PVE-2021-44525,<9.0.0,"Pillow 9.0.0 excludes carriage return in PDF regex to help prevent ReDoS.
+https://github.com/python-pillow/Pillow/pull/5912
+https://github.com/python-pillow/Pillow/commit/43b800d933c996226e4d7df00c33fcbe46d97363"
+45,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,PVE-2022-44524,<9.0.0,"Pillow 9.0.0 ensures JpegImagePlugin stops at the end of a truncated file to avoid Denial of Service attacks.
+https://github.com/python-pillow/Pillow/pull/5921
+https://github.com/advisories/GHSA-4fx9-vc88-q2xc"
+46,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-22815,<9.0.0,"Pillow 9.0.0 includes a fix for CVE-2022-22815: path_getbbox in path.c in Pillow before 9.0.0 improperly initializes ImagePath.Path.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling"
+47,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-24303,<9.0.1,Pillow before 9.0.1 allows attackers to delete files because spaces in temporary pathnames are mishandled.
+48,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-22817,<9.0.1,"Pillow 9.0.1 includes a fix for CVE-2022-22817: PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A first patch was issued for version 9.0.0 but it did not prevent builtins available to lambda expressions.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.1.html#security"
+49,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-45198,<9.2.0,Pillow before 9.2.0 performs Improper Handling of Highly Compressed GIF Data (Data Amplification).
+50,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-28675,">=0,<8.2.0",An issue was discovered in Pillow before 8.2.0. PSDImagePlugin.PsdImageFile lacked a sanity check on the number of input layers relative to the size of the data block. This could lead to a DoS on Image.open prior to Image.load.
+51,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-27923,">=4.3.0,<8.1.1","Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICO container, and thus an attempted memory allocation can be very large."
+52,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2021-23437,">=5.2.0,<8.3.2","Pillow from 5.2.0 and before 8.3.2 is vulnerable to Regular Expression Denial of Service (ReDoS) via the getrgb function.
+https://github.com/python-pillow/Pillow/commit/9e08eb8f78fdfd2f476e1b20b7cf38683754866b
+https://pillow.readthedocs.io/en/stable/releasenotes/8.3.2.html"
+53,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-30595,">=9.1.0,<9.1.1",libImaging/TgaRleDecode.c in Pillow 9.1.0 has a heap buffer overflow in the processing of invalid TGA image files.
+54,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,PVE-2023-55182,">=9.1.0,<9.3.0","Pillow 9.3.0 includes a security fix: Pillow will now decode the data in its natural CMYK mode, then convert it to RGB and rearrange the channels afterwards. Trying to load the data in an incorrect mode could result in a segmentation fault.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#decode-jpeg-compressed-blp1-data-in-original-mode"
+55,pillow,==8.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2022-45199,">=9.2.0,<9.3.0","Pillow before 9.3.0 allows denial of service via SAMPLESPERPIXEL.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#limit-samplesperpixel-to-avoid-runtime-dos"
+56,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,PVE-2022-52255,<0.24.2,"Scikit-learn 0.24.2 includes a fix for a ReDoS vulnerability.
+https://github.com/scikit-learn/scikit-learn/issues/19522"
+57,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2020-13092,">=0,<0.23.1","** DISPUTED ** scikit-learn (aka sklearn) through 0.23.0 can unserialize and execute commands from an untrusted file that is passed to the joblib.load() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the joblib.load() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+58,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,CVE-2020-28975,">=0,<0.24.dev0","** DISPUTED ** svm_predict_values in svm.cpp in Libsvm v324, as used in scikit-learn 0.23.2 and other products, allows attackers to cause a denial of service (segmentation fault) via a crafted model SVM (introduced via pickle, json, or any other model permanence standard) with a large value in the _n_support array. NOTE: the scikit-learn vendor's position is that the behavior can only occur if the library's API is violated by an application that changes a private attribute."
+59,seaborn,>=0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+60,wget,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+61,lap,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/setup.py,False,no one,no one,no one
+62,sphinx-rtd-theme,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one
+63,sphinx,==4.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one
+64,funsor,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one
+65,observations,>=0.1.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one
+66,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2017-12852,<1.13.2,"Numpy 1.13.2 includes a fix for CVE-2017-12852: The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+https://github.com/numpy/numpy/issues/9560#issuecomment-322395292"
+67,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2019-6446,<1.16.3,"Numpy 1.16.3 includes a fix for CVE-2019-6446: It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call.
+https://github.com/numpy/numpy/commit/89b688732b37616c9d26623f81aaee1703c30ffb"
+68,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2021-33430,<1.21.0rc1,"Numpy 1.21.0rc1 includes a fix for CVE-2021-33430: A Buffer Overflow vulnerability in the PyArray_NewFromDescr_int function of ctors.c when specifying arrays of large dimensions (over 32) from Python code, which could let a malicious user cause a Denial of Service. 
+NOTE: The vendor does not agree this is a vulnerability. In (very limited) circumstances a user may be able provoke the buffer overflow, the user is most likely already privileged to at least provoke denial of service by exhausting memory. Triggering this further requires the use of uncommon API (complicated structured dtypes), which is very unlikely to be available to an unprivileged user.
+https://github.com/numpy/numpy/issues/18939"
+69,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2021-34141,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-34141: An incomplete string comparison in the numpy.core component in NumPy before 1.22.0 allows attackers to trigger slightly incorrect copying by constructing specific string objects. 
+NOTE: the vendor states that this reported code behavior is ""completely harmless.""
+https://github.com/numpy/numpy/issues/18993"
+70,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2021-41496,<1.22.0,"Numpy 1.22.0 includes a fix for CVE-2021-41496: Buffer overflow in the array_from_pyobj function of fortranobject.c, which allows attackers to conduct a Denial of Service attacks by carefully constructing an array with negative values. 
+NOTE: The vendor does not agree this is a vulnerability; the negative dimensions can only be created by an already privileged user (or internally).
+https://github.com/numpy/numpy/issues/19000"
+71,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2021-41495,<1.22.2,"Numpy 1.22.2  includes a fix for CVE-2021-41495: Null Pointer Dereference vulnerability exists in numpy.sort in NumPy in the PyArray_DescrNew function due to missing return-value validation, which allows attackers to conduct DoS attacks by repetitively creating sort arrays. 
+NOTE: While correct that validation is missing, an error can only occur due to an exhaustion of memory. If the user can exhaust memory, they are already privileged. Further, it should be practically impossible to construct an attack which can target the memory exhaustion to occur at exactly this place.
+https://github.com/numpy/numpy/issues/19038"
+72,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2014-1859,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1859: (1) core/tests/test_memmap.py, (2) core/tests/test_multiarray.py, (3) f2py/f2py2e.py, and (4) lib/tests/test_io.py in NumPy before 1.8.1 allow local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/pull/4262"
+73,numpy,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2014-1858,<1.8.1,"Numpy 1.8.1 includes a fix for CVE-2014-1858: __init__.py in f2py in NumPy before 1.8.1 allows local users to write to arbitrary files via a symlink attack on a temporary file.
+https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15"
+74,opt_einsum,>=2.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one
+75,pyro-api,>=0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one
+76,graphviz,>=0.8,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one
+77,setuptools,<60,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,CVE-2022-40897,<65.5.1,"Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.
+https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages"
+78,tqdm,>=4.36,/home/daniele/git/NICHE_projects/Repo/Cloneables/pyro/docs/requirements.txt,False,no one,no one,no one

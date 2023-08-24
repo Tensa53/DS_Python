@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow,>= 1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CLUE/baselines/models/bert/requirements.txt,*,*@*,*
+1,tensorflow,>= 1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CLUE/baselines/models/roberta_wwm_large_ext/requirements.txt,*,*@*,*
+2,tensorflow,>= 1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CLUE/baselines/models/ernie/requirements.txt,*,*@*,*
+3,tensorflow,>= 1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CLUE/baselines/models/bert_wwm_ext/requirements.txt,*,*@*,*
+4,tensorflow,>= 1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/CLUE/baselines/models/roberta_wwm_ext/requirements.txt,*,*@*,*

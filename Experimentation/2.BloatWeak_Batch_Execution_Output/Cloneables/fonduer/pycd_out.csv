@@ -1,0 +1,39 @@
+,dep,version,filepath,type,condition,status
+0,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+1,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+2,pytest-mock,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+3,mypy,==0.782,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+4,pre-commit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+5,isort,>=5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+6,flake8-docstrings,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+7,black,>=18.9b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+8,flake8,>=3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+9,sphinx,<4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+10,sphinxcontrib-mermaid,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+11,sphinx_autodoc_typehints,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+12,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+13,pytest-dependency,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/requirements-dev.txt,*,*@*,*
+14,beautifulsoup4,>=4.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+15,editdistance,">=0.5.2, <0.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+16,snorkel,">=0.9.5, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+17,emmental,">=0.0.6, <0.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+18,lxml,">=4.2.5, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+19,mlflow,">=1.1.0, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+20,numpy,">=1.11, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+21,pyyaml,">=5.1, <6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+22,scipy,">=1.1.0, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+23,spacy,">=2.1.3, <2.4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+24,sqlalchemy,">=1.3.7, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+25,torch,">=1.3.1,<2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+26,tqdm,">=4.36.0, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+27,treedlib,">=0.1.3, <0.2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+28,wand,">=0.4.4, <0.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+29,ipython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+30,deprecation,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,install_requires,@*,*
+31,fugashi,>=0.2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,extras_require,@*,*
+32,jieba,">=0.39, <0.40",/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/setup.py,extras_require,@*,*
+33,sqlalchemy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/docs/requirements.txt,*,*@*,*
+34,sphinx,<4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/docs/requirements.txt,*,*@*,*
+35,sphinx_autodoc_typehints,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/docs/requirements.txt,*,*@*,*
+36,deprecation,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/docs/requirements.txt,*,*@*,*
+37,sphinxcontrib-mermaid,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/fonduer/docs/requirements.txt,*,*@*,*

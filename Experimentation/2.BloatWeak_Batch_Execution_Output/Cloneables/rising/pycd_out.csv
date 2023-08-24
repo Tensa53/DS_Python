@@ -1,0 +1,36 @@
+,dep,version,filepath,type,condition,status
+0,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/setup.py,tests_require,@*,*
+1,threadpoolctl,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/setup.py,install_requires,*@*,*
+2,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/setup.py,install_requires,*@*,*
+3,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/setup.py,install_requires,*@*,*
+4,torch,>=1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/setup.py,install_requires,*@*,*
+5,lightning-utilities,">=0.4.2, <0.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/setup.py,install_requires,*@*,*
+6,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/setup.py,extras_require,*@*,*
+7,threadpoolctl,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/install.txt,*,*@*,*
+8,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/install.txt,*,*@*,*
+9,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/install.txt,*,*@*,*
+10,torch,>=1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/install.txt,*,*@*,*
+11,lightning-utilities,">=0.4.2, <0.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/install.txt,*,*@*,*
+12,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/install_async.txt,*,*@*,*
+13,torchvision,>=0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+14,treon,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+15,tensorboard,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+16,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+17,pytorch-lightning,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+18,gdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+19,batchgenerators,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+20,SimpleITK,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+21,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/notebooks.txt,*,*@*,*
+22,coverage,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/unittests.txt,*,*@*,*
+23,codecov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/requirements/unittests.txt,*,*@*,*
+24,sphinxcontrib-fulltoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+25,pandoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+26,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+27,sphinx-paramlinks,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+28,docutils,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+29,recommonmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+30,jupyter,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+31,pypandoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+32,nbsphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+33,sphinx-autodoc-typehints,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*
+34,sphinxcontrib-mockautodoc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rising/docs/requirements.txt,*,*@*,*

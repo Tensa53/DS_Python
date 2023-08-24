@@ -1,0 +1,9 @@
+,dep,version,filepath,type,condition,status
+0,torch,>=1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,install_requires,*@(LooseVersion(sys.version) >= LooseVersion('3.7'))@*@*,*
+1,torch,>=1.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,install_requires,*@not (LooseVersion(sys.version) >= LooseVersion('3.7'))@*@*,*
+2,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,install_requires,*@*,*
+3,scipy,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,install_requires,*@*,*
+4,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,extras_require,*@*,*
+5,black,==23.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,extras_require,*@*,*
+6,timm,==0.6.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,extras_require,*@*,*
+7,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-toolbelt/setup.py,extras_require,*@*,*

@@ -1,0 +1,21 @@
+,dep,version,filepath,type,condition,status
+0,torch,>=1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements.txt,*,*@*,*
+1,safetensors,>=0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements.txt,*,*@*,*
+2,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements.txt,*,*@*,*
+3,huggingface_hub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements.txt,*,*@*,*
+4,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements.txt,*,*@*,*
+5,mdx_truly_sane_lists,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-docs.txt,*,*@*,*
+6,mkdocs-redirects,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-docs.txt,*,*@*,*
+7,mkdocs,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-docs.txt,*,*@*,*
+8,mkdocs-awesome-pages-plugin,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-docs.txt,*,*@*,*
+9,mkdocs-material,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-docs.txt,*,*@*,*
+10,pytest-xdist,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-dev.txt,*,*@*,*
+11,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-dev.txt,*,*@*,*
+12,pytest-forked,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-dev.txt,*,*@*,*
+13,pytest-timeout,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-dev.txt,*,*@*,*
+14,expecttest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/requirements-dev.txt,*,*@*,*
+15,torch,>= 1.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/setup.py,install_requires,@*,*
+16,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/setup.py,install_requires,@*,*
+17,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/setup.py,install_requires,@*,*
+18,huggingface_hub,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/setup.py,install_requires,@*,*
+19,safetensors,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch-image-models/setup.py,install_requires,@*,*

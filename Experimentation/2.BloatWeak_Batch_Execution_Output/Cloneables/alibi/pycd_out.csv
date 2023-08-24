@@ -1,0 +1,53 @@
+,dep,version,filepath,type,condition,status
+0,numpy,">=1.16.2, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+1,pandas,">=1.0.0, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+2,scikit-learn,">=1.0.0, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+3,spacy,">=2.0.0, <4.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+4,blis,<0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+5,scikit-image,">=0.17.2, <0.22",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+6,requests,">=2.21.0, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+7,Pillow,">=5.4.1, <11.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+8,attrs,">=19.2.0, <24.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+9,scipy,">=1.1.0, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+10,matplotlib,">=3.0.0, <4.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+11,typing-extensions,>=3.7.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+12,dill,">=0.3.0, <0.4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+13,transformers,">=4.7.0, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+14,tqdm,">=4.28.1, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,install_requires,(__name__ == '__main__')@*,*
+15,ray,">=0.8.7, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,extras_require,*@*,*
+16,shap,">=0.40.0, <0.43.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,extras_require,*@*,*
+17,numba,">=0.50.0, !=0.54.0, <0.58.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,extras_require,*@*,*
+18,tensorflow,">=2.0.0, !=2.6.0, !=2.6.1, <2.14.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,extras_require,*@*,*
+19,torch,">=1.9.0, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/setup.py,extras_require,*@*,*
+25,seaborn,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/testing/requirements.txt,*,*@*,*
+26,xgboost,>=0.90,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/testing/requirements.txt,*,*@*,*
+27,ipywidgets,>=7.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/testing/requirements.txt,*,*@*,*
+28,pytest-custom_exit_code,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+29,twine,">3.2.0, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+30,pre-commit,">=1.20.0, <4.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+31,pytest-mock,">=3.10.0, <4.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+32,pytest-lazy-fixture,">=0.6.3, <0.7.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+33,flake8,">=3.7.7, <7.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+34,pytest-cov,">=2.6.1, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+35,jupytext,">=1.12.0, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+36,types-requests,">=2.25.0, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+37,ipykernel,">=5.1.0, <7.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+38,catboost,">=1.0.0, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+39,tox,">=3.21.0, <5.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+40,nbconvert,">=6.0.7, <8.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+41,pytest-timeout,">=1.4.2, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+42,torch,">=1.9.0, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+43,pytest-xdist,">=1.28.0, <4.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+44,mypy,">=1.0, <2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+45,pytest,">=5.3.5, <8.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/dev.txt,*,*@*,*
+46,sphinx-autodoc-typehints,">=1.12.0, <1.21",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+47,ipython,">=7.2.0, <9.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+48,nbsphinx,">=0.8.5, <0.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+49,myst-parser,">=1.0, <3.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+50,shap,">=0.40.0, <0.43.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+51,typing-extensions,>=3.7.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+52,sphinx_design,==0.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+53,sphinx-rtd-theme,">=1.0.0, <2.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+54,sphinx,">=4.2.0, <8.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+55,sphinxcontrib-apidoc,">=0.3.0, <0.4.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*
+56,ipykernel,">=5.1.0, <7.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/alibi/requirements/docs.txt,*,*@*,*

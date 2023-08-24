@@ -1,0 +1,29 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,torch,>=1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+1,torchvision,>=0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/requirements.txt,False,no one,no one,no one
+2,fvcore,>=0.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/requirements.txt,False,no one,no one,no one
+3,GitPython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,PVE-2022-52518,<3.1.27,"Gitpython 3.1.27 includes a fix for a REDoS vulnerability.
+https://github.com/gitpython-developers/GitPython/commit/75f4f63ab3856a552f06082aabf98845b5fa21e3"
+4,GitPython,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,CVE-2022-24439,<3.1.30,"Gitpython 3.1.30 includes a fix for CVE-2022-24439: Gitpython is vulnerable to Remote Code Execution (RCE) due to improper user input validation, which makes it possible to inject a maliciously crafted remote URL into the clone command. Exploiting this vulnerability is possible because the library makes external calls to git without sufficient sanitization of input arguments.
+https://github.com/gitpython-developers/GitPython/pull/1521"
+5,black,==19.3b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,no one,no one,no one
+6,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+7,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+8,isort,==5.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,no one,no one,no one
+9,bs4,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,no one,no one,no one
+10,nbconvert,==6.0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,CVE-2021-32862,<6.5.1,"The GitHub Security Lab discovered sixteen ways to exploit a cross-site scripting vulnerability in nbconvert. When using nbconvert to generate an HTML version of a user-controllable notebook, it is possible to inject arbitrary HTML which may lead to cross-site scripting (XSS) vulnerabilities if these HTML notebooks are served by a web server (eg: nbviewer).
+https://github.com/jupyter/nbconvert/security/advisories/GHSA-9jmq-rx5f-8jwq"
+11,pre-commit,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,CVE-2017-18342,<1.10.4,"Pre-commit 1.10.4 replaces 'yaml.load' with safe alternative to avoid a remote code execution vulnerability.
+https://github.com/pre-commit/pre-commit/commit/6853f4aa4c8d7e411839bacc66876baea443186a"
+12,parameterized,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,no one,no one,no one
+13,fairscale,==0.3.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/setup.py,False,no one,no one,no one
+14,boto3,==1.10.28,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/examples/ray/requirements.txt,False,no one,no one,no one
+15,ray,==0.7.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/examples/ray/requirements.txt,False,CVE-2021-44832,<1.10.0,Ray 1.10.0 updates its dependency 'log4j' to v2.17.1 to include a security fix.
+16,ray,==0.7.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/examples/ray/requirements.txt,False,PVE-2021-42426,<1.8.0,"Ray 1.8.0 fixes a race condition for the stats_fn when using multi-gpu. That caused an issue for any algorithm in which the loss function stores values as members in the policy for later retrieval.
+https://github.com/ray-project/ray/issues/18812"
+17,ray,==0.7.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/examples/ray/requirements.txt,False,CVE-2021-45046,<1.9.1,"Ray 1.9.1 updates its dependency 'log4j' to v2.16.0 to include security fixes.
+https://github.com/ray-project/ray/commit/2cdbf974ea63caf4323aacbccaef2394a14a8562"
+18,ray,==0.7.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/examples/ray/requirements.txt,False,CVE-2021-44228,<1.9.1,"Ray 1.9.1 updates its dependency 'log4j' to v2.16.0 to include security fixes.
+https://github.com/ray-project/ray/commit/2cdbf974ea63caf4323aacbccaef2394a14a8562"
+19,ray,==0.7.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/ClassyVision/examples/ray/requirements.txt,False,CVE-2021-45105,<1.9.2,Ray 1.9.2 updates its dependency 'log4j' to v2.17.0 to include a security fix.

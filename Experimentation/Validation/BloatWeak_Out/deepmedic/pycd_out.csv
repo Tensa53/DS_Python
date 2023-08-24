@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,nibabel,==*,/home/daniele/git/Validation/Repo/deepmedic/setup.py,install_requires,@*,*
+1,numpy,>=1.7.1,/home/daniele/git/Validation/Repo/deepmedic/setup.py,install_requires,@*,*
+2,scipy,==*,/home/daniele/git/Validation/Repo/deepmedic/setup.py,install_requires,@*,*
+3,six,>=1.9.0,/home/daniele/git/Validation/Repo/deepmedic/setup.py,install_requires,@*,*
+4,pandas,==*,/home/daniele/git/Validation/Repo/deepmedic/setup.py,install_requires,@*,*

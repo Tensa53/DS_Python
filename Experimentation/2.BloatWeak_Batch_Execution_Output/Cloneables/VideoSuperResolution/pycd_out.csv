@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+1,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+2,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+3,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+4,pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+5,pypng,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+6,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+7,PyYAML,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+8,psutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+9,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+10,h5py,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*
+11,easydict,>= 1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/VideoSuperResolution/setup.py,install_requires,*@*,*

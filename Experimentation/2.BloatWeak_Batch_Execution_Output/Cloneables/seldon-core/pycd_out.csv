@@ -1,0 +1,302 @@
+,dep,version,filepath,type,condition,status
+0,Jinja2,==3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+1,tabulate,==0.8.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+2,pytest-xdist,==1.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+3,matplotlib,==3.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+4,alibi,==0.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+5,sh,==1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+6,ipython,==7.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+7,tenacity,==6.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+8,mlserver,==1.3.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+9,pytest,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+10,flaky,==3.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+11,tensorflow,==2.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+12,nbconvert,==5.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+13,coverage,==4.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+14,shap,==0.40.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+15,pytest-cov,==2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/testing/scripts/dev_requirements.txt,*,*@*,*
+16,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/wrappers/s2i/python/test_fbs/requirements.txt,*,*@*,*
+17,numpy,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+18,autopep8,==1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+19,boto3,==1.4.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+20,locustio,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+21,requests_mock,>=1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+22,nose,==1.3.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+23,mock,==2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+24,enum34,==1.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+25,requests,>=2.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+26,grpcio,==1.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+27,wget,==3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+28,tensorflow,>=1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+29,flake8,">=2.5.1,<2.6",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+30,coverage,==4.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/loadtester/requirements.txt,*,*@*,*
+31,confluent-kafka,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/kafka/requirements.txt,*,*@*,*
+32,tensorflow-serving-api,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/util/kafka/requirements.txt,*,*@*,*
+33,sphinx-autodoc-typehints,>=1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+34,docutils,<0.18,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+35,nbsphinx-link,>=1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+36,m2r2,>=0.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+37,sphinxcontrib-youtube,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+38,ipython,>=7.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+39,Jinja2,<3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+40,nbsphinx,>=0.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+41,sphinx-panels,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+42,sphinx,==3.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+43,sphinx-autobuild,>=0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+44,sphinx-copybutton,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+45,ipykernel,>=5.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+46,readthedocs-sphinx-search,==0.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+47,sphinxcontrib-apidoc,>=0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+48,Pygments,">=2.4.1,<3",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+49,sphinx_material,==0.0.32,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/doc/requirements.txt,*,*@*,*
+50,mypy-protobuf,==2.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+51,black,==21.7b0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+52,tenacity,==6.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+53,tox,<4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+54,isort,==5.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+55,coverage,==5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+56,pillow,==8.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+57,pytest-mock,==3.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+58,pytest,==6.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+59,pandas,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+60,pytest-cov,==2.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+61,pip-licenses,==3.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+62,grpcio-tools,==1.37.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+63,mypy,<0.791,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+64,nbqa,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+65,flake8,==5.0.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/requirements-dev.txt,*,*@*,*
+66,Flask,">= 2.0.0, <3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+67,jsonschema,<4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+68,Flask-cors,<4.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+69,requests,<3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+70,numpy,<2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+71,protobuf,">=3.20.2,<4.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+72,grpcio,<2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+73,Flask-OpenTracing,">= 1.1.0, < 1.2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+74,opentracing,">= 2.2.0, < 2.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+75,jaeger-client,">= 4.1.0, < 4.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+76,grpcio-opentracing,">= 1.1.4, < 1.2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+77,grpcio-reflection,< 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+78,gunicorn,">= 19.9.0, < 20.2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+79,setuptools,>= 65.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+80,prometheus_client,">= 0.7.1, < 0.9.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+81,werkzeug,">= 2.1.1, < 2.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+82,cryptography,">= 39.0.1, < 40.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+83,PyYAML,">= 5.4, <= 6.0.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+84,click,">= 8.0.0a1, < 8.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+85,urllib3,">= 1.26.5, < 1.27",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@*,*
+86,importlib-metadata,<5,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,install_requires,@ python_version < '3.8',*
+87,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/python/setup.py,extras_require,*@*,*
+88,sagemaker_containers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/integrations/sagemaker/requirements.txt,*,*@*,*
+89,JPype1,==1.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/incubating/wrappers/s2i/java-jni/java-jni/requirements.txt,*,*@*,*
+90,transformers,==4.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/alibi-detect-server/requirements-gpu.txt,*,*@*,*
+91,dill,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/alibi-detect-server/requirements-gpu.txt,*,*@*,*
+92,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/alibi-detect-server/requirements-gpu.txt,*,*@*,*
+93,alibi-detect,>=0.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/drift-detection/nvidia-triton-cifar10/requirements_notebook.txt,*,*@*,*
+94,matplotlib,>=3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/drift-detection/nvidia-triton-cifar10/requirements_notebook.txt,*,*@*,*
+95,tqdm,>=4.45.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/drift-detection/nvidia-triton-cifar10/requirements_notebook.txt,*,*@*,*
+96,alibi-detect,>=0.4.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/drift-detection/cifar10/requirements_notebook.txt,*,*@*,*
+97,matplotlib,>=3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/drift-detection/cifar10/requirements_notebook.txt,*,*@*,*
+98,tqdm,>=4.45.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/drift-detection/cifar10/requirements_notebook.txt,*,*@*,*
+99,matplotlib,>=3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/outlier-detection/nvidia-triton-cifar10/requirements_notebook.txt,*,*@*,*
+100,alibi-detect,>=0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/outlier-detection/nvidia-triton-cifar10/requirements_notebook.txt,*,*@*,*
+101,matplotlib,>=3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/outlier-detection/cifar10/requirements_notebook.txt,*,*@*,*
+102,alibi-detect,>=0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/outlier-detection/cifar10/requirements_notebook.txt,*,*@*,*
+103,numpy,>=1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/epsilon-greedy/requirements.txt,*,*@*,*
+104,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/requirements.txt,*,*@*,*
+105,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/requirements.txt,*,*@*,*
+106,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/requirements.txt,*,*@*,*
+107,kaggle,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/requirements.txt,*,*@*,*
+108,numpy,<1.19.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/requirements.txt,*,*@*,*
+109,xgboost,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/requirements.txt,*,*@*,*
+110,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/requirements.txt,*,*@*,*
+111,numpy,==1.19.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/xgb_model/requirements.txt,*,*@*,*
+112,scipy,==1.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/xgb_model/requirements.txt,*,*@*,*
+113,scikit-learn,==0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/xgb_model/requirements.txt,*,*@*,*
+114,xgboost,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/xgb_model/requirements.txt,*,*@*,*
+115,joblib,==0.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/xgb_model/requirements.txt,*,*@*,*
+116,scikit-learn,==0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/rf_model/requirements.txt,*,*@*,*
+117,scipy,==1.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/rf_model/requirements.txt,*,*@*,*
+118,numpy,==1.19.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/rf_model/requirements.txt,*,*@*,*
+119,joblib,==0.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/case_study/models/rf_model/requirements.txt,*,*@*,*
+120,redis,==3.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/thompson-sampling/requirements_ts_persistent.txt,*,*@*,*
+121,numpy,>=1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/thompson-sampling/requirements_ts_persistent.txt,*,*@*,*
+122,redis,==3.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/thompson-sampling/requirements.txt,*,*@*,*
+123,numpy,>=1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/thompson-sampling/requirements.txt,*,*@*,*
+124,numpy,>=1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/routers/thompson-sampling/requirements_ts.txt,*,*@*,*
+125,mypy-protobuf,==1.22,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/alibi-explain-server/requirements-apis.txt,*,*@*,*
+126,grpcio-tools,==1.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/alibi-explain-server/requirements-apis.txt,*,*@*,*
+127,numpy,==1.20.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/alibi-explain-server/requirements-gpu.txt,*,*@*,*
+128,xgboost,==1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/components/alibi-explain-server/requirements-gpu.txt,*,*@*,*
+129,kfp,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+130,kubernetes,==11.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+131,python-dateutil,==2.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+132,seldon_core,==1.2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+133,click,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+134,numpy,==1.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+135,spacy,==2.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+136,scikit-learn,==0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+137,pandas,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+138,dill,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/requirements-dev.txt,*,*@*,*
+139,click,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/data_downloader/requirements.txt,*,*@*,*
+140,numpy,==1.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/data_downloader/requirements.txt,*,*@*,*
+141,scikit-learn,==0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/data_downloader/requirements.txt,*,*@*,*
+142,pandas,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/data_downloader/requirements.txt,*,*@*,*
+143,dill,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/data_downloader/requirements.txt,*,*@*,*
+144,scikit-learn,==0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/tfidf_vectorizer/requirements.txt,*,*@*,*
+145,click,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/tfidf_vectorizer/requirements.txt,*,*@*,*
+146,numpy,==1.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/tfidf_vectorizer/requirements.txt,*,*@*,*
+147,dill,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/tfidf_vectorizer/requirements.txt,*,*@*,*
+148,scikit-learn,==0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/lr_text_classifier/requirements.txt,*,*@*,*
+149,click,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/lr_text_classifier/requirements.txt,*,*@*,*
+150,numpy,==1.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/lr_text_classifier/requirements.txt,*,*@*,*
+151,dill,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/lr_text_classifier/requirements.txt,*,*@*,*
+152,click,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/clean_text/requirements.txt,*,*@*,*
+153,numpy,==1.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/clean_text/requirements.txt,*,*@*,*
+154,dill,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/clean_text/requirements.txt,*,*@*,*
+155,click,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/spacy_tokenize/requirements.txt,*,*@*,*
+156,numpy,==1.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/spacy_tokenize/requirements.txt,*,*@*,*
+157,dill,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/spacy_tokenize/requirements.txt,*,*@*,*
+158,spacy,==2.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kubeflow/pipeline/pipeline_steps/spacy_tokenize/requirements.txt,*,*@*,*
+159,numpy,==1.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/transformers/mean_transformer/requirements.txt,*,*@*,*
+160,transformers,==4.12.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/transformers/v2-protocol/tokeniser/requirements.txt,*,*@*,*
+161,mlserver,==1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/transformers/v2-protocol/tokeniser/requirements.txt,*,*@*,*
+162,xai,==0.0.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+163,seldon_core,==1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+164,numpy,==1.15.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+165,scipy,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+166,scikit-learn,==0.20.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+167,dill,==0.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+168,alibi,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+169,tensorflow,==2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+170,alibi-detect,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/outliers/alibi-detect-combiner/requirements-dev.txt,*,*@*,*
+171,scikit-learn,==0.20.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/requirements-dev.txt,*,*@*,*
+172,pytest,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/requirements-dev.txt,*,*@*,*
+173,joblib,==0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/requirements-dev.txt,*,*@*,*
+174,joblib,==0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/src/requirements.txt,*,*@*,*
+175,pytest,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/src/requirements.txt,*,*@*,*
+176,scikit-learn,==0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/src/requirements.txt,*,*@*,*
+177,seldon_core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/integration/requirements-dev.txt,*,*@*,*
+178,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/integration/requirements-dev.txt,*,*@*,*
+179,retrying,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/integration/requirements-dev.txt,*,*@*,*
+180,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-seldon-jenkins-x/integration/requirements-dev.txt,*,*@*,*
+181,pytest,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/requirements-dev.txt,*,*@*,*
+182,matplotlib,==3.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/src/requirements.txt,*,*@*,*
+183,torchvision,==0.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/src/requirements.txt,*,*@*,*
+184,torch,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/src/requirements.txt,*,*@*,*
+185,seldon_core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/integration/requirements-dev.txt,*,*@*,*
+186,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/integration/requirements-dev.txt,*,*@*,*
+187,retrying,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/integration/requirements-dev.txt,*,*@*,*
+188,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/image_classifier/integration/requirements-dev.txt,*,*@*,*
+189,scikit-learn,==0.20.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/requirements-dev.txt,*,*@*,*
+190,pytest,==5.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/requirements-dev.txt,*,*@*,*
+191,joblib,==0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/requirements-dev.txt,*,*@*,*
+192,joblib,==0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/src/requirements.txt,*,*@*,*
+193,scikit-learn,==0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/src/requirements.txt,*,*@*,*
+194,pytest,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/src/requirements.txt,*,*@*,*
+195,seldon-core,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/integration/requirements-dev.txt,*,*@*,*
+196,numpy,==1.17.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/integration/requirements-dev.txt,*,*@*,*
+197,pytest,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/integration/requirements-dev.txt,*,*@*,*
+198,retrying,==1.3.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/models/news_classifier/integration/requirements-dev.txt,*,*@*,*
+199,scikit-learn,==0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/servers/torchserver/torchserver/requirements.txt,*,*@*,*
+200,numpy,>= 1.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/servers/torchserver/torchserver/requirements.txt,*,*@*,*
+201,joblib,>= 0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/cicd/sig-mlops-jenkins-classic/servers/torchserver/torchserver/requirements.txt,*,*@*,*
+202,scikit-learn,==0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/dvc/requirements.txt,*,*@*,*
+203,numpy,>= 1.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/dvc/requirements.txt,*,*@*,*
+204,joblib,>= 0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/dvc/requirements.txt,*,*@*,*
+205,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/mean_classifier/requirements.txt,*,*@*,*
+206,seldon-core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/mean_classifier/requirements.txt,*,*@*,*
+207,seldon_core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/testing/requirements.txt,*,*@*,*
+208,chainer,==6.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/chainer_mnist/requirements.txt,*,*@*,*
+209,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_iris_jsondata/requirements.txt,*,*@*,*
+210,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_iris_jsondata/requirements.txt,*,*@*,*
+211,tensorflow,>=1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/aws_eks_deep_mnist/requirements.txt,*,*@*,*
+212,tensorflow,>=1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/alibaba_ack_deep_mnist/requirements.txt,*,*@*,*
+213,intel-tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/keras_cifar10/requirements.txt,*,*@*,*
+214,Flask,==0.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+215,redis,==2.10.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+216,numpy,==1.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+217,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+218,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+219,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+220,futures,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+221,grpc,==0.3.post19,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+222,pandas,==0.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+223,grpcio,==1.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+224,colorama,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/h2o_example/requirements.txt,*,*@*,*
+225,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_iris/requirements.txt,*,*@*,*
+226,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_iris/requirements.txt,*,*@*,*
+227,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/lightgbm_custom_server/lightgbmserver/requirements.txt,*,*@*,*
+228,lightgbm,==3.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/lightgbm_custom_server/lightgbmserver/requirements.txt,*,*@*,*
+229,pandas,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_spacy_text/requirements.txt,*,*@*,*
+230,scikit-learn,>=0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_spacy_text/requirements.txt,*,*@*,*
+231,dill,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_spacy_text/requirements.txt,*,*@*,*
+232,spacy,==2.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_spacy_text/requirements.txt,*,*@*,*
+233,boto3,==1.9.34,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/openvino_imagenet_ensemble/resources/model/requirements.txt,*,*@*,*
+234,google-cloud-storage,==1.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/openvino_imagenet_ensemble/resources/model/requirements.txt,*,*@*,*
+235,numpy,>=1.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/openvino_imagenet_ensemble/resources/model/requirements.txt,*,*@*,*
+236,joblib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/statsmodels/requirements.txt,*,*@*,*
+237,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/statsmodels/requirements.txt,*,*@*,*
+238,statsmodels,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/statsmodels/requirements.txt,*,*@*,*
+239,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/statsmodels/requirements.txt,*,*@*,*
+240,numpy,>=1.17.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/tensorrt/requirements.txt,*,*@*,*
+241,tensorflow,>=2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/tensorrt/requirements.txt,*,*@*,*
+242,tensorflow-datasets,>=3.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/tensorrt/requirements.txt,*,*@*,*
+243,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/resnet/requirements.txt,*,*@*,*
+244,tensorflow-gpu,==1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/gpu_tensorflow_deep_mnist/requirements.txt,*,*@*,*
+245,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_iris_customdata/requirements.txt,*,*@*,*
+246,grpcio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/sklearn_iris_customdata/requirements.txt,*,*@*,*
+247,tensorflow,>=1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/models/azure_aks_deep_mnist/requirements.txt,*,*@*,*
+248,joblib,==0.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/feedback/reward-accuracy/requirements.txt,*,*@*,*
+249,scikit-learn,==0.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/feedback/reward-accuracy/requirements.txt,*,*@*,*
+250,elasticsearch,==7.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/feedback/feedback-metrics-server/requirements-dev.txt,*,*@*,*
+251,confluent-kafka,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kafka/kafka_keda/requirements.txt,*,*@*,*
+252,tensorflow-serving-api,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kafka/kafka_keda/requirements.txt,*,*@*,*
+253,confluent-kafka,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kafka/cifar10/requirements.txt,*,*@*,*
+254,tensorflow-serving-api,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/kafka/cifar10/requirements.txt,*,*@*,*
+255,numpy,==1.11.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/output_transformers/requirements.txt,*,*@*,*
+256,grpcio,==1.32.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/explainers/imagenet/resources/transformer/requirements.txt,*,*@*,*
+257,grpcio-reflection,==1.32.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/explainers/imagenet/resources/transformer/requirements.txt,*,*@*,*
+258,tensorflow,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/explainers/imagenet/resources/transformer/requirements.txt,*,*@*,*
+259,sentencepiece,==0.1.91,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/requirements.txt,*,*@*,*
+260,simpletransformers,==0.48.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/requirements.txt,*,*@*,*
+261,ray,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/requirements.txt,*,*@*,*
+262,transformers,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/requirements.txt,*,*@*,*
+263,tensorboardX,==1.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/requirements.txt,*,*@*,*
+264,torch,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/requirements.txt,*,*@*,*
+265,simpletransformers,==0.48.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/training/requirements.txt,*,*@*,*
+266,pandas,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/training/requirements.txt,*,*@*,*
+267,transformers,==3.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/training/requirements.txt,*,*@*,*
+268,alibi,==0.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/training/requirements.txt,*,*@*,*
+269,scikit-learn,==0.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/training/requirements.txt,*,*@*,*
+270,torch,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/examples/ray/batch-split-proxy/training/requirements.txt,*,*@*,*
+271,grpcio,==1.32.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/tfserving_proxy/requirements.txt,*,*@*,*
+272,tensorflow,>=1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/tfserving_proxy/requirements.txt,*,*@*,*
+273,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/tfserving_proxy/requirements.txt,*,*@*,*
+274,tensorflow-serving-api,>=1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/tfserving_proxy/requirements.txt,*,*@*,*
+275,grpcio-reflection,==1.32.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/tfserving_proxy/requirements.txt,*,*@*,*
+276,scikit-learn,==0.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/sklearnserver/requirements.txt,*,*@*,*
+277,seldon_core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/sklearnserver/requirements.txt,*,*@*,*
+278,numpy,>= 1.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/sklearnserver/requirements.txt,*,*@*,*
+279,joblib,>= 1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/sklearnserver/requirements.txt,*,*@*,*
+280,scikit-learn,==0.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/moviesentiment/requirements.txt,*,*@*,*
+281,seldon_core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/moviesentiment/requirements.txt,*,*@*,*
+282,numpy,>= 1.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/moviesentiment/requirements.txt,*,*@*,*
+283,joblib,>= 1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/moviesentiment/requirements.txt,*,*@*,*
+284,scikit-learn,==0.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/iris/requirements.txt,*,*@*,*
+285,seldon_core,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/iris/requirements.txt,*,*@*,*
+286,numpy,>= 1.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/iris/requirements.txt,*,*@*,*
+287,joblib,>= 1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/sklearnserver/models/iris/requirements.txt,*,*@*,*
+288,mlflow,<= 2.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/mlflowserver/mlflowserver/requirements.txt,*,*@*,*
+289,pandas,<= 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/mlflowserver/mlflowserver/requirements.txt,*,*@*,*
+290,requests,<= 2.28.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/mlflowserver/mlflowserver/requirements.txt,*,*@*,*
+291,PyYAML,">= 5.4, <= 6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/mlflowserver/mlflowserver/requirements.txt,*,*@*,*
+292,mlflow,==1.19.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/mlflowserver/models/elasticnet_wine/requirements.txt,*,*@*,*
+293,conda-pack,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/mlflowserver/models/elasticnet_wine/requirements.txt,*,*@*,*
+294,protobuf,<4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/mlflowserver/models/elasticnet_wine/requirements.txt,*,*@*,*
+295,xgboost,==1.4.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/xgboostserver/xgboostserver/requirements.txt,*,*@*,*
+296,numpy,>= 1.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/xgboostserver/xgboostserver/requirements.txt,*,*@*,*
+297,scikit-learn,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/servers/xgboostserver/xgboostserver/requirements.txt,*,*@*,*
+298,ansible,">=6.7.0,<8.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/ansible/requirements.txt,*,*@*,*
+299,kubernetes,">=26.1.0,<27.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/ansible/requirements.txt,*,*@*,*
+300,docker,">=5.0.0,<7.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/seldon-core/ansible/requirements.txt,*,*@*,*

@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,gymnasium,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+1,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+2,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+3,numba,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+4,pygame,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+5,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+6,seaborn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+7,six,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+8,docopt,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+9,torch,>=1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+10,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+11,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,install_requires,@*,*
+12,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/rl-agents/setup.py,tests_require,@*,*

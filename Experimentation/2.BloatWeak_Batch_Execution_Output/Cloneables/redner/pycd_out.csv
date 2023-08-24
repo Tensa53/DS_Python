@@ -1,0 +1,6 @@
+,dep,version,filepath,type,condition,status
+0,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/setup.py,install_requires,@*,*
+1,imageio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/setup.py,install_requires,@*,*
+2,sphinx-autoapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/docs/requirements.txt,*,*@*,*
+3,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/docs/requirements.txt,*,*@*,*
+4,sphinx-rtd-theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/docs/requirements.txt,*,*@*,*

@@ -1,0 +1,27 @@
+,dep,version,filepath,type,condition,status
+0,tabulate,==0.8.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+1,seaborn,==0.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+2,click,==7.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+3,torchvision,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+4,tensorboardX,==2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+5,argparse,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+6,ipdb,==0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+7,pre-commit,==2.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+8,torch,==1.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+9,numpy,==1.18.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+10,pyyaml,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+11,chart-studio,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/requirements.txt,*,*@*,*
+12,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+13,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+14,argparse,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+15,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+16,plotly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+17,seaborn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+18,click,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+19,ipdb,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+20,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+21,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/setup.py,install_requires,@*,*
+22,bootstrap.pytorch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/bootstrap/templates/default/requirements.txt,*,*@*,*
+23,bootstrap.pytorch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/bootstrap/templates/default/setup.py,install_requires,@*,*
+24,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/docs/requirements.txt,*,*@*,*
+25,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/bootstrap.pytorch/docs/requirements.txt,*,*@special#B.9 B.11,*

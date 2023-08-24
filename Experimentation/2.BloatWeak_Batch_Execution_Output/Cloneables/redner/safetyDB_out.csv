@@ -1,0 +1,8 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/setup.py,False,no one,no one,no one
+1,imageio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/setup.py,False,PVE-2021-37902,<2.6.0,"Imageio 2.6.0 fixes a code injection vulnerability for Windows users that have dcmtk installed, and where an attacker can set the filename.
+https://github.com/imageio/imageio/commit/5b398716d518cd14e8b978ea3cd8ec6c0236c1d8"
+2,sphinx-autoapi,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/docs/requirements.txt,False,no one,no one,no one
+3,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/docs/requirements.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+4,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/docs/requirements.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+5,sphinx-rtd-theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/redner/docs/requirements.txt,False,no one,no one,no one

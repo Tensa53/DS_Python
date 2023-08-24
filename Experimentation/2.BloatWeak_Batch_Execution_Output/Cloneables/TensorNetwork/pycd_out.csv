@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,opt_einsum,>=2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements.txt,*,*@*,*
+1,graphviz,>=0.11.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements.txt,*,*@*,*
+2,numpy,>=1.17,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements.txt,*,*@*,*
+3,scipy,>=1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements.txt,*,*@*,*
+4,h5py,>=2.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements.txt,*,*@*,*
+5,torch,==1.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements_travis.txt,*,*@*,*
+6,jax,>=0.1.68,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements_travis.txt,*,*@*,*
+7,jaxlib,>=0.1.59,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements_travis.txt,*,*@*,*
+8,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements_travis.txt,*,*@*,*
+9,tensorflow,>=2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements_travis.txt,*,*@*,*
+10,pylint,==2.5.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/requirements_travis.txt,*,*@*,*
+11,tensorflow,>=2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/TensorNetwork/docs/requirements_docs.txt,*,*@*,*

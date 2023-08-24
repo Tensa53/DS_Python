@@ -1,0 +1,6 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/setup.py,False,no one,no one,no one
+1,pytest-cov,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/setup.py,False,no one,no one,no one
+2,sphinx,>=3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/docs/requirements.txt,False,CVE-2020-11023,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+3,sphinx,>=3,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/docs/requirements.txt,False,CVE-2020-11022,<3.0.4,Sphinx 3.0.4 updates jQuery version from 3.4.1 to 3.5.1 for security reasons.
+4,sphinx_rtd_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/pytorch_scatter/docs/requirements.txt,False,no one,no one,no one

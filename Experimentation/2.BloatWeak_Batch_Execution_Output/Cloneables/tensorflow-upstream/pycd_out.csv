@@ -1,0 +1,260 @@
+,dep,version,filepath,type,condition,status
+0,lit,==16.0.5.post0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+1,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+2,certifi,==2023.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+3,zipp,==3.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+4,google-auth,==2.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+5,requests-oauthlib,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+6,opt-einsum,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+7,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+8,charset-normalizer,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+9,grpcio,==1.54.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+10,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+11,werkzeug,==2.3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+12,protobuf,==4.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+13,google-auth-oauthlib,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+14,importlib-metadata,==6.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+15,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+16,portpicker,==1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+17,rsa,==4.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+18,pyasn1,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+19,jax,==0.4.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+20,numpy,==1.24.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+21,h5py,==3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+22,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+23,cachetools,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+24,tf-estimator-nightly,==2.14.0.dev2023060108,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+25,tensorboard-data-server,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+26,ml-dtypes,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+27,markdown,==3.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+28,markupsafe,==2.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+29,absl-py,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+30,keras-nightly,==2.14.0.dev2023061207,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+31,setuptools,==67.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+32,wheel,==0.38.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+33,urllib3,==1.26.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+34,oauthlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+35,scipy,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+36,pyasn1-modules,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+37,tb-nightly,==2.14.0a20230612,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_9.txt,*,*@*,*
+38,lit,==16.0.5.post0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+39,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+40,certifi,==2023.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+41,google-auth,==2.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+42,requests-oauthlib,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+43,opt-einsum,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+44,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+45,charset-normalizer,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+46,grpcio,==1.54.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+47,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+48,werkzeug,==2.3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+49,protobuf,==4.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+50,google-auth-oauthlib,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+51,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+52,portpicker,==1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+53,rsa,==4.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+54,pyasn1,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+55,jax,==0.4.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+56,numpy,==1.24.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+57,h5py,==3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+58,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+59,cachetools,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+60,tf-estimator-nightly,==2.14.0.dev2023060108,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+61,tensorboard-data-server,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+62,ml-dtypes,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+63,markdown,==3.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+64,markupsafe,==2.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+65,absl-py,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+66,keras-nightly,==2.14.0.dev2023061207,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+67,setuptools,==67.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+68,wheel,==0.38.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+69,urllib3,==1.26.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+70,oauthlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+71,scipy,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+72,pyasn1-modules,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+73,tb-nightly,==2.14.0a20230612,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_11.txt,*,*@*,*
+74,lit,==16.0.5.post0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+75,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+76,certifi,==2023.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+77,google-auth,==2.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+78,requests-oauthlib,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+79,opt-einsum,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+80,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+81,charset-normalizer,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+82,grpcio,==1.54.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+83,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+84,werkzeug,==2.3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+85,protobuf,==4.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+86,google-auth-oauthlib,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+87,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+88,portpicker,==1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+89,rsa,==4.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+90,pyasn1,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+91,jax,==0.4.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+92,numpy,==1.24.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+93,h5py,==3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+94,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+95,cachetools,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+96,tf-estimator-nightly,==2.14.0.dev2023060108,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+97,tensorboard-data-server,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+98,ml-dtypes,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+99,markdown,==3.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+100,markupsafe,==2.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+101,absl-py,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+102,keras-nightly,==2.14.0.dev2023061207,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+103,setuptools,==67.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+104,wheel,==0.38.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+105,urllib3,==1.26.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+106,oauthlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+107,scipy,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+108,pyasn1-modules,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+109,tb-nightly,==2.14.0a20230612,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_10.txt,*,*@*,*
+110,lit,==16.0.5.post0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+111,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+112,certifi,==2023.5.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+113,zipp,==3.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+114,google-auth,==2.19.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+115,requests-oauthlib,==1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+116,opt-einsum,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+117,six,==1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+118,charset-normalizer,==3.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+119,grpcio,==1.54.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+120,idna,==3.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+121,werkzeug,==2.3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+122,protobuf,==4.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+123,google-auth-oauthlib,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+124,importlib-metadata,==6.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+125,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+126,portpicker,==1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+127,rsa,==4.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+128,pyasn1,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+129,jax,==0.4.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+130,numpy,==1.24.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+131,h5py,==3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+132,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+133,cachetools,==5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+134,tf-estimator-nightly,==2.14.0.dev2023060108,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+135,tensorboard-data-server,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+136,ml-dtypes,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+137,markdown,==3.4.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+138,markupsafe,==2.1.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+139,absl-py,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+140,keras-nightly,==2.14.0.dev2023061207,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+141,setuptools,==67.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+142,wheel,==0.38.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+143,urllib3,==1.26.16,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+144,oauthlib,==3.2.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+145,scipy,==1.10.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+146,pyasn1-modules,==0.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+147,tb-nightly,==2.14.0a20230612,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/requirements_lock_3_8.txt,*,*@*,*
+148,tensorflow-cpu-aws,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,@*@*,*
+149,tf-nightly-cpu-aws,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,@*@*,*
+150,tensorflow-intel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,@*@*,*
+151,tf-nightly-intel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,@*@*,*
+152,absl-py,>= 1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+153,astunparse,>= 1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+154,flatbuffers,>= 23.5.26,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+155,gast,">=0.2.1,!=0.5.0,!=0.5.1,!=0.5.2",/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+156,google_pasta,>= 0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+157,h5py,>= 2.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+158,libclang,>= 13.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+159,ml_dtypes,>= 0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+160,numpy,>= 1.22,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+161,opt_einsum,>= 2.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+162,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+163,protobuf,">=3.20.3,<5.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5",/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+164,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+165,six,>= 1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+166,termcolor,>= 1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+167,typing_extensions,>= 3.6.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+168,wrapt,>= 1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+169,tensorflow-io-gcs-filesystem,>= 0.23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,"*@platform_machine!=""arm64"" or platform_system!=""Darwin""",*
+170,grpcio,">= 1.24.3, < 2.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@(sys.byteorder == 'little')@*@*,*
+171,tensorboard,">= 2.13, < 2.14",/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+172,tb-nightly,~= 2.14.0.a,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+173,tensorflow_estimator,">= 2.13.0rc0, < 2.14",/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+174,tf-estimator-nightly,~= 2.14.0.dev,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+175,keras,">= 2.13.1rc0, < 2.14",/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+176,keras-nightly,~= 2.14.0.dev,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+181,tensorflow-macos,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+182,tf-nightly-macos,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,install_requires,*@*,*
+183,nvidia-cuda-runtime-cu11,==11.8.89,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+184,nvidia-cublas-cu11,==11.11.3.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+185,nvidia-cufft-cu11,==10.9.0.58,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+186,nvidia-cudnn-cu11,==8.7.0.84,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+187,nvidia-curand-cu11,==10.3.0.86,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+188,nvidia-cusolver-cu11,==11.4.1.48,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+189,nvidia-cusparse-cu11,==11.7.5.86,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+190,nvidia-nccl-cu11,==2.16.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+191,nvidia-cuda-cupti-cu11,==11.8.87,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+192,nvidia-cuda-nvcc-cu11,==11.8.89,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+193,tensorrt,==8.5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/pip_package/setup.py,extras_require,*@*,*
+218,absl-py,~= 1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+219,tf-estimator-nightly,~= 2.14.0.dev,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+220,keras-nightly,~= 2.14.0.dev,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+221,flatbuffers,~= 23.5.26,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+222,numpy,~= 1.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@ python_version >= '3.11' ,*
+223,lit,~= 16.0.5.post0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+224,scipy,~= 1.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@ python_version < '3.11',*
+225,wheel,~= 0.38.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+226,typing_extensions,~= 3.10.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+227,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+228,six,~= 1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+229,opt_einsum,~= 3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+230,wrapt,~= 1.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+231,numpy,~= 1.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@ python_version < '3.11',*
+232,h5py,~= 3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+233,astunparse,~= 1.6.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+234,gast,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+235,scipy,~= 1.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@ python_version >= '3.11' ,*
+236,termcolor,~= 2.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+237,tb-nightly,~= 2.14.0.a,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+238,portpicker,~= 1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+239,grpcio,~= 1.49.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+240,ml_dtypes,~= 0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+241,google_pasta,~= 0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+242,protobuf,~= 3.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_common.txt,*,*@*,*
+243,jax,~= 0.3.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_ubuntu.txt,*,*@*,*
+244,jaxlib,~= 0.3.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_ubuntu.txt,*,*@ platform.machine != 'aarch64',*
+245,PyYAML,~= 6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_ubuntu.txt,*,*@*,*
+246,twine,~= 3.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_mac.txt,*,*@*,*
+247,certifi,~= 2022.12.07,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_mac.txt,*,*@*,*
+248,jax,~= 0.3.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_mac.txt,*,*@*,*
+249,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_mac.txt,*,*@*,*
+250,jaxlib,~= 0.3.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/ci_build/release/requirements_mac.txt,*,*@*,*
+251,absl-py,~= 1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+252,pylint,~= 2.13.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+253,h5py,~= 3.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+254,tf-estimator-nightly,~= 2.14.0.dev,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+255,lxml,~= 4.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+256,auditwheel,~= 5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+257,packaging,~= 21.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+258,keras-nightly,~= 2.14.0.dev,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+259,flatbuffers,~= 23.5.26,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+260,numpy,~= 1.23.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@ python_version >= '3.11' ,*
+261,lit,~= 16.0.5.post0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+262,scipy,~= 1.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@ python_version < '3.11',*
+263,wheel,~= 0.38.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+264,urllib3,<2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+265,typing_extensions,~= 3.10.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+266,six,~= 1.16.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+267,opt_einsum,~= 3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+268,jaxlib,~= 0.3.25,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+269,wrapt,~= 1.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+270,protobuf,~= 3.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+271,twine,~= 3.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+272,jax,~= 0.3.25,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+273,numpy,~= 1.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@ python_version < '3.11',*
+274,PyYAML,~= 6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+275,astunparse,~= 1.6.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+276,junitparser,~= 2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+277,gast,==0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+278,scipy,~= 1.9.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@ python_version >= '3.11' ,*
+279,termcolor,~= 2.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+280,tb-nightly,~= 2.13.0.a,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+281,portpicker,~= 1.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+282,grpcio,~= 1.49.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+283,ml_dtypes,~= 0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+284,google_pasta,~= 0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/tools/tf_sig_build_dockerfiles/devel.requirements.txt,*,*@*,*
+285,google-api-python-client,==1.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/python/tpu/client/pip_package/setup.py,install_requires,@*,*
+286,oauth2client,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorflow-upstream/tensorflow/python/tpu/client/pip_package/setup.py,install_requires,@*,*

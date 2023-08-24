@@ -1,0 +1,49 @@
+,dep,version,filepath,type,condition,status
+0,fastapi,">=0.47.0,<=0.89.1",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+1,pandas,">=1.0.0,<1.6.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+2,pydantic,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+3,prometheus-client,">=0.13.0,<=1.16.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+4,nltk,">=3.2.4,<3.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+5,requests,">=2.19.0,<3.0.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+6,scipy,<1.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+7,numpy,<1.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+8,filelock,">=3.0.0,<3.10.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+9,pybind11,==2.10.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+10,tqdm,">=4.42.0,<4.65.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+11,scikit-learn,">=0.24,<1.1.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+12,uvicorn,">=0.13.0,<0.19.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/requirements.txt,*,*@*,*
+13,flake8,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+14,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+15,pytest-instafail,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+16,pexpect,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+17,sphinx,==3.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,"(__name__ == '__main__')@python_version<""3.10""",*
+18,sphinx,==4.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,"(__name__ == '__main__')@python_version>=""3.10""",*
+19,sphinx_rtd_theme,==0.5.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+20,docutils,"<0.17,>=0.12",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+21,nbsphinx,==0.8.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+22,ipykernel,==5.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+23,jinja2,<=3.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+24,sphinx-copybutton,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+25,pandoc,==2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+26,ipython_genutils,==0.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+27,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/setup.py,extras_require,(__name__ == '__main__')@*,*
+28,udapi,==0.3.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/udapi.txt,*,*@*,*
+29,navec,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/slovnet.txt,*,*@*,*
+30,slovnet,==0.5.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/slovnet.txt,*,*@*,*
+31,sortedcontainers,==2.4.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/sortedcontainers.txt,*,*@*,*
+32,rapidfuzz,==2.1.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/rapidfuzz.txt,*,*@*,*
+33,whapi,==0.6.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/whapi.txt,*,*@*,*
+34,bs4,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/whapi.txt,*,*@*,*
+35,sacremoses,==0.0.53,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/sacremoses.txt,*,*@*,*
+36,pypi-kenlm,==0.1.20220713,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/kenlm.txt,*,*@*,*
+37,lxml,==4.9.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/lxml.txt,*,*@*,*
+38,transformers,">=4.13.0,<4.25.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/transformers.txt,*,*@*,*
+39,hdt,==2.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/hdt.txt,*,*@*,*
+40,torch,">=1.6.0,<1.14.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/pytorch.txt,*,*@*,*
+41,fasttext,==0.9.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/fasttext.txt,*,*@*,*
+42,datasets,">=1.16.0,<2.5.0",/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/datasets.txt,*,*@*,*
+43,spacy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/en_core_web_sm.txt,*,*@*,*
+44,spacy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/ru_core_news_sm.txt,*,*@*,*
+45,pytorch-crf,==0.7.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/torchcrf.txt,*,*@*,*
+46,opt-einsum,==3.3.*,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/opt_einsum.txt,*,*@*,*
+47,razdel,==0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/DeepPavlov/deeppavlov/requirements/razdel.txt,*,*@*,*

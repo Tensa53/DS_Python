@@ -1,0 +1,7 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,visdom,>=0.1.8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,False,no one,no one,no one
+1,torchvision,>=0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,False,no one,no one,no one
+2,scipy,==1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+3,torch,>=0.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+4,dominate,>=2.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/AttentionGAN/requirements.txt,False,no one,no one,no one

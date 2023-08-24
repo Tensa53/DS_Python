@@ -1,0 +1,45 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2014-3589,"<2.3.2,>=2.5.0,<2.5.2","Pillow versions 2.3.2 and 2.5.2 include a fix for CVE-2014-3589: PIL/IcnsImagePlugin.py in Python Imaging Library (PIL) and Pillow before 2.3.2 and 2.5.x before 2.5.2 allows remote attackers to cause a denial of service via a crafted block size.
+https://github.com/python-pillow/Pillow/commit/205e056f8f9b06ed7b925cf8aa0874bc4aaf8a7d"
+1,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2022-22816,<9.0.0,"Pillow 9.0.0 includes a fix for CVE-2022-22816: path_getbbox in path.c in Pillow before 9.0.0 has a buffer over-read during initialization of ImagePath.Path.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling"
+2,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,PVE-2021-44525,<9.0.0,"Pillow 9.0.0 excludes carriage return in PDF regex to help prevent ReDoS.
+https://github.com/python-pillow/Pillow/pull/5912
+https://github.com/python-pillow/Pillow/commit/43b800d933c996226e4d7df00c33fcbe46d97363"
+3,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,PVE-2022-44524,<9.0.0,"Pillow 9.0.0 ensures JpegImagePlugin stops at the end of a truncated file to avoid Denial of Service attacks.
+https://github.com/python-pillow/Pillow/pull/5921
+https://github.com/advisories/GHSA-4fx9-vc88-q2xc"
+4,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2022-22815,<9.0.0,"Pillow 9.0.0 includes a fix for CVE-2022-22815: path_getbbox in path.c in Pillow before 9.0.0 improperly initializes ImagePath.Path.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling"
+5,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2022-24303,<9.0.1,Pillow before 9.0.1 allows attackers to delete files because spaces in temporary pathnames are mishandled.
+6,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2022-22817,<9.0.1,"Pillow 9.0.1 includes a fix for CVE-2022-22817: PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A first patch was issued for version 9.0.0 but it did not prevent builtins available to lambda expressions.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.0.1.html#security"
+7,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2022-45198,<9.2.0,Pillow before 9.2.0 performs Improper Handling of Highly Compressed GIF Data (Data Amplification).
+8,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2021-28675,">=0,<8.2.0",An issue was discovered in Pillow before 8.2.0. PSDImagePlugin.PsdImageFile lacked a sanity check on the number of input layers relative to the size of the data block. This could lead to a DoS on Image.open prior to Image.load.
+9,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2021-27923,">=4.3.0,<8.1.1","Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICO container, and thus an attempted memory allocation can be very large."
+10,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2021-23437,">=5.2.0,<8.3.2","Pillow from 5.2.0 and before 8.3.2 is vulnerable to Regular Expression Denial of Service (ReDoS) via the getrgb function.
+https://github.com/python-pillow/Pillow/commit/9e08eb8f78fdfd2f476e1b20b7cf38683754866b
+https://pillow.readthedocs.io/en/stable/releasenotes/8.3.2.html"
+11,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2022-30595,">=9.1.0,<9.1.1",libImaging/TgaRleDecode.c in Pillow 9.1.0 has a heap buffer overflow in the processing of invalid TGA image files.
+12,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,PVE-2023-55182,">=9.1.0,<9.3.0","Pillow 9.3.0 includes a security fix: Pillow will now decode the data in its natural CMYK mode, then convert it to RGB and rearrange the channels afterwards. Trying to load the data in an incorrect mode could result in a segmentation fault.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#decode-jpeg-compressed-blp1-data-in-original-mode"
+13,pillow,<8.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2022-45199,">=9.2.0,<9.3.0","Pillow before 9.3.0 allows denial of service via SAMPLESPERPIXEL.
+https://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#limit-samplesperpixel-to-avoid-runtime-dos"
+14,openpifpaf,">=v0.12.10,<=v0.12.12",/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,no one,no one,no one
+15,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,no one,no one,no one
+16,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2017-18342,<4,Pyyaml before 4 uses ``yaml.load`` which has been assigned CVE-2017-18342.
+17,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2020-1747,<5.3.1,"Pyyaml 5.3.1 includes a fix for CVE-2020-1747: A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor."
+18,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2020-14343,<5.4,"Pyyaml version 5.4 includes a fix for CVE-2020-14343: A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.
+https://bugzilla.redhat.com/show_bug.cgi?id=1860466"
+19,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2019-20477,">=5.1,<=5.1.2","PyYAML 5.1 through 5.1.2 has insufficient restrictions on the load and load_all functions because of a class deserialization issue, e.g., Popen is a class in the subprocess module. See CVE-2019-20477. NOTE: this issue exists because of an incomplete fix for CVE-2017-18342."
+20,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,PVE-2022-45185,<2.13.0,"Pylint 2.13.0 fixes a crash when using the doc_params extension.
+https://github.com/PyCQA/pylint/issues/5322"
+21,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,PVE-2021-38224,<2.5.0,"Pylint 2.5.0 no longer allows ``python -m pylint ...`` to import user code. Previously, it added the current working directory as the first element of ``sys.path``. This opened up a potential security hole where ``pylint`` would import user level code as long as that code resided in modules having the same name as stdlib or pylint's own modules."
+22,pylint,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,PVE-2021-39621,<2.7.0,Pylint 2.7.0 includes a fix for vulnerable regular expressions in 'pyreverse'.
+23,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,no one,no one,no one
+24,gdown,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,no one,no one,no one
+25,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+26,tabulate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,no one,no one,no one
+27,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,no one,no one,no one
+28,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,CVE-2020-13091,">=0,<1.0.4","** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner."
+29,nuscenes-devkit,==1.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/monoloco/setup.py,False,no one,no one,no one

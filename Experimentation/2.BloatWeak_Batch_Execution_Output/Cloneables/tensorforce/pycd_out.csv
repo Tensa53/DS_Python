@@ -1,0 +1,54 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+1,matplotlib,>= 3.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+2,numpy,~= 1.21.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+3,msgpack,>= 1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+4,msgpack-numpy,>= 0.4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+5,h5py,>= 3.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+6,gym,>= 0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+7,Pillow,>= 9.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+8,tqdm,>= 4.62.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements.txt,*,*@*,*
+9,ale-py,>= 0.7.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+10,matplotlib,>= 3.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+11,pytest,>= 6.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+12,box2d,>= 2.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+13,vizdoom,>= 1.1.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+14,tqdm,>= 4.62.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+15,recommonmark,>= 0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+16,tensorflow,==2.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+17,msgpack-numpy,>= 0.4.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+18,gym,>= 0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+19,Pillow,>= 9.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+20,numpy,~= 1.21.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+21,h5py,>= 3.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+22,hpbandster,>= 0.7.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+23,sphinx-rtd-theme,>= 1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+24,sphinx,>= 4.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+25,tensorflow-addons,>= 0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+26,msgpack,>= 1.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+27,gym-retro,>= 0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+28,m2r,>= 0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/requirements-all.txt,*,*@*,*
+30,tensorflow-addons,>= 0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+31,hpbandster,>= 0.7.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+32,ale-py,>= 0.7.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+33,gym,>= 0.21.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+34,box2d,>= 2.3.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+35,gym-retro,>= 0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+36,vizdoom,==1.1.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+41,vizdoom,>= 1.1.11,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+42,pygame,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+43,opencv-python,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+44,m2r,>= 0.2.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+45,recommonmark,>= 0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+46,sphinx,>= 4.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+47,sphinx-rtd-theme,>= 1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+48,pytest,>= 6.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,extras_require,@*,*
+49,recommonmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/setup.py,install_requires,"(os.environ.get('READTHEDOCS', None) == 'True')@*",*
+50,msgpack-numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*
+51,mistune,==0.8.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*
+52,recommonmark,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*
+53,tensorflow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*
+54,sphinx-rtd-theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*
+55,msgpack,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*
+56,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*
+57,m2r,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tensorforce/docs/requirements.txt,*,*@*,*

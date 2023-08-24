@@ -1,0 +1,13 @@
+,dep,version,filepath,type,condition,status
+0,Werkzeug,==0.15.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+1,protobuf,==3.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+2,futures,==3.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+3,enum34,==1.1.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+4,tensorflow,>=1.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+5,six,==1.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+6,numpy,==1.13.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+7,scipy,==1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+8,bleach,==3.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+9,html5lib,==0.9999999,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+10,Markdown,==2.6.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*
+11,tensorflow-tensorboard,==0.4.0rc2,/home/daniele/git/NICHE_projects/Repo/Cloneables/leela-zero/training/tf/requirements.txt,*,*@*,*

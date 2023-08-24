@@ -1,0 +1,16 @@
+,dep,version,filepath,type,condition,status
+0,nltk,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+1,zipp,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+2,networkx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+3,pyparsing,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+4,opencv-python,==4.4.0.42,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+5,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+6,pytorchcv,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+7,torchvision,==0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+8,torch,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+9,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+10,scikit-learn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/requirements.txt,*,*@*,*
+11,nbdt,==0.0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/examples/app/requirements.txt,*,*@*,*
+12,flask-cors,==3.0.9,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/examples/app/requirements.txt,*,*@*,*
+13,flask,==1.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/examples/app/requirements.txt,*,*@*,*
+14,uwsgi,==2.0.18,/home/daniele/git/NICHE_projects/Repo/Cloneables/neural-backed-decision-trees/examples/app/requirements.txt,*,*@*,*

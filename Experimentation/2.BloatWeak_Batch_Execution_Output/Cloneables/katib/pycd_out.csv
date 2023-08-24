@@ -1,0 +1,78 @@
+,dep,version,filepath,type,condition,status
+0,grpcio-testing,==1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/test/unit/v1beta1/requirements.txt,*,*@*,*
+1,pytest,==7.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/test/unit/v1beta1/requirements.txt,*,*@*,*
+2,forestci,==0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+3,googleapis-common-protos,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+4,scipy,>=1.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+5,numpy,==1.23.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+6,cloudpickle,==0.5.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+7,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+8,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+9,cython,>=0.29.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+10,scikit-learn,>=0.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+11,scikit-optimize,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/skopt/v1beta1/requirements.txt,*,*@*,*
+12,cython,>=0.29.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/darts/v1beta1/requirements.txt,*,*@*,*
+13,googleapis-common-protos,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/darts/v1beta1/requirements.txt,*,*@*,*
+14,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/darts/v1beta1/requirements.txt,*,*@*,*
+15,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/darts/v1beta1/requirements.txt,*,*@*,*
+16,cython,>=0.29.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/enas/v1beta1/requirements.txt,*,*@*,*
+17,googleapis-common-protos,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/enas/v1beta1/requirements.txt,*,*@*,*
+18,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/enas/v1beta1/requirements.txt,*,*@*,*
+19,tensorflow,==2.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/nas/enas/v1beta1/requirements.txt,*,*@*,*
+20,numpy,==1.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/pbt/v1beta1/requirements.txt,*,*@*,*
+21,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/pbt/v1beta1/requirements.txt,*,*@*,*
+22,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/pbt/v1beta1/requirements.txt,*,*@*,*
+23,googleapis-common-protos,==1.53.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/pbt/v1beta1/requirements.txt,*,*@*,*
+24,forestci,==0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+25,googleapis-common-protos,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+26,scipy,>=1.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+27,cloudpickle,==0.5.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+28,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+29,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+30,cython,>=0.29.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+31,scikit-learn,>=0.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+32,numpy,>=1.20.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperband/v1beta1/requirements.txt,*,*@*,*
+33,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/optuna/v1beta1/requirements.txt,*,*@*,*
+34,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/optuna/v1beta1/requirements.txt,*,*@*,*
+35,optuna,>=3.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/optuna/v1beta1/requirements.txt,*,*@*,*
+36,googleapis-common-protos,==1.53.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/optuna/v1beta1/requirements.txt,*,*@*,*
+37,forestci,==0.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+38,googleapis-common-protos,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+39,scipy,>=1.5.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+40,hyperopt,==0.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+41,cloudpickle,==0.5.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+42,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+43,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+44,cython,>=0.29.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+45,scikit-learn,>=0.24.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+46,numpy,>=1.20.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/suggestion/hyperopt/v1beta1/requirements.txt,*,*@*,*
+47,googleapis-common-protos,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/metricscollector/v1beta1/tfevent-metricscollector/requirements.txt,*,*@*,*
+48,tensorflow,==2.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/metricscollector/v1beta1/tfevent-metricscollector/requirements.txt,*,*@*,*
+49,rfc3339,>=6.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/metricscollector/v1beta1/tfevent-metricscollector/requirements.txt,*,*@*,*
+50,psutil,==5.9.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/metricscollector/v1beta1/tfevent-metricscollector/requirements.txt,*,*@*,*
+51,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/metricscollector/v1beta1/tfevent-metricscollector/requirements.txt,*,*@*,*
+52,googleapis-common-protos,==1.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/earlystopping/medianstop/v1beta1/requirements.txt,*,*@*,*
+53,kubernetes,==22.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/earlystopping/medianstop/v1beta1/requirements.txt,*,*@*,*
+54,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/earlystopping/medianstop/v1beta1/requirements.txt,*,*@*,*
+55,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/earlystopping/medianstop/v1beta1/requirements.txt,*,*@*,*
+56,cython,>=0.29.24,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/cmd/earlystopping/medianstop/v1beta1/requirements.txt,*,*@*,*
+57,certifi,>=14.05.14,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/sdk/python/v1beta1/setup.py,install_requires,*@*,*
+58,six,>=1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/sdk/python/v1beta1/setup.py,install_requires,*@*,*
+59,setuptools,>=21.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/sdk/python/v1beta1/setup.py,install_requires,*@*,*
+60,urllib3,>=1.15.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/sdk/python/v1beta1/setup.py,install_requires,*@*,*
+61,kubernetes,>=23.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/sdk/python/v1beta1/setup.py,install_requires,*@*,*
+62,grpcio,>=1.41.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/sdk/python/v1beta1/setup.py,install_requires,*@*,*
+63,protobuf,">=3.19.5, <=3.20.3",/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/sdk/python/v1beta1/setup.py,install_requires,*@*,*
+64,torch,==1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/pytorch-mnist/requirements.txt,*,*@*,*
+65,Pillow,>=9.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/pytorch-mnist/requirements.txt,*,*@*,*
+66,torchvision,==0.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/pytorch-mnist/requirements.txt,*,*@*,*
+67,cloudml-hypertune,==0.1.0.dev6,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/pytorch-mnist/requirements.txt,*,*@*,*
+68,torch,==1.13.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/darts-cnn-cifar10/requirements.txt,*,*@*,*
+69,Pillow,>=9.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/darts-cnn-cifar10/requirements.txt,*,*@*,*
+70,torchvision,==0.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/darts-cnn-cifar10/requirements.txt,*,*@*,*
+71,scipy,>=1.7.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/enas-cnn-cifar10/requirements.txt,*,*@*,*
+72,tensorflow,==2.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/enas-cnn-cifar10/requirements.txt,*,*@*,*
+73,numpy,==1.23.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/mxnet-mnist/requirements.txt,*,*@*,*
+74,mxnet,==1.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/mxnet-mnist/requirements.txt,*,*@*,*
+75,numpy,==1.22.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/simple-pbt/requirements.txt,*,*@*,*
+76,tensorflow,==2.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/katib/examples/v1beta1/trial-images/tf-mnist-with-summaries/requirements.txt,*,*@*,*

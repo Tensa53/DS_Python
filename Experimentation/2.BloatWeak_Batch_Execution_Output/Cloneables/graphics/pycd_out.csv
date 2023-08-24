@@ -1,0 +1,36 @@
+,dep,version,filepath,type,condition,status
+0,matplotlib,>= 2.2.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+1,termcolor,>= 1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+2,numpy,>= 1.15.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+3,trimesh,>= 2.37.22,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+4,tensorflow,>= 2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+5,OpenEXR,>= 1.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+6,scipy,>= 1.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+7,h5py,>= 2.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+8,tensorflow-addons,>= 0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+9,tqdm,>= 4.45.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+10,absl-py,>= 0.6.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+11,networkx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+12,tensorflow-datasets,>= 2.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+13,psutil,>= 5.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/requirements.txt,*,*@*,*
+14,scipy,>=1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+15,tensorflow,>=2.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+16,cython,>=0.29.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+17,trimesh,>=3.6.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+18,numpy,>=1.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+19,tqdm,>=4.42.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+20,tensorflow-probability,>=0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+21,scikit-image,>=0.16.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/nasa/requirements.txt,*,*@*,*
+22,scipy,>=1.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/cvxnet/requirements.txt,*,*@*,*
+23,tensorflow,>=2.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/cvxnet/requirements.txt,*,*@*,*
+24,cython,>=0.29.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/cvxnet/requirements.txt,*,*@*,*
+25,trimesh,>=3.6.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/cvxnet/requirements.txt,*,*@*,*
+26,numpy,>=1.18.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/cvxnet/requirements.txt,*,*@*,*
+27,scikit-image,>=0.16.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/cvxnet/requirements.txt,*,*@*,*
+28,scikit-image,>==0.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/local_implicit_grid/requirements.txt,*,*@*,*
+29,scipy,>=1.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/local_implicit_grid/requirements.txt,*,*@*,*
+30,trimesh,>=3.2.12,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/local_implicit_grid/requirements.txt,*,*@*,*
+31,numpy,>=1.16.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/local_implicit_grid/requirements.txt,*,*@*,*
+32,tensorflow,>=1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/local_implicit_grid/requirements.txt,*,*@*,*
+33,plyfile,>=0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/local_implicit_grid/requirements.txt,*,*@*,*
+34,absl-py,>=0.7.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/graphics/tensorflow_graphics/projects/local_implicit_grid/requirements.txt,*,*@*,*

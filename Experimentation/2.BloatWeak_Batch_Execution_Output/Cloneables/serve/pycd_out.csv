@@ -1,0 +1,193 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/setup.py,extras_require,(__name__ == '__main__')@*,*
+1,onnx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/setup.py,extras_require,(__name__ == '__main__')@*,*
+2,intel_extension_for_pytorch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/setup.py,extras_require,(__name__ == '__main__')@*,*
+3,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/setup.py,install_requires,*@*,*
+4,psutil,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/setup.py,install_requires,*@*,*
+5,packaging,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/setup.py,install_requires,*@*,*
+6,wheel,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/setup.py,install_requires,*@*,*
+7,fabric2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/ci/launcher/requirements.txt,*,*@*,*
+8,boto3,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/ci/launcher/requirements.txt,*,*@*,*
+9,retrying,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/ci/launcher/requirements.txt,*,*@*,*
+10,enum-compat,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/model-archiver/setup.py,install_requires,*@*,*
+11,torchaudio,==0.10.0+cu102,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_windows.txt,*,*@ sys_platform == 'win32',*
+12,torchvision,==0.11.1+cu102,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_windows.txt,*,*@ sys_platform == 'win32',*
+13,torch,==1.10.0+cu102,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_windows.txt,*,*@ sys_platform == 'win32',*
+14,torchtext,==0.11.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_windows.txt,*,*@ sys_platform == 'win32',*
+15,torchvision,==0.9.1+cu101,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_linux.txt,*,*@ sys_platform == 'linux',*
+16,torch,==1.8.1+cu101,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_linux.txt,*,*@ sys_platform == 'linux',*
+17,torchtext,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_linux.txt,*,*@ sys_platform == 'linux',*
+18,torchaudio,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_linux.txt,*,*@ sys_platform == 'linux',*
+19,torchvision,==0.15.2+cu117,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_windows.txt,*,*@ sys_platform == 'win32',*
+20,torchaudio,==2.0.2+cu117,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_windows.txt,*,*@ sys_platform == 'win32',*
+21,torchtext,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_windows.txt,*,*@ sys_platform == 'win32',*
+22,torch,==2.0.1+cu117,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_windows.txt,*,*@ sys_platform == 'win32',*
+23,torchtext,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_windows.txt,*,*@ sys_platform == 'linux',*
+24,torch,==2.0.1+cu118,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_windows.txt,*,*@ sys_platform == 'linux',*
+25,torchvision,==0.15.2+cu118,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_windows.txt,*,*@ sys_platform == 'linux',*
+26,torchaudio,==2.0.2+cu118,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_windows.txt,*,*@ sys_platform == 'linux',*
+27,torch,==1.8.1+cu92,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92_linux.txt,*,*@ sys_platform == 'linux',*
+28,torchtext,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92_linux.txt,*,*@ sys_platform == 'linux',*
+29,torchvision,==0.9.1+cu92,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92_linux.txt,*,*@ sys_platform == 'linux',*
+30,torchaudio,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92_linux.txt,*,*@ sys_platform == 'linux',*
+31,torchaudio,==0.13.1+cu116,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_linux.txt,*,*@ sys_platform == 'linux',*
+32,torch,==1.13.1+cu116,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_linux.txt,*,*@ sys_platform == 'linux',*
+33,torchvision,==0.14.1+cu116,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_linux.txt,*,*@ sys_platform == 'linux',*
+34,torchtext,==0.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_linux.txt,*,*@ sys_platform == 'linux',*
+35,torchtext,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_windows.txt,*,*@ sys_platform == 'win32',*
+36,torchvision,==0.9.1+cu101,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_windows.txt,*,*@ sys_platform == 'win32',*
+37,torchaudio,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_windows.txt,*,*@ sys_platform == 'win32',*
+38,torch,==1.8.1+cu101,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu101_windows.txt,*,*@ sys_platform == 'win32',*
+39,torchaudio,==0.13.1+cpu,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_neuronx_linux.txt,*,*@*,*
+40,torch,==1.13.1+cpu,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_neuronx_linux.txt,*,*@*,*
+41,torchtext,==0.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_neuronx_linux.txt,*,*@*,*
+42,torchvision,==0.14.1+cpu,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_neuronx_linux.txt,*,*@*,*
+43,torchdata,==0.5.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_neuronx_linux.txt,*,*@*,*
+44,protobuf,==3.20.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/neuronx.txt,*,*@*,*
+45,torch-neuronx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/neuronx.txt,*,*@*,*
+46,grpcio-tools,==1.48.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/neuronx.txt,*,*@*,*
+47,transformers-neuronx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/neuronx.txt,*,*@*,*
+48,neuronx-cc,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/neuronx.txt,*,*@*,*
+49,numpy,==1.21.6,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/neuronx.txt,*,*@*,*
+50,torchaudio,==0.8.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92.txt,*,*@*,*
+51,torchvision,==0.9.1+cu92,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92.txt,*,*@*,*
+52,torchtext,==0.9.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92.txt,*,*@*,*
+53,torch,==1.8.1+cu92,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu92.txt,*,*@*,*
+54,torch,==1.9.0+cu111,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_linux.txt,*,*@ sys_platform == 'linux',*
+55,torchtext,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_linux.txt,*,*@ sys_platform == 'linux',*
+56,torchaudio,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_linux.txt,*,*@ sys_platform == 'linux',*
+57,torchvision,==0.10.0+cu111,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_linux.txt,*,*@ sys_platform == 'linux',*
+58,cython,==0.29.34,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_common.txt,*,*@*,*
+59,numpy,==1.19.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_common.txt,*,*@ sys_platform == 'win32' ,*
+60,pillow,==9.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_common.txt,*,*@*,*
+61,wheel,==0.40.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_common.txt,*,*@*,*
+62,numpy,==1.24.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_common.txt,*,*@ sys_platform != 'win32',*
+63,torchvision,==0.13.0+cu113,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_linux.txt,*,*@ sys_platform == 'linux',*
+64,torchtext,==0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_linux.txt,*,*@ sys_platform == 'linux',*
+65,torchaudio,==0.12.0+cu113,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_linux.txt,*,*@ sys_platform == 'linux',*
+66,torch,==1.12.0+cu113,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_linux.txt,*,*@ sys_platform == 'linux',*
+67,torchtext,==0.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_windows.txt,*,*@ sys_platform == 'win32',*
+68,torchvision,==0.10.0+cu111,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_windows.txt,*,*@ sys_platform == 'win32',*
+69,torchaudio,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_windows.txt,*,*@ sys_platform == 'win32',*
+70,torch,==1.9.0+cu111,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu111_windows.txt,*,*@ sys_platform == 'win32',*
+71,protobuf,==4.23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+72,pylint,==2.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+73,transformers,==4.30.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+74,pyspelling,==2.8.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+75,pygit2,==1.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+76,pre-commit,==3.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+77,pytest-cov,==4.1.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+78,onnx,==1.14.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+79,pytest-mock,==3.10.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+80,onnxruntime,==1.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+81,grpcio,==1.54.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+82,pytest,==7.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+83,mypy,==1.3.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+84,intel_extension_for_pytorch,==2.0.100,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@ sys_platform != 'win32' and sys_platform != 'darwin',*
+85,twine,==4.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+86,grpcio-tools,==1.54.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+87,mock,==5.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+88,torchpippy,==0.1.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/developer.txt,*,*@*,*
+89,torchvision,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_windows.txt,*,*@ sys_platform == 'win32',*
+90,torchaudio,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_windows.txt,*,*@ sys_platform == 'win32',*
+91,torchtext,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_windows.txt,*,*@ sys_platform == 'win32',*
+92,torch,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_windows.txt,*,*@ sys_platform == 'win32',*
+93,nvgpu,==0.8.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common_gpu.txt,*,*@ sys_platform == 'win32',*
+94,nvgpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common_gpu.txt,*,*@ sys_platform != 'win32',*
+95,torchvision,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_darwin.txt,*,*@ sys_platform == 'darwin',*
+96,torchtext,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_darwin.txt,*,*@ sys_platform == 'darwin',*
+97,torch,==2.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_darwin.txt,*,*@ sys_platform == 'darwin',*
+98,torchaudio,==2.0.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_darwin.txt,*,*@ sys_platform == 'darwin',*
+99,torchtext,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_linux.txt,*,*@ sys_platform == 'linux',*
+100,torch,==2.0.1+cu117,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_linux.txt,*,*@ sys_platform == 'linux',*
+101,torchvision,==0.15.2+cu117,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_linux.txt,*,*@ sys_platform == 'linux',*
+102,torchaudio,==2.0.2+cu117,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu117_linux.txt,*,*@ sys_platform == 'linux',*
+103,torchtext,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_linux.txt,*,*@ sys_platform == 'linux',*
+104,torch,==2.0.1+cu118,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_linux.txt,*,*@ sys_platform == 'linux',*
+105,torchvision,==0.15.2+cu118,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_linux.txt,*,*@ sys_platform == 'linux',*
+106,torchaudio,==2.0.2+cu118,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu118_linux.txt,*,*@ sys_platform == 'linux',*
+107,torch,==1.13.1+cu116,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_windows.txt,*,*@ sys_platform == 'win32',*
+108,torchvision,==0.14.1+cu116,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_windows.txt,*,*@ sys_platform == 'win32',*
+109,torchaudio,==0.13.1+cu116,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_windows.txt,*,*@ sys_platform == 'win32',*
+110,torchtext,==0.14.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu116_windows.txt,*,*@ sys_platform == 'win32',*
+111,pyyaml,==6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common.txt,*,*@*,*
+112,captum,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common.txt,*,*@*,*
+113,pynvml,==11.4.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common.txt,*,*@*,*
+114,psutil,==5.9.5,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common.txt,*,*@*,*
+115,requests,==2.31.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common.txt,*,*@*,*
+116,packaging,==23.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/common.txt,*,*@*,*
+117,torchvision,==0.13.0+cu113,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_windows.txt,*,*@ sys_platform == 'win32',*
+118,torchtext,==0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_windows.txt,*,*@ sys_platform == 'win32',*
+119,torch,==1.12.0+cu113,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_windows.txt,*,*@ sys_platform == 'win32',*
+120,torchaudio,==0.12.0+cu113,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu113_windows.txt,*,*@ sys_platform == 'win32',*
+121,torch,==1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_linux.txt,*,*@ sys_platform == 'linux',*
+122,torchtext,==0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_linux.txt,*,*@ sys_platform == 'linux',*
+123,torchvision,==0.13.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_linux.txt,*,*@ sys_platform == 'linux',*
+124,torchaudio,==0.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_cu102_linux.txt,*,*@ sys_platform == 'linux',*
+125,torchtext,==0.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_linux.txt,*,*@ sys_platform == 'linux',*
+126,torch,==2.0.1+cpu,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_linux.txt,*,*@ sys_platform == 'linux',*
+127,torchvision,==0.15.2+cpu,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_linux.txt,*,*@ sys_platform == 'linux',*
+128,torchaudio,==2.0.2+cpu,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/requirements/torch_linux.txt,*,*@ sys_platform == 'linux',*
+129,Click,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+130,pandas,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+131,click-config-file,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+132,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+133,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+134,mdutils,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+135,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+136,ruamel.yaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/benchmarks/requirements-ab.txt,*,*@*,*
+137,inflect,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/text_to_speech_synthesizer/requirements.txt,*,*@*,*
+138,librosa,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/text_to_speech_synthesizer/requirements.txt,*,*@*,*
+139,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/text_to_speech_synthesizer/requirements.txt,*,*@*,*
+140,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/text_to_speech_synthesizer/requirements.txt,*,*@*,*
+141,unidecode,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/text_to_speech_synthesizer/requirements.txt,*,*@*,*
+142,diffusers,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/diffusers/requirements.txt,*,*@*,*
+143,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/diffusers/requirements.txt,*,*@*,*
+144,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/diffusers/requirements.txt,*,*@*,*
+145,optimum,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/Huggingface_Transformers/requirements.txt,*,*@*,*
+146,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/Huggingface_Transformers/requirements.txt,*,*@*,*
+147,tensorrt,==8.5.3.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/torch_tensorrt/requirements.txt,*,*@*,*
+148,torch-tensorrt,==1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/torch_tensorrt/requirements.txt,*,*@*,*
+149,InstructorEmbedding,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/instruction_embedding/requirements.txt,*,*@*,*
+150,nvidia-dali-cuda110,==1.27.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/nvidia_dali/requirements.txt,*,*@*,*
+151,torchpippy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/Huggingface_pippy/requirements.txt,*,*@*,*
+152,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/Huggingface_pippy/requirements.txt,*,*@*,*
+153,accelerate,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/Huggingface_accelerate/requirements.txt,*,*@*,*
+154,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/Huggingface_accelerate/requirements.txt,*,*@*,*
+155,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/deepspeed_mii/requirements.txt,*,*@*,*
+156,deepspeed-mii,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/deepspeed_mii/requirements.txt,*,*@*,*
+157,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/deepspeed_mii/requirements.txt,*,*@*,*
+158,deepspeed,>=0.9.4,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/deepspeed/requirements.txt,*,*@*,*
+159,transformers,>=4.30.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/deepspeed/requirements.txt,*,*@*,*
+160,torch-neuronx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/inferentia2/requirements.txt,*,*@*,*
+161,transformers-neuronx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/inferentia2/requirements.txt,*,*@*,*
+162,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/examples/large_models/inferentia2/requirements.txt,*,*@*,*
+163,captum,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/requirements.txt,*,*@*,*
+164,kserve,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/requirements.txt,*,*@*,*
+165,transformers,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/requirements.txt,*,*@*,*
+166,kserve,>=0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+167,argparse,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+168,requests,>=2.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+169,joblib,>=0.13.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+170,pandas,>=0.24.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+171,numpy,>=1.16.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+172,kubernetes,>=9.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+173,torchvision,>=0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+174,pillow,>=9.0.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,install_requires,@*,*
+175,pytest,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,extras_require,@*@*,*
+176,pytest-tornasync,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,extras_require,@*@*,*
+177,mypy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/kubernetes/kserve/image_transformer/setup.py,extras_require,@*@*,*
+184,recommonmark,==0.6.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+185,torchserve,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+186,katex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+187,captum,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+188,torchvision,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+189,pytorch_sphinx_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@special#B.9 B.11,*
+190,torch,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+191,torch-workflow-archiver,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+192,sphinxcontrib.katex,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+193,sphinx,==5.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+194,pyyaml,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+195,markdown,<3.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+196,torch-model-archiver,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*
+197,sphinx-markdown-tables,==0.0.15,/home/daniele/git/NICHE_projects/Repo/Cloneables/serve/docs/sphinx/requirements.txt,*,*@*,*

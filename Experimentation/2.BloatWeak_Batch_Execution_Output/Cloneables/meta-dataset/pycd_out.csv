@@ -1,0 +1,24 @@
+,dep,version,filepath,type,condition,status
+0,tensorflow_probability,<= 0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+1,etils,>= 0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+2,absl-py,>= 0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+3,gin-config,>=0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+4,tf-models-official,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+5,scipy,>=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+6,six,>= 1.10,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+7,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+8,numpy,>=1.13.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+9,tensorflow-datasets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+10,tensorflow-gpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/requirements.txt,*,*@*,*
+11,absl-py,>=0.7.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+12,etils,>=0.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+13,gin-config,>=0.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+14,numpy,>=1.13.3,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+15,scipy,>=1.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+16,setuptools,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+17,six,>=1.12.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+18,tensorflow-gpu,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+19,sklearn,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+20,tensorflow_probability,<=0.7,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+21,tf-models-official,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*
+22,tensorflow-datasets,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/meta-dataset/setup.py,install_requires,@*,*

@@ -1,0 +1,14 @@
+,dep,version,filepath,type,condition,status
+0,numpy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+1,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+2,nose,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+3,portalocker,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+4,torch,>=1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+5,torchvision,>=0.5.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+6,Pillow,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+7,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+8,requests,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/setup.py,install_requires,*@*,*
+9,sphinx,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/docs/requirements.txt,*,*@*,*
+10,sphinxcontrib-googleanalytics,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/docs/requirements.txt,*,*@*,*
+11,sphinx-gallery,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/docs/requirements.txt,*,*@*,*
+12,autorch_sphinx_theme,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/PyTorch-Encoding/docs/requirements.txt,*,*@special#B.9 B.11,*

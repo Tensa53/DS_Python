@@ -1,0 +1,15 @@
+,dep,version,filepath,type,condition,status
+0,tqdm,==4.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-cpu.txt,*,*@*,*
+1,tflearn,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-cpu.txt,*,*@*,*
+2,jsonlines,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-cpu.txt,*,*@*,*
+3,seaborn,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-cpu.txt,*,*@*,*
+4,numpy,==1.14.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-cpu.txt,*,*@*,*
+5,tensorflow,==1.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-cpu.txt,*,*@*,*
+6,pandas,==0.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-cpu.txt,*,*@*,*
+7,tqdm,==4.15.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-gpu.txt,*,*@*,*
+8,tflearn,==0.3.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-gpu.txt,*,*@*,*
+9,tensorflow-gpu,==1.15.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-gpu.txt,*,*@*,*
+10,jsonlines,==1.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-gpu.txt,*,*@*,*
+11,seaborn,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-gpu.txt,*,*@*,*
+12,numpy,==1.14.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-gpu.txt,*,*@*,*
+13,pandas,==0.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/multihead-siamese-nets/requirements/requirements-gpu.txt,*,*@*,*

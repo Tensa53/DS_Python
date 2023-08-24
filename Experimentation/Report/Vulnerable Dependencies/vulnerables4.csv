@@ -1,0 +1,22 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+1,1,addons,9,0,4,0,1444
+46,48,compression,6,0,4,0,958
+77,80,DREAMPlace,10,0,4,0,8
+83,86,elastic,9,0,4,0,14
+93,96,fancyimpute,12,2,4,1,6
+133,136,Interview,5,0,4,0,11
+148,151,keras-rcnn,20,0,4,0,485
+160,163,lanenet-lane-detection,8,0,4,0,14
+178,184,mesh,12,1,4,1,954
+184,190,MinkowskiEngine,4,0,4,0,18
+201,207,modernmt,14,0,4,0,12
+205,211,moses,9,0,4,0,8
+220,226,nucleus,10,0,4,0,74
+229,235,open_spiel,15,0,4,0,16
+241,247,pgmpy,18,0,4,0,5
+278,285,reformer-pytorch,13,0,4,0,5
+284,291,rlpyt,10,0,4,0,48
+285,292,RLzoo,9,0,4,0,507
+294,301,SfmLearner-Pytorch,12,0,4,0,4
+303,312,sru,10,0,4,0,11
+340,349,TransformerTTS,13,0,4,0,477

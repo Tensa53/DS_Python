@@ -1,0 +1,12 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+0,0,adaptnlp,18,0,16,0,88
+10,10,alibi,52,1,16,0,564
+12,12,allennlp,54,0,16,0,42
+45,47,cogdl,49,5,16,1,29
+125,128,HistomicsTK,31,0,16,0,94
+130,133,inferno,38,2,16,2,64
+157,160,label-studio,84,0,16,0,130
+163,167,lost,42,0,16,0,49
+292,299,sentence-transformers,21,2,16,0,44
+329,338,tianshou,48,0,16,0,132
+332,341,torchgpipe,18,0,16,0,17

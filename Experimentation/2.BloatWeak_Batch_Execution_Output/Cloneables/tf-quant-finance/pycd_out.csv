@@ -1,0 +1,22 @@
+,dep,version,filepath,type,condition,status
+0,attrs,>= 18.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/setup.py,install_requires,*@*,*
+1,numpy,>= 1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/setup.py,install_requires,*@*,*
+2,protobuf,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/setup.py,install_requires,*@*,*
+3,tensorflow-probability,>= 0.12.1,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/setup.py,install_requires,*@*,*
+5,tff-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/data_generator/requirements_nodeps.txt,*,*@*,*
+6,attrs,>= 18.2.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/data_generator/requirements.txt,*,*@*,*
+7,tf-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/data_generator/requirements.txt,*,*@*,*
+8,google-cloud-storage,==1.28.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/data_generator/requirements.txt,*,*@*,*
+9,tfp-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/data_generator/requirements.txt,*,*@*,*
+10,Flask,==1.1.2,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/downloader/requirements.txt,*,*@*,*
+11,numpy,==1.21,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/downloader/requirements.txt,*,*@*,*
+12,pyzmq,==19.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/downloader/requirements.txt,*,*@*,*
+13,requests,==2.23.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/downloader/requirements.txt,*,*@*,*
+14,absl-py,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/downloader/requirements.txt,*,*@*,*
+15,google-cloud-storage,==1.28.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/downloader/requirements.txt,*,*@*,*
+16,tff-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/pricer/requirements.txt,*,*@*,*
+17,pyzmq,==19.0.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/pricer/requirements.txt,*,*@*,*
+18,tf-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/pricer/requirements.txt,*,*@*,*
+19,tfp-nightly,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/pricer/requirements.txt,*,*@*,*
+20,absl-py,==0.9.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/pricer/requirements.txt,*,*@*,*
+21,numpy,==1.22.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/tf-quant-finance/tf_quant_finance/examples/demos/option_pricing_basic/pricer/requirements.txt,*,*@*,*

@@ -1,0 +1,23 @@
+,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+6,6,aima-python,18,0,10,0,596
+29,29,bootstrap.pytorch,26,5,10,1,30
+52,54,creme,40,0,10,0,23
+73,75,DiCE,26,0,10,0,500
+119,122,hangar-py,24,0,10,0,35
+126,129,hummingbird,22,1,10,1,23
+132,135,interpret-text,21,1,10,0,23
+136,139,ivis,18,0,10,0,1455
+149,152,keras-retinanet,27,0,10,0,676
+186,192,ml-agents,30,0,10,0,106
+194,200,mmf,33,0,10,0,34
+200,206,ModelsGenesis,20,0,10,0,960
+234,240,ottertune,27,0,10,0,594
+252,258,pyro,48,0,10,0,41
+257,263,Python,23,0,10,0,599
+258,264,pytorch2keras,14,0,10,0,984
+272,278,qiskit-aqua,44,0,10,0,20
+273,279,qkeras,27,0,10,0,490
+315,324,tensorflow-yolov4-tflite,16,0,10,0,1119
+323,332,text-to-text-transfer-transformer,26,0,10,0,25
+341,350,trixi,27,0,10,0,62
+344,353,urduhack,21,0,10,0,1427

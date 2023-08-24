@@ -1,0 +1,15 @@
+,dep,version,filepath,bloated,cve,affected versions,advisory
+0,path,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
+1,progressbar2,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
+2,argparse,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
+3,blessings,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
+4,tqdm,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,CVE-2016-10075,<4.11.2,The tqdm._version module in tqdm versions before 4.11.2 allows local users to execute arbitrary code via a crafted repo with a malicious git log in the current working directory.
+5,pebble,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
+6,imageio,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,PVE-2021-37902,<2.6.0,"Imageio 2.6.0 fixes a code injection vulnerability for Windows users that have dcmtk installed, and where an attacker can set the filename.
+https://github.com/imageio/imageio/commit/5b398716d518cd14e8b978ea3cd8ec6c0236c1d8"
+7,scikit-image,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
+8,matplotlib,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
+9,scipy,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,CVE-2013-4251,">=0,<0.12.1",The scipy.weave component in SciPy before 0.12.1 creates insecure temporary directories.
+10,torch,>= 1.4.0,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,CVE-2022-45907,">=0,<1.13.1","Torch 1.13.1 includes a fix for CVE-2022-45907: In PyTorch before trunk/89695, torch.jit.annotations.parse_type_line can cause arbitrary code execution because eval is used unsafely.
+https://github.com/pytorch/pytorch/issues/88868"
+11,tensorboardX,==*,/home/daniele/git/NICHE_projects/Repo/Cloneables/SfmLearner-Pytorch/requirements.txt,False,no one,no one,no one
