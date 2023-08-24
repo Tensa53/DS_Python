@@ -1,0 +1,24 @@
+This repository uses many third-party resources:
+
+- The database (insecure-full.json) located in bloatWeak/ is under CC BY-NC-SA 4.0 License and was created by pyup.io (https://github.com/pyupio/safety-db). Copyright 2016, pyup.io.
+
+- The dataset (NICHE.csv) located in Experimentation/Projects_Batch_Cloning/ is under Apache 2.0 License and was created by SOftware Analytics Research @ SMU (https://soarsmu.github.io/). Copyright 2018 - 2023 SOftware Analytics Research @ SMU. All rights reserved.
+
+This repository uses many third-party libraries and packages:
+
+- Fawltydeps is under MIT License and was created by TWEAG Software Innovation Lab. Copyright Tweag I/O Limited.
+
+- Pandas is under BSD 3-Clause License and was created by AQR Capital Management. Copyright 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team. All rights reserved. Copyright (c) 2011-2023, Open source contributors.
+
+- Matplotlib is under a PSF based License and was created by many copyrighted contributors. Copyright 2002–2012 John Hunter, Darren Dale, Eric Firing, Michael Droettboom and the Matplotlib development team; 2012–2023 The Matplotlib development team.
+
+- NumPy is under a BSD 3-Clause License and was created by NumPy Developers. Copyright (c) 2005-2023, NumPy Developers.
+
+- Packaging is both under Apache 2.0 License and BSD 2-Clause License and was created by Donald Stufft and individual contributors. Copyright Donald Stufft and individual contributors. All rights reserved.
+
+- Astunparse is under Python Sofware Foundation License Version 2 and wad created by Simon Percivall. Copyright 2014, Simon Percivall. All rights reserved.
+
+- Requests is under Apache 2.0 License and was created by Kenneth Reitz. Copyright 2019, Kenneth Reitz.
+
+- Toml is under MIT License and was created by many copyrighted contributors. Copyright 2013-2019 William Pearson, Copyright 2015-2016 Julien Enselme, Copyright 2016 Google Inc., Copyright 2017 Samuel Vasko, Copyright 2017 Nate Prewitt,
+Copyright 2017 Jack Evans, Copyright 2019 Filippo Broggini.
