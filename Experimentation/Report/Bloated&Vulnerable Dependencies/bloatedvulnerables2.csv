@@ -1,5 +1,5 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-17,133,inferno,38,2,16,2,64
-22,169,lucent,14,4,8,2,78
-26,185,meta-dataset,23,3,9,2,987
-35,318,submarine,58,4,26,2,999
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+17,inferno,38,2,16,2,64
+22,lucent,14,4,8,2,78
+26,meta-dataset,23,3,9,2,987
+35,submarine,58,4,26,2,999

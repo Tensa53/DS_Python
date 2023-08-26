@@ -1,4 +1,4 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-79,82,EdgeML,64,0,35,0,1025
-216,222,nni,63,0,35,0,1509
-345,354,vaex,120,23,35,0,692
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+79,EdgeML,64,0,35,0,1025
+216,nni,63,0,35,0,1509
+345,vaex,120,23,35,0,692

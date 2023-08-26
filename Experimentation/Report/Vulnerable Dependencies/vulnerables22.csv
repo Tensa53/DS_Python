@@ -1,4 +1,4 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-48,50,cornac,29,0,22,0,4243
-164,168,loudml,78,5,22,1,997
-308,317,studio,59,0,22,0,1668
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+48,cornac,29,0,22,0,4243
+164,loudml,78,5,22,1,997
+308,studio,59,0,22,0,1668

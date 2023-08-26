@@ -1,6 +1,6 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-23,23,awesome-streamlit,78,0,29,0,1072
-121,124,healthcare,74,2,29,1,2674
-128,131,ignite,78,0,29,0,94
-176,182,melusine,72,1,29,0,1473
-235,241,palladium,54,0,29,0,578
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+23,awesome-streamlit,78,0,29,0,1072
+121,healthcare,74,2,29,1,2674
+128,ignite,78,0,29,0,94
+176,melusine,72,1,29,0,1473
+235,palladium,54,0,29,0,578

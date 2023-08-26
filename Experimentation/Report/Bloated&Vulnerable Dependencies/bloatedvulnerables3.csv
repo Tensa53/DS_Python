@@ -1,5 +1,5 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-0,2,adeptRL,16,4,7,3,483
-28,187,mindmeld,95,6,34,3,1017
-29,196,M-LOOP,21,4,15,3,1247
-30,208,Monk_Object_Detection,1581,6,687,3,11958
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+0,adeptRL,16,4,7,3,483
+28,mindmeld,95,6,34,3,1017
+29,M-LOOP,21,4,15,3,1247
+30,Monk_Object_Detection,1581,6,687,3,11958

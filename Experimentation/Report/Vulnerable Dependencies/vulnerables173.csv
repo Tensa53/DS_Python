@@ -1,2 +1,2 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-231,237,openvino,456,1,173,0,4541
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+231,openvino,456,1,173,0,4541

@@ -1,5 +1,5 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-13,13,arviz,57,0,14,0,39
-143,146,Kashgari,37,0,14,0,499
-153,156,kipoi,32,2,14,1,518
-335,344,tpot,32,1,14,0,28
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+13,arviz,57,0,14,0,39
+143,Kashgari,37,0,14,0,499
+153,kipoi,32,2,14,1,518
+335,tpot,32,1,14,0,28

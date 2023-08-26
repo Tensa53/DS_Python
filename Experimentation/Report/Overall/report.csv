@@ -1,441 +1,441 @@
-GitHub Repo,Cloneable,Compatible,Measurable,Implementation,Comment,,#engineered projects,,,,
-AaronWard/covidify,True,True,True,Python,This project has no bloated dependencies,,440,,,,
-Adlik/Adlik,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-aimacode/aima-python,True,True,True,Python,This project has no bloated dependencies,,#cloneables projects,,#notcloneables projects,,
-aiqm/torchani,True,True,True,Python,This project has no bloated dependencies,,439,+,1,=,440
-albumentations-team/albumentations,True,True,True,Python,This project has no bloated dependencies,,,,,,
-alfredfrancis/ai-chatbot-framework,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,#compatibles in #cloneables,,#notcompatibles in #cloneables,,
-allegroai/trains,True,True,True,Python,This project has no bloated dependencies,,414,+,25,=,439
-allenai/allennlp,True,True,True,Python,This project has no bloated dependencies,,,,,,
-alvinwan/neural-backed-decision-trees,True,True,True,Python,This project has no bloated dependencies,,#measurables in #compatibles,,#notmeasurables in #compatibles,,
-amaiya/ktrain,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,365,+,49,=,414
-amzn/xfer,True,True,True,Python,This project has no bloated dependencies,,,,,,
-analyticalmindsltd/smote_variants,True,True,True,Python,This project has no bloated dependencies,,#notpython in #notcompatibles,,#pycdissues in #notcompatibles,,
-anicolson/DeepXi,True,True,True,Python,This project has no bloated dependencies,,8,+,17,=,25
-AntonMu/TrainYourOwnYOLO,True,True,True,Python,This project has no bloated dependencies,,,,,,
-apache/beam,True,False,False,Java,This project is not written in Python but in Java ,,#bloated in #measurables,,#notbloated in #measurables,,
-apache/submarine,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,70,+,295,=,365
-apachecn/Interview,True,True,True,Python,This project has no bloated dependencies,,,,,,
-apple/turicreate,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors,,#pycdincomplete in #notmeasurables,,#fawltydepsissues in #notmeasurables,,
-arita37/mlmodels,False,False,False,Python,This project has not a public repo anymore,,44,+,5,=,49
-ARM-software/CMSIS_5,True,True,True,Python,This project has no bloated dependencies,,,,,,
-arogozhnikov/einops,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-arogozhnikov/hep_ml,True,True,True,Python,This project has no bloated dependencies,,,,,,
-arviz-devs/arviz,True,True,True,Python,This project has no bloated dependencies,,,,,,
-asappresearch/flambe,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-asappresearch/sru,True,True,True,Python,This project has no bloated dependencies,,,,,,
-as-ideas/TransformerTTS,True,True,True,Python,This project has no bloated dependencies,,,,,,
-astooke/rlpyt,True,True,True,Python,This project has no bloated dependencies,,,,,,
-athena-team/athena,True,True,True,Python,This project has no bloated dependencies,,,,,,
-autorope/donkeycar,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-avrae/avrae,True,True,True,Python,This project has no bloated dependencies,,,,,,
-awslabs/amazon-sagemaker-examples,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-BachiLi/redner,True,True,True,Python,This project has no bloated dependencies,,,,,,
-baldassarreFe/deep-koalarization,True,True,True,Python,This project has no bloated dependencies,,,,,,
-bayesiains/nflows,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-Belval/TextRecognitionDataGenerator,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-beringresearch/ivis,True,True,True,Python,This project has no bloated dependencies,,,,,,
-berkmancenter/mediacloud,True,True,True,Python,This project has no bloated dependencies,,,,,,
-bethgelab/foolbox,True,True,True,Python,This project has no bloated dependencies,,,,,,
-bhoov/exbert,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-BindsNET/bindsnet,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-bitextor/bitextor,True,True,True,Python,This project has no bloated dependencies,,,,,,
-BloodAxe/pytorch-toolbelt,True,True,True,Python,This project has no bloated dependencies,,,,,,
-brainiak/brainiak,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-bricewalker/Hey-Jetson,True,True,True,Python,This project has no bloated dependencies,,,,,,
-BrikerMan/Kashgari,True,True,True,Python,This project has no bloated dependencies,,,,,,
-broadinstitute/keras-rcnn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-bulletphysics/bullet3,True,True,True,Python,This project has no bloated dependencies,,,,,,
-bureaucratic-labs/dostoevsky,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Cadene/bootstrap.pytorch,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-Calamari-OCR/calamari,True,True,True,Python,This project has no bloated dependencies,,,,,,
-calico/basenji,True,True,True,Python,This project has no bloated dependencies,,,,,,
-catalyst-team/catalyst,True,True,True,Python,This project has no bloated dependencies,,,,,,
-cgre-aachen/gempy,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-chuyangliu/snake,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Ciphey/Ciphey,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-cisco/mindmeld,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-ClementPinard/SfmLearner-Pytorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-CLUEbenchmark/CLUE,True,True,True,Python,This project has no bloated dependencies,,,,,,
-cmu-db/ottertune,True,True,True,Python,This project has no bloated dependencies,,,,,,
-cmusatyalab/OpenTPOD,True,True,True,Python,This project has no bloated dependencies,,,,,,
-commaai/openpilot,True,False,False,C++&Python,This project is not written in Python but in C++&Python,,,,,,
-ConvLab/ConvLab,True,True,True,Python,This project has no bloated dependencies,,,,,,
-CorentinJ/Real-Time-Voice-Cloning,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-cornellius-gp/gpytorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-CornellNLP/Cornell-Conversational-Analysis-Toolkit,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-cornell-zhang/heterocl,True,True,True,Python,This project has no bloated dependencies,,,,,,
-cortexlabs/cortex,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-cpnota/autonomous-learning-library,True,True,True,Python,This project has no bloated dependencies,,,,,,
-creme-ml/creme,True,True,True,Python,This project has no bloated dependencies,,,,,,
-CyberZHG/keras-bert,True,True,True,Python,This project has no bloated dependencies,,,,,,
-danielegrattarola/spektral,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-databricks/spark-deep-learning,True,True,True,Python,This project has no bloated dependencies,,,,,,
-datamllab/rlcard,True,True,True,Python,This project has no bloated dependencies,,,,,,
-ddbourgin/numpy-ml,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepchem/deepchem,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepfakes/faceswap,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepmedic/deepmedic,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepmind/dm-haiku,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepmind/open_spiel,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepmind/sonnet,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepmipt/DeepPavlov,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deepset-ai/FARM,True,True,True,Python,This project has no bloated dependencies,,,,,,
-deezer/spleeter,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-determined-ai/determined,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-DigitalSlideArchive/HistomicsTK,True,True,True,Python,This project has no bloated dependencies,,,,,,
-DLR-RM/stable-baselines3,True,True,True,Python,This project has no bloated dependencies,,,,,,
-dmlc/dgl,True,True,True,Python,This project has no bloated dependencies,,,,,,
-DongjunLee/kino-bot,True,True,True,Python,This project has no bloated dependencies,,,,,,
-DSE-MSU/DeepRobust,True,True,True,Python,This project has no bloated dependencies,,,,,,
-EdinburghNLP/nematus,True,True,True,Python,This project has no bloated dependencies,,,,,,
-eleurent/rl-agents,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-elifesciences/sciencebeam,True,True,True,Python,This project has no bloated dependencies,,,,,,
-EpistasisLab/tpot,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-ethen8181/machine-learning,True,True,True,Python,This project has no bloated dependencies,,,,,,
-eth-sri/eran,True,True,True,Python,This project has no bloated dependencies,,,,,,
-evilsocket/pwnagotchi,True,True,True,Python,This project has no bloated dependencies,,,,,,
-explosion/prodigy-recipes,True,True,True,Python,This project has no bloated dependencies,,,,,,
-explosion/spacy-transformers,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-facebookresearch/ClassyVision,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/CrypTen,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/EGG,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/habitat-api,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/mmf,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/nevergrad,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/ParlAI,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/pyrobot,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/pytext,True,True,True,Python,This project has no bloated dependencies,,,,,,
-facebookresearch/ReAgent,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-facebookresearch/vilbert-multi-task,True,True,True,Python,This project has no bloated dependencies,,,,,,
-fastai/fastai,True,True,True,Python,This project has no bloated dependencies,,,,,,
-fastnlp/fastNLP,True,True,True,Python,This project has no bloated dependencies,,,,,,
-faustomorales/keras-ocr,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-fbcotter/pytorch_wavelets,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-f-dangel/backpack,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-feast-dev/feast,True,True,True,Python,This project has more than 1000 dependencies,,,,,,
-FederatedAI/FATE,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-feedly/transfer-nlp,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-fepegar/torchio,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-fizyr/keras-retinanet,True,True,True,Python,This project has no bloated dependencies,,,,,,
-flairNLP/flair,True,True,True,Python,This project has no bloated dependencies,,,,,,
-flatironinstitute/CaImAn,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors,,,,,,
-flow-project/flow,True,True,True,Python,This project has no bloated dependencies,,,,,,
-frankkramer-lab/MIScnn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-freewym/espresso,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-FunctionLab/selene,True,True,True,Python,This project has no bloated dependencies,,,,,,
-galaxyproject/galaxy,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-geomstats/geomstats,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-geoopt/geoopt,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-geyang/ml_logger,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-google/automl,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google/clusterfuzz,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google/fhir,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google/flax,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-google/ml-metadata,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google/nucleus,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google/qkeras,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google/TensorNetwork,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google/tf-quant-finance,True,True,True,Python,This project has no bloated dependencies,,,,,,
-GoogleCloudPlatform/ai-platform-samples,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-GoogleCloudPlatform/healthcare,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-GoogleCloudPlatform/ml-on-gcp,True,True,True,Python,This project has no bloated dependencies,,,,,,
-GoogleCloudPlatform/professional-services,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-GoogleCloudPlatform/python-docs-samples,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-GoogleCloudPlatform/training-data-analyst,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors,,,,,,
-google-research/google-research,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-google-research/meta-dataset,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-google-research/tensor2robot,True,True,True,Python,This project has no bloated dependencies,,,,,,
-google-research/text-to-text-transfer-transformer,True,True,True,Python,This project has no bloated dependencies,,,,,,
-GRAAL-Research/poutyne,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors,,,,,,
-graknlabs/kglib,True,True,True,Python,This project has no bloated dependencies,,,,,,
-graphbrain/graphbrain,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-greentfrapp/lucent,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-guildai/guildai,True,True,True,Python,This project has no bloated dependencies,,,,,,
-guillaume-be/rust-bert,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Ha0Tang/AttentionGAN,True,True,True,Python,This project has no bloated dependencies,,,,,,
-hanxiao/bert-as-service,True,True,True,Python,This project has no bloated dependencies,,,,,,
-hasanirtiza/Pedestron,True,True,True,Python,This project has no bloated dependencies,,,,,,
-HazyResearch/fonduer,True,True,True,Python,This project has no bloated dependencies,,,,,,
-heartexlabs/label-studio,True,True,True,Python,This project has no bloated dependencies,,,,,,
-henrysky/astroNN,True,True,True,Python,This project has no bloated dependencies,,,,,,
-heronsystems/adeptRL,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-home-assistant/core,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-huggingface/neuralcoref,True,True,True,Python,This project has no bloated dependencies,,,,,,
-huggingface/transformers,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-HumanCompatibleAI/adversarial-policies,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-hunglc007/tensorflow-yolov4-tflite,True,True,True,Python,This project has no bloated dependencies,,,,,,
-huseinzol05/Malaya,True,True,True,Python,This project has no bloated dependencies,,,,,,
-IBM/adversarial-robustness-toolbox,True,True,True,Python,This project has no bloated dependencies,,,,,,
-IBM/AIF360,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-IBM/AIX360,True,True,True,Python,This project has no bloated dependencies,,,,,,
-IBM/lale,True,True,True,Python,This project has no bloated dependencies,,,,,,
-idealo/image-super-resolution,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-inferno-pytorch/inferno,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-interpretml/DiCE,True,True,True,Python,This project has no bloated dependencies,,,,,,
-interpretml/interpret-community,True,True,True,Python,This project has no bloated dependencies,,,,,,
-interpretml/interpret-text,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-ironmussa/Optimus,True,True,True,Python,This project has no bloated dependencies,,,,,,
-iskandr/fancyimpute,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-jeongyoonlee/Kaggler,True,True,True,Python,This project has no bloated dependencies,,,,,,
-jettify/pytorch-optimizer,True,True,True,Python,This project has no bloated dependencies,,,,,,
-joe-siyuan-qiao/DetectoRS,True,True,True,Python,This project has no bloated dependencies,,,,,,
-joeynmt/joeynmt,True,True,True,Python,This project has no bloated dependencies,,,,,,
-jrzaurin/pytorch-widedeep,True,True,True,Python,This project has no bloated dependencies,,,,,,
-junyanz/pytorch-CycleGAN-and-pix2pix,True,True,True,Python,This project has no bloated dependencies,,,,,,
-KaiyangZhou/deep-person-reid,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kakao/buffalo,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kakaobrain/torchgpipe,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kan-bayashi/PytorchWaveNetVocoder,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kaushaltrivedi/fast-bert,True,True,True,Python,This project has no bloated dependencies,,,,,,
-keiohta/tf2rl,True,True,True,Python,This project has no bloated dependencies,,,,,,
-keras-team/autokeras,True,True,True,Python,This project has no bloated dependencies,,,,,,
-keras-team/keras-tuner,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kermitt2/delft,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-kermitt2/grobid,True,False,False,Java,This project is not written in Python but in Java ,,,,,,
-keunwoochoi/kapre,True,True,True,Python,This project has no bloated dependencies,,,,,,
-KevinMusgrave/pytorch-metric-learning,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kipoi/kipoi,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-kk7nc/HDLTex,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-kk7nc/RMDL,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-koaning/scikit-lego,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kornia/kornia,True,True,True,Python,This project has no bloated dependencies,,,,,,
-koursaros-ai/nboost,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kubeflow/fairing,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kubeflow/katib,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kubeflow/kfserving,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-kubeflow/pipelines,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-kubeflow-kale/kale,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-kundajelab/deeplift,True,True,True,Python,This project has no bloated dependencies,,,,,,
-kwotsin/mimicry,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-l3p-cv/lost,True,True,True,Python,This project has no bloated dependencies,,,,,,
-lab-ml/labml,True,True,True,Python,This project has no bloated dependencies,,,,,,
-learnables/cherry,True,True,True,Python,This project has no bloated dependencies,,,,,,
-learnables/learn2learn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-leela-zero/leela-zero,True,True,True,Python,This project has no bloated dependencies,,,,,,
-LiberAI/NSpM,True,True,True,Python,This project has no bloated dependencies,,,,,,
-limbo018/DREAMPlace,True,True,True,Python,This project has no bloated dependencies,,,,,,
-LoSealL/VideoSuperResolution,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-lsds/KungFu,True,True,True,Python,This project has no bloated dependencies,,,,,,
-lucidrains/reformer-pytorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-lukemelas/EfficientNet-PyTorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-lululxvi/deepxde,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-machine-learning-apps/Issue-Label-Bot,True,True,True,Python,This project has no bloated dependencies,,,,,,
-magenta/ddsp,True,True,True,Python,This project has no bloated dependencies,,,,,,
-magenta/magenta,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-MAIF/melusine,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-mangaki/mangaki,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-mapbox/robosat,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-MarcSkovMadsen/awesome-streamlit,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MarkUsProject/Markus,True,True,True,Python,This project has no bloated dependencies,,,,,,
-masa-su/pixyz,True,True,True,Python,This project has no bloated dependencies,,,,,,
-materialsvirtuallab/megnet,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MaybeShewill-CV/CRNN_Tensorflow,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MaybeShewill-CV/lanenet-lane-detection,True,True,True,Python,This project has no bloated dependencies,,,,,,
-medipixel/rl_algorithms,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MegviiDetection/video_analyst,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MIC-DKFZ/nnUNet,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-MIC-DKFZ/trixi,True,True,True,Python,This project has no bloated dependencies,,,,,,
-michaelhush/M-LOOP,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-microsoft/AdaptiveCards,True,False,False,C#,This project is not written in Python but in C#,,,,,,
-microsoft/botbuilder-python,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-microsoft/DeepSpeed,True,True,True,Python,This project has no bloated dependencies,,,,,,
-microsoft/EdgeML,True,True,True,Python,This project has no bloated dependencies,,,,,,
-microsoft/forecasting,True,True,True,Python,This project has no bloated dependencies,,,,,,
-microsoft/hummingbird,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-microsoft/MMdnn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-microsoft/nni,True,True,True,Python,This project has no bloated dependencies,,,,,,
-microsoft/tf2-gnn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-microsoft/Windows-Machine-Learning,True,True,True,Python,This project has no bloated dependencies,,,,,,
-milvus-io/bootcamp,True,True,True,Python,This project has no bloated dependencies,,,,,,
-mindsdb/mindsdb,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Mini-Conf/Mini-Conf,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MIPT-Oulu/solt,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MisaOgura/flashtorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MITK/MITK,True,False,False,C++,This project is not written in Python but in C++,,,,,,
-mittagessen/kraken,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-mlflow/mlflow,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-mljar/mljar-supervised,True,True,True,Python,This project has no bloated dependencies,,,,,,
-mlmed/torchxrayvision,True,True,True,Python,This project has no bloated dependencies,,,,,,
-modernmt/modernmt,True,True,True,Python,This project has no bloated dependencies,,,,,,
-molecularsets/moses,True,True,True,Python,This project has no bloated dependencies,,,,,,
-mozilla/bugbug,True,True,True,Python,This project has no bloated dependencies,,,,,,
-mozilla/DeepSpeech,True,True,True,Python,This project has no bloated dependencies,,,,,,
-mozilla/fathom,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-mozilla/TTS,True,True,True,Python,This project has no bloated dependencies,,,,,,
-mpariente/asteroid,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-MrGiovanni/ModelsGenesis,True,True,True,Python,This project has no bloated dependencies,,,,,,
-MycroftAI/mycroft-precise,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-namisan/mt-dnn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-nanoporetech/medaka,True,True,True,Python,This project has no bloated dependencies,,,,,,
-nerox8664/pytorch2keras,True,True,True,Python,This project has no bloated dependencies,,,,,,
-NervanaSystems/distiller,True,True,True,Python,This project has no bloated dependencies,,,,,,
-NervanaSystems/nlp-architect,True,True,True,Python,This project has no bloated dependencies,,,,,,
-NeuromorphicProcessorProject/snn_toolbox,True,True,True,Python,This project has no bloated dependencies,,,,,,
-nicolas-chaulet/torch-points3d,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-NLeSC/mcfly,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-norse/norse,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Novetta/adaptnlp,True,True,True,Python,This project has no bloated dependencies,,,,,,
-numenta/nupic.torch,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-nussl/nussl,True,True,True,Python,This project has no bloated dependencies,,,,,,
-nutonomy/nuscenes-devkit,True,True,True,Python,This project has no bloated dependencies,,,,,,
-NVIDIA/DeepLearningExamples,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-NVIDIA/Megatron-LM,True,True,True,Python,This project has no bloated dependencies,,,,,,
-NVIDIA/NeMo,True,True,True,Python,This project has no bloated dependencies,,,,,,
-NVIDIA/TRTorch,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors,,,,,,
-NVIDIAGameWorks/kaolin,True,True,True,Python,This project has no bloated dependencies,,,,,,
-NVISO-BE/ee-outliers,True,True,True,Python,This project has no bloated dependencies,,,,,,
-nyanp/nyaggle,True,True,True,Python,This project has no bloated dependencies,,,,,,
-nyu-mll/jiant,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-onnx/keras-onnx,True,True,True,Python,This project has no bloated dependencies,,,,,,
-onnx/onnxmltools,True,True,True,Python,This project has no bloated dependencies,,,,,,
-onnx/onnx-tensorflow,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-onnx/tensorflow-onnx,True,True,True,Python,This project has no bloated dependencies,,,,,,
-opencv/cvat,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-opencv/openvino_training_extensions,True,True,True,Python,This project has no bloated dependencies,,,,,,
-OpenMined/PySyft,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-open-mmlab/mmcv,True,True,True,Python,This project has no bloated dependencies,,,,,,
-open-mmlab/mmdetection,True,True,True,Python,This project has no bloated dependencies,,,,,,
-open-mmlab/mmfashion,True,True,True,Python,This project has no bloated dependencies,,,,,,
-OpenNMT/OpenNMT-py,True,True,True,Python,This project has no bloated dependencies,,,,,,
-OpenNMT/OpenNMT-tf,True,True,True,Python,This project has no bloated dependencies,,,,,,
-openvinotoolkit/model_server,True,True,True,Python,This project has no bloated dependencies,,,,,,
-openvinotoolkit/openvino,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-ottogroup/palladium,True,True,True,Python,This project has no bloated dependencies,,,,,,
-ownthink/Jiagu,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-PaddlePaddle/models,True,True,True,Python,This project has no bloated dependencies,,,,,,
-PaddlePaddle/PARL,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-persephone-tools/persephone,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-PetrochukM/PyTorch-NLP,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pgmpy/pgmpy,True,True,True,Python,This project has no bloated dependencies,,,,,,
-philipperemy/keract,True,True,True,Python,This project has no bloated dependencies,,,,,,
-PhoenixDL/rising,True,True,True,Python,This project has no bloated dependencies,,,,,,
-piEsposito/blitz-bayesian-deep-learning,True,True,True,Python,This project has no bloated dependencies,,,,,,
-plasticityai/magnitude,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-PreferredAI/cornac,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Project-MONAI/MONAI,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-pyannote/pyannote-audio,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-pymc-devs/pymc3,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pymc-devs/pymc4,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pyprob/pyprob,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pyro-ppl/funsor,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pyro-ppl/pyro,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/audio,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/botorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/builder,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/captum,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/elastic,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/fairseq,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-pytorch/ignite,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/serve,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-pytorch/text,True,True,True,Python,This project has no bloated dependencies,,,,,,
-pytorch/vision,True,True,True,Python,This project has no bloated dependencies,,,,,,
-PyTorchLightning/pytorch-lightning,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-QData/TextAttack,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Qiskit/qiskit-aqua,True,True,True,Python,This project has no bloated dependencies,,,,,,
-quantumblacklabs/kedro,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-quantumlib/Cirq,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-ray-project/ray,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-regel/loudml,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-ria-com/nomeroff-net,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-rlworkgroup/garage,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-robotlearn/pyrobolearn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-ROCmSoftwarePlatform/tensorflow-upstream,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-RTIInternational/gobbli,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-RussTedrake/underactuated,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-rusty1s/pytorch_geometric,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-rusty1s/pytorch_scatter,True,True,True,Python,This project has no bloated dependencies,,,,,,
-rwightman/pytorch-image-models,True,True,True,Python,This project has no bloated dependencies,,,,,,
-rwth-i6/returnn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-scikit-learn-contrib/imbalanced-learn,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-SeanNaren/deepspeech.pytorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-SeldonIO/alibi,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-SeldonIO/alibi-detect,True,True,True,Python,This project has no bloated dependencies,,,,,,
-SeldonIO/seldon-core,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-serengil/deepface,True,True,True,Python,This project has no bloated dependencies,,,,,,
-sergionr2/RacingRobot,True,True,True,Python,This project has no bloated dependencies,,,,,,
-shibing624/pycorrector,True,True,True,Python,This project has no bloated dependencies,,,,,,
-sigopt/sigopt-examples,True,True,True,Python,This project has no bloated dependencies,,,,,,
-silvandeleemput/memcnn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-sisl/NeuralVerification.jl,True,False,False,Julia,This project is not written in Python but in Julia,,,,,,
-skorch-dev/skorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-slundberg/shap,True,False,False,Jupyter Notebook,This project is not written in Python but in Jupyter Notebook ,,,,,,
-snipsco/tract,True,True,True,Python,This project has no bloated dependencies,,,,,,
-snorkel-team/snorkel,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-SPFlow/SPFlow,True,True,True,Python,This project has no bloated dependencies,,,,,,
-spotify/zoltar,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-sql-machine-learning/elasticdl,True,True,True,Python,This project has no bloated dependencies,,,,,,
-sshuair/torchsat,True,True,True,Python,This project has no bloated dependencies,,,,,,
-stanfordnlp/stanza,True,True,True,Python,This project has no bloated dependencies,,,,,,
-StanfordVL/MinkowskiEngine,True,True,True,Python,This project has no bloated dependencies,,,,,,
-stellargraph/stellargraph,True,True,True,Python,This project has no bloated dependencies,,,,,,
-stephenhky/PyShortTextCategorization,True,True,True,Python,This project has no bloated dependencies,,,,,,
-streamlit/streamlit,True,False,False,WebApp,This project is not written in Python but in WebApp’s languages ,,,,,,
-studioml/studio,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Sujit-O/pykg2vec,True,True,True,Python,This project has no bloated dependencies,,,,,,
-SurrealAI/surreal,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-taehoonlee/tensornets,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-tensorflow/addons,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/cleverhans,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-tensorflow/compression,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/data-validation,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/fairness-indicators,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/federated,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/graphics,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/io,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/lucid,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/mesh,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-tensorflow/model-analysis,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/privacy,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-tensorflow/quantum,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/ranking,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/serving,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/tcav,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorflow/tfjs,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorforce/tensorforce,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorlayer/hyperpose,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-tensorlayer/RLzoo,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorlayer/tensorlayer,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorpack/tensorpack,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tensorwerk/hangar-py,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Tessellate-Imaging/Monk_Object_Detection,True,True,True,Python,This project has more than 1000 dependencies,,,,,,
-Tessellate-Imaging/monk_v1,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tf-encrypted/tf-encrypted,True,True,True,Python,This project has no bloated dependencies,,,,,,
-TheAlgorithms/Python,True,True,True,Python,This project has no bloated dependencies,,,,,,
-THUDM/cogdl,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-thu-ml/tianshou,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tianzhi0549/FCOS,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-Tiiiger/QPyTorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-timesler/facenet-pytorch,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tlatkowski/multihead-siamese-nets,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tofunlp/lineflow,True,True,True,Python,This project has no bloated dependencies,,,,,,
-torchgan/torchgan,True,True,True,Python,This project has no bloated dependencies,,,,,,
-totalgood/nlpia,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-tristandeleu/pytorch-meta,True,True,True,Python,This project has no bloated dependencies,,,,,,
-tslearn-team/tslearn,True,True,True,Python,This project has no bloated dependencies,,,,,,
-uber/causalml,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-uber/ludwig,True,True,True,Python,This project has no bloated dependencies,,,,,,
-UKPLab/sentence-transformers,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-ultralytics/yolov3,True,True,True,Python,This project has no bloated dependencies,,,,,,
-ultralytics/yolov5,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Unity-Technologies/marathon-envs,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Unity-Technologies/ml-agents,True,True,True,Python,This project has no bloated dependencies,,,,,,
-urduhack/urduhack,True,True,True,Python,This project has no bloated dependencies,,,,,,
-vaexio/vaex,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-vanvalenlab/deepcell-tf,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-VertaAI/modeldb,True,True,True,Python,This project has no bloated dependencies,,,,,,
-vespa-engine/sample-apps,True,True,True,Python,This project has no bloated dependencies,,,,,,
-videoflow/videoflow,True,True,True,Python,This project has no bloated dependencies,,,,,,
-vita-epfl/monoloco,True,True,True,Python,This project has no bloated dependencies,,,,,,
-vita-epfl/openpifpaf,True,True,True,Python,This project has no bloated dependencies,,,,,,
-wandb/client,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-wikipedia2vec/wikipedia2vec,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files,,,,,,
-XanaduAI/pennylane,True,True,True,Python,This project has no bloated dependencies,,,,,,
-XanaduAI/strawberryfields,True,True,True,Python,This project has no bloated dependencies,,,,,,
-Xilinx/brevitas,True,True,True,Python,This project has no bloated dependencies,,,,,,
-yahoo/TensorFlowOnSpark,True,True,True,Python,This project has no bloated dependencies,,,,,,
-YosefLab/scVI,True,False,False,Python,This project has no output. PyCD returning an empty/no file,,,,,,
-yzhao062/pyod,True,True,True,Python,This project has no bloated dependencies,,,,,,
-zalandoresearch/pytorch-ts,True,True,True,Python,This project is correctly measurable by measure_proj.py script,,,,,,
-zhanghang1989/PyTorch-Encoding,True,True,True,Python,This project has no bloated dependencies,,,,,,
-zyfra/ebonite,True,True,True,Python,This project has no bloated dependencies,,,,,,
+GitHub Repo,Cloneable,Compatible,Measurable,Implementation,Comment
+AaronWard/covidify,True,True,True,Python,This project has no bloated dependencies
+Adlik/Adlik,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+aimacode/aima-python,True,True,True,Python,This project has no bloated dependencies
+aiqm/torchani,True,True,True,Python,This project has no bloated dependencies
+albumentations-team/albumentations,True,True,True,Python,This project has no bloated dependencies
+alfredfrancis/ai-chatbot-framework,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+allegroai/trains,True,True,True,Python,This project has no bloated dependencies
+allenai/allennlp,True,True,True,Python,This project has no bloated dependencies
+alvinwan/neural-backed-decision-trees,True,True,True,Python,This project has no bloated dependencies
+amaiya/ktrain,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+amzn/xfer,True,True,True,Python,This project has no bloated dependencies
+analyticalmindsltd/smote_variants,True,True,True,Python,This project has no bloated dependencies
+anicolson/DeepXi,True,True,True,Python,This project has no bloated dependencies
+AntonMu/TrainYourOwnYOLO,True,True,True,Python,This project has no bloated dependencies
+apache/beam,True,False,False,Java,This project is not written in Python but in Java 
+apache/submarine,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+apachecn/Interview,True,True,True,Python,This project has no bloated dependencies
+apple/turicreate,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors
+arita37/mlmodels,False,False,False,Python,This project has not a public repo anymore
+ARM-software/CMSIS_5,True,True,True,Python,This project has no bloated dependencies
+arogozhnikov/einops,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+arogozhnikov/hep_ml,True,True,True,Python,This project has no bloated dependencies
+arviz-devs/arviz,True,True,True,Python,This project has no bloated dependencies
+asappresearch/flambe,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+asappresearch/sru,True,True,True,Python,This project has no bloated dependencies
+as-ideas/TransformerTTS,True,True,True,Python,This project has no bloated dependencies
+astooke/rlpyt,True,True,True,Python,This project has no bloated dependencies
+athena-team/athena,True,True,True,Python,This project has no bloated dependencies
+autorope/donkeycar,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+avrae/avrae,True,True,True,Python,This project has no bloated dependencies
+awslabs/amazon-sagemaker-examples,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+BachiLi/redner,True,True,True,Python,This project has no bloated dependencies
+baldassarreFe/deep-koalarization,True,True,True,Python,This project has no bloated dependencies
+bayesiains/nflows,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+Belval/TextRecognitionDataGenerator,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+beringresearch/ivis,True,True,True,Python,This project has no bloated dependencies
+berkmancenter/mediacloud,True,True,True,Python,This project has no bloated dependencies
+bethgelab/foolbox,True,True,True,Python,This project has no bloated dependencies
+bhoov/exbert,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+BindsNET/bindsnet,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+bitextor/bitextor,True,True,True,Python,This project has no bloated dependencies
+BloodAxe/pytorch-toolbelt,True,True,True,Python,This project has no bloated dependencies
+brainiak/brainiak,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+bricewalker/Hey-Jetson,True,True,True,Python,This project has no bloated dependencies
+BrikerMan/Kashgari,True,True,True,Python,This project has no bloated dependencies
+broadinstitute/keras-rcnn,True,True,True,Python,This project has no bloated dependencies
+bulletphysics/bullet3,True,True,True,Python,This project has no bloated dependencies
+bureaucratic-labs/dostoevsky,True,True,True,Python,This project has no bloated dependencies
+Cadene/bootstrap.pytorch,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+Calamari-OCR/calamari,True,True,True,Python,This project has no bloated dependencies
+calico/basenji,True,True,True,Python,This project has no bloated dependencies
+catalyst-team/catalyst,True,True,True,Python,This project has no bloated dependencies
+cgre-aachen/gempy,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+chuyangliu/snake,True,True,True,Python,This project has no bloated dependencies
+Ciphey/Ciphey,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+cisco/mindmeld,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+ClementPinard/SfmLearner-Pytorch,True,True,True,Python,This project has no bloated dependencies
+CLUEbenchmark/CLUE,True,True,True,Python,This project has no bloated dependencies
+cmu-db/ottertune,True,True,True,Python,This project has no bloated dependencies
+cmusatyalab/OpenTPOD,True,True,True,Python,This project has no bloated dependencies
+commaai/openpilot,True,False,False,C++&Python,This project is not written in Python but in C++&Python
+ConvLab/ConvLab,True,True,True,Python,This project has no bloated dependencies
+CorentinJ/Real-Time-Voice-Cloning,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+cornellius-gp/gpytorch,True,True,True,Python,This project has no bloated dependencies
+CornellNLP/Cornell-Conversational-Analysis-Toolkit,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+cornell-zhang/heterocl,True,True,True,Python,This project has no bloated dependencies
+cortexlabs/cortex,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+cpnota/autonomous-learning-library,True,True,True,Python,This project has no bloated dependencies
+creme-ml/creme,True,True,True,Python,This project has no bloated dependencies
+CyberZHG/keras-bert,True,True,True,Python,This project has no bloated dependencies
+danielegrattarola/spektral,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+databricks/spark-deep-learning,True,True,True,Python,This project has no bloated dependencies
+datamllab/rlcard,True,True,True,Python,This project has no bloated dependencies
+ddbourgin/numpy-ml,True,True,True,Python,This project has no bloated dependencies
+deepchem/deepchem,True,True,True,Python,This project has no bloated dependencies
+deepfakes/faceswap,True,True,True,Python,This project has no bloated dependencies
+deepmedic/deepmedic,True,True,True,Python,This project has no bloated dependencies
+deepmind/dm-haiku,True,True,True,Python,This project has no bloated dependencies
+deepmind/open_spiel,True,True,True,Python,This project has no bloated dependencies
+deepmind/sonnet,True,True,True,Python,This project has no bloated dependencies
+deepmipt/DeepPavlov,True,True,True,Python,This project has no bloated dependencies
+deepset-ai/FARM,True,True,True,Python,This project has no bloated dependencies
+deezer/spleeter,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+determined-ai/determined,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+DigitalSlideArchive/HistomicsTK,True,True,True,Python,This project has no bloated dependencies
+DLR-RM/stable-baselines3,True,True,True,Python,This project has no bloated dependencies
+dmlc/dgl,True,True,True,Python,This project has no bloated dependencies
+DongjunLee/kino-bot,True,True,True,Python,This project has no bloated dependencies
+DSE-MSU/DeepRobust,True,True,True,Python,This project has no bloated dependencies
+EdinburghNLP/nematus,True,True,True,Python,This project has no bloated dependencies
+eleurent/rl-agents,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+elifesciences/sciencebeam,True,True,True,Python,This project has no bloated dependencies
+EpistasisLab/tpot,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+ethen8181/machine-learning,True,True,True,Python,This project has no bloated dependencies
+eth-sri/eran,True,True,True,Python,This project has no bloated dependencies
+evilsocket/pwnagotchi,True,True,True,Python,This project has no bloated dependencies
+explosion/prodigy-recipes,True,True,True,Python,This project has no bloated dependencies
+explosion/spacy-transformers,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+facebookresearch/ClassyVision,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/CrypTen,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/EGG,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/habitat-api,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/mmf,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/nevergrad,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/ParlAI,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/pyrobot,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/pytext,True,True,True,Python,This project has no bloated dependencies
+facebookresearch/ReAgent,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+facebookresearch/vilbert-multi-task,True,True,True,Python,This project has no bloated dependencies
+fastai/fastai,True,True,True,Python,This project has no bloated dependencies
+fastnlp/fastNLP,True,True,True,Python,This project has no bloated dependencies
+faustomorales/keras-ocr,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+fbcotter/pytorch_wavelets,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+f-dangel/backpack,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+feast-dev/feast,True,True,True,Python,This project has more than 1000 dependencies
+FederatedAI/FATE,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+feedly/transfer-nlp,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+fepegar/torchio,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+fizyr/keras-retinanet,True,True,True,Python,This project has no bloated dependencies
+flairNLP/flair,True,True,True,Python,This project has no bloated dependencies
+flatironinstitute/CaImAn,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors
+flow-project/flow,True,True,True,Python,This project has no bloated dependencies
+frankkramer-lab/MIScnn,True,True,True,Python,This project has no bloated dependencies
+freewym/espresso,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+FunctionLab/selene,True,True,True,Python,This project has no bloated dependencies
+galaxyproject/galaxy,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+geomstats/geomstats,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+geoopt/geoopt,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+geyang/ml_logger,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+google/automl,True,True,True,Python,This project has no bloated dependencies
+google/clusterfuzz,True,True,True,Python,This project has no bloated dependencies
+google/fhir,True,True,True,Python,This project has no bloated dependencies
+google/flax,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+google/ml-metadata,True,True,True,Python,This project has no bloated dependencies
+google/nucleus,True,True,True,Python,This project has no bloated dependencies
+google/qkeras,True,True,True,Python,This project has no bloated dependencies
+google/TensorNetwork,True,True,True,Python,This project has no bloated dependencies
+google/tf-quant-finance,True,True,True,Python,This project has no bloated dependencies
+GoogleCloudPlatform/ai-platform-samples,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+GoogleCloudPlatform/healthcare,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+GoogleCloudPlatform/ml-on-gcp,True,True,True,Python,This project has no bloated dependencies
+GoogleCloudPlatform/professional-services,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+GoogleCloudPlatform/python-docs-samples,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+GoogleCloudPlatform/training-data-analyst,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors
+google-research/google-research,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+google-research/meta-dataset,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+google-research/tensor2robot,True,True,True,Python,This project has no bloated dependencies
+google-research/text-to-text-transfer-transformer,True,True,True,Python,This project has no bloated dependencies
+GRAAL-Research/poutyne,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors
+graknlabs/kglib,True,True,True,Python,This project has no bloated dependencies
+graphbrain/graphbrain,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+greentfrapp/lucent,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+guildai/guildai,True,True,True,Python,This project has no bloated dependencies
+guillaume-be/rust-bert,True,True,True,Python,This project has no bloated dependencies
+Ha0Tang/AttentionGAN,True,True,True,Python,This project has no bloated dependencies
+hanxiao/bert-as-service,True,True,True,Python,This project has no bloated dependencies
+hasanirtiza/Pedestron,True,True,True,Python,This project has no bloated dependencies
+HazyResearch/fonduer,True,True,True,Python,This project has no bloated dependencies
+heartexlabs/label-studio,True,True,True,Python,This project has no bloated dependencies
+henrysky/astroNN,True,True,True,Python,This project has no bloated dependencies
+heronsystems/adeptRL,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+home-assistant/core,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+huggingface/neuralcoref,True,True,True,Python,This project has no bloated dependencies
+huggingface/transformers,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+HumanCompatibleAI/adversarial-policies,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+hunglc007/tensorflow-yolov4-tflite,True,True,True,Python,This project has no bloated dependencies
+huseinzol05/Malaya,True,True,True,Python,This project has no bloated dependencies
+IBM/adversarial-robustness-toolbox,True,True,True,Python,This project has no bloated dependencies
+IBM/AIF360,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+IBM/AIX360,True,True,True,Python,This project has no bloated dependencies
+IBM/lale,True,True,True,Python,This project has no bloated dependencies
+idealo/image-super-resolution,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+inferno-pytorch/inferno,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+interpretml/DiCE,True,True,True,Python,This project has no bloated dependencies
+interpretml/interpret-community,True,True,True,Python,This project has no bloated dependencies
+interpretml/interpret-text,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+ironmussa/Optimus,True,True,True,Python,This project has no bloated dependencies
+iskandr/fancyimpute,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+jeongyoonlee/Kaggler,True,True,True,Python,This project has no bloated dependencies
+jettify/pytorch-optimizer,True,True,True,Python,This project has no bloated dependencies
+joe-siyuan-qiao/DetectoRS,True,True,True,Python,This project has no bloated dependencies
+joeynmt/joeynmt,True,True,True,Python,This project has no bloated dependencies
+jrzaurin/pytorch-widedeep,True,True,True,Python,This project has no bloated dependencies
+junyanz/pytorch-CycleGAN-and-pix2pix,True,True,True,Python,This project has no bloated dependencies
+KaiyangZhou/deep-person-reid,True,True,True,Python,This project has no bloated dependencies
+kakao/buffalo,True,True,True,Python,This project has no bloated dependencies
+kakaobrain/torchgpipe,True,True,True,Python,This project has no bloated dependencies
+kan-bayashi/PytorchWaveNetVocoder,True,True,True,Python,This project has no bloated dependencies
+kaushaltrivedi/fast-bert,True,True,True,Python,This project has no bloated dependencies
+keiohta/tf2rl,True,True,True,Python,This project has no bloated dependencies
+keras-team/autokeras,True,True,True,Python,This project has no bloated dependencies
+keras-team/keras-tuner,True,True,True,Python,This project has no bloated dependencies
+kermitt2/delft,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+kermitt2/grobid,True,False,False,Java,This project is not written in Python but in Java 
+keunwoochoi/kapre,True,True,True,Python,This project has no bloated dependencies
+KevinMusgrave/pytorch-metric-learning,True,True,True,Python,This project has no bloated dependencies
+kipoi/kipoi,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+kk7nc/HDLTex,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+kk7nc/RMDL,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+koaning/scikit-lego,True,True,True,Python,This project has no bloated dependencies
+kornia/kornia,True,True,True,Python,This project has no bloated dependencies
+koursaros-ai/nboost,True,True,True,Python,This project has no bloated dependencies
+kubeflow/fairing,True,True,True,Python,This project has no bloated dependencies
+kubeflow/katib,True,True,True,Python,This project has no bloated dependencies
+kubeflow/kfserving,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+kubeflow/pipelines,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+kubeflow-kale/kale,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+kundajelab/deeplift,True,True,True,Python,This project has no bloated dependencies
+kwotsin/mimicry,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+l3p-cv/lost,True,True,True,Python,This project has no bloated dependencies
+lab-ml/labml,True,True,True,Python,This project has no bloated dependencies
+learnables/cherry,True,True,True,Python,This project has no bloated dependencies
+learnables/learn2learn,True,True,True,Python,This project has no bloated dependencies
+leela-zero/leela-zero,True,True,True,Python,This project has no bloated dependencies
+LiberAI/NSpM,True,True,True,Python,This project has no bloated dependencies
+limbo018/DREAMPlace,True,True,True,Python,This project has no bloated dependencies
+LoSealL/VideoSuperResolution,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+lsds/KungFu,True,True,True,Python,This project has no bloated dependencies
+lucidrains/reformer-pytorch,True,True,True,Python,This project has no bloated dependencies
+lukemelas/EfficientNet-PyTorch,True,True,True,Python,This project has no bloated dependencies
+lululxvi/deepxde,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+machine-learning-apps/Issue-Label-Bot,True,True,True,Python,This project has no bloated dependencies
+magenta/ddsp,True,True,True,Python,This project has no bloated dependencies
+magenta/magenta,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+MAIF/melusine,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+mangaki/mangaki,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+mapbox/robosat,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+MarcSkovMadsen/awesome-streamlit,True,True,True,Python,This project has no bloated dependencies
+MarkUsProject/Markus,True,True,True,Python,This project has no bloated dependencies
+masa-su/pixyz,True,True,True,Python,This project has no bloated dependencies
+materialsvirtuallab/megnet,True,True,True,Python,This project has no bloated dependencies
+MaybeShewill-CV/CRNN_Tensorflow,True,True,True,Python,This project has no bloated dependencies
+MaybeShewill-CV/lanenet-lane-detection,True,True,True,Python,This project has no bloated dependencies
+medipixel/rl_algorithms,True,True,True,Python,This project has no bloated dependencies
+MegviiDetection/video_analyst,True,True,True,Python,This project has no bloated dependencies
+MIC-DKFZ/nnUNet,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+MIC-DKFZ/trixi,True,True,True,Python,This project has no bloated dependencies
+michaelhush/M-LOOP,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+microsoft/AdaptiveCards,True,False,False,C#,This project is not written in Python but in C#
+microsoft/botbuilder-python,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+microsoft/DeepSpeed,True,True,True,Python,This project has no bloated dependencies
+microsoft/EdgeML,True,True,True,Python,This project has no bloated dependencies
+microsoft/forecasting,True,True,True,Python,This project has no bloated dependencies
+microsoft/hummingbird,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+microsoft/MMdnn,True,True,True,Python,This project has no bloated dependencies
+microsoft/nni,True,True,True,Python,This project has no bloated dependencies
+microsoft/tf2-gnn,True,True,True,Python,This project has no bloated dependencies
+microsoft/Windows-Machine-Learning,True,True,True,Python,This project has no bloated dependencies
+milvus-io/bootcamp,True,True,True,Python,This project has no bloated dependencies
+mindsdb/mindsdb,True,True,True,Python,This project has no bloated dependencies
+Mini-Conf/Mini-Conf,True,True,True,Python,This project has no bloated dependencies
+MIPT-Oulu/solt,True,True,True,Python,This project has no bloated dependencies
+MisaOgura/flashtorch,True,True,True,Python,This project has no bloated dependencies
+MITK/MITK,True,False,False,C++,This project is not written in Python but in C++
+mittagessen/kraken,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+mlflow/mlflow,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+mljar/mljar-supervised,True,True,True,Python,This project has no bloated dependencies
+mlmed/torchxrayvision,True,True,True,Python,This project has no bloated dependencies
+modernmt/modernmt,True,True,True,Python,This project has no bloated dependencies
+molecularsets/moses,True,True,True,Python,This project has no bloated dependencies
+mozilla/bugbug,True,True,True,Python,This project has no bloated dependencies
+mozilla/DeepSpeech,True,True,True,Python,This project has no bloated dependencies
+mozilla/fathom,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+mozilla/TTS,True,True,True,Python,This project has no bloated dependencies
+mpariente/asteroid,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+MrGiovanni/ModelsGenesis,True,True,True,Python,This project has no bloated dependencies
+MycroftAI/mycroft-precise,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+namisan/mt-dnn,True,True,True,Python,This project has no bloated dependencies
+nanoporetech/medaka,True,True,True,Python,This project has no bloated dependencies
+nerox8664/pytorch2keras,True,True,True,Python,This project has no bloated dependencies
+NervanaSystems/distiller,True,True,True,Python,This project has no bloated dependencies
+NervanaSystems/nlp-architect,True,True,True,Python,This project has no bloated dependencies
+NeuromorphicProcessorProject/snn_toolbox,True,True,True,Python,This project has no bloated dependencies
+nicolas-chaulet/torch-points3d,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+NLeSC/mcfly,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+norse/norse,True,True,True,Python,This project has no bloated dependencies
+Novetta/adaptnlp,True,True,True,Python,This project has no bloated dependencies
+numenta/nupic.torch,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+nussl/nussl,True,True,True,Python,This project has no bloated dependencies
+nutonomy/nuscenes-devkit,True,True,True,Python,This project has no bloated dependencies
+NVIDIA/DeepLearningExamples,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+NVIDIA/Megatron-LM,True,True,True,Python,This project has no bloated dependencies
+NVIDIA/NeMo,True,True,True,Python,This project has no bloated dependencies
+NVIDIA/TRTorch,True,True,False,Python,This project has incomplete output. FawltyDeps returning some errors
+NVIDIAGameWorks/kaolin,True,True,True,Python,This project has no bloated dependencies
+NVISO-BE/ee-outliers,True,True,True,Python,This project has no bloated dependencies
+nyanp/nyaggle,True,True,True,Python,This project has no bloated dependencies
+nyu-mll/jiant,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+onnx/keras-onnx,True,True,True,Python,This project has no bloated dependencies
+onnx/onnxmltools,True,True,True,Python,This project has no bloated dependencies
+onnx/onnx-tensorflow,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+onnx/tensorflow-onnx,True,True,True,Python,This project has no bloated dependencies
+opencv/cvat,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+opencv/openvino_training_extensions,True,True,True,Python,This project has no bloated dependencies
+OpenMined/PySyft,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+open-mmlab/mmcv,True,True,True,Python,This project has no bloated dependencies
+open-mmlab/mmdetection,True,True,True,Python,This project has no bloated dependencies
+open-mmlab/mmfashion,True,True,True,Python,This project has no bloated dependencies
+OpenNMT/OpenNMT-py,True,True,True,Python,This project has no bloated dependencies
+OpenNMT/OpenNMT-tf,True,True,True,Python,This project has no bloated dependencies
+openvinotoolkit/model_server,True,True,True,Python,This project has no bloated dependencies
+openvinotoolkit/openvino,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+ottogroup/palladium,True,True,True,Python,This project has no bloated dependencies
+ownthink/Jiagu,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+PaddlePaddle/models,True,True,True,Python,This project has no bloated dependencies
+PaddlePaddle/PARL,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+persephone-tools/persephone,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+PetrochukM/PyTorch-NLP,True,True,True,Python,This project has no bloated dependencies
+pgmpy/pgmpy,True,True,True,Python,This project has no bloated dependencies
+philipperemy/keract,True,True,True,Python,This project has no bloated dependencies
+PhoenixDL/rising,True,True,True,Python,This project has no bloated dependencies
+piEsposito/blitz-bayesian-deep-learning,True,True,True,Python,This project has no bloated dependencies
+plasticityai/magnitude,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+PreferredAI/cornac,True,True,True,Python,This project has no bloated dependencies
+Project-MONAI/MONAI,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+pyannote/pyannote-audio,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+pymc-devs/pymc3,True,True,True,Python,This project has no bloated dependencies
+pymc-devs/pymc4,True,True,True,Python,This project has no bloated dependencies
+pyprob/pyprob,True,True,True,Python,This project has no bloated dependencies
+pyro-ppl/funsor,True,True,True,Python,This project has no bloated dependencies
+pyro-ppl/pyro,True,True,True,Python,This project has no bloated dependencies
+pytorch/audio,True,True,True,Python,This project has no bloated dependencies
+pytorch/botorch,True,True,True,Python,This project has no bloated dependencies
+pytorch/builder,True,True,True,Python,This project has no bloated dependencies
+pytorch/captum,True,True,True,Python,This project has no bloated dependencies
+pytorch/elastic,True,True,True,Python,This project has no bloated dependencies
+pytorch/fairseq,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+pytorch/ignite,True,True,True,Python,This project has no bloated dependencies
+pytorch/serve,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+pytorch/text,True,True,True,Python,This project has no bloated dependencies
+pytorch/vision,True,True,True,Python,This project has no bloated dependencies
+PyTorchLightning/pytorch-lightning,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+QData/TextAttack,True,True,True,Python,This project has no bloated dependencies
+Qiskit/qiskit-aqua,True,True,True,Python,This project has no bloated dependencies
+quantumblacklabs/kedro,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+quantumlib/Cirq,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+ray-project/ray,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+regel/loudml,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+ria-com/nomeroff-net,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+rlworkgroup/garage,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+robotlearn/pyrobolearn,True,True,True,Python,This project has no bloated dependencies
+ROCmSoftwarePlatform/tensorflow-upstream,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+RTIInternational/gobbli,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+RussTedrake/underactuated,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+rusty1s/pytorch_geometric,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+rusty1s/pytorch_scatter,True,True,True,Python,This project has no bloated dependencies
+rwightman/pytorch-image-models,True,True,True,Python,This project has no bloated dependencies
+rwth-i6/returnn,True,True,True,Python,This project has no bloated dependencies
+scikit-learn-contrib/imbalanced-learn,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+SeanNaren/deepspeech.pytorch,True,True,True,Python,This project has no bloated dependencies
+SeldonIO/alibi,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+SeldonIO/alibi-detect,True,True,True,Python,This project has no bloated dependencies
+SeldonIO/seldon-core,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+serengil/deepface,True,True,True,Python,This project has no bloated dependencies
+sergionr2/RacingRobot,True,True,True,Python,This project has no bloated dependencies
+shibing624/pycorrector,True,True,True,Python,This project has no bloated dependencies
+sigopt/sigopt-examples,True,True,True,Python,This project has no bloated dependencies
+silvandeleemput/memcnn,True,True,True,Python,This project has no bloated dependencies
+sisl/NeuralVerification.jl,True,False,False,Julia,This project is not written in Python but in Julia
+skorch-dev/skorch,True,True,True,Python,This project has no bloated dependencies
+slundberg/shap,True,False,False,Jupyter Notebook,This project is not written in Python but in Jupyter Notebook 
+snipsco/tract,True,True,True,Python,This project has no bloated dependencies
+snorkel-team/snorkel,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+SPFlow/SPFlow,True,True,True,Python,This project has no bloated dependencies
+spotify/zoltar,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+sql-machine-learning/elasticdl,True,True,True,Python,This project has no bloated dependencies
+sshuair/torchsat,True,True,True,Python,This project has no bloated dependencies
+stanfordnlp/stanza,True,True,True,Python,This project has no bloated dependencies
+StanfordVL/MinkowskiEngine,True,True,True,Python,This project has no bloated dependencies
+stellargraph/stellargraph,True,True,True,Python,This project has no bloated dependencies
+stephenhky/PyShortTextCategorization,True,True,True,Python,This project has no bloated dependencies
+streamlit/streamlit,True,False,False,WebApp,This project is not written in Python but in WebApp’s languages 
+studioml/studio,True,True,True,Python,This project has no bloated dependencies
+Sujit-O/pykg2vec,True,True,True,Python,This project has no bloated dependencies
+SurrealAI/surreal,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+taehoonlee/tensornets,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+tensorflow/addons,True,True,True,Python,This project has no bloated dependencies
+tensorflow/cleverhans,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+tensorflow/compression,True,True,True,Python,This project has no bloated dependencies
+tensorflow/data-validation,True,True,True,Python,This project has no bloated dependencies
+tensorflow/fairness-indicators,True,True,True,Python,This project has no bloated dependencies
+tensorflow/federated,True,True,True,Python,This project has no bloated dependencies
+tensorflow/graphics,True,True,True,Python,This project has no bloated dependencies
+tensorflow/io,True,True,True,Python,This project has no bloated dependencies
+tensorflow/lucid,True,True,True,Python,This project has no bloated dependencies
+tensorflow/mesh,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+tensorflow/model-analysis,True,True,True,Python,This project has no bloated dependencies
+tensorflow/privacy,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+tensorflow/quantum,True,True,True,Python,This project has no bloated dependencies
+tensorflow/ranking,True,True,True,Python,This project has no bloated dependencies
+tensorflow/serving,True,True,True,Python,This project has no bloated dependencies
+tensorflow/tcav,True,True,True,Python,This project has no bloated dependencies
+tensorflow/tfjs,True,True,True,Python,This project has no bloated dependencies
+tensorforce/tensorforce,True,True,True,Python,This project has no bloated dependencies
+tensorlayer/hyperpose,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+tensorlayer/RLzoo,True,True,True,Python,This project has no bloated dependencies
+tensorlayer/tensorlayer,True,True,True,Python,This project has no bloated dependencies
+tensorpack/tensorpack,True,True,True,Python,This project has no bloated dependencies
+tensorwerk/hangar-py,True,True,True,Python,This project has no bloated dependencies
+Tessellate-Imaging/Monk_Object_Detection,True,True,True,Python,This project has more than 1000 dependencies
+Tessellate-Imaging/monk_v1,True,True,True,Python,This project has no bloated dependencies
+tf-encrypted/tf-encrypted,True,True,True,Python,This project has no bloated dependencies
+TheAlgorithms/Python,True,True,True,Python,This project has no bloated dependencies
+THUDM/cogdl,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+thu-ml/tianshou,True,True,True,Python,This project has no bloated dependencies
+tianzhi0549/FCOS,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+Tiiiger/QPyTorch,True,True,True,Python,This project has no bloated dependencies
+timesler/facenet-pytorch,True,True,True,Python,This project has no bloated dependencies
+tlatkowski/multihead-siamese-nets,True,True,True,Python,This project has no bloated dependencies
+tofunlp/lineflow,True,True,True,Python,This project has no bloated dependencies
+torchgan/torchgan,True,True,True,Python,This project has no bloated dependencies
+totalgood/nlpia,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+tristandeleu/pytorch-meta,True,True,True,Python,This project has no bloated dependencies
+tslearn-team/tslearn,True,True,True,Python,This project has no bloated dependencies
+uber/causalml,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+uber/ludwig,True,True,True,Python,This project has no bloated dependencies
+UKPLab/sentence-transformers,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+ultralytics/yolov3,True,True,True,Python,This project has no bloated dependencies
+ultralytics/yolov5,True,True,True,Python,This project has no bloated dependencies
+Unity-Technologies/marathon-envs,True,True,True,Python,This project has no bloated dependencies
+Unity-Technologies/ml-agents,True,True,True,Python,This project has no bloated dependencies
+urduhack/urduhack,True,True,True,Python,This project has no bloated dependencies
+vaexio/vaex,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+vanvalenlab/deepcell-tf,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+VertaAI/modeldb,True,True,True,Python,This project has no bloated dependencies
+vespa-engine/sample-apps,True,True,True,Python,This project has no bloated dependencies
+videoflow/videoflow,True,True,True,Python,This project has no bloated dependencies
+vita-epfl/monoloco,True,True,True,Python,This project has no bloated dependencies
+vita-epfl/openpifpaf,True,True,True,Python,This project has no bloated dependencies
+wandb/client,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+wikipedia2vec/wikipedia2vec,True,True,False,Python,This project has an incomplete output. PyCD is missing some configuration files
+XanaduAI/pennylane,True,True,True,Python,This project has no bloated dependencies
+XanaduAI/strawberryfields,True,True,True,Python,This project has no bloated dependencies
+Xilinx/brevitas,True,True,True,Python,This project has no bloated dependencies
+yahoo/TensorFlowOnSpark,True,True,True,Python,This project has no bloated dependencies
+YosefLab/scVI,True,False,False,Python,This project has no output. PyCD returning an empty/no file
+yzhao062/pyod,True,True,True,Python,This project has no bloated dependencies
+zalandoresearch/pytorch-ts,True,True,True,Python,This project is correctly measurable by measure_proj.py script
+zhanghang1989/PyTorch-Encoding,True,True,True,Python,This project has no bloated dependencies
+zyfra/ebonite,True,True,True,Python,This project has no bloated dependencies

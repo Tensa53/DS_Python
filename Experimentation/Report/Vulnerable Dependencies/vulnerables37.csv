@@ -1,4 +1,4 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-7,7,ai-platform-samples,77,3,37,1,4281
-33,33,brevitas,108,0,37,0,267
-236,242,PARL,120,1,37,0,279
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+7,ai-platform-samples,77,3,37,1,4281
+33,brevitas,108,0,37,0,267
+236,PARL,120,1,37,0,279

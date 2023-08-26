@@ -1,3 +1,3 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-254,260,pyrobot,75,0,33,0,915
-342,351,tslearn,45,0,33,0,1553
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+254,pyrobot,75,0,33,0,915
+342,tslearn,45,0,33,0,1553

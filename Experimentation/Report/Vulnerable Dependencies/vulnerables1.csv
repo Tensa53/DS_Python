@@ -1,6 +1,6 @@
-,Unnamed: 0,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
-53,55,CRNN_Tensorflow,11,0,1,0,5
-81,84,EfficientNet-PyTorch,1,0,1,0,1
-95,98,fastai,2,0,1,0,9
-188,194,ml-metadata,5,0,1,0,2
-266,272,pytorch_scatter,4,0,1,0,2
+,project,#dependencies,#bloated,#vulnerable,#bloated&vulnerable,#vulnerabilities
+53,CRNN_Tensorflow,11,0,1,0,5
+81,EfficientNet-PyTorch,1,0,1,0,1
+95,fastai,2,0,1,0,9
+188,ml-metadata,5,0,1,0,2
+266,pytorch_scatter,4,0,1,0,2
