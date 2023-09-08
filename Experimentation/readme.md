@@ -9,4 +9,5 @@ In this folder are stored all the output results of the Experimentation section 
 	- Number of Vulnerable Dependencies
 	- Number of Bloated&Vulnerable Dependencies
 	- Number of vulnerabilities
+
 All the phases are executed in batch mode on all the projects analyzed of the [NICHE](https://github.com/soarsmu/NICHE) dataset
