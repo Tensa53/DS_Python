@@ -14,7 +14,7 @@ python3 bloatWeak.py <pro_path> <todir>
 - *todir* refers to a directory that stores all the output obtained from BloatWeak
 
 BloatWeak takes together many tools to find bloated dependencies and their related vulnerabilities. To correctly use BloatWeak, you need to follow these steps:
-
+- Install python 3.11
 
 - Create a python virtual environment, running the following command:
   ```
@@ -27,6 +27,7 @@ BloatWeak takes together many tools to find bloated dependencies and their relat
 - These are all the packages that are going to be installed:
 	- [fawltydeps](https://github.com/tweag/fawltydeps)
 	- [pandas](https://github.com/pandas-dev/pandas)
+	- [numpy](https://github.com/numpy/numpy)
    - [packaging](https://github.com/pypa/packaging)
 	- [astunparse](https://github.com/simonpercivall/astunparse) (used by GetDep_ast.py)
 	- [requests](https://github.com/psf/requests) (used by GetDep_ast.py)
