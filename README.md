@@ -1,5 +1,5 @@
 # Bloated Dependencies Detection in ML Python Projects
-This repository stores the source code of the PyCD fork. I decided to fork this project because i had to do some works for my thesis related to dependency smells in ML Python Projects. You can find my thesis (written in italian) at this ![link](https://github.com/SeSaLabUnisa/Tesi/blob/main/Giammaria_Giordano/fabiano_bloated_dependencies_python/Tesi.pdf). I created a new script called Bloatweak that finds bloated dependencies affected by known vulnerabilities. All the related materials to the original project are stored in [DS_Python](https://github.com/Tensa53/BloatWeak/tree/master/DS_Python/) folder.
+This repository stores the source code of the PyCD fork. I decided to fork this project because i had to do some works for my thesis related to dependency smells in ML Python Projects. You can find my thesis (written in italian) in this repo (see [Tesi.pdf](https://github.com/Tensa53/BloatWeak/blob/master/Tesi.pdf)). I created a new script called Bloatweak that finds bloated dependencies affected by known vulnerabilities. All the related materials to the original project are stored in [DS_Python](https://github.com/Tensa53/BloatWeak/tree/master/DS_Python/) folder.
 
 # BloatWeak: Extracting bloated dependencies and their related vulnerabilities from dependency configuration files
 
